@@ -1,0 +1,11 @@
+{
+  "status": "VISIBLE_PROMPT_EXACT_MATCH_DELIVERED_ONCE",
+  "user_message_id": "06ef593f-98ff-47a6-9ae3-40f22f94b2a6",
+  "target": "6ab4e56e-7bdc-83ee-93b4-a06ba1e5d5a7",
+  "send_invocations": 1,
+  "thread_reply_status": {
+    "type": "systemError"
+  },
+  "native_execution_released": false,
+  "fixed_commit": "6b464a4b927c8efedb4a5af56993b7c5c3dd10c2"
+}
