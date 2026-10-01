@@ -1,0 +1,55 @@
+{
+  "case": "R2",
+  "status": "DATACHECK_OR_COST_GATE_FAIL",
+  "input_sha256": "6421953d8c038f80046f30b8619c7359ee7c148fed8f8f73325a07ecc122c267",
+  "initial_stable_increment_s": 5.99496e-12,
+  "T_over_initial_dt": 8340339.218276687,
+  "checks": {
+    "exit_zero": true,
+    "datacheck_native_completed": true,
+    "zero_native_error": true,
+    "warnings_explained_frozen_D1_and_boundary": false,
+    "input_hash_bound": true,
+    "native_node_count": true,
+    "native_element_count": true,
+    "closed_native_text_hashes": true,
+    "double_packager": true,
+    "double_solver": true,
+    "four_domains": true,
+    "cost_gate": true,
+    "no_mass_scaling_at_zero": true
+  },
+  "warning_count": 3,
+  "warning_first_lines": [
+    "***WARNING: D1 FOR HYPERELASTIC MATERIAL IS TOO SMALL. THIS LEADS TO A VERY",
+    "***WARNING: THE PARAMETER DISTORTION CONTROL ON THE *SECTION CONTROLS OPTION",
+    "***WARNING: THE OPTION *BOUNDARY,TYPE=DISPLACEMENT HAS BEEN USED; CHECK STATUS"
+  ],
+  "warning_blocks": [
+    "***WARNING: D1 FOR HYPERELASTIC MATERIAL IS TOO SMALL. THIS LEADS TO A VERY \n             HIGH BULK MODULUS. A SUGGESTED VALUE FOR D1 IS BETWEEN 7.12251E-02 \n             AND 0.17806. D2, D3...etc ARE SUGGESTED TO BE SCALED \n             PROPORTIONALLY IF THEY ARE NON-ZERO. ANALYSIS USING SINGLE \n             PRECISION MAY RESULT IN A NOISY SOLUTION. IT IS THEREFORE \n             RECOMMENDED THAT THE ANALYSIS BE RUN IN DOUBLE PRECISION.",
+    "***WARNING: THE PARAMETER DISTORTION CONTROL ON THE *SECTION CONTROLS OPTION \n             IS RELEVANT FOR SOLID ELEMENTS WHEREVER APPLICABLE. THIS WARNING \n             CAN BE IGNORED IF THE FEATURE IS APPLIED TO SOLID ELEMENTS ONLY.",
+    "***WARNING: THE OPTION *BOUNDARY,TYPE=DISPLACEMENT HAS BEEN USED; CHECK STATUS \n             FILE BETWEEN STEPS FOR WARNINGS ON ANY JUMPS PRESCRIBED ACROSS THE \n             STEPS IN DISPLACEMENT VALUES OF TRANSLATIONAL DOF. FOR ROTATIONAL \n             DOF MAKE SURE THAT THERE ARE NO SUCH JUMPS. ALL JUMPS IN \n             DISPLACEMENTS ACROSS STEPS ARE IGNORED"
+  ],
+  "error_lines": [],
+  "controls_text_evidence": {
+    "status": "NATIVE_TEXT_EXCERPTS_RECORDED_ALGORITHM_UNESTABLISHED",
+    "excerpts": [
+      {
+        "line": 51389,
+        "text": "     DEFAULT HOURGLASS CONTROL"
+      },
+      {
+        "line": 51392,
+        "text": "     HOURGLASS CONTROL PARAMETER     1.0000    "
+      },
+      {
+        "line": 51527,
+        "text": "          THERE ARE NO HOURGLASS CONTROL PARAMETERS WITH ENHANCED HOURGLASS CONTROL"
+      }
+    ],
+    "property_material_binding": "NOT_PARSED_DO_NOT_ASSIGN_UNVERIFIED_PROPERTY_NUMBER",
+    "distortion_algorithm_state": "UNESTABLISHED"
+  },
+  "precision_warning_disposition": "D1 remains frozen. Native package and solver are double precision as required; assess ALLAE/ALLDC and geometric validity after actual run.",
+  "clock_note": "Local and server capture clocks are retained separately; no historical offset assumed."
+}

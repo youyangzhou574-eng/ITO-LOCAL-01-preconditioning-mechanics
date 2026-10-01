@@ -1,0 +1,88 @@
+{
+  "status": "DATACHECK_ACCEPTED_BUT_HOURGLASS_EQUIVALENCE_UNRESOLVED",
+  "input_sha256": "6421953d8c038f80046f30b8619c7359ee7c148fed8f8f73325a07ecc122c267",
+  "decision_id": "ITOL01-PRO-R2-2021-DATACHECK-SEMANTIC-PROBE-20261001-01",
+  "checks": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false
+  },
+  "comparison": {
+    "B": false,
+    "C": true,
+    "D": false,
+    "property_binding_proven": true,
+    "property_blocks_R1": {
+      "1": {
+        "material": "PDMS_METHOD_SEED",
+        "hourglass": [
+          "DEFAULT HOURGLASS CONTROL",
+          "HOURGLASS CONTROL PARAMETER 1.0000"
+        ],
+        "lines": [
+          "MATERIAL NAME PDMS_METHOD_SEED",
+          "ATTRIBUTES 1.0000 0.0000 0.0000",
+          "DEFAULT STRAIN FORMULATION AND STRESS RATE",
+          "DEFAULT HOURGLASS CONTROL",
+          "(USED ONLY WITH LOWER ORDER REDUCED INTEGRATED SOLID AND MEMBRANE ELEMENTS)",
+          "HOURGLASS CONTROL PARAMETER 1.0000"
+        ],
+        "raw": "\n\n\n\n  PROPERTY NUMBER         1\n\n     MATERIAL NAME                     PDMS_METHOD_SEED                                                                \n     ATTRIBUTES                          1.0000       0.0000       0.0000    \n     DEFAULT STRAIN FORMULATION AND STRESS RATE\n     DEFAULT HOURGLASS CONTROL\n           (USED ONLY WITH LOWER ORDER REDUCED INTEGRATED SOLID AND MEMBRANE ELEMENTS)\n\n     HOURGLASS CONTROL PARAMETER     1.0000    \n"
+      },
+      "2": {
+        "material": "ITO_BRITTLE_METHOD_SEED",
+        "hourglass": [
+          "DEFAULT HOURGLASS CONTROL",
+          "HOURGLASS CONTROL PARAMETER 1.0000"
+        ],
+        "lines": [
+          "MATERIAL NAME ITO_BRITTLE_METHOD_SEED",
+          "ATTRIBUTES 1.0000 0.0000 0.0000",
+          "DEFAULT STRAIN FORMULATION AND STRESS RATE",
+          "DEFAULT HOURGLASS CONTROL",
+          "(USED ONLY WITH LOWER ORDER REDUCED INTEGRATED SOLID AND MEMBRANE ELEMENTS)",
+          "HOURGLASS CONTROL PARAMETER 1.0000"
+        ],
+        "raw": "\n\n\n\n  PROPERTY NUMBER         2\n\n     MATERIAL NAME                     ITO_BRITTLE_METHOD_SEED                                                         \n     ATTRIBUTES                          1.0000       0.0000       0.0000    \n     DEFAULT STRAIN FORMULATION AND STRESS RATE\n     DEFAULT HOURGLASS CONTROL\n           (USED ONLY WITH LOWER ORDER REDUCED INTEGRATED SOLID AND MEMBRANE ELEMENTS)\n\n     HOURGLASS CONTROL PARAMETER     1.0000    "
+      }
+    },
+    "property_blocks_R2": {
+      "1": {
+        "material": "PDMS_METHOD_SEED",
+        "hourglass": [],
+        "lines": [
+          "MATERIAL NAME PDMS_METHOD_SEED",
+          "ATTRIBUTES 1.0000 0.0000 0.0000",
+          "SECTION CONTROLS NAME R2_PDMS_DC_OFF"
+        ],
+        "raw": "\n\n\n\n  PROPERTY NUMBER         1\n\n     MATERIAL NAME                     PDMS_METHOD_SEED                                                                \n     ATTRIBUTES                          1.0000       0.0000       0.0000    \n     SECTION CONTROLS NAME          R2_PDMS_DC_OFF                                                                  \n"
+      },
+      "2": {
+        "material": "ITO_BRITTLE_METHOD_SEED",
+        "hourglass": [
+          "DEFAULT HOURGLASS CONTROL",
+          "HOURGLASS CONTROL PARAMETER 1.0000"
+        ],
+        "lines": [
+          "MATERIAL NAME ITO_BRITTLE_METHOD_SEED",
+          "ATTRIBUTES 1.0000 0.0000 0.0000",
+          "DEFAULT STRAIN FORMULATION AND STRESS RATE",
+          "DEFAULT HOURGLASS CONTROL",
+          "(USED ONLY WITH LOWER ORDER REDUCED INTEGRATED SOLID AND MEMBRANE ELEMENTS)",
+          "HOURGLASS CONTROL PARAMETER 1.0000"
+        ],
+        "raw": "\n\n\n\n  PROPERTY NUMBER         2\n\n     MATERIAL NAME                     ITO_BRITTLE_METHOD_SEED                                                         \n     ATTRIBUTES                          1.0000       0.0000       0.0000    \n     DEFAULT STRAIN FORMULATION AND STRESS RATE\n     DEFAULT HOURGLASS CONTROL\n           (USED ONLY WITH LOWER ORDER REDUCED INTEGRATED SOLID AND MEMBRANE ELEMENTS)\n\n     HOURGLASS CONTROL PARAMETER     1.0000    "
+      }
+    },
+    "element_table_equal": true,
+    "native_element_rows": 51200,
+    "suspicious_control_lines": [],
+    "hourglass_claim": "same native resolved/default metadata and coefficient; algorithm name not independently inferred"
+  },
+  "manual_body": "2021_MANUAL_BODY_NOT_OBTAINED",
+  "evidence_qualification": "UNRESOLVED_DO_NOT_ANALYZE",
+  "R1_closed_dat_sha256": "e192caf363301cf5abf49185000774a1cd937fc25627287e2a65f74e5f43d74e",
+  "R2_closed_dat_sha256": "0d971e5c05bca0a39f6a68b674b8acb61996fedcf68671b6b140e69eaee9cd51",
+  "analysis_allowed": false
+}

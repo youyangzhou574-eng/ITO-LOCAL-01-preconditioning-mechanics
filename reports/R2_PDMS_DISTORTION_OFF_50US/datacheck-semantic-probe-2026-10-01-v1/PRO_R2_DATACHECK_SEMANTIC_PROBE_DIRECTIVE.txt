@@ -1,0 +1,103 @@
+�Ұ����ֽ����ˣ�������β����� R2 ���Ҳ��������� 2021 ���ġ����޿�ס��
+
+���Ѿ�ʵ�ʶ�ȡ����鵵�� `R2_OFFLINE_READINESS_REPORT.md`��`R2_2021_WEB_SEARCH_FOLLOWUP.md`���Լ���ѡ diff��������ơ��汾ȱ�ڱ��� E �� binding��**����׼��û�з�����Ҫ������ʵ��ȱ��**��R2 ��� R1 �ĺ�ѡ����ȷʵֻ������ PDMS �� `CONTROLS=R2_PDMS_DC_OFF` ������ `DISTORTION CONTROL=NO`��ITO �α��ֲ��䣬Ҳû�� adaptive mesh������Ψһ������� 2021 Ĭ�����塣
+
+������Ҳ�������ˡ���ȷ�������£�
+
+- SIMULIA �ٷ�������һƪ **2021-10-07** �����ӣ�ֱ������ Abaqus 2021 ��������չʾ�� `*Section Controls, DISTORTION CONTROL=NO, hourglass=ENHANCED` �� `*SOLID SECTION` �Ĺ������������׹ؼ�������� 2021 ��ϵ��ȷʵ���ڡ����Ǹ���������������/Standard��**��������֤������������ Explicit CPE4R ��Ĭ�Ϲ���**��:chatgpt-content-reference{index="0"}
+- ��ǰ�ٷ� Section Controls �ĵ���ȷд�ţ�Explicit �г�����/Hyperfoam ��Ĭ�� hourglass �� **ENHANCED**�������峬���Բ���Ĭ������ distortion control���������ʱ���������������� `ALLAE` ����Ժ�ɢ���������֧������ΪʲôҪ�� R2�������Ǻ����汾֤�ݣ�����ð�� 2021 ���ġ�:chatgpt-content-reference{index="1"}
+- һ������ Abaqus �ĵ�����Ҳ������ͬ���Ĺؼ���Ĭ�Ϲ���`HOURGLASS=ENHANCED` �� hyperelastic ��Ĭ�ϣ��� `DISTORTION CONTROL=YES` �� hyperelastic ��Ĭ�ϣ�`NO` ��ȷ�ر������汾��Ӧ��ϵ���޷�֤��������Ҳֻ����Ϊ��汾һ����֤�ݡ�:chatgpt-content-reference{index="2"}
+
+����������޸ġ�֤�ݻ�ȡ·������**���޸���������**��
+
+```text
+project_id: ITO_PRECONDITIONING_LOCAL_MECHANICS
+client_id: ITO-LOCAL-01
+package_id: ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1
+case_id: R2_PDMS_DISTORTION_OFF_50US
+
+decision_id:
+ITOL01-PRO-R2-2021-DATACHECK-SEMANTIC-PROBE-20261001-01
+```
+
+### ��һ��������Ψһһ�� R2 datacheck������ʱ���� analysis
+
+��� datacheck ���ٱ����ɡ���ʽ�ĵ������Ʒ�������ǵ���**��װ�е� Abaqus 2021 �Զ����ѡ����İ汾��������̽��**���Ȿ�������Ѿ���׼�� R2 ���� datacheck 1/1 Ԥ����������κζ�ȡ�
+
+ֱ��ʹ�����ڶ���ĺ�ѡ���룺
+
+```text
+SHA256 =
+6421953d8c038f80046f30b8619c7359ee7c148fed8f8f73325a07ecc122c267
+```
+
+�����ٸ� `HOURGLASS`�������������ڶ��� controls��
+
+datacheck ������ **R1 �� R2 �Ŀ������ DAT ���鲢�űȽ�**��������ֻ�� `exit=0`���ص��ң�
+
+1. R2 �� `DISTORTION CONTROL=NO` �Ƿ��� `ignored / invalid / not applicable / replaced` һ�ྯ�档
+2. R2 �� PDMS �Ƿ�����ʾ�� R1 ��ͬ�� **default hourglass control** ���֤���ȼ۵� resolved hourglass ������
+3. hourglass parameter �Ƿ��Ա���ԭֵ/Ĭ��ֵ��û����Ϊ�����µ� Section Controls ���������ó���һ�ַ�����
+4. ITO property/section �� control ��������� R1 ��Ӧ�鱣��һ�£�û�б� `R2_PDMS_DC_OFF` ������
+5. CPE4R��PDMS/ITO element counts�����ϰ󶨺� section identity ȫ�����䡣
+6. DAT/MSG ���������κ�˵����ָ�� distortion control ��ͬʱ���˱�� formulation������Ϣ������ͣ�� datacheck�������� analysis��
+
+`*SOLID SECTION, CONTROLS=name`ȷʵ�ǽ�һ�� Section Controls ���������ָ�� solid section �Ļ��ƣ���ǰ�ٷ��ؼ���˵������������塣:chatgpt-content-reference{index="3"}
+
+### ʲôʱ�������Զ����� analysis
+
+���Ψһ datacheck ͬʱ��������������
+
+```text
+A. 2021 parser accepts DISTORTION CONTROL=NO for this Explicit CPE4R case
+B. PDMS hourglass effective setting remains the same baseline/default setting
+C. ITO section/control state remains unchanged
+D. no additional formulation/default change is reported
+```
+
+��ô�ҽ�����������֤������
+
+> 2021 ʵ�ʰ�װ����  
+> + ����ĵ������������  
+> + 2021 ԭ�� input processor/datacheck ��ʵ�����õıպ����  
+> + 2016��2025 ��汾�ĵ�һ����  
+> + 2021 SIMULIA �ٷ������Թؼ����﷨/������ʽ�İ汾����֤
+
+��**���ǡ��ҵ���2021�ֲ����ġ�**��Ҫ�ڱ�������ȷд�ɣ�
+
+```text
+2021_MANUAL_BODY_NOT_OBTAINED
+SEMANTICS_QUALIFIED_BY_VERSION_LOCKED_NATIVE_DATACHECK
+AND_CROSS_VERSION_DOCUMENTATION_CONSISTENCY
+```
+
+����������£�**�����ٴλ�����ͬ�����ɣ�ֱ��ִ��ԭ��ͬ��Ψһ R2 analysis**��
+
+����������� datacheck ֻ֤�����ؼ���û����������û���㹻��Ϣ�ж� hourglass �Ƿ����� R1 �ȼۣ���ô״̬���ǣ�
+
+```text
+DATACHECK_ACCEPTED_BUT_HOURGLASS_EQUIVALENCE_UNRESOLVED
+```
+
+��ʱ������ analysis���� R1/R2 DAT ���������;���ֱ���ύ���ҡ��Ҳ���������ȥ�ظ���ͬһ����ҳ��Ҳ������������һ�� `HOURGLASS=ENHANCED` �����á�
+
+### analysis �������ԭ�ű���
+
+һ������ R2 analysis����Ȼֻ��������������⣺
+
+> **�ر� PDMS distortion control ��ԭ��Լ 10% �� ALLAE ���Ѻ���Ӧ�Ƿ���ϵͳ�Ըı䣬ͬʱ�����Ƿ�����Ч��**
+
+����ԭ�ţ�
+
+- `ALLAE/E* �� 5%`
+- `ETOTAL drift/E* �� 1%`
+- `ALLVD/E* �� 5%`
+- ALLDC ��ԭ�������Ա��棬ITO ȱʧ������ 0
+- ���Ԫ Jacobian / overlap / BC / STATUS / ɾ��������
+- ��¼ÿ�������ŵ��״�Խ�磬������ֻ����ֵ
+- analysis ���������Զ�����
+- �ر� distortion control �������� PDMS ��ת��������� fatal distortion��**�Ȿ������ R2 ����Ҫ����Ͻ��֮һ�����������´򿪿��ơ���������**
+
+��Դ�źͶ��� E �� binding �������Ѿ�����İ汾������������Ҫ��
+
+������������ڿ���**������Ψһһ������ R2 datacheck**��������һ��������Ҫ�ٵ����ҵ�һ�������ɷ��ʵ� Abaqus 2021 �ֲ᾵��datacheck ����ѵ���������պϣ����������� analysis���պϲ��ˣ�ֻ�ύ��һС�ο���֤�ݣ���Ҫ��������Ŀ�ٴ�Ī��ͣס��

@@ -1,0 +1,65 @@
+{
+  "project": "ITO only",
+  "scope": "R2 unique nativeDC closed evidence and bounded budget request",
+  "files": [
+    {
+      "name": "PRO_R2_DATACHECK_SEMANTIC_PROBE_DIRECTIVE.txt",
+      "bytes": 6220,
+      "sha256": "f46f77bc03c7cda32c9015838852cba00dd01d9573b658809ec9bca68fd23d99"
+    },
+    {
+      "name": "PRO_R2_DATACHECK_SEMANTIC_PROBE_RECEIPT.json",
+      "bytes": 711,
+      "sha256": "0742062eff8d3dc832032cf07074bec5710c686149273ffd1625f283865da74c"
+    },
+    {
+      "name": "R1_NATIVE_CONTROL_EXCERPTS.txt",
+      "bytes": 1257,
+      "sha256": "5193d47861093de1aae9e9f7bfc2c7e34b9ba3deda594ce3d110a372c5b3e256"
+    },
+    {
+      "name": "R2_DATACHECK_AUDIT.json",
+      "bytes": 3047,
+      "sha256": "195186241c714d8869509c84b2b92178c0053042eefcc43b424912091b96484d"
+    },
+    {
+      "name": "R2_DATACHECK_CONTROL_COMPARISON.md",
+      "bytes": 3116,
+      "sha256": "01062fb114fca2036bd078d6f218f89b53e87104cdb839e27a41e0209171d281"
+    },
+    {
+      "name": "R2_DATACHECK_SEMANTIC_PROBE_REPORT.md",
+      "bytes": 3886,
+      "sha256": "695d65244a7d55b22eaafa0cf1d43770ad67fac28f99913865f1f2991671d70f"
+    },
+    {
+      "name": "R2_DATACHECK_SEMANTICS_AUDIT.json",
+      "bytes": 4808,
+      "sha256": "67bee159bd35cc3573cb3d483cab882487b7d38a89a5fef920c9d537a5994843"
+    },
+    {
+      "name": "R2_DATACHECK_TEXT_TRANSFER_MANIFEST.json",
+      "bytes": 1765,
+      "sha256": "f061eec838ceb5ddd4901d9ea37a5d1df8e04b496761899d4f59a4dafb88a6df"
+    },
+    {
+      "name": "R2_NATIVE_CONTROL_EXCERPTS.txt",
+      "bytes": 5162,
+      "sha256": "18deb27df87b8ab13a81df5ee2955110044d0ffc710275e7c22956ec139d0878"
+    },
+    {
+      "name": "R2_NATIVE_WARNINGS_FULL.txt",
+      "bytes": 1056,
+      "sha256": "d85aef5050f3289a82345fa53bffbeaf67d5c3a1e56f306fc22fbd39d1492488"
+    },
+    {
+      "name": "USER_NEXT_REPORT_BOUNDED_BUDGET_REQUEST.json",
+      "bytes": 901,
+      "sha256": "af0168bcf765edc65984f87f156070d2ef931feadfa10d20cf73144b37ff46cb"
+    }
+  ],
+  "R1_closed_DAT_SHA": "e192caf363301cf5abf49185000774a1cd937fc25627287e2a65f74e5f43d74e",
+  "R2_closed_DAT_SHA": "0d971e5c05bca0a39f6a68b674b8acb61996fedcf68671b6b140e69eaee9cd51",
+  "credentials_and_unrelated_projects": false,
+  "native_DC_repeat": false
+}

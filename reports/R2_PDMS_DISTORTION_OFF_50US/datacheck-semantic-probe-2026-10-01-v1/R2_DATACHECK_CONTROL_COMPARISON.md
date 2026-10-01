@@ -1,0 +1,95 @@
+# R1/R2 ԭ�����ƱȽ�
+
+{"A": false, "B": false, "C": true, "D": false}
+
+2021_MANUAL_BODY_NOT_OBTAINED
+
+UNRESOLVED_DO_NOT_ANALYZE
+
+## R1 property 1
+
+~~~text
+
+
+
+
+  PROPERTY NUMBER         1
+
+     MATERIAL NAME                     PDMS_METHOD_SEED                                                                
+     ATTRIBUTES                          1.0000       0.0000       0.0000    
+     DEFAULT STRAIN FORMULATION AND STRESS RATE
+     DEFAULT HOURGLASS CONTROL
+           (USED ONLY WITH LOWER ORDER REDUCED INTEGRATED SOLID AND MEMBRANE ELEMENTS)
+
+     HOURGLASS CONTROL PARAMETER     1.0000    
+
+~~~
+
+## R1 property 2
+
+~~~text
+
+
+
+
+  PROPERTY NUMBER         2
+
+     MATERIAL NAME                     ITO_BRITTLE_METHOD_SEED                                                         
+     ATTRIBUTES                          1.0000       0.0000       0.0000    
+     DEFAULT STRAIN FORMULATION AND STRESS RATE
+     DEFAULT HOURGLASS CONTROL
+           (USED ONLY WITH LOWER ORDER REDUCED INTEGRATED SOLID AND MEMBRANE ELEMENTS)
+
+     HOURGLASS CONTROL PARAMETER     1.0000    
+~~~
+
+## R2 property 1
+
+~~~text
+
+
+
+
+  PROPERTY NUMBER         1
+
+     MATERIAL NAME                     PDMS_METHOD_SEED                                                                
+     ATTRIBUTES                          1.0000       0.0000       0.0000    
+     SECTION CONTROLS NAME          R2_PDMS_DC_OFF                                                                  
+
+~~~
+
+## R2 property 2
+
+~~~text
+
+
+
+
+  PROPERTY NUMBER         2
+
+     MATERIAL NAME                     ITO_BRITTLE_METHOD_SEED                                                         
+     ATTRIBUTES                          1.0000       0.0000       0.0000    
+     DEFAULT STRAIN FORMULATION AND STRESS RATE
+     DEFAULT HOURGLASS CONTROL
+           (USED ONLY WITH LOWER ORDER REDUCED INTEGRATED SOLID AND MEMBRANE ELEMENTS)
+
+     HOURGLASS CONTROL PARAMETER     1.0000    
+~~~
+
+## ȫ��ԭ������
+~~~text
+***WARNING: D1 FOR HYPERELASTIC MATERIAL IS TOO SMALL. THIS LEADS TO A VERY 
+             HIGH BULK MODULUS. A SUGGESTED VALUE FOR D1 IS BETWEEN 7.12251E-02 
+             AND 0.17806. D2, D3...etc ARE SUGGESTED TO BE SCALED 
+             PROPORTIONALLY IF THEY ARE NON-ZERO. ANALYSIS USING SINGLE 
+             PRECISION MAY RESULT IN A NOISY SOLUTION. IT IS THEREFORE 
+             RECOMMENDED THAT THE ANALYSIS BE RUN IN DOUBLE PRECISION.
+***WARNING: THE PARAMETER DISTORTION CONTROL ON THE *SECTION CONTROLS OPTION 
+             IS RELEVANT FOR SOLID ELEMENTS WHEREVER APPLICABLE. THIS WARNING 
+             CAN BE IGNORED IF THE FEATURE IS APPLIED TO SOLID ELEMENTS ONLY.
+***WARNING: THE OPTION *BOUNDARY,TYPE=DISPLACEMENT HAS BEEN USED; CHECK STATUS 
+             FILE BETWEEN STEPS FOR WARNINGS ON ANY JUMPS PRESCRIBED ACROSS THE 
+             STEPS IN DISPLACEMENT VALUES OF TRANSLATIONAL DOF. FOR ROTATIONAL 
+             DOF MAKE SURE THAT THERE ARE NO SUCH JUMPS. ALL JUMPS IN 
+             DISPLACEMENTS ACROSS STEPS ARE IGNORED
+~~~

@@ -1,0 +1,15 @@
+{
+  "reply_id": "677b5067-7fe0-4e3d-86bc-47c62717289b",
+  "decision_id": "ITOL01-PRO-R2-2021-DATACHECK-SEMANTIC-PROBE-20261001-01",
+  "chars": 3818,
+  "UTF8_bytes": 6220,
+  "sha256": "f46f77bc03c7cda32c9015838852cba00dd01d9573b658809ec9bca68fd23d99",
+  "observed_utc": "2026-10-01T11:18:40.078Z",
+  "turn_startedAt": 1790851771.193,
+  "turn_completedAt": 1790852004.802285,
+  "source": "fresh read_thread result preserved in original local session output",
+  "native_datacheck_allowed": true,
+  "analysis_conditional_only": "A parser accepts; B same effective hourglass; C ITO unchanged; D no other formulation/default changes",
+  "native_budget_addition": 0,
+  "manual2021_body_obtained": false
+}
