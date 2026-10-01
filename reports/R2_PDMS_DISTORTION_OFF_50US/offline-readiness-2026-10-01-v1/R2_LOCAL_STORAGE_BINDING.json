@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "package_id": "ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1",
+  "decision_id": "ITOL01-PRO-R2-VERSION-EVIDENCE-ACCESS-DISPOSITION-20261001-01",
+  "case": "R2",
+  "attempt_id": "extract_attempt01",
+  "metadata_root": "C:\\Users\\yang\\Documents\\Codex\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\research_packages\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1",
+  "bulk_root": "E:\\open\\ITO-LOCAL-01\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1",
+  "paths": {
+    "parts": "E:\\open\\ITO-LOCAL-01\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\cases\\R2\\extract_attempt01\\transport\\parts",
+    "archive": "E:\\open\\ITO-LOCAL-01\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\cases\\R2\\extract_attempt01\\transport\\export.tar",
+    "export": "E:\\open\\ITO-LOCAL-01\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\cases\\R2\\extract_attempt01\\export_R2",
+    "derived": "E:\\open\\ITO-LOCAL-01\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\cases\\R2\\extract_attempt01\\derived",
+    "figures": "E:\\open\\ITO-LOCAL-01\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\cases\\R2\\extract_attempt01\\figures",
+    "tmp": "E:\\open\\ITO-LOCAL-01\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\cases\\R2\\extract_attempt01\\tmp"
+  },
+  "actual_archive_bytes": null,
+  "actual_archive_sha256": null,
+  "actual_source_ODB_sha256": null,
+  "required_free_bytes_by_stage": {
+    "copy": null,
+    "assemble": null,
+    "extract": null,
+    "analysis": null
+  },
+  "space_gate_status": "MUST_COMPUTE_FROM_R2_ACTUAL_MANIFEST_BEFORE_TRANSPORT",
+  "derived_allowance_bytes": 2147483648,
+  "minimum_margin_bytes": 21474836480,
+  "native_execution_released": false
+}

@@ -1,0 +1,220 @@
+```yaml
+project_id: ITO_PRECONDITIONING_LOCAL_MECHANICS
+client_id: ITO-LOCAL-01
+client_thread_id: 01a0d157-8547-7552-bb05-9a1c1c92698d
+package_id: ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1
+case_id: R2_PDMS_DISTORTION_OFF_50US
+
+decision_id: ITOL01-PRO-R2-PRELAUNCH-SEMANTICS-AND-GATES-20261001-01
+governing_decision_id: ITOL01-PRO-R2-DISTORTION-DIAGNOSTIC-20261001-01
+in_reply_to: 本次R2启动前两项技术问题（本消息未附独立message_id）
+
+decision: CLARIFY_VERSION_EVIDENCE_AND_CONTINUE_CONDITIONALLY
+scope: 既有R2合同的启动前技术澄清
+additional_cases: 0
+additional_native_budget: 0
+
+version_evidence:
+  Pro_verified_official_2021_guide_entries: true
+  Pro_read_2021_section_control_body: false
+  Pro_read_2024_relevant_reference_body: true
+  2024_as_substitute_for_2021_evidence: false
+  desktop_2021_evidence_check_required: true
+
+execution:
+  only_PDMS_distortion_control_change: true
+  ITO_section_and_material_unchanged: true
+  baseline_R1_rerun_or_ODB_reopen: false
+  proceed_after_version_input_datacheck_resource_gates: true
+  second_equivalent_Pro_approval_required: false
+  unresolved_2021_semantics_allows_analysis: false
+```
+
+**认可你拟定的最小差异方案：只给PDMS截面关联一个`DISTORTION CONTROL=NO`控制定义，优先省略`HOURGLASS`，其他控制不显式改值。**
+
+但先说明本次检索的实际边界：**我找到了官方2021版指南的确切知识库入口，没有取得其中“Section Controls”的2021正文。**下面给出可追溯入口、必须核对的条目，以及通过后直接执行的条件；不会把2024描述包装成2021实证。
+
+## 一、2021证据从哪里取得，具体需要证明什么
+
+### 1. 已核实的官方2021入口
+
+Dassault Systèmes在其2021年官方目录中明确列出了以下指南，并给出了知识库链接；该目录也说明，访问知识库文章需要具备相应权限的账户。:chatgpt-content-reference{index="0"}
+
+| 官方2021指南 | 确切入口 | 本次需要定位的内容 |
+|---|---|---|
+| **Abaqus 2021 Keywords Guide** | [QA00000070045](https://kb.dsxclient.3ds.com/mashup-ui/page/document?q=docid%3AQA00000070045) | `*SECTION CONTROLS`的`HOURGLASS`、`DISTORTION CONTROL`；`*SOLID SECTION`的`CONTROLS` |
+| **Abaqus 2021 Elements Guide** | [QA00000070029](https://kb.dsxclient.3ds.com/mashup-ui/page/document?q=docid%3AQA00000070029) | Section Controls；增强型小时玻璃默认规则；畸变控制适用范围；Explicit元素索引中的CPE4R |
+| **Abaqus 2021 Output Guide** | [QA00000070049](https://kb.dsxclient.3ds.com/mashup-ui/page/document?q=docid%3AQA00000070049) | ALLAE、ALLDC等输出解释，供结果解释使用 |
+
+**这些入口的“2021指南身份”已核实，不等于里面相关正文已被我读取。**直接访问知识库和2021在线帮助页，本轮工具未能取得正文。不要在证据表中写成`PRO_VERIFIED_2021_SEMANTICS`。
+
+桌面可使用现有合法访问范围内的2021本地文档、机构部署的2021官方文档副本，或上述官方2021指南。不能仅凭文件夹叫“2021”、网页访问日期为2021，或文件名相同，就判断版本匹配。
+
+### 2. 最小版本证据表
+
+启动前保存一张表，覆盖以下四项：
+
+| 待证实事项 | 可接受的2021依据 |
+|---|---|
+| 超弹性材料省略`HOURGLASS`时使用什么默认方法 | Keywords Guide中该可选参数的默认规则，并结合Elements Guide相应说明 |
+| 给定`DISTORTION CONTROL=NO`是否改变上述默认选择 | 两个参数的定义、适用条件及相关例外；不得遗漏自适应网格等条件 |
+| 该组合是否适用于本次Explicit CPE4R | 2021的Explicit元素索引及Section Controls对实体单元的适用范围 |
+| 新控制只作用于PDMS | 2021的`*SOLID SECTION, CONTROLS=...`定义，加上实际INP的集合—材料—截面关联审计 |
+
+记录**文档版本、标题、章节或页码、相关短摘录、来源和文件哈希**。本地保留合法取得的原页；公开仓库放版本证据、必要短摘录和定位信息，不必公开整本商业手册或带认证信息的链接。
+
+### 3. 2024正文目前只能提供什么线索
+
+我实际读到的2024关键词说明，将`HOURGLASS=ENHANCED`列为超弹性／超泡沫材料的默认选择，`RELAX STIFFNESS`的Explicit默认规则则明确排除了这些材料。**据该版本的规则，省略`HOURGLASS`并不是改成普通材料的`RELAX STIFFNESS`。**这正是需要在2021正文中核对的关系。:chatgpt-content-reference{index="1"}
+
+2024文档也明确区分：畸变控制在Explicit中用于实体单元；“C3D10HS”限制是该关键词在Standard中的适用说明，不能误套到Explicit CPE4R。2024的Explicit元素索引包含CPE4R，但这仍不是本机2021组合适用性的最终证明。:chatgpt-content-reference{index="2"}
+
+**不要把“查到了后来版本的一致规则”记成“已经核实2021”。**
+
+## 二、对你提出的前置证据链：有条件接受
+
+**接受“实际2021安装身份＋2021匹配官方正文＋实际模型关联审计＋一次获准datacheck”的链条。**不要求文档必须安装在求解服务器本机。
+
+其中“2021匹配官方条目”必须包含足以支持上述默认规则的**正文**，不能只是指南标题或知识库编号。
+
+具体执行顺序为：
+
+**版本与正文核对 → 最小输入差异审计 → 既有正常datacheck → 通过原资源／成本门 → 唯一analysis。**
+
+实际安装身份应记录R1与R2使用的同一启动程序、2021 release/build及已有可取得的维护版本信息。普通版本查询和文档检查不消耗analysis或ODB额度，也不需要重新运行R1。
+
+### datacheck需要验证到什么程度
+
+要求新输入被2021实际解析，截面和元素数量正确，控制名称引用正确；没有把本次参数**忽略、替换、判为不适用**的提示。原D1和通用Boundary警告按原口径保留。
+
+但不要求DAT必须打印一条不存在的“内部算法证明”。如果DAT仍只给出：
+
+```text
+DEFAULT HOURGLASS CONTROL
+HOURGLASS CONTROL PARAMETER 1.0000
+```
+
+而2021正文已明确默认规则、实际材料／元素／截面绑定也完整，则可记录：
+
+```text
+effective_configuration_basis:
+DOCUMENTED_2021_DEFAULTS_BOUND_TO_ACTUAL_INPUT
+
+internal_algorithm_directly_printed:
+NOT_OBSERVED
+```
+
+**datacheck通过证明输入接受性，不证明动态响应正确；文档默认规则与实际输入绑定，则用于确定这次对照的设置含义。**
+
+如果只取得“安装是2021＋官方2021指南标题＋DAT接受关键词”，**仍不足以证明省略HOURGLASS后的有效默认相同**。这种情况下停在`VERSION_SEMANTICS_UNRESOLVED`，提交具体缺项，不启动analysis，也不靠额外datacheck轮流试多个配置。
+
+## 三、R2输入冻结：不是从R1导入控制状态，而是重新应用同版默认规则
+
+R2是独立分析，不是R1的import或restart。因此这里所谓“继承”，应准确写成：
+
+> **同一2021版本根据相同材料、元素和分析条件，分别确定R1与R2未显式设置的默认选项。**
+
+版本证据通过后的首选新增定义是：
+
+```abaqus
+*SECTION CONTROLS, NAME=R2_PDMS_DC_OFF, DISTORTION CONTROL=NO
+```
+
+只在原PDMS的`*SOLID SECTION`关键词行增加：
+
+```text
+CONTROLS=R2_PDMS_DC_OFF
+```
+
+原PDMS截面数据行、材料名和ELSET不变；ITO截面及其数据行逐字不变。`CONTROLS`通过截面名称关联这一机制，可在官方`*SOLID SECTION`说明中核对。:chatgpt-content-reference{index="3"}
+
+**不得顺便添加小时玻璃系数、体积黏性缩放、畸变删除、线性运动学转换或新的单元删除选项。**本次关闭畸变控制，不等于关闭ITO脆性失效，也不等于允许删除畸变PDMS来维持计算。
+
+只有在2021证据足以建立“显式`HOURGLASS=ENHANCED`与R1有效默认等价”时，才允许采用这一等价显式表达；必须在差异表中标为**默认值显式化**。首选仍是最小的省略写法，不为“看起来明确”而扩大改动。
+
+还要保留一项解释边界：2024文档指出，增强型小时玻璃与畸变控制组合可带来计入ALLAE的附带黏性耗散。因此，即使小时玻璃方法名称保持相同，关闭畸变控制也可能改变这个组合的附带贡献。**R2检验的是这一控制开关及其关联作用，不能凭ALLAE下降就单独量化畸变约束力或某个阻尼项。**相应2021说明能取得则一并核对，不能取得就保留机制解释的不确定性。:chatgpt-content-reference{index="4"}
+
+## 四、资源和存储：按你列出的门保持，不追加新门槛
+
+确认继续采用本包启动条件：
+
+| 项目 | 保持值 |
+|---|---:|
+| Available memory | ≥48 GiB |
+| Commit headroom | ≥32 GiB |
+| 求解配置 | 4 CPU／4 domains，double=both |
+| 可实际分配的物理核及余量 | 至少6核，不只看整机总核数 |
+| 内存规划 | 24 GiB |
+| 服务器D盘空间门 | ≥312 GiB，并保持原峰值占用核算 |
+| 初始成本门 | \(T/\Delta t_{\mathrm{initial}}<3\times10^7\) |
+
+这里24 GiB仍是**规划值**，不擅自修改原生内存选项把它改成另一项试验变量。初始成本估计也不保证关闭畸变控制后时间步不会继续缩小。
+
+R2本地大数据根目录固定为：
+
+```text
+E:\open\ITO-LOCAL-01\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1
+```
+
+建立独立storage binding。R1目录可按原授权只读比较，**不得向其中写入R2的分片、归档、解包、临时数组、图片或新账本**。运输前按R2实际归档及清单核算本地峰值空间，不照搬R1文件大小。
+
+资源准入、轻量监控及文件传输问题，仍与求解器失败分开记账；不以未知当前状态为由重复派发作业。
+
+## 五、需要明确的停止与`first_invalid`记录
+
+**不新增反力一致性5%门，也不改变原能量门。**这次主要补足的是“哪一类无效、何时首次发生”的分栏记录，避免把几何通过误写成整条科学路径有效。
+
+### 1. 几何／核心场有效前缀
+
+对所有保存帧检查活动单元，记录：
+
+```text
+first_geometry_or_core_invalid_frame
+last_geometry_core_valid_prefix_frame
+reason
+element/node/field_identity
+last_valid_and_first_invalid_time_bracket
+measured_macrostrain_bracket
+```
+
+继续检查活动四节点单元的四角Jacobian、边界和未建模相交。不能仅凭正面积或中心Jacobian通过，就忽略角点映射异常。ITO删除后按STATUS屏蔽其活动材料解释；**预期ITO删除不是几何失败，活动PDMS的翻转则是。**
+
+首个不合格或无法判定帧之后，保留原始诊断，不因后来又出现正值而恢复连续有效前缀。检查的是保存帧，不能声称已经逐一审查全部内部求解增量。
+
+### 2. 数值质量门单独记录首次越界
+
+对原ALLAE、ALLDC、ALLVD、ETOTAL及其他冻结检查，分别保存：
+
+```text
+first_exceedance_history_index
+last_not_exceeded_and_first_exceeded_values
+native_time_bracket
+measured_macrostrain_bracket
+frozen_threshold_and_normalization
+```
+
+**`first_geometry_invalid=null`不等于能量门通过。**如果全帧几何有效但ALLAE越5%或ETOTAL漂移越1%，应明确并列两种状态，不使用一个含糊的`valid_prefix`覆盖所有意义。
+
+原生ITO区域ALLDC仍按实际可用性记录；缺失不能填零。已许可的全局减PDMS余项只能标为派生量，不成为原生ITO输出，也不反推算法开启或关闭。
+
+### 3. 求解失败与后处理越门分开
+
+若出现原生负体积、明确畸变失败或其他fatal error，保留失败原案，**不重跑、不加质量缩放、不重新开启控制救场**。已有输出可在本包原定一次只读提取范围内形成有界诊断，不能伪装成完成50 µs的路径。
+
+若求解完成而后处理才发现质量越门，报告首次越界及此后的原始记录；不为了实时检查而反复打开在写ODB，也不擅自加入新的在线终止控制。
+
+## 六、预算与连续接续
+
+本条**不增加、不重置**已授权预算：
+
+| 项目 | 正常 | 非物理技术恢复 |
+|---|---:|---:|
+| R2 datacheck | 1 | 1 |
+| R2 analysis | 1 | 已启动后重跑0 |
+| 新R2 ODB只读提取 | 1 | 1 |
+
+技术恢复不能用来轮流尝试不同控制方案。R1预算继续关闭，额外case和旧ODB独立读取仍为0。
+
+下一份启动前记录放入独立R2归档，至少包含**2021版本证据表、R1→R2最小差异、截面绑定、资源／成本检查和独立storage binding**。交付固定commit与索引即可，不再拆长正文；也不等待网页“已读”才执行已经满足条件的步骤。
+
+**本次查证的结论是：官方2021指南入口已定位，但我尚未取得相关2021正文；2024说明支持拟议方案作为核查方向，不能替代版本证据。桌面补齐可读2021规则并通过唯一datacheck后，直接进入原定R2分析，无需再次申请同义批准；补不齐则准确报缺哪一条，不猜配置、不扩大算例。**

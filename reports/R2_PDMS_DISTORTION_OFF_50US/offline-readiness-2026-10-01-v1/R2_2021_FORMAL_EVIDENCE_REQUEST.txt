@@ -1,0 +1,20 @@
+主题：Abaqus/Explicit 2021 — CPE4R 超弹性材料的 Section Controls 默认规则核实
+
+状态：请求文本已准备，尚未向许可证负责人或厂商发送。需要已有授权渠道和具体收件人。
+项目：ITO_LOCAL_01 / R2_PDMS_DISTORTION_OFF_50US
+
+我们正在进行单因素数值诊断。基线使用 Abaqus/Explicit 2021、CPE4R、Mooney–Rivlin 超弹性材料；PDMS 与 ITO 为独立 Solid Section，无显式 Section Controls，无 adaptive mesh。拟只将 PDMS 畸变控制关闭：
+
+*SECTION CONTROLS, NAME=R2_PDMS_DC_OFF, DISTORTION CONTROL=NO
+PDMS 的 *SOLID SECTION 关联 CONTROLS=R2_PDMS_DC_OFF；ITO 保持不引用此控制。
+省略 HOURGLASS 及其他控制参数。
+
+请提供明确适用于 2021 的官方短摘录或 SIMULIA 书面说明，回答：
+1. 无 adaptive mesh 等例外时，超弹性 CPE4R 省略 HOURGLASS 采用什么方法？
+2. 加入上述定义且仍省略 HOURGLASS，是否保持同一方法？关联条件、例外或其他默认项是否改变？
+3. DISTORTION CONTROL=NO 与该方法组合是否适用于 2021 Explicit CPE4R？
+4. 此 CONTROLS 只关联 PDMS 时，未引用此控制的 ITO 截面是否保持原设置？
+
+请注明适用 release / maintenance version、指南名称、章节或页码。安装启动链识别为 Established Products 2021，launcher file/product version 6.423.0.20032；此信息仅作版本定位，不作为算法默认证据。
+只需相关短摘录和定位或书面确认，不需要整个商业手册、完整模型或原始求解数据。
+不以较新版本说明、未标版本镜像或 datacheck 接受关键词代替2021语义证据。

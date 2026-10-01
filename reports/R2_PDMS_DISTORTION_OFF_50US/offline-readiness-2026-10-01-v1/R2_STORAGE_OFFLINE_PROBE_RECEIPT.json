@@ -1,0 +1,11 @@
+{
+  "nativeExecutionReleased": false,
+  "status": "INDEPENDENT_R2_WRITABLE_STORAGE_SNAPSHOT",
+  "transportSpaceGate": "PENDING_R2_ACTUAL_MANIFEST",
+  "utc": "2026-10-01T08:18:03.4262414Z",
+  "probeSHA": "67b0ee63fb4430cc22e8166ddfe3ac25cce64ae727b3f840bc564447f86d006d",
+  "probe": "E:\\open\\ITO-LOCAL-01\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\R2_OFFLINE_STORAGE_WRITE_PROBE.txt",
+  "freeBytes": 1236087074816,
+  "health": "Healthy",
+  "filesystem": "NTFS"
+}

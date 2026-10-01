@@ -1,0 +1,56 @@
+{
+  "scope": "OFFLINE_CANDIDATE_ONLY",
+  "real_ODB_calls": 0,
+  "native_dispatches": 0,
+  "sources": [
+    {
+      "frozen_source_name": "native_field_helpers.py",
+      "source_sha256_before": "828a2695e10cc3b38525a5d2e6af174b4ccabbb066d8e1557d728b9b9c33e48e",
+      "source_sha256_after": "828a2695e10cc3b38525a5d2e6af174b4ccabbb066d8e1557d728b9b9c33e48e",
+      "candidate_name": "native_field_helpers.py",
+      "candidate_sha256": "91896584b9f49ad2f6fb506a151a038454971fe01432906f7bb5d96a637f42d2",
+      "unchanged_copy": false
+    },
+    {
+      "frozen_source_name": "pdms_native_gates_27.py",
+      "source_sha256_before": "690dee6cf15fd6e09b75cdb2e2f5cf09aa95b7595948ee3d6caccf5c5f1185e5",
+      "source_sha256_after": "690dee6cf15fd6e09b75cdb2e2f5cf09aa95b7595948ee3d6caccf5c5f1185e5",
+      "candidate_name": "pdms_native_gates_27.py",
+      "candidate_sha256": "690dee6cf15fd6e09b75cdb2e2f5cf09aa95b7595948ee3d6caccf5c5f1185e5",
+      "unchanged_copy": true
+    },
+    {
+      "frozen_source_name": "r1_time_rule_27.py",
+      "source_sha256_before": "96a670ce9470cda9b5687b51058d37ee4a115a91f315ee8c0a91c780522ebab2",
+      "source_sha256_after": "96a670ce9470cda9b5687b51058d37ee4a115a91f315ee8c0a91c780522ebab2",
+      "candidate_name": "r1_time_rule_27.py",
+      "candidate_sha256": "96a670ce9470cda9b5687b51058d37ee4a115a91f315ee8c0a91c780522ebab2",
+      "unchanged_copy": true
+    },
+    {
+      "frozen_source_name": "REFERENCE_MESH.json",
+      "source_sha256_before": "4fd22b39d78b091469fea82a151e7a7aa11035ad79342e6a3704fd04a11030a8",
+      "source_sha256_after": "4fd22b39d78b091469fea82a151e7a7aa11035ad79342e6a3704fd04a11030a8",
+      "candidate_name": "REFERENCE_MESH.json",
+      "candidate_sha256": "4fd22b39d78b091469fea82a151e7a7aa11035ad79342e6a3704fd04a11030a8",
+      "unchanged_copy": true
+    },
+    {
+      "frozen_source_name": "extraction_protocol_R1.py",
+      "source_sha256_before": "7c42ea0ae6af3a95db990478113f86b3994ea93a34f2f9701af5ba5579743ca0",
+      "source_sha256_after": "7c42ea0ae6af3a95db990478113f86b3994ea93a34f2f9701af5ba5579743ca0",
+      "candidate_name": "extraction_protocol_R2.py",
+      "candidate_sha256": "33ab0d91c568031766ca36808bb52760defede17f1564588db649ae05f1eacc0",
+      "unchanged_copy": false
+    },
+    {
+      "frozen_source_name": "extract_pdms_depth_2021.py",
+      "source_sha256_before": "e8caf4b155f9bf2f27f63773026a9907e23cad9d5b88f0c162ecbc86a1245d30",
+      "source_sha256_after": "e8caf4b155f9bf2f27f63773026a9907e23cad9d5b88f0c162ecbc86a1245d30",
+      "candidate_name": "extract_r2_2021_candidate.py",
+      "candidate_sha256": "8825ce3744a9de0e141422da125722072ea15499d8d7f5661eb40fb6339a0e56",
+      "unchanged_copy": false
+    }
+  ],
+  "native_main": "UNCONDITIONAL_REFUSAL"
+}

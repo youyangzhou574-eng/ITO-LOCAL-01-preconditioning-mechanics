@@ -1,0 +1,36 @@
+{
+  "package_id": "ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1",
+  "decision_id": "ITOL01-PRO-R2-DISTORTION-DIAGNOSTIC-20261001-01",
+  "status": "STATIC_ONLY_NOT_RELEASED_VERSION_PENDING",
+  "datacheck": {
+    "normal_max": 1,
+    "normal_used": 0,
+    "technical_recovery_max": 1,
+    "technical_recovery_used": 0
+  },
+  "analysis": {
+    "normal_max": 1,
+    "normal_used": 0,
+    "started_solver_reruns_max": 0,
+    "started_solver_reruns_used": 0
+  },
+  "new_ODB_extraction": {
+    "normal_max": 1,
+    "normal_used": 0,
+    "technical_recovery_max": 1,
+    "technical_recovery_used": 0
+  },
+  "additional_cases": 0,
+  "old_ODB_opens": 0,
+  "old_budget_transfer": 0,
+  "attempt_events": [
+    {
+      "utc": "2026-10-01T08:19:51.665366+00:00",
+      "type": "OFFLINE_READINESS_COMPLETE",
+      "decision_id": "ITOL01-PRO-R2-VERSION-EVIDENCE-ACCESS-DISPOSITION-20261001-01",
+      "normal_native_budget_delta": 0,
+      "technical_recovery_delta": 0,
+      "real_ODB_calls": 0
+    }
+  ]
+}

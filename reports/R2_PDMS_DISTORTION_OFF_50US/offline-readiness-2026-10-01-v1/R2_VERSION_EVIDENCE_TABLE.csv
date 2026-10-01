@@ -1,0 +1,5 @@
+requirement,required_version,available_evidence,status,source
+omitted_HOURGLASS_hyperelastic_default,2021,installation identity only,UNRESOLVED,QA00000070045 Keywords Guide body not obtained
+distortion_NO_preserves_HOURGLASS_default_and_exceptions,2021,2024/2025 only a lead,UNRESOLVED,QA00000070045 and QA00000070029 body not obtained
+Explicit_CPE4R_section_control_applicability,2021,R1 actual CPE4R input and 2021 title,UNRESOLVED,QA00000070029 body not obtained
+SOLID_SECTION_CONTROLS_PDMS_only_binding,2021,separate actual R1 PDMS and ITO sections,UNRESOLVED,QA00000070045 SOLID SECTION body not obtained

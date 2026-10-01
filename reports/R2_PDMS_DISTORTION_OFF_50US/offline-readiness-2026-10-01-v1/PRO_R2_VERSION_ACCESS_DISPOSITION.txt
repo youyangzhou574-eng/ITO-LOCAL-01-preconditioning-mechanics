@@ -1,0 +1,93 @@
+**我已实际读取固定commit `3a34a57bfe12a08f0632e537c99f58d65381aa6e`下的`R2_START_PRECHECK_REPORT.md`。你的处理正确：已确认2021启动链和R1输入身份，但尚未取得2021控制默认规则的正文，不能据此放行原生计算。**本轮我没有逐一读取或核验其余7个归档文件。
+
+**我这边继续检索后，也没有获得能够验证版本身份的2021相关正文。因此，本次不能提供一个“已实际读到2021内容”的新链接，也不会让你再重复尝试同一批不可读地址。**
+
+## 本轮查证结果
+
+我尝试了2021在线帮助中的Section Controls、`*SECTION CONTROLS`、`*SOLID SECTION`页面，以及两个官方2021知识库入口，均未取得正文。工具返回不可访问，**不能据此判断是页面不存在、访问权限问题还是工具访问限制**。([无效网址]())
+
+能实际读取的官方2021目录，确实列出了2021 Keywords Guide和Elements Guide；但该目录同时说明，知识库文章需要具备适当角色的账户访问。**这只能证明指南入口存在，不能补上四项技术语义。**:chatgpt-content-reference{index="2"}
+
+另有公开镜像能读到Section Controls正文，但本轮没有建立它与**Abaqus Established Products 2021**的版本对应关系，所以也不采用它解除门控。:chatgpt-content-reference{index="3"}
+
+## 正式处置
+
+```yaml
+project_id: ITO_PRECONDITIONING_LOCAL_MECHANICS
+client_id: ITO-LOCAL-01
+package_id: ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1
+case_id: R2_PDMS_DISTORTION_OFF_50US
+
+decision_id: ITOL01-PRO-R2-VERSION-EVIDENCE-ACCESS-DISPOSITION-20261001-01
+governing_decision_id: ITOL01-PRO-R2-PRELAUNCH-SEMANTICS-AND-GATES-20261001-01
+submission_reference:
+  pinned_commit: 3a34a57bfe12a08f0632e537c99f58d65381aa6e
+  report: R2_START_PRECHECK_REPORT.md
+
+status: VERSION_SEMANTICS_UNRESOLVED
+blocker_type: VERSION_SPECIFIC_EVIDENCE_ACCESS
+native_failure: false
+
+permissions:
+  complete_remaining_offline_readiness: true
+  repeat_exhausted_document_search_or_server_scan: false
+  datacheck_or_analysis_before_semantics_resolution: false
+  trial_multiple_control_configurations: false
+  reopen_R1_ODB_or_rerun_R1: false
+
+budget:
+  additional_native_budget: 0
+  datacheck_used: 0
+  analysis_used: 0
+  new_ODB_extraction_used: 0
+  technical_recovery_consumed_by_document_access_failure: false
+  existing_R2_conditional_authorization: RETAINED
+
+acceptable_external_evidence:
+  version_identified_2021_official_document_excerpt: true
+  written_SIMULIA_confirmation_explicitly_applicable_to_2021: true
+  later_version_or_unversioned_document_alone: false
+  datacheck_acceptance_alone: false
+```
+
+### 现在的唯一补证动作：取得2021版本对应的正式说明，不再盲搜
+
+通过**已有获准渠道**，向机构Abaqus许可证负责人或SIMULIA技术支持提出下面这一份明确请求。已有支持渠道和发送权限时可按其流程提交；没有时只准备请求文本，不自行注册账户、获取他人凭据或扩大访问权限。
+
+> **主题：Abaqus/Explicit 2021——CPE4R超弹性材料的Section Controls默认规则核实**
+>
+> 我们正在进行单因素数值诊断。基线采用Abaqus/Explicit 2021、CPE4R、Mooney–Rivlin超弹性材料，PDMS和ITO分别具有独立Solid Section；基线没有显式Section Controls。拟仅给PDMS截面关联：
+>
+> ```abaqus
+> *SECTION CONTROLS, NAME=R2_PDMS_DC_OFF, DISTORTION CONTROL=NO
+> ```
+>
+> 并省略`HOURGLASS`及其他控制参数。请提供适用于2021版本的官方章节摘录或书面确认：
+>
+> 1. 在无自适应网格等相关例外的条件下，超弹性CPE4R省略`HOURGLASS`时采用什么方法？
+> 2. 新增上述控制定义后，省略`HOURGLASS`是否仍采用同一默认方法？是否存在关联条件、例外或其他默认项变化？
+> 3. `DISTORTION CONTROL=NO`与该小时玻璃方法的组合是否适用于2021的Explicit CPE4R？
+> 4. `*SOLID SECTION, CONTROLS=R2_PDMS_DC_OFF`仅关联PDMS截面时，未引用此控制的ITO截面是否保持其原设置？
+>
+> 请注明适用release／维护版本、指南名称及章节或页码。无需提供整个手册，也不需要查看我们的完整模型或原始求解数据。
+
+**厂商对2021的明确书面答复，可以作为与版本匹配正文等效的前置证据。**这是本条明确补充的证据路径，不是把后续版本说明或关键词解析成功降格替代为证明。
+
+## 等待补证期间，可以直接完成的工作
+
+把尚未完成的**静态准备**一次做完：R2候选输入最小差异检查、PDMS截面与控制名称的唯一关联、ITO段逐字一致性、排除自适应网格等相关例外的输入检查、独立E盘storage binding，以及既有提取器的无ODB mock。候选文件明确标记：
+
+```text
+NOT_RELEASED_FOR_NATIVE_EXECUTION
+VERSION_SEMANTICS_PENDING
+```
+
+这些工作可以继续，但**不调用datacheck、不尝试不同控制组合，不重复R1全套预检或运输审核**。把结果与版本问题清单归入同一R2预检目录即可，不必每完成一项就重新报批。
+
+补证回来后，只有在其内容确实支持原定“仅改变PDMS畸变控制”的前提下，才按既有顺序直接执行：
+
+**证据绑定 → 最小输入差异核验 → 正常datacheck → 资源／成本门 → 唯一analysis。**
+
+若正式说明与原假设冲突，则报告冲突内容，不能为了保持计划而自行改成显式`HOURGLASS=ENHANCED`或增加另一个对照。
+
+**目前找到的是2021指南的官方入口，不是四项默认语义的2021正文；缺口仍然存在。下一步是一次有明确问题的正式补证，同时完成剩余静态准备，而不是重复访问失败网址或消耗原生预算试配置。**

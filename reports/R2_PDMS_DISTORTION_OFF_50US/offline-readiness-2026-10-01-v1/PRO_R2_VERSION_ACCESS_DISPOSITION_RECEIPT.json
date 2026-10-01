@@ -1,0 +1,14 @@
+{
+  "reply_id": "6990c24e-ee5d-444c-b93b-a5e2881dee75",
+  "available_completed_epoch": 1790830840.054132,
+  "decision_id": "ITOL01-PRO-R2-VERSION-EVIDENCE-ACCESS-DISPOSITION-20261001-01",
+  "full_reply_stored": true,
+  "stored_adds_terminal_LF": true,
+  "offline_readiness_authorized": true,
+  "native_execution_released": false,
+  "no_repeated_exhausted_document_search": true,
+  "original_utf8_sha256": "3ff0023f634119796b7c4ac48e984305c362e30d728726efbdcadb174030c5eb",
+  "original_utf8_bytes": 5770,
+  "stored_utf8_sha256": "46645262b49237277bc175c951169fde229247de2ea5e9c1439ae665d4612a8e",
+  "stored_utf8_bytes": 5771
+}

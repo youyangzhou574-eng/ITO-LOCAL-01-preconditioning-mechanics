@@ -1,0 +1,17 @@
+{
+  "status": "STATIC_MINIMAL_DIFFERENCE_PASS_NOT_NATIVE_RELEASE",
+  "all_other_bytes_identical": true,
+  "ITO_section_bytes_identical": true,
+  "PDMS_only_control_association": true,
+  "native_execution_released": false,
+  "effective_2021_default_semantics": "UNRESOLVED",
+  "HOURGLASS_explicit_change": false,
+  "adaptive_mesh_present": false,
+  "baseline_sha256": "8e8405152be773653f956df64fafe06d80ba7b9c5b75fe83ec7e2c719215fdf3",
+  "candidate_sha256": "6421953d8c038f80046f30b8619c7359ee7c148fed8f8f73325a07ecc122c267",
+  "allowed_changes": [
+    "one PDMS CONTROLS association",
+    "one DISTORTION CONTROL=NO definition",
+    "nonsemantic NOT_RELEASED comment"
+  ]
+}

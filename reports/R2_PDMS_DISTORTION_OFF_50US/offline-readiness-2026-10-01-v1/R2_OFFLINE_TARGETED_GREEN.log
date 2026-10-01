@@ -1,0 +1,13 @@
+test_ITO_rebinding_is_rejected (test_r2_offline_readiness.CandidateTests.test_ITO_rebinding_is_rejected) ... ok
+test_duplicate_PDMS_section_is_rejected (test_r2_offline_readiness.CandidateTests.test_duplicate_PDMS_section_is_rejected) ... ok
+test_existing_controls_or_adaptive_mesh_is_rejected (test_r2_offline_readiness.CandidateTests.test_existing_controls_or_adaptive_mesh_is_rejected) ... ok
+test_material_or_mesh_change_is_rejected (test_r2_offline_readiness.CandidateTests.test_material_or_mesh_change_is_rejected) ... ok
+test_minimal_candidate_reverses_exactly_to_source (test_r2_offline_readiness.CandidateTests.test_minimal_candidate_reverses_exactly_to_source) ... ok
+test_R1_bulk_destination_is_rejected (test_r2_offline_readiness.StorageTests.test_R1_bulk_destination_is_rejected) ... ok
+test_R2_binding_is_distinct_and_actual_sizes_pending (test_r2_offline_readiness.StorageTests.test_R2_binding_is_distinct_and_actual_sizes_pending) ... ok
+test_wrong_metadata_and_traversal_are_rejected (test_r2_offline_readiness.StorageTests.test_wrong_metadata_and_traversal_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.003s
+
+OK

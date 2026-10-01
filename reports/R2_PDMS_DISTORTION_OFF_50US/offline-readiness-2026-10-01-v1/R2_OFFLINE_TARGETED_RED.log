@@ -1,0 +1,85 @@
+test_ITO_rebinding_is_rejected (test_r2_offline_readiness.CandidateTests.test_ITO_rebinding_is_rejected) ... FAIL
+test_duplicate_PDMS_section_is_rejected (test_r2_offline_readiness.CandidateTests.test_duplicate_PDMS_section_is_rejected) ... FAIL
+test_existing_controls_or_adaptive_mesh_is_rejected (test_r2_offline_readiness.CandidateTests.test_existing_controls_or_adaptive_mesh_is_rejected) ... FAIL
+test_material_or_mesh_change_is_rejected (test_r2_offline_readiness.CandidateTests.test_material_or_mesh_change_is_rejected) ... FAIL
+test_minimal_candidate_reverses_exactly_to_source (test_r2_offline_readiness.CandidateTests.test_minimal_candidate_reverses_exactly_to_source) ... FAIL
+test_R1_bulk_destination_is_rejected (test_r2_offline_readiness.StorageTests.test_R1_bulk_destination_is_rejected) ... FAIL
+test_R2_binding_is_distinct_and_actual_sizes_pending (test_r2_offline_readiness.StorageTests.test_R2_binding_is_distinct_and_actual_sizes_pending) ... FAIL
+test_wrong_metadata_and_traversal_are_rejected (test_r2_offline_readiness.StorageTests.test_wrong_metadata_and_traversal_are_rejected) ... FAIL
+
+======================================================================
+FAIL: test_ITO_rebinding_is_rejected (test_r2_offline_readiness.CandidateTests.test_ITO_rebinding_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\yang\Documents\Codex\ITO-LOCAL-01\ito_preconditioning_local_mechanics\research_packages\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\test_r2_offline_readiness.py", line 11, in setUp
+    def setUp(self): self.assertIsNotNone(r2, 'R2 offline implementation absent')
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : R2 offline implementation absent
+
+======================================================================
+FAIL: test_duplicate_PDMS_section_is_rejected (test_r2_offline_readiness.CandidateTests.test_duplicate_PDMS_section_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\yang\Documents\Codex\ITO-LOCAL-01\ito_preconditioning_local_mechanics\research_packages\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\test_r2_offline_readiness.py", line 11, in setUp
+    def setUp(self): self.assertIsNotNone(r2, 'R2 offline implementation absent')
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : R2 offline implementation absent
+
+======================================================================
+FAIL: test_existing_controls_or_adaptive_mesh_is_rejected (test_r2_offline_readiness.CandidateTests.test_existing_controls_or_adaptive_mesh_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\yang\Documents\Codex\ITO-LOCAL-01\ito_preconditioning_local_mechanics\research_packages\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\test_r2_offline_readiness.py", line 11, in setUp
+    def setUp(self): self.assertIsNotNone(r2, 'R2 offline implementation absent')
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : R2 offline implementation absent
+
+======================================================================
+FAIL: test_material_or_mesh_change_is_rejected (test_r2_offline_readiness.CandidateTests.test_material_or_mesh_change_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\yang\Documents\Codex\ITO-LOCAL-01\ito_preconditioning_local_mechanics\research_packages\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\test_r2_offline_readiness.py", line 11, in setUp
+    def setUp(self): self.assertIsNotNone(r2, 'R2 offline implementation absent')
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : R2 offline implementation absent
+
+======================================================================
+FAIL: test_minimal_candidate_reverses_exactly_to_source (test_r2_offline_readiness.CandidateTests.test_minimal_candidate_reverses_exactly_to_source)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\yang\Documents\Codex\ITO-LOCAL-01\ito_preconditioning_local_mechanics\research_packages\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\test_r2_offline_readiness.py", line 11, in setUp
+    def setUp(self): self.assertIsNotNone(r2, 'R2 offline implementation absent')
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : R2 offline implementation absent
+
+======================================================================
+FAIL: test_R1_bulk_destination_is_rejected (test_r2_offline_readiness.StorageTests.test_R1_bulk_destination_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\yang\Documents\Codex\ITO-LOCAL-01\ito_preconditioning_local_mechanics\research_packages\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\test_r2_offline_readiness.py", line 33, in setUp
+    def setUp(self): self.assertIsNotNone(r2, 'R2 storage implementation absent')
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : R2 storage implementation absent
+
+======================================================================
+FAIL: test_R2_binding_is_distinct_and_actual_sizes_pending (test_r2_offline_readiness.StorageTests.test_R2_binding_is_distinct_and_actual_sizes_pending)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\yang\Documents\Codex\ITO-LOCAL-01\ito_preconditioning_local_mechanics\research_packages\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\test_r2_offline_readiness.py", line 33, in setUp
+    def setUp(self): self.assertIsNotNone(r2, 'R2 storage implementation absent')
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : R2 storage implementation absent
+
+======================================================================
+FAIL: test_wrong_metadata_and_traversal_are_rejected (test_r2_offline_readiness.StorageTests.test_wrong_metadata_and_traversal_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\yang\Documents\Codex\ITO-LOCAL-01\ito_preconditioning_local_mechanics\research_packages\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\test_r2_offline_readiness.py", line 33, in setUp
+    def setUp(self): self.assertIsNotNone(r2, 'R2 storage implementation absent')
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : R2 storage implementation absent
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+FAILED (failures=8)

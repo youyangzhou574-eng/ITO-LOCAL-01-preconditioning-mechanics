@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-01T08:19:51.665366+00:00",
+  "status": "LOCAL_COMPILE_AND_SAFE_IMPORT_PASS",
+  "compiled_modules": [
+    "r2_offline_readiness",
+    "prepare_r2_extractor_candidate",
+    "extract_r2_2021_candidate",
+    "extraction_protocol_R2",
+    "native_field_helpers",
+    "pdms_native_gates_27",
+    "r1_time_rule_27"
+  ],
+  "import_exclusion": "one-time artifact generator not imported",
+  "real_ODB_calls": 0,
+  "native_dispatches": 0,
+  "server_python_compatibility_admission": "NOT_PERFORMED_OR_CLAIMED"
+}

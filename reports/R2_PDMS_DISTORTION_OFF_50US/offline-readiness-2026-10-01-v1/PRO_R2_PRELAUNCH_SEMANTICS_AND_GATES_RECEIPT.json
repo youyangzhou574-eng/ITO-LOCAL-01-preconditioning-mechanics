@@ -1,0 +1,16 @@
+{
+  "reply_id": "6ffa7813-e5c2-4201-aeff-08f34bc8beb5",
+  "available_completed_epoch": 1790830205.908816,
+  "original_chars": 7201,
+  "stored_file_adds_terminal_LF": true,
+  "decision_id": "ITOL01-PRO-R2-PRELAUNCH-SEMANTICS-AND-GATES-20261001-01",
+  "governing_decision_id": "ITOL01-PRO-R2-DISTORTION-DIAGNOSTIC-20261001-01",
+  "status": "CONTINUE_CONDITIONALLY_2021_BODY_REQUIRED_NO_SECOND_APPROVAL",
+  "additional_cases": 0,
+  "additional_native_budget": 0,
+  "unresolved_2021_semantics_allows_analysis": false,
+  "stored_sha256": "770c7e87cc5afec9379136c06bd3b92fae66759c3b89d9fa31f798ce7a337931",
+  "stored_UTF8_bytes": 13104,
+  "original_text_sha256": "bf2396b0e8d08a356bc82bdf5ad1aa7c6ad8a277aa35da8b6951cf7e08869ef1",
+  "original_UTF8_bytes": 13103
+}

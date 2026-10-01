@@ -1,0 +1,12 @@
+{
+  "status": "R2_MOCK_ONLY_EXPORT_DECODE_PASS",
+  "native_dispatches": 0,
+  "real_ODB_calls": 0,
+  "fake_frames": 2,
+  "nodes": 51813,
+  "elements": 51200,
+  "decoded_arrays": 19,
+  "mock_directory": "E:\\open\\ITO-LOCAL-01\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\offline_checks\\fake_export_attempt01",
+  "science_qualification": false,
+  "native_execution_released": false
+}

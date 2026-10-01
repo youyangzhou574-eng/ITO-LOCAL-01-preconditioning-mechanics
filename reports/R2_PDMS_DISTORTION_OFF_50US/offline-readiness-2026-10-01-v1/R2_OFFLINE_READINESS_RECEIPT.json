@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-01T08:19:51.665366+00:00",
+  "status": "OFFLINE_READINESS_COMPLETE_NOT_RELEASED_FOR_NATIVE_EXECUTION",
+  "version_semantics": "UNRESOLVED",
+  "static_checks": 8,
+  "extractor_checks": 3,
+  "RED_to_GREEN_verified": true,
+  "real_ODB_calls": 0,
+  "native_dispatches": 0,
+  "effective_HOURGLASS_preservation": "REQUIRES_2021_FORMAL_EVIDENCE",
+  "actual_transport_space_requirement": "PENDING_R2_ACTUAL_MANIFEST",
+  "support_request": "PREPARED_NOT_SENT",
+  "production_launcher": "NOT_PREPARED_OR_RELEASED",
+  "R1_frozen_sources_preserved": true
+}
