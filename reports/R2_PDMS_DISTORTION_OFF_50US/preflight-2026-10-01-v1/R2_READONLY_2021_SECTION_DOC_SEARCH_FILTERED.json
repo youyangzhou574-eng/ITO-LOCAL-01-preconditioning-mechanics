@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-01T04:48:42.9538953Z",
+  "searched_root": "D:\\SIMULIA\\EstProducts\\2021",
+  "launcher_file_version": "6.423.0.20032",
+  "launcher_product_version": "6.423.0.20032",
+  "native_dispatches": 0,
+  "ODB_calls": 0,
+  "PSComputerName": "101.6.33.147",
+  "RunspaceId": "5d9a268f-d8c2-4507-adfe-456d2af5b85a",
+  "PSShowComputerName": true,
+  "exact_documentation_matches": [],
+  "filename_candidates": [
+    {
+      "Name": "readerSectioncontrols.pyc",
+      "FullName": "D:\\SIMULIA\\EstProducts\\2021\\win_b64\\code\\python2.7\\lib\\readerSectioncontrols.pyc",
+      "Length": 7830
+    }
+  ],
+  "enumerated_installation_files": 55212,
+  "correction": "Remote Include returned whole install inventory; exact filename filtering performed locally, no repeated enumeration or native execution."
+}

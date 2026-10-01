@@ -1,0 +1,16 @@
+{
+  "baseline_input_sha256": "8e8405152be773653f956df64fafe06d80ba7b9c5b75fe83ec7e2c719215fdf3",
+  "element_type": "CPE4R",
+  "PDMS_material": "PDMS_METHOD_SEED",
+  "PDMS_hyperelastic": "MOONEY_RIVLIN",
+  "separate_PDMS_ITO_solid_sections": true,
+  "explicit_section_controls_present": false,
+  "explicit_distortion_present": false,
+  "explicit_hourglass_present": false,
+  "version_identity": "Abaqus 2021 closed native DAT + current abaqus.bat -> abq2021.bat -> 2021 ABQLauncher.exe",
+  "effective_default_control_algorithm": "UNESTABLISHED_PENDING_2021_DOCUMENTATION",
+  "documentation_exact_filename_search_matches": 0,
+  "native_dispatches": 0,
+  "ODB_calls": 0,
+  "public_R1_fixed_commit": "73e6fbf9dc7cf8b3e21c45836847427bcd1970de"
+}

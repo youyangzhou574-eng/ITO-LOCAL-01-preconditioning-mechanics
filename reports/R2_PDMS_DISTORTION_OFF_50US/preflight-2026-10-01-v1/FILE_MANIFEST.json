@@ -1,0 +1,40 @@
+{
+  "status": "READONLY_START_PRECHECK_NATIVE_NOT_STARTED",
+  "files": [
+    {
+      "path": "reports/R2_PDMS_DISTORTION_OFF_50US/preflight-2026-10-01-v1/R2_START_PRECHECK_REPORT.md",
+      "sha256": "a2398da6f0c62bacb8e3ad66e189e6f87a62e180c2ea3cb8297da7b5981c6053",
+      "bytes": 2241
+    },
+    {
+      "path": "reports/R2_PDMS_DISTORTION_OFF_50US/preflight-2026-10-01-v1/R2_START_PRECHECK.json",
+      "sha256": "c08a9fe08a8cf0175208bbad1e0abf3b88bd864c77fe3f456e1f3b5c51b32caa",
+      "bytes": 757
+    },
+    {
+      "path": "reports/R2_PDMS_DISTORTION_OFF_50US/preflight-2026-10-01-v1/PRO_R2_DISTORTION_DIAGNOSTIC_DIRECTIVE.txt",
+      "sha256": "4bcc9c1d126f4160d971697bdd5560d2ff18b0fcac1831bbe99c9d84057738ec",
+      "bytes": 4919
+    },
+    {
+      "path": "reports/R2_PDMS_DISTORTION_OFF_50US/preflight-2026-10-01-v1/PRO_R2_DISTORTION_DIAGNOSTIC_DIRECTIVE_RECEIPT.json",
+      "sha256": "c607f2e9f178cb9e36d1bee0d3536e61565afea1163701c7f36cc3c3f6c5e598",
+      "bytes": 510
+    },
+    {
+      "path": "reports/R2_PDMS_DISTORTION_OFF_50US/preflight-2026-10-01-v1/R2_READONLY_INSTALLATION_DOC_ROOTS.json",
+      "sha256": "30197839e88b77e2333a2b052c0cf1842f445e4f8d2f88bc53c5a6d3dc5d3845",
+      "bytes": 849
+    },
+    {
+      "path": "reports/R2_PDMS_DISTORTION_OFF_50US/preflight-2026-10-01-v1/R2_READONLY_VERSION_INSTALLATION_PATHS.json",
+      "sha256": "1fd8caf94e973964e161d37a773dc5e945e87b2fbe56c0c0a9cfd37f0f177fe7",
+      "bytes": 691
+    },
+    {
+      "path": "reports/R2_PDMS_DISTORTION_OFF_50US/preflight-2026-10-01-v1/R2_READONLY_2021_SECTION_DOC_SEARCH_FILTERED.json",
+      "sha256": "64ab18fc259698d525cb64ff2b8dd4ed65822f672b9b0e2921b2fa119d3e70b4",
+      "bytes": 829
+    }
+  ]
+}

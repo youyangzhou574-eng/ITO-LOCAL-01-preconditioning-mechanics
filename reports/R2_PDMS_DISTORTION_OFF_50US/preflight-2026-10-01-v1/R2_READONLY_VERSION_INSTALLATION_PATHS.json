@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-01T04:48:02.0784533Z",
+  "EstProducts_directories": [
+    {
+      "Name": "2021",
+      "FullName": "D:\\SIMULIA\\EstProducts\\2021"
+    }
+  ],
+  "CAE_directories": [
+    {
+      "Name": "plugins",
+      "FullName": "D:\\SIMULIA\\CAE\\plugins"
+    }
+  ],
+  "version_launcher": [
+    "@echo off",
+    "setlocal",
+    "set ABA_COMMAND=%~nx0",
+    "set ABA_COMMAND_FULL=%~f0",
+    "\"D:\\SIMULIA\\EstProducts\\2021\\win_b64\\code\\bin\\ABQLauncher.exe\" %*",
+    "endlocal"
+  ],
+  "native_dispatches": 0,
+  "ODB_calls": 0,
+  "PSComputerName": "101.6.33.147",
+  "RunspaceId": "9397004d-34be-4c66-a096-8f1b83a3e8b1",
+  "PSShowComputerName": true
+}

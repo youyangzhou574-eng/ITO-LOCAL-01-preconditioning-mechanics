@@ -1,0 +1,37 @@
+{
+  "host": "DESKTOP-GQELUB9",
+  "utc": "2026-10-01T04:47:36.0575024Z",
+  "SIMULIA_directories": [
+    {
+      "Name": "CAE",
+      "FullName": "D:\\SIMULIA\\CAE"
+    },
+    {
+      "Name": "Commands",
+      "FullName": "D:\\SIMULIA\\Commands"
+    },
+    {
+      "Name": "EstProducts",
+      "FullName": "D:\\SIMULIA\\EstProducts"
+    },
+    {
+      "Name": "Isight",
+      "FullName": "D:\\SIMULIA\\Isight"
+    }
+  ],
+  "version_launch_files": [
+    {
+      "Name": "abq2021.bat",
+      "FullName": "D:\\SIMULIA\\Commands\\abq2021.bat"
+    }
+  ],
+  "launch_chain": [
+    "@echo off",
+    "\"D:\\SIMULIA\\Commands\\abq2021.bat\" %*"
+  ],
+  "native_solver_dispatches": 0,
+  "ODB_calls": 0,
+  "PSComputerName": "101.6.33.147",
+  "RunspaceId": "4ef74f53-c36c-4068-a9f3-48f9333b7c7a",
+  "PSShowComputerName": true
+}
