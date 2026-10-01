@@ -1,4 +1,4 @@
-# R1/R2 ԭ�����ƱȽ�
+# R1/R2 原生控制比较
 
 {"A": false, "B": false, "C": true, "D": false}
 
@@ -76,7 +76,7 @@ UNRESOLVED_DO_NOT_ANALYZE
      HOURGLASS CONTROL PARAMETER     1.0000    
 ~~~
 
-## ȫ��ԭ������
+## 全部原生警告
 ~~~text
 ***WARNING: D1 FOR HYPERELASTIC MATERIAL IS TOO SMALL. THIS LEADS TO A VERY 
              HIGH BULK MODULUS. A SUGGESTED VALUE FOR D1 IS BETWEEN 7.12251E-02 

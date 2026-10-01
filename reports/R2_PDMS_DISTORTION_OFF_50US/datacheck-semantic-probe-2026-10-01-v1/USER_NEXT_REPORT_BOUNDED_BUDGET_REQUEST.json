@@ -1,7 +1,7 @@
 {
   "status": "PENDING_NEXT_NORMAL_REPORT_ONLY",
   "source": "Direct human instruction through Dudu in original chat",
-  "instruction": "�û�����Ҫ���´�����ҳ�˱���ʱ����ͬʱ�������Ĺ���Ԥ�㣬�����ʺϵ�ǰ��Ŀ��ִ��ʱ�䡢�������������������ƽ���Χ��˵������������;���Լ��ٷ�����ʾ����ȷע�������û������Ҫ�󡣴˴�ֻ����һ���������������룬������׷��һ�α��棻����ǰ�����ص�ǰԤ���ֹͣ������",
+  "instruction": "用户新增要求：下次向网页端报告时，请同时申请更多的工作预算，包括适合当前项目的执行时间、计算或试验次数及自主推进范围，说明所需额度与用途，以减少反复请示。明确注明这是用户提出的要求。此次只在下一次正常报告中申请，不单独追加一次报告；获批前仍遵守当前预算和停止条件。",
   "separate_submission_allowed": false,
   "effective_current_budget_change": 0,
   "include_in": "Next normal scientific report or actual blocking evidence report",

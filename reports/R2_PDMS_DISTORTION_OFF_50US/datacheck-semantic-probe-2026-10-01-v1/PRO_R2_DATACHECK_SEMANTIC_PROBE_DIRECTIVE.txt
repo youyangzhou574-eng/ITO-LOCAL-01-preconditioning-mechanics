@@ -1,14 +1,14 @@
-�Ұ����ֽ����ˣ�������β����� R2 ���Ҳ��������� 2021 ���ġ����޿�ס��
+我把这轮接上了，而且这次不再让 R2 因“找不到公开的 2021 正文”无限卡住。
 
-���Ѿ�ʵ�ʶ�ȡ����鵵�� `R2_OFFLINE_READINESS_REPORT.md`��`R2_2021_WEB_SEARCH_FOLLOWUP.md`���Լ���ѡ diff��������ơ��汾ȱ�ڱ��� E �� binding��**����׼��û�з�����Ҫ������ʵ��ȱ��**��R2 ��� R1 �ĺ�ѡ����ȷʵֻ������ PDMS �� `CONTROLS=R2_PDMS_DC_OFF` ������ `DISTORTION CONTROL=NO`��ITO �α��ֲ��䣬Ҳû�� adaptive mesh������Ψһ������� 2021 Ĭ�����塣
+我已经实际读取了你归档的 `R2_OFFLINE_READINESS_REPORT.md`、`R2_2021_WEB_SEARCH_FOLLOWUP.md`，以及候选 diff、输入审计、版本缺口表和 E 盘 binding。**离线准备没有发现需要返工的实质缺项**：R2 相对 R1 的候选输入确实只增加了 PDMS 的 `CONTROLS=R2_PDMS_DC_OFF` 关联和 `DISTORTION CONTROL=NO`，ITO 段保持不变，也没有 adaptive mesh。现在唯一卡点就是 2021 默认语义。
 
-������Ҳ�������ˡ���ȷ�������£�
+网上我也继续查了。能确定三件事：
 
-- SIMULIA �ٷ�������һƪ **2021-10-07** �����ӣ�ֱ������ Abaqus 2021 ��������չʾ�� `*Section Controls, DISTORTION CONTROL=NO, hourglass=ENHANCED` �� `*SOLID SECTION` �Ĺ������������׹ؼ�������� 2021 ��ϵ��ȷʵ���ڡ����Ǹ���������������/Standard��**��������֤������������ Explicit CPE4R ��Ĭ�Ϲ���**��:chatgpt-content-reference{index="0"}
-- ��ǰ�ٷ� Section Controls �ĵ���ȷд�ţ�Explicit �г�����/Hyperfoam ��Ĭ�� hourglass �� **ENHANCED**�������峬���Բ���Ĭ������ distortion control���������ʱ���������������� `ALLAE` ����Ժ�ɢ���������֧������ΪʲôҪ�� R2�������Ǻ����汾֤�ݣ�����ð�� 2021 ���ġ�:chatgpt-content-reference{index="1"}
-- һ������ Abaqus �ĵ�����Ҳ������ͬ���Ĺؼ���Ĭ�Ϲ���`HOURGLASS=ENHANCED` �� hyperelastic ��Ĭ�ϣ��� `DISTORTION CONTROL=YES` �� hyperelastic ��Ĭ�ϣ�`NO` ��ȷ�ر������汾��Ӧ��ϵ���޷�֤��������Ҳֻ����Ϊ��汾һ����֤�ݡ�:chatgpt-content-reference{index="2"}
+- SIMULIA 官方社区有一篇 **2021-10-07** 的帖子，直接链接 Abaqus 2021 帮助，并展示了 `*Section Controls, DISTORTION CONTROL=NO, hourglass=ENHANCED` 与 `*SOLID SECTION` 的关联；所以这套关键词组合在 2021 体系里确实存在。但那个例子是塑性弯曲/Standard，**不能拿来证明本案超弹性 Explicit CPE4R 的默认规则**。:chatgpt-content-reference{index="0"}
+- 当前官方 Section Controls 文档明确写着：Explicit 中超弹性/Hyperfoam 的默认 hourglass 是 **ENHANCED**，而固体超弹性材料默认启用 distortion control；两者组合时还会引入少量计入 `ALLAE` 的黏性耗散。这个正好支持我们为什么要做 R2，但它是后续版本证据，不能冒充 2021 正文。:chatgpt-content-reference{index="1"}
+- 一个公开 Abaqus 文档镜像也给出了同样的关键词默认规则：`HOURGLASS=ENHANCED` 是 hyperelastic 的默认，而 `DISTORTION CONTROL=YES` 是 hyperelastic 的默认；`NO` 明确关闭它。版本对应关系仍无法证明，所以也只能作为跨版本一致性证据。:chatgpt-content-reference{index="2"}
 
-����������޸ġ�֤�ݻ�ȡ·������**���޸���������**��
+因此我现在修改“证据获取路径”，**不修改物理问题**：
 
 ```text
 project_id: ITO_PRECONDITIONING_LOCAL_MECHANICS
@@ -20,33 +20,33 @@ decision_id:
 ITOL01-PRO-R2-2021-DATACHECK-SEMANTIC-PROBE-20261001-01
 ```
 
-### ��һ��������Ψһһ�� R2 datacheck������ʱ���� analysis
+### 下一步：放行唯一一次 R2 datacheck，但暂时不放 analysis
 
-��� datacheck ���ٱ����ɡ���ʽ�ĵ������Ʒ�������ǵ���**��װ�е� Abaqus 2021 �Զ����ѡ����İ汾��������̽��**���Ȿ�������Ѿ���׼�� R2 ���� datacheck 1/1 Ԥ����������κζ�ȡ�
+这次 datacheck 不再被当成“正式文档的替代品”，而是当成**安装中的 Abaqus 2021 对冻结候选输入的版本锁定语义探针**。这本来就在已经批准的 R2 正常 datacheck 1/1 预算里，不增加任何额度。
 
-ֱ��ʹ�����ڶ���ĺ�ѡ���룺
+直接使用现在冻结的候选输入：
 
 ```text
 SHA256 =
 6421953d8c038f80046f30b8619c7359ee7c148fed8f8f73325a07ecc122c267
 ```
 
-�����ٸ� `HOURGLASS`�������������ڶ��� controls��
+不得再改 `HOURGLASS`，不得再新增第二套 controls。
 
-datacheck ������ **R1 �� R2 �Ŀ������ DAT ���鲢�űȽ�**��������ֻ�� `exit=0`���ص��ң�
+datacheck 后必须把 **R1 与 R2 的控制相关 DAT 区块并排比较**，而不是只报 `exit=0`。重点找：
 
-1. R2 �� `DISTORTION CONTROL=NO` �Ƿ��� `ignored / invalid / not applicable / replaced` һ�ྯ�档
-2. R2 �� PDMS �Ƿ�����ʾ�� R1 ��ͬ�� **default hourglass control** ���֤���ȼ۵� resolved hourglass ������
-3. hourglass parameter �Ƿ��Ա���ԭֵ/Ĭ��ֵ��û����Ϊ�����µ� Section Controls ���������ó���һ�ַ�����
-4. ITO property/section �� control ��������� R1 ��Ӧ�鱣��һ�£�û�б� `R2_PDMS_DC_OFF` ������
-5. CPE4R��PDMS/ITO element counts�����ϰ󶨺� section identity ȫ�����䡣
-6. DAT/MSG ���������κ�˵����ָ�� distortion control ��ͬʱ���˱�� formulation������Ϣ������ͣ�� datacheck�������� analysis��
+1. R2 对 `DISTORTION CONTROL=NO` 是否有 `ignored / invalid / not applicable / replaced` 一类警告。
+2. R2 的 PDMS 是否仍显示与 R1 相同的 **default hourglass control** 或可证明等价的 resolved hourglass 表述。
+3. hourglass parameter 是否仍保持原值/默认值，没有因为定义新的 Section Controls 被悄悄重置成另一种方法。
+4. ITO property/section 的 control 输出必须与 R1 对应块保持一致，没有被 `R2_PDMS_DC_OFF` 关联。
+5. CPE4R、PDMS/ITO element counts、材料绑定和 section identity 全部不变。
+6. DAT/MSG 中若出现任何说明“指定 distortion control 后同时改了别的 formulation”的信息，立即停在 datacheck，不启动 analysis。
 
-`*SOLID SECTION, CONTROLS=name`ȷʵ�ǽ�һ�� Section Controls ���������ָ�� solid section �Ļ��ƣ���ǰ�ٷ��ؼ���˵������������塣:chatgpt-content-reference{index="3"}
+`*SOLID SECTION, CONTROLS=name`确实是将一个 Section Controls 定义关联到指定 solid section 的机制；当前官方关键词说明仍是这个语义。:chatgpt-content-reference{index="3"}
 
-### ʲôʱ�������Զ����� analysis
+### 什么时候允许自动继续 analysis
 
-���Ψһ datacheck ͬʱ��������������
+如果唯一 datacheck 同时满足下面四条：
 
 ```text
 A. 2021 parser accepts DISTORTION CONTROL=NO for this Explicit CPE4R case
@@ -55,15 +55,15 @@ C. ITO section/control state remains unchanged
 D. no additional formulation/default change is reported
 ```
 
-��ô�ҽ�����������֤������
+那么我接受下面这条证据链：
 
-> 2021 ʵ�ʰ�װ����  
-> + ����ĵ������������  
-> + 2021 ԭ�� input processor/datacheck ��ʵ�����õıպ����  
-> + 2016��2025 ��汾�ĵ�һ����  
-> + 2021 SIMULIA �ٷ������Թؼ����﷨/������ʽ�İ汾����֤
+> 2021 实际安装身份  
+> + 冻结的单变量输入差异  
+> + 2021 原生 input processor/datacheck 对实际配置的闭合输出  
+> + 2016→2025 跨版本文档一致性  
+> + 2021 SIMULIA 官方案例对关键词语法/关联方式的版本内佐证
 
-��**���ǡ��ҵ���2021�ֲ����ġ�**��Ҫ�ڱ�������ȷд�ɣ�
+它**不是“找到了2021手册正文”**，要在报告中明确写成：
 
 ```text
 2021_MANUAL_BODY_NOT_OBTAINED
@@ -71,33 +71,33 @@ SEMANTICS_QUALIFIED_BY_VERSION_LOCKED_NATIVE_DATACHECK
 AND_CROSS_VERSION_DOCUMENTATION_CONSISTENCY
 ```
 
-����������£�**�����ٴλ�����ͬ�����ɣ�ֱ��ִ��ԭ��ͬ��Ψһ R2 analysis**��
+在这种情况下，**无需再次回来问同义许可，直接执行原合同中唯一 R2 analysis**。
 
-����������� datacheck ֻ֤�����ؼ���û����������û���㹻��Ϣ�ж� hourglass �Ƿ����� R1 �ȼۣ���ô״̬���ǣ�
+反过来，如果 datacheck 只证明“关键词没报错”，但没有足够信息判断 hourglass 是否仍与 R1 等价，那么状态就是：
 
 ```text
 DATACHECK_ACCEPTED_BUT_HOURGLASS_EQUIVALENCE_UNRESOLVED
 ```
 
-��ʱ������ analysis���� R1/R2 DAT ���������;���ֱ���ύ���ҡ��Ҳ���������ȥ�ظ���ͬһ����ҳ��Ҳ������������һ�� `HOURGLASS=ENHANCED` �����á�
+此时不启动 analysis，把 R1/R2 DAT 相关完整块和警告直接提交给我。我不会让你再去重复搜同一批网页，也不会让你试另一套 `HOURGLASS=ENHANCED` 猜配置。
 
-### analysis �������ԭ�ű���
+### analysis 启动后的原门保持
 
-һ������ R2 analysis����Ȼֻ��������������⣺
+一旦进入 R2 analysis，仍然只看这个单因素问题：
 
-> **�ر� PDMS distortion control ��ԭ��Լ 10% �� ALLAE ���Ѻ���Ӧ�Ƿ���ϵͳ�Ըı䣬ͬʱ�����Ƿ�����Ч��**
+> **关闭 PDMS distortion control 后，原来约 10% 的 ALLAE 和裂后响应是否发生系统性改变，同时几何是否仍有效。**
 
-����ԭ�ţ�
+保持原门：
 
-- `ALLAE/E* �� 5%`
-- `ETOTAL drift/E* �� 1%`
-- `ALLVD/E* �� 5%`
-- ALLDC ��ԭ�������Ա��棬ITO ȱʧ������ 0
-- ���Ԫ Jacobian / overlap / BC / STATUS / ɾ��������
-- ��¼ÿ�������ŵ��״�Խ�磬������ֻ����ֵ
-- analysis ���������Զ�����
-- �ر� distortion control �������� PDMS ��ת��������� fatal distortion��**�Ȿ������ R2 ����Ҫ����Ͻ��֮һ�����������´򿪿��ơ���������**
+- `ALLAE/E* ≤ 5%`
+- `ETOTAL drift/E* ≤ 1%`
+- `ALLVD/E* ≤ 5%`
+- ALLDC 按原生可用性报告，ITO 缺失绝不填 0
+- 活动单元 Jacobian / overlap / BC / STATUS / 删除单调性
+- 记录每个质量门的首次越界，而不是只报终值
+- analysis 已启动后不自动重跑
+- 关闭 distortion control 后若出现 PDMS 翻转、负体积或 fatal distortion，**这本身就是 R2 最重要的诊断结果之一，不允许重新打开控制“救算例”**
 
-��Դ�źͶ��� E �� binding �������Ѿ�����İ汾������������Ҫ��
+资源门和独立 E 盘 binding 都按你已经冻结的版本继续，无新增要求。
 
-������������ڿ���**������Ψһһ������ R2 datacheck**��������һ��������Ҫ�ٵ����ҵ�һ�������ɷ��ʵ� Abaqus 2021 �ֲ᾵��datacheck ����ѵ���������պϣ����������� analysis���պϲ��ˣ�ֻ�ύ��һС�ο���֤�ݣ���Ҫ��������Ŀ�ٴ�Ī��ͣס��
+所以桌面端现在可以**立即做唯一一次正常 R2 datacheck**。这是下一步，不需要再等我找到一个公开可访问的 Abaqus 2021 手册镜像。datacheck 如果把单变量语义闭合，就连续进入 analysis；闭合不了，只提交那一小段控制证据，不要让整个项目再次莫名停住。
