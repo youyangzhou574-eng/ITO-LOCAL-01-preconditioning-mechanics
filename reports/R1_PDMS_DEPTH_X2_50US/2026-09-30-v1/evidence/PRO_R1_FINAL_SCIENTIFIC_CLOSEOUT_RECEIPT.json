@@ -1,0 +1,18 @@
+{
+  "reply_id": "d8ddcab0-0c13-4e1e-ad4d-d20f2318504a",
+  "source_report_id": "ITOL01-R1-PDMS-DEPTH-DIAGNOSTIC-REPORT-20260930-01",
+  "available_completed_epoch": 1790815992.500613,
+  "available_completed_utc": "2026-10-01T00:53:12.500613+00:00",
+  "original_text_sha256": "b90b39adfa0d10b60b695dfc1ac5502ef8bc2bb2ec71c0f6d232d42bf971c22a",
+  "bytes": 5637,
+  "chars": 3841,
+  "original_text_preserved_exactly": true,
+  "full_text_complete": true,
+  "source": "R1_REPORT_PART_19_VISIBLE_ACKNOWLEDGED.json",
+  "package_status": "COMPLETED_DIAGNOSTIC_ONLY",
+  "qualification": "FAILED_NOT_QUALIFIED",
+  "budget": "CLOSED",
+  "new_native_work_authorized": false,
+  "at_utc": "2026-10-01T00:56:06.903366+00:00",
+  "source_review_note": "Original paired reply preserved verbatim. Its force delta/Fref=1.258 wording is not adopted as a new R1 qualification gate; frozen R1 comparison audit specifies descriptive sensitivity and NO_NEW_FORCE_5PCT_GATE. No physics or budget change executed."
+}

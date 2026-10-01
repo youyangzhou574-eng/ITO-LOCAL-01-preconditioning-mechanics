@@ -1,0 +1,169 @@
+{
+  "status": "ALL_19_PARTS_EXACT_VISIBLE_AND_FULL_REPORT_ACKNOWLEDGED",
+  "report_sha256": "89943da677382d6edc698c9ec44e61b583c4ec82a4e9185eaa42eaf77544ea85",
+  "report_bytes": 200174,
+  "total_parts": 19,
+  "unique_visible_user_messages": 19,
+  "total_send_calls": 20,
+  "part2_history": "Original tool Internal Server Error retained; explicit paired acknowledgment and fresh absence permitted one same-payload continuation. Exactly one visible PART2 confirmed. All other parts sent once.",
+  "end_markers_visible": true,
+  "parts": [
+    {
+      "part": 1,
+      "web_user_id": "d8ce7178-541f-4b2d-afa1-0a6d51716dc4",
+      "payload_sha256": "8db850cbd8cc5286c474f826060f986bcb2446de2606290de822d37fb148367a",
+      "visible_sha256": "84ce03da6c75f438ee61946b499a01b36a6fbbaa382fc19cfacdbf7d7ef872e2",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_INLINE_DELIVERY_VISIBLE_RECONCILIATION.json"
+    },
+    {
+      "part": 2,
+      "web_user_id": "2efce241-37a5-4713-98ae-2717248328c6",
+      "payload_sha256": "d718e912b8acf889e5890beb35ab60e33ce2ae59823054f8cb56fec51908c78c",
+      "visible_sha256": "43f189d6fd0e6eda9aa5f8a430aa7a26fb6f2215356e05be94a0e5b9d6e63d30",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_02_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 3,
+      "web_user_id": "3e24d8c9-a76f-4fac-875e-8882b9b87ac2",
+      "payload_sha256": "db8994d9f2b4ecaa34933f6d8983d87d0c7a97531160654c2e68caaa1821e679",
+      "visible_sha256": "facb8621449d1fd1ba590a13a05ee68482fcbaaa0cfcb8c1ad550a2e66e78fe3",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_03_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 4,
+      "web_user_id": "0108151b-2c59-418a-9720-72fc9f17a0d0",
+      "payload_sha256": "53147790ab49b274834671cc9dff1ed3ad53022ac579f77d29b696f3ac6da51a",
+      "visible_sha256": "691a96ed856fbeaa90ab6931b38eed6235834681ca4efe06fc1af31ead223339",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_04_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 5,
+      "web_user_id": "8d3798db-efb8-4607-afe2-9a0c317290f1",
+      "payload_sha256": "43c91b7d32bedd2d5e4e20de46ae509cd5778ef9fe46ded5ff7ddacf60434680",
+      "visible_sha256": "27131c43d5f4e564a399fb6a9f68837f3f5774a078e81f2dcac131f235fc545c",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_05_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 6,
+      "web_user_id": "82ff8c28-d9ef-49d3-ad59-400aeb1e8eb5",
+      "payload_sha256": "1876ac7dc866225154e581e50eadc225531fa4094a31fe518f586b48239e2b14",
+      "visible_sha256": "7cc21d48051c94caa976ff44dfecbd79c54051b2067cc97c3fbe06b61bfcb59d",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_06_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 7,
+      "web_user_id": "82bc28b8-cc25-4ecb-b5e6-917e9b520a19",
+      "payload_sha256": "d73d305c87eb421cf0e3d264afe9bfb01847ec16d608280b63dfb8a50d4b0bf7",
+      "visible_sha256": "84348dbe5bb1139043f6062d82fce0853e7f8b184895ee1dbf3412f7b1a45879",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_07_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 8,
+      "web_user_id": "a0d8fe7a-2de6-4d66-9f20-a76f16df4a08",
+      "payload_sha256": "d168b2c641667cc674b6f285f786f4382ab70ce4b1e77e224dce9a50b70285e6",
+      "visible_sha256": "2c7e348d0862cb0adf5818b010001fb59edbb82736c9894515cdf01aa0477024",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_08_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 9,
+      "web_user_id": "c02e583f-f9cc-432d-86ea-f499fba4885b",
+      "payload_sha256": "cb8f9c347402075bd8115a06e65bebe339c0613c6133231ba48391b1c73b664a",
+      "visible_sha256": "8d5064b10a288b46d1c320fa088e3f6dc8f36b2697fd54025a2d2c32520f1965",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_09_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 10,
+      "web_user_id": "2724b7af-b0c4-4d1e-a7b7-ed524fe2cdaa",
+      "payload_sha256": "b99aa772d90149023079cb7147a48308aa304a084fcc33ae7292ab600e655cd0",
+      "visible_sha256": "b62abbd42f14a9cd719dbe65f7a48fdd55ef8913760b48082dd9ba1fa2c61fb7",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_10_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 11,
+      "web_user_id": "9f58beda-e3a8-4c38-88f4-b9b48de9f2d0",
+      "payload_sha256": "02b6aa8837533b61e4bdc1df390fc826855d69eae39572a6fa174f3543262fac",
+      "visible_sha256": "9abc1fcc21b1392230f65c00f2c3e6fe758a388d98a76cc983c3e66ba6cfed0b",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_11_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 12,
+      "web_user_id": "bc239111-27ab-46d8-a661-1f5140348887",
+      "payload_sha256": "b56b7149288d245b7b76d55a4dd6eeb001913a166ec12036a8b6cb7003a8141e",
+      "visible_sha256": "e3196ecd297f2a8786fda2f03be84a1077865f7a870d9a61ea3dabe1cb089cf3",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_12_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 13,
+      "web_user_id": "aa0906f1-cc08-4dce-bf7c-2d00073b570b",
+      "payload_sha256": "52fbeb4d299a62ce7468453fc5e1ab3f0d4cc8c0d42a85b24d5254a8424072f7",
+      "visible_sha256": "4cb3c4483b76461aa2f22099655f5b1a281950846c79b1b2787f66d2edb6f998",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_13_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 14,
+      "web_user_id": "49486010-a4c8-4f20-afaf-ad2d883d0ca1",
+      "payload_sha256": "208dca362e1e1707656954f76744c9650c9f74fd7e9b346d8f0888bd3a81f458",
+      "visible_sha256": "9d43f2b2687a4ec110d35f1a588fa88bd654ae64e1e89cd3b6071e75e6210866",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_14_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 15,
+      "web_user_id": "cfab9971-b3e4-4067-8bb7-1d5663bc4a8f",
+      "payload_sha256": "c1bca835989bda7b35f95bcd28bdcb73fcef14a7d576a49230ca4efca18ef2a0",
+      "visible_sha256": "44c109c96ddf6eeb9edaad199a91c7e28b8190cb25958d29123225486468d1ab",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_15_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 16,
+      "web_user_id": "e03ed69e-502e-4bad-8a6f-c31d3ef6977c",
+      "payload_sha256": "54a22e79e6d7def598ca6100864257e701a535e9eb483eec6815e3d72459a916",
+      "visible_sha256": "ed270cc523dbe7362f111c25d91a2195396a61b0b66d309bfeeae8777c4cb1d6",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_16_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 17,
+      "web_user_id": "9441a1ee-a8fe-4a27-ac7d-6e194cd39483",
+      "payload_sha256": "88cc0f519f24980b82352840c139bf87c157212ae5fb308d73655ceabf665085",
+      "visible_sha256": "4ccb2e88eba7dfa15039d0d88270c03d1c957afe0cc962b0f0bae50ac7b89fb2",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_17_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 18,
+      "web_user_id": "7dfbed26-9875-4d02-b56c-3af9b796bcb9",
+      "payload_sha256": "565b839b1bdb1106e6f07ad82f22194f45e215cd354114ba595ed03c96e0a6fb",
+      "visible_sha256": "0e0ebdc83d528f2b89db944cef6f24b0f12cc8eea60473e3771abab9caca79ee",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_18_VISIBLE_ACKNOWLEDGED.json"
+    },
+    {
+      "part": 19,
+      "web_user_id": "5f47839a-ced2-4f9d-aa3f-e83c7289ff94",
+      "payload_sha256": "0f0ac1d2918343e73ec198e54fd6d07518cdabb484094058f2d43494c2a2aafd",
+      "visible_sha256": "1f068f981e700c7977c16adedcf915a871fd1595c37b2ad6e61de5aa01353b5b",
+      "terminal_LF_omitted_only": true,
+      "visible_snapshot": "R1_REPORT_PART_19_VISIBLE_ACKNOWLEDGED.json"
+    }
+  ],
+  "final_reply_id": "d8ddcab0-0c13-4e1e-ad4d-d20f2318504a",
+  "final_reply_sha256": "b90b39adfa0d10b60b695dfc1ac5502ef8bc2bb2ec71c0f6d232d42bf971c22a",
+  "actual_attachments_uploaded": false,
+  "actual_images_received_by_Pro": false,
+  "at_utc": "2026-10-01T00:56:06.903366+00:00"
+}

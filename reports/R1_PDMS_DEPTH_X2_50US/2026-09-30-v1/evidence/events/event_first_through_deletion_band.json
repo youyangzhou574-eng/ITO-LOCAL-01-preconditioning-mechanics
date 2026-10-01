@@ -1,0 +1,21 @@
+{
+  "time_bracket_s": [
+    1.3250003576104064e-05,
+    1.3262505490274634e-05
+  ],
+  "macro_strain_bracket": [
+    0.0023992847122015536,
+    0.0024049796788102166
+  ],
+  "observed_frame": 1061,
+  "bands": [
+    {
+      "reference_x_range_mm": [
+        0.01181640625,
+        0.01181640625
+      ],
+      "element_count": 4,
+      "location": "GAUGE_OR_SPANNING"
+    }
+  ]
+}

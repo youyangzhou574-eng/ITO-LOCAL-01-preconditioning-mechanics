@@ -1,0 +1,161 @@
+```yaml
+project_id: ITO_PRECONDITIONING_LOCAL_MECHANICS
+client_id: ITO-LOCAL-01
+client_thread_id: 01a0d157-8547-7552-bb05-9a1c1c92698d
+package_id: ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1
+case_id: R1_PDMS_DEPTH_X2_50US
+
+decision_id: ITOL01-PRO-R1-MONITOR-RECONNECT-20260930-01
+in_reply_to: ITOL01-R1-EXTRACTION-MONITOR-CONNECTION-FIRSTERROR-20260930-01
+governing_execution_decision: ITOL01-PRO-PDMS-DEPTH2X-EXEC-20260930-01
+
+DECISION: AUTHORIZE_BOUNDED_READONLY_MONITOR_RECONNECTION
+scope: RESTORE_VISIBILITY_OF_EXISTING_EXTRACTION_ONLY
+evidence_basis: INLINE_CLIENT_CONNECTION_ERROR_AND_LAST_SUCCESSFUL_SNAPSHOT
+independent_server_or_file_verification: false
+
+current_status:
+  existing_extraction_attempt: extract_attempt01
+  last_observed_extraction_status: RUNNING
+  last_observed_completed_frames: 1001
+  last_observation_local_utc: "2026-09-30T20:37:14.8302930Z"
+  current_extraction_status: UNKNOWN
+  extraction_failure_established: false
+  extraction_completion_established: false
+  source_corruption_established: false
+
+permissions:
+  reconnect_same_authorized_WinRM_endpoint_and_account: true
+  readonly_poll_existing_attempt: true
+  start_another_extractor_or_wrapper: false
+  call_openOdb_from_monitor: false
+  terminate_suspend_or_restart_remote_tasks: false
+  change_account_authentication_firewall_service_or_permissions: false
+  delete_or_overwrite_existing_attempt: false
+
+bounded_connection_recovery:
+  additional_connection_attempts_max: 3
+  sequential_only: true
+  delays_before_attempts_seconds: [60, 120, 240]
+  monitor_only_OpenTimeout_ms: 90000
+  nested_automatic_connection_retries: DISABLE_FOR_THIS_BOUNDED_LOOP
+  stop_after_first_success: true
+  stop_early_on_authentication_or_identity_error: true
+  second_Pro_permission_after_successful_reconnection: false
+
+budget:
+  additional_native_budget: 0
+  normal_R1_extraction_used: 1
+  normal_R1_extraction_remaining: 0
+  extraction_technical_recovery_used: 0
+  extraction_technical_recovery_remaining: 1
+  shared_prelaunch_recovery_used: 0
+  shared_prelaunch_recovery_remaining: 1
+  monitor_reconnection_consumes_native_or_technical_recovery: false
+  additional_ODB_open_authorized_by_this_decision: 0
+
+next_task: RECONNECT_READONLY_VERIFY_EXISTING_ATTEMPT_THEN_RESUME_ORIGINAL_COMPLETION_CHAIN
+```
+
+**允许按同一WinRM连接方式、同一账户进行有限只读重连。不要重新派发提取，也不要消耗提取技术恢复额度。**
+
+这次已经明确失败的是**监控会话建立**，不是提取程序。当前应维持：
+
+> **最后一次观察为正在提取，已完成1001帧；当前远端状态未知。**
+
+不能把旧的`RUNNING`当成当前状态，也不能因监控超时就改为`EXTRACTION_FAILED`。我没有独立查看服务器，用户授权处置此前PID51476及其后的资源恢复，均按本次客户端回执记录，**不延伸为结束其他进程的授权**。
+
+## 一、TCP可达不等于监控会话或提取任务正常
+
+你报告的5985端口连接成功，只支持该时刻TCP连接可建立，不能证明认证、PowerShell会话创建或提取状态读取已经成功。`Test-WSMan`可以进一步测试WS-Management服务的识别响应，但它也不能代替读取本次提取的实际进度。:chatgpt-content-reference{index="0"}
+
+因此，**不要依据通用错误文字直接调整防火墙、重启WinRM，或认定此前内存问题复发**。当前没有足够证据确定这次超时的根因。
+
+## 二、现在执行一轮有界重连，不让连接问题造成重复提取
+
+### 1. 同一入口，最多三次额外连接尝试
+
+在已报告的首次失败之后，按以下顺序进行：
+
+| 额外尝试 | 开始前等待 | 动作 |
+|---|---:|---|
+| 第1次 | 60秒 | 同账户、同端点建立只读监控连接 |
+| 第2次 | 上一次明确返回失败后120秒 | 相同连接方式 |
+| 第3次 | 上一次明确返回失败后240秒 | 相同连接方式 |
+
+**成功一次即结束重连循环；任一尝试尚未返回时，不并发发起下一次。**等待按本地单调时间计，不用存在偏差的服务器时钟控制。
+
+本轮允许仅对监控连接的局部选项设置：
+
+```text
+OpenTimeout = 90000 ms
+MaxConnectionRetryCount = 0
+```
+
+第二项用于避免“外层三次、内层又自动多次”的叠加。保留原连接的认证、加密、端点和其余安全选项，不修改全局配置。官方将`OpenTimeout`定义为建立连接的等待时间，将`MaxConnectionRetryCount`定义为网络问题下的连接重试次数。:chatgpt-content-reference{index="1"}
+
+**这不是给提取进程设置90秒时限。**不要把连接超时参数转成远端命令或提取器的终止计时器；`OperationTimeout`也不是远端进程的运行时长限制。:chatgpt-content-reference{index="2"}
+
+每次只记录连接开始、结束、实际耗时、错误类型和是否取得会话，不输出凭据。若出现明确的账户拒绝、认证失败或目标身份不一致，提前停止重试并报告，不改账户或安全设置。
+
+### 2. 可选的一次协议检查，不增加新的登录途径
+
+若首次重连仍超时，允许用**相同端点及既有认证方式**做一次`Test-WSMan`，把结果用于区分“TCP可达但WS-Man无响应”和“WS-Man响应但会话创建失败”。
+
+它只是辅助诊断，不是新准入条件，也不能据成功结果宣布提取健康。**不扫描其他端口、不切换SSH、RDP、账户或连接协议。**
+
+### 3. 三次仍失败，就停连接重试，不动提取任务
+
+记录：
+
+```text
+MONITOR_RECONNECT_ATTEMPTS_EXHAUSTED
+EXTRACTION_CURRENT_STATE_UNKNOWN
+EXISTING_ATTEMPT_PRESERVED
+```
+
+及时通知用户或服务器负责人：需要恢复远程监控可见性，**并非已经确认提取失败**。本轮不继续无限创建会话，也不因失联结束远端进程。
+
+## 三、重连成功后的第一件事：读原attempt，而不是再跑启动器
+
+只核查：
+
+```text
+R1 / extract_attempt01
+原包装进程记录：42676
+原提取进程记录：52592
+原提取身份及来源哈希
+```
+
+PID仅作历史定位，需结合本次attempt记录和可取得的进程创建时间确认，不能把同PID的新进程误认成旧任务。
+
+读取内容限制为：**不可变进度快照、完成／失败记录、少量日志尾部、相关进程状态及当前内存余量**。不在每次poll中散列13.9 GB的ODB，不加载完整数组，不读取正在改写的临时清单。
+
+随后按实际状态接续：
+
+| 重连后观察 | 下一动作 |
+|---|---|
+| 仍运行，进度或相关进程活动可确认 | 恢复原轻量监控，不重新提交 |
+| 已完整结束 | 按既有完成清单、源身份、运输核验及科学审计流程继续 |
+| 有明确提取失败记录 | 保存首错与已输出范围，按实际失败另行判断；**本条不释放提取恢复** |
+| 进程已退出，但完成／失败证据不完整 | 标记完成状态未确定，检查已有闭合日志，不重新派发 |
+| 出现资源硬门 | 按既有资源保护规则报告，不沿用历史108.83 GiB快照宣布安全 |
+
+**连接恢复后无需再向我申请“可以继续读取进度”。**原来的提取完成、运输和R1／FL1比较链仍有效。
+
+## 四、预算保持原值，连接重试与提取恢复分开
+
+当前正常R1提取已经实际派发，故正常提取 **1/1已用**，不能因这次监控失败回退。
+
+但是，这次poll没有调用ODB、没有新派发提取，因此：
+
+```text
+提取技术恢复：仍为0/1已用
+共享预启动恢复：仍为0/1已用
+本条新增ODB读取：0
+本条新增原生作业：0
+```
+
+追加监控连接事件即可，不更改原提取attempt状态。**恢复可见性不需要重新做已通过的125.63秒提取准入窗口**；那个窗口用于启动提取，不能被误用成“内存不满足启动门就连进度也不许读”。当前只读监控仍须保持轻量。
+
+**现在执行：有限重连 → 核实原`extract_attempt01`当前状态 → 继续原监控或完成链。不要把“看不到任务”当成“任务没在运行”，也不要为恢复监控而制造第二个提取进程。**

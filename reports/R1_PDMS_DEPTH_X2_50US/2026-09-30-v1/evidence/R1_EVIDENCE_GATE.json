@@ -1,0 +1,21 @@
+{
+  "case": "R1",
+  "scientific_gate": false,
+  "core_geometry_checks": {
+    "native_mesh_identity": true,
+    "core_fields_available_all_active": true,
+    "initial_intact_zero_cracks": true,
+    "field_BC_residual": true,
+    "positive_active_Jacobians": true,
+    "no_nonlocal_overlap": true,
+    "deletion_monotonic": true,
+    "initial_zero_U_S_LE": true,
+    "complete_native_field_frame_sequence": true,
+    "no_unexplained_overstress_without_native_cracking": true
+  },
+  "energy_pass": false,
+  "energy_evidence_complete_finite": false,
+  "mode": "CRACKING_AND_DELETION_OBSERVED_SPATIAL_DISTRIBUTION_REPORTED",
+  "input_sha256": "8e8405152be773653f956df64fafe06d80ba7b9c5b75fe83ec7e2c719215fdf3",
+  "ODB_sha256": "7328373d2866693c0ab9cf4ef595c188f6028f034044356596e8e0236b762e50"
+}

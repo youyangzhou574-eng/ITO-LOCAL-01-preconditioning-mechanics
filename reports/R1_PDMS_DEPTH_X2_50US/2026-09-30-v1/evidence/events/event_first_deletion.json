@@ -1,0 +1,142 @@
+{
+  "time_bracket_s": [
+    1.3250003576104064e-05,
+    1.3262505490274634e-05
+  ],
+  "macro_strain_bracket": [
+    0.0023992847122015536,
+    0.0024049796788102166
+  ],
+  "last_frame": 1060,
+  "observed_frame": 1061,
+  "points": [
+    {
+      "element_label": 24879,
+      "reference_mm": [
+        0.011816406250000001,
+        1.875e-05
+      ],
+      "current_mm": [
+        0.011820520888190127,
+        4.563317405648674e-06
+      ],
+      "thickness_layer_1to4": 1,
+      "native_crack_direction_states": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "S_maxPrincipal_before_MPa": 28.596695150963203,
+      "active_at_observation": false,
+      "S_maxPrincipal_first_observed_MPa": null,
+      "native_CKLE": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_CKLS": [
+        89779.15625,
+        33200.23828125,
+        33204.4375,
+        -13.031693458557129
+      ]
+    },
+    {
+      "element_label": 25391,
+      "reference_mm": [
+        0.011816406250000001,
+        5.625e-05
+      ],
+      "current_mm": [
+        0.011820523309871949,
+        4.2062697523794324e-05
+      ],
+      "thickness_layer_1to4": 2,
+      "native_crack_direction_states": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "S_maxPrincipal_before_MPa": 28.672691547349643,
+      "active_at_observation": false,
+      "S_maxPrincipal_first_observed_MPa": null,
+      "native_CKLE": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_CKLS": [
+        89854.5078125,
+        33230.68359375,
+        33233.00390625,
+        -12.870854377746582
+      ]
+    },
+    {
+      "element_label": 25903,
+      "reference_mm": [
+        0.011816406250000001,
+        9.375e-05
+      ],
+      "current_mm": [
+        0.01182052572859336,
+        7.956273898260575e-05
+      ],
+      "thickness_layer_1to4": 3,
+      "native_crack_direction_states": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "S_maxPrincipal_before_MPa": 28.766582688424265,
+      "active_at_observation": false,
+      "S_maxPrincipal_first_observed_MPa": null,
+      "native_CKLE": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_CKLS": [
+        89826.3046875,
+        33218.62109375,
+        33222.12890625,
+        -12.919549942016602
+      ]
+    },
+    {
+      "element_label": 26415,
+      "reference_mm": [
+        0.011816406250000001,
+        0.00013125
+      ],
+      "current_mm": [
+        0.01182052806018314,
+        0.00011706255287966864
+      ],
+      "thickness_layer_1to4": 4,
+      "native_crack_direction_states": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "S_maxPrincipal_before_MPa": 28.865431035461395,
+      "active_at_observation": false,
+      "S_maxPrincipal_first_observed_MPa": null,
+      "native_CKLE": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "native_CKLS": [
+        89797.734375,
+        33207.421875,
+        33211.390625,
+        -12.877264022827148
+      ]
+    }
+  ]
+}

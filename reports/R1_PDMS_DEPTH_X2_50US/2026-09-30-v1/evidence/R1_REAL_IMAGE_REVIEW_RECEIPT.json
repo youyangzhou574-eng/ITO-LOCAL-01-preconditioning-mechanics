@@ -1,0 +1,30 @@
+{
+  "actual_local_images_viewed": true,
+  "image_sha256": {
+    "R1_FINAL_MAX_CHILD_SHAPE.png": "3564504be545398da3709d3749be4cbe32ba2c239ef47c19b4fd836bee21f615",
+    "R1_FINAL_PARENT_AND_CHILD_NONAFFINE.png": "f03e20e0d7292dc33c96ac5b31717f11d81749aa79d9db14863db001bd77a8a6",
+    "R1_FL1_ENERGY_AND_FORCE.png": "995da484643a7bbba49ff972cb35f2abebc22ac90f5b2226fc4cee001567d2d4",
+    "R1_FL1_REGIONAL_KE.png": "846930a03fb8ee62fae14bba5241f0df99dd65e3de47997e541258d639dd52b5"
+  },
+  "decoded_dimensions": {
+    "R1_FINAL_MAX_CHILD_SHAPE.png": [
+      1980,
+      1980
+    ],
+    "R1_FINAL_PARENT_AND_CHILD_NONAFFINE.png": [
+      1620,
+      1080
+    ],
+    "R1_FL1_ENERGY_AND_FORCE.png": [
+      1440,
+      1620
+    ],
+    "R1_FL1_REGIONAL_KE.png": [
+      1440,
+      1080
+    ]
+  },
+  "actual_images_received_by_Pro": false,
+  "at_utc": "2026-10-01T00:17:13.074678+00:00",
+  "review": "All four actual PNGs decoded and viewed. Titles, legends, axes readable. Final frame uses X+U scale1; dashed deleted cells explicitly reference footprints. Nonaffine metrics and energy curves are diagnostic; scientific gate false retained. No raw current crack width or experimental validation claimed."
+}

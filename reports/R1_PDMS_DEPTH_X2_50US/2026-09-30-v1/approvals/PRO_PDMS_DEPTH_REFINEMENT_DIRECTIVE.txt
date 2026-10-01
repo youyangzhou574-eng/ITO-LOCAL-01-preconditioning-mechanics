@@ -1,0 +1,400 @@
+```yaml
+project_id: ITO_PRECONDITIONING_LOCAL_MECHANICS
+client_id: ITO-LOCAL-01
+client_thread_id: 01a0d157-8547-7552-bb05-9a1c1c92698d
+
+reviewed_package_id: ITO_FLAT_BILAYER_BRITTLE_TRANSFER_V1
+package_id: ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1
+decision_id: ITOL01-PRO-PDMS-DEPTH2X-EXEC-20260930-01
+in_reply_to: ITOL01-FL1FL2-BOUNDED-OFFLINE-LOCALIZATION-20260930-01
+
+DECISION: ACCEPT_OFFLINE_REVIEW_AND_AUTHORIZE_ONE_PDMS_DEPTH_REFINEMENT_DIAGNOSTIC
+evidence_basis: INLINE_REPORT_AND_FOUR_CSV_TABLES
+selected_nodal_and_force_arithmetic_recomputed: true
+independent_local_file_hash_or_ODB_verification: false
+actual_images_received_or_reviewed_by_Pro: false
+
+previous_results:
+  FL1_scientific_gate: REMAINS_FALSE
+  FL2_scientific_gate: REMAINS_FALSE
+  original_AE_and_force_thresholds: UNCHANGED
+  old_native_budgets: CLOSED_NOT_TRANSFERABLE
+  unique_root_cause: NOT_ESTABLISHED
+
+sole_new_case:
+  case_id: R1_PDMS_DEPTH_X2_50US
+  job_basename: ITOL01_PDR1_V1
+  direct_baseline: FL1_FLAT_TENSION_2PCT_50US
+  single_design_factor: PDMS_THROUGH_THICKNESS_DISCRETIZATION_48_TO_96_LAYERS
+  ITO_mesh_and_fracture_card: UNCHANGED
+  loading: ORIGINAL_LENGTH_0_TO_2PCT_IN_50US
+  start_state: INTACT_FLAT_ZERO_STRESS_NEW_ANALYSIS
+  import_previous_state: false
+
+permissions:
+  ordinary_Python_source_review_mesh_generation_and_mock_tests: true
+  generate_new_R1_FE_and_INP: true
+  server_datacheck: AFTER_OFFLINE_AND_RESOURCE_GATES_PASS
+  server_analysis: ONCE_AFTER_DATACHECK_AND_COST_GATE_PASS
+  new_R1_ODB_readonly_extraction: WITHIN_NEW_BUDGET
+  read_existing_FL1_FL2_text_and_validated_exports: true
+  independently_open_previous_ODB: false
+  change_material_interface_BC_hourglass_or_distortion_controls: false
+  add_flaw_notch_prewrinkle_or_contact: false
+  mass_scaling_or_density_change: false
+  modify_old_results_or_reuse_old_budget: false
+  local_Abaqus_native_CAE_Git_write_or_PR_merge: false
+
+independent_new_budget:
+  analysis_normal_max: 1
+  solver_started_reruns: 0
+  datacheck_normal_max: 1
+  datacheck_technical_recovery_max: 1
+  datacheck_total_max: 2
+  new_ODB_extraction_normal_max: 1
+  new_ODB_extraction_technical_recovery_max: 1
+  new_ODB_extraction_total_max: 2
+  shared_prelaunch_technical_recovery_max: 1
+  previous_ODB_API_opens: 0
+  additional_cases: 0
+  current_used_all_categories: 0
+
+resources:
+  solver: SAME_SERVER_ABAQUS_EXPLICIT_2021_BUILD
+  CPUs: 4
+  domains: 4
+  precision: DOUBLE_BOTH
+  nodal_output_precision: FULL
+  memory_planning_ceiling_GiB: 24
+  connection: EXISTING_AUTHORIZED_CONNECTION_ONLY
+  fresh_license_resource_and_storage_checks: REQUIRED
+
+continuity:
+  second_Pro_release_after_preflight_and_datacheck_pass: false
+  automatic_additional_solver_case_after_R1: false
+  after_R1: COMPLETE_EXISTING_DATA_COMPARISON_AND_REPORT_NEXT_SINGLE_DECISION
+next_task: BUILD_PDMS_DEPTH_DOUBLED_MESH_THEN_RUN_ONE_R1_DIAGNOSTIC
+```
+
+**接受这次限定离线复核。它已经提供了选择下一项数值对照所需的依据，不必继续重复定位同一个反力峰，也不必再等待用户确认研究方向。**
+
+**下一步明确选择：保持ITO、材料、边界和数值控制不变，只把PDMS的每一厚向层一分为二，以50 µs的FL1作为直接基线，运行一个独立的厚向离散敏感性算例。**
+
+这不是宣布“已找到根因，加密就一定解决”，而是检验：**删除列下方的强非均匀变形，是否对PDMS厚向分辨率及相应人工能量贡献敏感。**原两例科学FAIL不改，新额度不来自旧包。
+
+---
+
+## 一、对本次复核的正式判断
+
+### 1. 反力最大差已定位，原FAIL不能归咎于终点重复应变
+
+按两行`FORCE_MAXIMUM_PROVENANCE.csv`重新计算：
+
+\[
+F_{\rm FL2}-F_{\rm FL1}
+=-0.01087957239-0.03913216849
+=-0.05001174088\ {\rm N},
+\]
+
+\[
+\frac{|F_{\rm FL2}-F_{\rm FL1}|}{0.03974139488}
+=1.258429429.
+\]
+
+这与原125.8429%结果一致。该点FL1尚在首次删除括区之前，FL2已在其后，**最大差确实位于两例删除时序不同的邻域，而不是近终点重复应变处理造成的假峰。**
+
+同时，报告的超限区间总应变宽度为0.00300342，即 **0.300342个百分点，占0–2%比较域约15.0171%**。这支持：
+
+> 最大差与事件错位有关，但反力差异并非只存在于一个瞬时点，后续振荡区也有超限。
+
+这些超限区间仍是采样和分段插值下的描述，不换成新验收标准，不通过平移事件或平滑曲线消除原FAIL。
+
+### 2. 四组节点的非仿射指标可以从内联原值复现
+
+我用你贴出的四组四节点坐标及U，重新作等权仿射拟合，得到：
+
+| 状态 | FL1 | FL2 |
+|---|---:|---:|
+| 首次删除帧的归一化U非仿射残差 | 0.19927734 | 0.23668817 |
+| 终态归一化U非仿射残差 | 0.38928762 | 0.38955769 |
+
+与提交值一致。这里只复核了内联的四个四边形，**没有独立检查全部17个NPZ、全域指标或源文件哈希。**
+
+终态near/far组的U残差RMS之比，两例都约为40，支持你报告的空间集中现象。但仍不能将这个比值或0.389的残差解释为“误差39%”或“原生小时玻璃幅值”。
+
+### 3. 节点原值还说明：该处存在很大的局部几何变形
+
+按所贴终态节点的 \(X+U\) 计算，两个代表PDMS单元的顶部水平端距为：
+
+| 量 | FL1终态 | FL2终态 |
+|---|---:|---:|
+| 初始顶部端距 | 39.0625 nm | 39.0625 nm |
+| 终态顶部水平端距 | 436.7899 nm | 437.6787 nm |
+| 终态／初始端距 | 11.1818 | 11.2046 |
+
+这是**该PDMS单元边的几何量**，不是ITO真实裂缝宽度，也不是材料主伸长。它说明不能因为整体只拉了2%，或四边形面积仍为正，就把这个局部区域视为小变形。
+
+因此，当前证据足以优先检查界面细层的空间离散；**还不足以唯一判定控制算法错误，也不足以排除裂纹局部化、波传播和深部网格的共同影响。**
+
+---
+
+## 二、为什么下一项选择“PDMS厚向加密”，而不是改控制参数
+
+本次明确作以下取舍：
+
+**不继续只延长加载时间。**50／100 µs对照已经表明，时间加倍没有把人工能量降到冻结门内。
+
+**不直接增减小时玻璃系数。**这可能同时改变附加刚度及承载响应，不能以ALLAE降低作为唯一成功标准。SIMULIA也提示：默认控制下出现明显hourglassing时，一般优先考虑网格细化，而不是增大控制刚度；过大的控制量还可能使响应过硬。:chatgpt-content-reference{index="0"}
+
+**先不改变ITO网格。**这样可保持ITO初始单元几何、断裂能、失效位移与原始材料分配不变，避免同时改变脆性开裂的特征长度影响。GFI的位移正则化与单元几何有关，不能将这种变化和PDMS分辨率变化混在一次对照中。:chatgpt-content-reference{index="1"}
+
+**不围绕原删除位置局部加密。**原删除列在两例中已经移动，围绕8.105或14.160 µm预先加密会引入位置选择。本次沿整个长度一致地细分PDMS厚度，不优待任何潜在裂纹位置。
+
+这是**单一的PDMS厚向离散因素试验**，不是各方向都加密的收敛证明。
+
+---
+
+## 三、R1几何和网格冻结：PDMS每个原单元厚向二分
+
+### 1. 唯一直接基线为FL1，不是FL2
+
+冻结来源：
+
+```text
+baseline case:
+FL1_FLAT_TENSION_2PCT_50US
+
+baseline INP SHA256:
+6b3d5fe57b6a784e19358b809ab628f8aab6162ce88dd5e2eedddc63d53880ff
+```
+
+R1从完整、平整、零初始应力状态独立运行。**不导入FL1的变形或损伤状态。**FL2已有数据保留为背景诊断，不将“PDMS加密＋时间加倍”捆绑成此次变量。
+
+### 2. 网格生成规则
+
+保留原512列及全部原横向坐标。对每一层PDMS，在原上下边之间增加一条厚度中线，将原四节点单元分为上下两个CPE4R：
+
+\[
+z_{\rm mid}=\frac{z_{\rm bottom}+z_{\rm top}}2.
+\]
+
+原48层变为96层；ITO仍为512列×4层，**不增加ITO节点，不改其连接关系**。
+
+| 项目 | 原FL1 | 新R1 |
+|---|---:|---:|
+| 横向列数 | 512 | 512 |
+| PDMS厚向层数 | 48 | **96** |
+| PDMS单元数 | 24,576 | **49,152** |
+| ITO单元数 | 2,048 | **2,048** |
+| 总单元数 | 26,624 | **51,200** |
+| 总实体节点数 | 27,189 | **51,813** |
+| ITO／PDMS共享界面节点 | 513 | **513** |
+| 左、右全厚度边界节点数 | 各53 | **各101** |
+
+原前8层37.5 nm变为前16层18.75 nm。原渐变区每一层也二分，因此保留原渐变结构，不在细化区末端制造新的突然跳层。
+
+保留原节点编号及坐标，新节点追加编号；尽量保留ITO全部标签。对PDMS明确建立：
+
+```text
+original_parent_element
+→ lower_child_element
+→ upper_child_element
+```
+
+若复用原PDMS标签表示其中一个子单元，必须注明它已经不是原完整父单元；比较不得仅凭同标签假定同一体积。
+
+**这是方向性细化：界面附近初始单元长宽比会由约1.04变成约2.08。**不能说所有单元形状都更接近正方形，也不预设结果必然更好。
+
+### 3. 所有物理内容不变
+
+继续冻结：
+
+| 项目 | 数值或定义 |
+|---|---|
+| 长度／PDMS厚度／ITO厚度 | 20 µm／5 µm／150 nm |
+| 出平面参考厚度 | 1 mm |
+| ITO | \(E=103200\) MPa，\(\nu=0.27\)，\(\rho=7.14\times10^{-9}\) tonne/mm³ |
+| 脆性参数 | \(f_t=265\) MPa，\(G_f=0.005\) N/mm；剪切0.10／1.0；\(u_f=3.77358490566\times10^{-5}\) mm |
+| PDMS | Mooney–Rivlin：0.27、0.0108 MPa，\(D_1=0.036\ {\rm MPa^{-1}}\)，\(\rho=1.03\times10^{-9}\) tonne/mm³ |
+| 界面 | 共享节点完美结合 |
+| 边界 | 两端全厚度对称水平位移；原底面中点仅固定U2 |
+| 加载 | 50 µs内smooth-step从0到总工程应变2% |
+| 两端终位移 | −0.000200、＋0.000200 mm |
+
+保持现有默认hourglass、distortion与体积黏性设置，不增加`SECTION CONTROLS`，不改D1。平面应变超弹性对压缩性设置可能敏感，所以**改D1不是“无害数值修复”**，本次明确排除。:chatgpt-content-reference{index="2"}
+
+不增加缺陷、预裂缝、弱单元、脱层、接触、PEDOT:PSS或预起皱。
+
+---
+
+## 四、提交前检查通过后直接运行，不再增加同义审批
+
+### G0：离线身份和构网门
+
+允许立即生成新FE／INP。提交前核验：
+
+- 原ITO节点、连接、材料卡和所有原节点坐标保持不变；
+- PDMS父子单元完整且不重叠，总面积和质量与原模型一致；
+- 界面仍只有513个共享节点，没有Tie、重复界面或悬挂节点；
+- 两端新增节点纳入原边界，anchor位置和自由度不变；
+- 所有初始单元方向、面积与Jacobian有效；
+- 规范化输入差异只包含网格二分、必要集合更新、身份及输出对象数量变化。
+
+应新增测试，拒绝：ITO被细化、漏加端部新节点边界、漏父子单元、材料或50 µs幅值被改变。**不要为了构网方便自动平滑原几何或重新求解渐变比例。**
+
+### G1：datacheck和成本门
+
+采用相同Abaqus/Explicit 2021安装、4 CPU／4 domains、`double=both`及完整节点输出。
+
+按候选PDMS参数算得纵波速度量级约 \(2.34\times10^5\) mm/s，新最薄PDMS层的 \(h/c\) 约 \(8.02\times10^{-11}\) s，仍大于原ITO控制的初始时间步量级。因此，**不能简单断言厚向细化必然把全模型步数加倍**；也不能保证后续变形中时间步不变化。最终以新datacheck和实际作业为准。:chatgpt-content-reference{index="3"}
+
+继续采用：
+
+\[
+T/\Delta t_{\rm initial}\le3\times10^7
+\]
+
+作为提交前成本门。若超过，保存控制单元和实际时间步后报告，不靠质量缩放、改密度或缩短加载时间绕过。
+
+单元数为原模型约1.923倍，**不据此承诺墙钟时间恰好乘1.923**。磁盘按新数组数量保守估计并另留100 GiB；资源检查仍需4个计算核及余量、足够内存和Explicit许可，不复用旧快照，不干预其他项目。
+
+G0、资源及datacheck通过后，直接运行唯一R1 analysis，无需第二次Pro回复。
+
+---
+
+## 五、输出与后处理：继承已修好的数据链，不制造新的读取问题
+
+保持原FL1输出时间口径：
+
+```text
+field: NUMBER INTERVAL=4000, TIME MARKS=NO
+history: TIME INTERVAL=T/20000
+```
+
+节点U/V、两层S/LE、ITO开裂状态与STATUS、全局及已有区域能量继续保存。新增边界节点全部纳入反力与位移history。**不机械复制旧节点数、单元数或固定数组长度到提取器。**
+
+使用FL2已经成功的提取、不可变清单、时间表示兼容和运输校验链，先针对新网格数量作无ODB mock。每次原生读取严格计数。
+
+原生ITO区域ALLDC是否可用仍按实际记录。缺失不填零；全局及PDMS项和派生余项分别保留，不把字段缺失或零值当作算法状态证明。
+
+### 空间比较增加一个必要的同尺度口径
+
+新单元更薄，直接比较新旧“单元残差／自身对角线”可能混入几何尺度变化。因此同时保留：
+
+1. **新细单元自身的非仿射指标**，用于定位；
+2. **在原父单元四个原节点上计算的同尺度指标**，使用原父单元对角线，与FL1直接比较。
+
+第二项可以利用保留下来的原节点实现，无需插值新场，也不能简单平均两个子单元指标代替。
+
+近删除列分组仍采用固定物理宽度：
+
+\[
+|x-x_{\rm delete}|\le117.1875\ {\rm nm}.
+\]
+
+按新结果自己的删除位置分组；若没有删除或出现多列，如实分类，不强行绑定原8.105 µm位置。层群比较通过父子映射覆盖相同初始深度范围，不拿新“1–12层”与旧“1–12层”当成相同厚度。
+
+---
+
+## 六、冻结门与结果分类：诊断完成不等于收敛证明
+
+### 1. 新算例自己的数值质量门
+
+沿用原结构合同：
+
+- 初始完整、零应力、无预损伤；
+- 端位移归一残差≤\(10^{-6}\)；
+- 活动单元几何有效，无未建模互穿；
+- 原生开裂、软化和删除分开记录；删除后字段不用于活动材料解释；
+- 边界功与ALLWK差、ETOTAL漂移按各自 \(E_*\) 归一≤1%；
+- ALLAE、ALLDC、ALLVD各按原5%门检查；
+- 起裂前动能比例按5%门检查，断裂瞬态另列。
+
+其中：
+
+\[
+E_0=7.5\times10^{-7}\ {\rm N\,mm},
+\]
+
+\[
+E_*=\max\!\left(\int|dW_{\rm path}|,\ \max|ALLWK|,\ E_0\right).
+\]
+
+**定义不变，但R1的实际 \(E_*\) 由R1原值计算。**另外必须给ALLAE绝对值，防止分母变化掩盖贡献。能量闭合和人工能量小是不同检查，不能互相代替。:chatgpt-content-reference{index="4"}
+
+对活动四节点单元，除了面积与中心检查，记录四角Jacobian；若出现局部映射无效，不能仅凭整体面积正值认证几何。
+
+### 2. 与FL1比较什么
+
+按相同实际宏观应变比较：
+
+| 对象 | 本次目的 |
+|---|---|
+| 全局／PDMS ALLAE绝对值及归一值 | 厚向分辨率变化是否改变主要人工贡献 |
+| 两区域动能和反力路径 | 是否改变局部化后的动力响应 |
+| 全域／GAUGE起裂、删除括区 | 初始事件和后续事件是否敏感 |
+| 删除位置、数量与连通性 | 不预设必须出现同一列 |
+| 同尺度父单元非仿射指标 | 空间集中是否持续，不能靠换分母取得改善 |
+| 局部边形、面积比和实际位移 | 是否出现新的几何问题或变形重分布 |
+
+继续使用精确重复应变取LAST、共同覆盖区间内插值、不外推、不平滑、不按事件平移的规则。
+
+**不能要求R1必须复现一个未合格FL1的全部反力，才算“改善”；也不能因R1与FL1接近，就把两者都判为合格。**本次比较用于判断离散敏感性，不把原时间对照的5%门偷换成新算例的“必须接近旧结果”要求。
+
+允许的最终分类为：
+
+```text
+PDMS_DEPTH_SENSITIVITY_OBSERVED_QUALITY_IMPROVED
+PDMS_DEPTH_SENSITIVITY_OBSERVED_NOT_RESOLVED
+PDMS_DEPTH_CHANGE_NO_MATERIAL_IMPROVEMENT
+R1_PARTIAL_VALID_OR_INCONCLUSIVE
+```
+
+即使R1自身人工能量通过，也只能说这项检查改善；**一个方向的两档离散不足以证明器件网格收敛，也不能证明真实PDMS/ITO大变形和断裂已经标定。**
+
+### 3. 不通过实时反复开ODB执行这些门
+
+场量质量门在获准的一次正常提取后逐帧检查。求解器算完整个路径，不表示全部路径都可解释；若后处理发现首次失效区间，保存之前的有效部分和之后的原始记录。
+
+原生错误、资源硬门或未解释的几何失效按合同停止，不靠增加阻尼、放宽门或改变终值继续。准静态判断仍须区分加载阶段和断裂瞬态，不能仅看终态动能。:chatgpt-content-reference{index="5"}
+
+---
+
+## 七、独立预算、恢复范围和最终接续
+
+这次新包实际放行：
+
+| 类别 | 正常额度 | 本新包技术恢复 |
+|---|---:|---:|
+| R1 datacheck | 1 | 1 |
+| R1 analysis | **1** | 已启动求解器重跑 **0** |
+| 新R1 ODB提取 | 1 | 1 |
+| 原生启动前技术恢复 | — | 全包共享1 |
+| 旧ODB、其他case、额外网格档 | **0** | **0** |
+
+技术恢复仅限路径、集合标识、合法输出语法和序列化，不包含材料、网格设计、边界、加载时间或控制算法变更。已启动的analysis失败即记入1次，不换job名重跑。
+
+旧FL1／FL2的FAIL、原manifest及哈希继续冻结。新包目录为：
+
+```text
+ito_preconditioning_local_mechanics/research_packages/
+ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1/
+```
+
+最小交付包括：
+
+```text
+CASE_CONTRACT.json
+PDMS_PARENT_CHILD_MESH_AUDIT.json
+R1_NATIVE_AND_PATH_AUDIT.json
+R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON.csv
+PDMS_DEPTH_REFINEMENT_DIAGNOSTIC_REPORT.md
+BUDGET_LEDGER.json
+RESULT_HASHES.json
+```
+
+无需再复制完整113352字符旧报告；新报告直接给本次差异、实际原值、门结果和必要CSV。图片交付状态仍与数值交付分开，我不会将本地审图记录当作已经看到图片。
+
+**当前连续执行链已经明确：构造PDMS厚向二分网格 → 离线检查 → datacheck与成本门 → 唯一R1分析 → 提取 → 与FL1作同应变、同父单元尺度比较。**通过这些前置门就直接执行，不再申请同义放行。
+
+R1结束后，无论改善与否，都完成比较并提出下一项唯一对照的依据；不自动再加网格、改控制或进入预起皱。**这一步是在已有空间证据上检验一个可分离的数值因素，不是将科学STOP改成PASS，也不是让工作再次停在只有问题、没有下一动作的状态。**

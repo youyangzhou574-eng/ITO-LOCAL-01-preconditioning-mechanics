@@ -1,0 +1,220 @@
+```yaml
+project_id: ITO_PRECONDITIONING_LOCAL_MECHANICS
+client_id: ITO-LOCAL-01
+client_thread_id: 01a0d157-8547-7552-bb05-9a1c1c92698d
+package_id: ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1
+case_id: R1_PDMS_DEPTH_X2_50US
+
+decision_id: ITOL01-PRO-R1-CRITICAL-MEMORY-HOLD-20260930-01
+in_reply_to: ITOL01-R1-EXTRACTION-PRELAUNCH-RESOURCE-STOP-20260930-01
+governing_decision_id: ITOL01-PRO-PDMS-DEPTH2X-EXEC-20260930-01
+
+DECISION: MAINTAIN_MEMORY_HARD_STOP_AND_ALLOW_NORMAL_EXTRACTION_AFTER_RESOURCE_RECOVERY
+scope: RESOURCE_ADMISSION_AND_BUDGET_ACCOUNTING_ONLY
+evidence_basis: INLINE_CLIENT_RESOURCE_AND_NATIVE_COMPLETION_AUDITS
+independent_server_file_hash_or_ODB_verification: false
+
+status:
+  R1_analysis: REPORTED_NATIVE_COMPLETED
+  R1_physical_qualification: PENDING
+  R1_extraction: NOT_DISPATCHED
+  current_blocker: CRITICAL_AVAILABLE_MEMORY_AND_COMMIT_HEADROOM
+  large_process_ownership_and_root_cause: UNDETERMINED
+
+permissions_now:
+  bounded_lightweight_readonly_resource_checks: true
+  readonly_review_of_this_clients_existing_connection_and_monitor_logs: true
+  notify_user_or_server_operator_of_resource_risk: true
+  extraction_launch: false
+  terminate_suspend_or_change_unknown_processes: false
+  close_remote_sessions_or_restart_WinRM: false
+  switch_account_elevate_or_change_connection_method: false
+  change_pagefile_memory_limits_or_admission_thresholds: false
+  reopen_or_rerun_native_analysis: false
+  open_any_ODB_before_resource_release: false
+
+budget:
+  additional_budget: 0
+  analysis_normal_used: 1
+  datacheck_normal_used: 1
+  new_ODB_extraction_normal_used: 0
+  new_ODB_extraction_normal_remaining: 1
+  extraction_technical_recovery_used: 0
+  extraction_technical_recovery_remaining: 1
+  shared_prelaunch_recovery_used: 0
+  shared_prelaunch_recovery_remaining: 1
+  resource_denial_consumes_native_or_recovery_budget: false
+  old_budget_transfer: 0
+
+conditional_resume:
+  required_available_memory_GiB_min: 48
+  required_commit_headroom_GiB_min: 32
+  continuous_confirmation_window_seconds: 120
+  original_other_admission_gates: MUST_PASS
+  source_identity_unchanged: REQUIRED
+  second_Pro_permission_after_all_conditions_pass: false
+  next_native_action: FIRST_NORMAL_R1_READONLY_EXTRACTION
+
+next_task: LIGHTWEIGHT_RESOURCE_ATTRIBUTION_AND_OPERATOR_NOTIFICATION_THEN_CONDITIONAL_RESUME
+```
+
+**维持当前内存硬STOP；这次不计入正常提取，也不消耗提取恢复或预启动技术恢复。资源恢复并通过下述新鲜检查后，允许直接完成原合同中的首次正常提取，无需再次申请同义放行。**
+
+这不是R1求解失败：按提交的原生审计，唯一analysis已经完成50 µs。**现在的问题是服务器接近内存提交上限，不能启动提取进程；R1的物理结果仍待数据提取后评定。**
+
+我没有独立访问服务器或验证文件。以下资源数值来自你的内联快照，单位换算由我重新计算；Windows机制说明与本次调度规则分别列明。
+
+## 一、当前是真实资源不足，不是应当放宽的过严门槛
+
+按你提供的确认快照：
+
+| 指标 | 当前值 | 含义 |
+|---|---:|---|
+| 可用物理内存 | 约1.107 GiB | 约占所报物理内存的0.87% |
+| 系统已提交／提交上限 | 137.613／138.263 GiB | 已使用约99.53% |
+| 剩余提交空间 | 约0.650 GiB | 明显低于冻结的32 GiB门 |
+| PID51476工作集 | 115,625,869,312 bytes，约107.685 GiB | 是当前需要重点核对的占用 |
+
+**即使没有活跃求解器、磁盘仍有余量、许可证可用，也不能抵消这两项内存失败。**系统提交量逼近提交上限时，新的内存请求可能失败，并可能导致进程或系统冻结、崩溃等问题。:chatgpt-content-reference{index="0"}
+
+也不要把工作集、私有内存字段和系统提交量当成同一个量相加。工作集反映驻留物理内存的一部分，系统提交量与可用物理内存需要分别观察。:chatgpt-content-reference{index="1"}
+
+当前不能得出“`wsmprovhost.exe`必然泄漏”“一定属于ITO客户端”或“杀掉它就安全”。**进程占用显著是观察，所属任务和占用原因仍未确认。**
+
+## 二、预算归类明确：一次准入拒绝，不是一次提取尝试
+
+根据所报执行位置，这次在以下动作之前已退出：
+
+```text
+创建提取expectation
+创建远端attempt
+预留提取额度
+派发提取进程
+调用openOdb
+```
+
+因此账本保持：
+
+```text
+normal_extraction_used = 0
+extraction_technical_recovery_used = 0
+shared_prelaunch_recovery_used = 0
+```
+
+追加一个资源准入事件即可：
+
+```text
+RESOURCE_ADMISSION_DENIED_NO_EXTRACTION_DISPATCH
+```
+
+**启动器返回1，不自动等于消耗一次原生作业或技术恢复。**本次是资源保护按预期生效；没有依据将它归为路径、字段、序列化或启动器缺陷。
+
+原R1完成态文本运输及七项完成审核已经做过，**不要求为这次资源等待重新执行整套审核**。后续只核对已冻结来源没有变化。
+
+## 三、现在做有限只读核对，并及时通知资源负责人
+
+### 1. 先停止本包非必要的服务器负载
+
+在资源恢复前，不启动ODB提取、大文件复制、压缩、全量数组扫描或重复计算13.9 GB源ODB哈希。已有哈希和完成审计保留，等准入前再作必要身份核对。
+
+不安装内存分析工具、不抓取大内存转储、不做压力测试，不以“释放缓存”为由清理系统内存、强制GC、调整页文件或重启服务。
+
+### 2. 针对PID51476做一次轻量身份补证
+
+只在现有获准账户和连接范围内，取得：
+
+```text
+PID＋进程创建时间
+进程所属账户（现有权限能够读取才记录）
+SessionId、父进程、必要的命令行信息
+工作集／私有内存原始字段及单位
+短时间内的CPU和内存变化
+与本客户端已有连接、启动及监控日志能否建立明确关联
+```
+
+**必须带进程创建时间，不只记PID。**Windows会重用PID，父进程ID也可能已经对应另一进程；官方建议结合创建时间核对。:chatgpt-content-reference{index="2"}
+
+`GetOwner`等现有只读接口可以提供运行账户，但**同一个共享账户不等于同一个任务**。若权限不足就记`UNAVAILABLE`，不能提权；也不能把本次资源查询返回的`RunspaceId`直接当作PID51476所属任务的证明。:chatgpt-content-reference{index="3"}
+
+优先查本客户端已经保存的连接日志和监控脚本。可以检查是否存在累计保存轮询结果、整文件读取大日志、将大型数组传回WinRM等候选问题，**但不得未查代码就把它们写成此次根因**。不要扫描其他用户的会话变量、脚本历史或项目内容。
+
+### 3. 本次不授权结束任何远端会话或进程
+
+即便进程名称与远程执行有关，也不执行：
+
+```text
+Stop-Process / taskkill
+Remove-PSSession或强制断开远端会话
+重启WinRM或服务器
+改变账户、权限、进程优先级、页文件或配额
+```
+
+若后续确认属于某个会话，仍应明确其正在承担什么工作、处置会丢失什么状态，再由用户或该服务器任务负责人授权处置。**“用户要求连续推进”不自动包含结束未知共享任务的权限。**
+
+这类接近提交上限的情况应现在发出资源风险通知，不必等几个小时：
+
+> R1计算已完成，但服务器可用内存约1.1 GiB、提交余量约0.65 GiB，提取尚未启动。PID51476的工作集约107.7 GiB，所属任务尚未确认。请确认该进程/会话的负责人及安全处置方式；执行端未结束任何进程或修改系统设置。
+
+这不是重新询问用户“还要不要做研究”，而是针对**新的共享服务器风险**请求有权限的人处理。
+
+## 四、恢复条件：不要求目标进程必须消失，但必须有稳定余量
+
+等待期间只做轻量检查，建议每2分钟一次；只保留本地小型快照，不并发创建新监控会话。连续检查3次仍无改善，更新一次风险摘要，之后降频为每5分钟检查；连接失败时停止连接重试风暴，记录失败并通知负责人。
+
+**PID51476退出不是唯一恢复条件。**它正常完成、释放内存或经负责人授权处置后，只要整机资源恢复即可；反过来，即便这个PID消失而内存仍不足，也不能启动提取。
+
+在准备重新提交前，连续120秒、约每10秒采样一次，要求：
+
+\[
+\min(\text{Available memory})\ge48\ {\rm GiB},
+\]
+
+\[
+\min(\text{Commit headroom})\ge32\ {\rm GiB}.
+\]
+
+同时通过原合同其余适用的CPU、磁盘容量/I/O、来源完成态和访问条件。**缺失计数器、查询异常或单位无法确认记为UNKNOWN，不按零负载通过。**这两个阈值是本包既定调度门，不是厂商对所有提取任务的通用要求。
+
+资源通过后核验：
+
+```text
+job: ITOL01_PDR1_V1
+input SHA256:
+8e8405152be773653f956df64fafe06d80ba7b9c5b75fe83ec7e2c719215fdf3
+
+source ODB bytes:
+13903728444
+
+source ODB SHA256:
+7328373d2866693c0ab9cf4ef595c188f6028f034044356596e8e0236b762e50
+
+audited final increment:
+8505442
+
+nominal final time:
+5e-5 s
+```
+
+允许按原fresh admission流程进行必要的文件级哈希检查，**这不是ODB API打开**。不要同时重新运输已核验的原生文本或重算旧科学审计。
+
+若新检查发现源身份变化、意外已有提取进程或attempt状态不清，则先报告，不以覆盖目录或换名解决。
+
+## 五、通过后直接完成首次正常提取和比较
+
+上述条件全部通过后，允许重新调用原提取启动流程，创建原本尚未创建的expectation和正常attempt，使用**正常提取1次**。它不是“第二次ODB读取”，也不需要先消耗技术恢复。
+
+此时：
+
+- 单个提取进程、一个只读ODB句柄；
+- 沿用已验证的流式分块、不可变清单、时间表示和运输校验；
+- 仅传输小型进度信息，不把全部导出数组累计在远程会话对象中；
+- 真正调用ODB后按实际计数；后续提取技术失败才按原恢复条款处理；
+- 如果准入再次因资源不足而拒绝，仍不强行提交，不将资源等待伪装成已执行。
+
+**R1末帧图须在真实数据提取、运输核验后生成和交付。**当前没有实际图像，我不会把路径或预期终态当作已经看过的结果；实际宏观应变也仍为待提取量。
+
+### 当前唯一推进链
+
+**保留内存硬STOP → 轻量核对占用身份并通知负责人 → 内存恢复且稳定窗口通过 → 直接完成首次正常R1提取 → 运输与科学审核 → 与FL1作既定比较。**
+
+不重跑R1，不改变科学门，不结束未知任务。**恢复后的接续权限已经在本条明确，无需资源一恢复又停下来等待一句“继续”。**

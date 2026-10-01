@@ -1,0 +1,49 @@
+{
+  "case": "R1",
+  "status": "NATIVE_COMPLETED_REQUIRES_PATH_QUALIFICATION",
+  "checks": {
+    "exit_zero": true,
+    "native_completed": true,
+    "no_native_errors": true,
+    "target_time": true,
+    "field4000": true,
+    "frozen_input": true,
+    "double_and4domains": true
+  },
+  "input_sha256": "8e8405152be773653f956df64fafe06d80ba7b9c5b75fe83ec7e2c719215fdf3",
+  "last_progress_row": [
+    "8505442",
+    "5.000E-05",
+    "5.000E-05",
+    "06:09:21",
+    "5.372E-12",
+    "50991",
+    "3.435E-09",
+    "-1.483E-08"
+  ],
+  "error_lines": {
+    "console.log": [],
+    "ITOL01_PDR1_V1.dat": [],
+    "ITOL01_PDR1_V1.msg": [],
+    "ITOL01_PDR1_V1.sta": [],
+    "native_exit_code.txt": []
+  },
+  "warning_first_lines": {
+    "console.log": [
+      "***WARNING: There are 2 warning messages in the data (.dat) file.  Please",
+      "***WARNING: THE ANALYSIS NEEDS AN EXTREMELY LARGE NUMBER OF INCREMENTS (MORE"
+    ],
+    "ITOL01_PDR1_V1.dat": [
+      "***WARNING: D1 FOR HYPERELASTIC MATERIAL IS TOO SMALL. THIS LEADS TO A VERY ",
+      "***WARNING: THE OPTION *BOUNDARY,TYPE=DISPLACEMENT HAS BEEN USED; CHECK STATUS "
+    ],
+    "ITOL01_PDR1_V1.msg": [],
+    "ITOL01_PDR1_V1.sta": [
+      "***WARNING: There are 2 warning messages in the data (.dat) file.  Please",
+      "***WARNING: THE ANALYSIS NEEDS AN EXTREMELY LARGE NUMBER OF INCREMENTS (MORE"
+    ],
+    "native_exit_code.txt": []
+  },
+  "physical_path_qualified": false,
+  "ODB_opened": false
+}

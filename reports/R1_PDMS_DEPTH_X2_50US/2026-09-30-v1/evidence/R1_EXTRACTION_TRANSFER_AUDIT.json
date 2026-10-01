@@ -1,0 +1,55 @@
+{
+  "case": "R1",
+  "package_id": "ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1",
+  "job": "ITOL01_PDR1_V1",
+  "status": "TRANSPORT_ALL_BLOCK_HASHES_AND_SOURCE_IDENTITY_PASS",
+  "archive_sha256": "684dcc36ccf2a13fa8beaccb534e2d0fd4c5eff4cb5ae471ec580a54f4402787",
+  "archive_bytes": 13955112960,
+  "part_count": 104,
+  "manifest_sha256": "d4dfbf087def5b6d45f1bcf0028fe91bdcf11b9f3dc97246e5ad0bd7501f38d0",
+  "ODB_sha256_before_and_after": "7328373d2866693c0ab9cf4ef595c188f6028f034044356596e8e0236b762e50",
+  "source_bytes": 13903728444,
+  "native_expectation_sha256": "627a1807af9e7ea1e2371fc4ac5df46a659b468b7c7412b1a06adb871949d85f",
+  "mesh_reference_sha256": "4fd22b39d78b091469fea82a151e7a7aa11035ad79342e6a3704fd04a11030a8",
+  "verified_blocks": 4004,
+  "frame_count": 4001,
+  "local_verified_directory": "E:\\open\\ITO-LOCAL-01\\ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1\\cases\\R1\\extract_attempt01\\export_R1",
+  "time_representation_audit": {
+    "pass": true,
+    "rule_A": false,
+    "rule_B": true,
+    "native_time_s": 4.999999873689376e-05,
+    "contract_duration_s": 5e-05,
+    "q32_target_s": 4.999999873689376e-05,
+    "abs_error_s": 1.2631062442183295e-12,
+    "ulp32_s": 3.637978807091713e-12,
+    "ulp64_s": 6.776263578034403e-21,
+    "raw_native_time_unchanged": true
+  },
+  "at_utc": "2026-09-30T23:40:34.127703+00:00",
+  "actual_ODB_API_calls": 0,
+  "storage_binding_sha256": "faba594e5507874877ec09fab56e12d13075195514a3e2efcc8e318529cf69fa",
+  "storage_paths": {
+    "parts": "E:\\open\\ITO-LOCAL-01\\ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1\\cases\\R1\\extract_attempt01\\transport\\parts",
+    "archive": "E:\\open\\ITO-LOCAL-01\\ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1\\cases\\R1\\extract_attempt01\\transport\\export.tar",
+    "export": "E:\\open\\ITO-LOCAL-01\\ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1\\cases\\R1\\extract_attempt01\\export_R1",
+    "derived": "E:\\open\\ITO-LOCAL-01\\ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1\\cases\\R1\\extract_attempt01\\derived",
+    "figures": "E:\\open\\ITO-LOCAL-01\\ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1\\cases\\R1\\extract_attempt01\\figures",
+    "tmp": "E:\\open\\ITO-LOCAL-01\\ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1\\cases\\R1\\extract_attempt01\\tmp"
+  },
+  "space_checks": [
+    {
+      "stage": "assemble",
+      "free_bytes": 1264473284608,
+      "required_bytes": 51529461545
+    },
+    {
+      "stage": "extract",
+      "free_bytes": 1250518167552,
+      "required_bytes": 37574348585
+    }
+  ],
+  "npz_crc_and_member_checks": "ALL_ARRAY_MEMBERS_DECODED_ALLOW_PICKLE_FALSE",
+  "verified_npz_count": 4003,
+  "decoded_array_count": 148467
+}

@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETED_DIAGNOSTIC_ONLY_NOT_QUALIFIED",
+  "classification": "PDMS_DEPTH_SENSITIVITY_OBSERVED_NOT_RESOLVED",
+  "R1_scientific_gate": false,
+  "AE_over_Estar_percent": 10.325393327019,
+  "ETOTAL_drift_percent": 1.102940038338,
+  "native_ITO_ALLDC": "UNAVAILABLE_NOT_ZERO",
+  "report_delivery_receipt": "R1_REPORT_INLINE_DELIVERY_RECEIPT.json",
+  "pro_reply_receipt": "PRO_R1_FINAL_SCIENTIFIC_CLOSEOUT_RECEIPT.json",
+  "actual_four_images_reviewed": true,
+  "new_native_work_authorized": false,
+  "budget_closed": true,
+  "budget_ledger_previous_sha256": "146360cd043059ff3f33ba240b25e5f00f73cb236a5ffae5109291e20b33f978",
+  "budget_ledger_closeout_sha256": "81cc4b8c8c30875fbcc68ccb618c52e86a15069a58a381e8223e79d30db02530",
+  "report_budget_snapshot_remains_frozen": true,
+  "part19_reply_classification_correction": "Per-part delivery receipt scientific_or_budget_change=false was transport-loop placeholder. This separate full reply review records final scientific status and budget closure; original delivery receipt preserved.",
+  "at_utc": "2026-10-01T00:56:06.903366+00:00"
+}

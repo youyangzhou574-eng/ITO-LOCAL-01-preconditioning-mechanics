@@ -1,0 +1,216 @@
+```yaml
+project_id: ITO_PRECONDITIONING_LOCAL_MECHANICS
+client_id: ITO-LOCAL-01
+client_thread_id: 01a0d157-8547-7552-bb05-9a1c1c92698d
+package_id: ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1
+case_id: R1_PDMS_DEPTH_X2_50US
+
+decision_id: ITOL01-PRO-R1-E-DRIVE-TRANSPORT-RESUME-20260930-01
+in_reply_to: ITOL01-R1-VERIFIED-TRANSPORT-LOCAL-STORAGE-FIRSTERROR-20260930-01
+governing_decision_id: ITOL01-PRO-PDMS-DEPTH2X-EXEC-20260930-01
+
+DECISION: AUTHORIZE_LOCAL_STORAGE_REBIND_AND_RESUME_EXISTING_TRANSPORT
+scope: LOCAL_DATA_DESTINATION_AND_PATH_BINDING_ONLY
+evidence_basis: INLINE_CLIENT_COMPLETION_AND_PRECOPY_FAILURE_RECORDS
+independent_local_or_remote_file_verification: false
+
+status:
+  R1_native_analysis: COMPLETED_AS_REPORTED
+  R1_normal_extraction: COMPLETE_AS_REPORTED
+  closed_extraction_evidence_transfer: ACCEPT_CLIENT_REPORTED_PASS
+  bulk_transport: NOT_STARTED_NO_PART_COPIED
+  full_local_verification: NOT_STARTED
+  R1_physical_qualification: PENDING
+
+storage:
+  metadata_and_original_package: EXISTING_C_DRIVE_PACKAGE_UNCHANGED
+  new_local_bulk_data_root: 'E:\open\ITO-LOCAL-01\ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1'
+  server_source_and_packaging: UNCHANGED
+  delete_or_move_existing_artifacts: false
+  silently_fallback_to_C_drive: false
+
+permissions:
+  create_dedicated_E_subdirectories_with_existing_user_permissions: true
+  create_versioned_storage_binding_and_resume_entry: true
+  patch_path_parameters_for_copy_verify_analysis_and_plotting: true
+  resume_original_logical_transport: AFTER_STORAGE_AND_IDENTITY_GATES_PASS
+  perform_first_full_local_export_verification: AFTER_TRANSFER_PASS
+  continue_original_R1_scientific_audit_and_FL1_comparison: AFTER_VERIFICATION_PASS
+  rerun_original_blocked_launcher_blindly: false
+  new_extraction_or_ODB_API_open: false
+  new_solver_datacheck_analysis_restart: false
+  change_data_scientific_rules_or_model: false
+  change_system_storage_permissions_or_connection_method: false
+
+budget:
+  additional_native_budget: 0
+  normal_analysis_used: 1
+  normal_datacheck_used: 1
+  normal_R1_ODB_extraction_used: 1
+  normal_R1_ODB_extraction_remaining: 0
+  extraction_technical_recovery_used: 0
+  extraction_technical_recovery_remaining: 1
+  shared_prelaunch_technical_recovery_used: 0
+  shared_prelaunch_technical_recovery_remaining: 1
+  local_storage_resume_consumes_these_recoveries: false
+  old_budget_transfer: 0
+
+continuity:
+  existing_transport_reservation: PRESERVE_AND_APPEND_RESUME_EVENT
+  resumed_local_transport_workflows_authorized: 1
+  full_local_verification_normal_execution: 1
+  second_Pro_permission_after_gates_pass: false
+
+next_task: BIND_E_STORAGE_RESUME_104_PART_TRANSFER_VERIFY_THEN_ANALYZE_R1
+```
+
+**批准使用本地E盘专用目录，继续原运输任务。只调整数据落盘位置，不重新提取、不打开ODB、不消耗提取或原生预启动技术恢复额度。**
+
+这次失败发生在第一片数据复制之前，完整本地验证也尚未调用，因此应记为**本地运输准入因容量不足被拒绝**，不是提取失败，也不是一次已经执行的完整验证失败。原reservation、首错及退出码1全部保留。
+
+我依据的是本次内联记录，没有独立访问C盘、E盘或服务器。按你报告，E盘约1190.63 GiB的剩余容量足以支持原58.9901 GiB计划；**实际开始前仍要对目标卷做一次新鲜核对。**
+
+## 一、路径这样绑定：C盘保留管理记录，E盘承担大数据
+
+冻结新的**本地**数据根目录：
+
+```text
+E:\open\ITO-LOCAL-01\ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1
+```
+
+建议内部固定为：
+
+```text
+cases\R1\extract_attempt01\
+    transport\parts\
+    transport\export.tar
+    export_R1\
+    derived\
+    figures\
+    tmp\
+```
+
+这里的`extract_attempt01`只是关联既有提取身份，**不代表在本地再次执行提取**。服务器原D盘目录、104个原始分片、归档和源ODB全部不变。
+
+在现有C盘包内新增一份小型：
+
+```text
+R1_LOCAL_STORAGE_BINDING.json
+```
+
+记录原C盘包路径、新E盘根目录、所有实际读写子目录、源attempt、归档及清单身份、本裁定ID和配置版本。复制、拼接、验证、分析和绘图都读取这一份绑定，**不能各自硬编码不同路径**。
+
+具体规则是：
+
+- **C盘：**原合同、原脚本、历史失败记录、账本及小型索引继续保留。
+- **E盘：**104片、合并归档、解包数据、大型派生数组、图件及本任务临时文件。
+- 不迁移、删除或覆盖已有C盘/服务器产物；不创建把C盘目录偷偷重定向到E盘的junction。
+- 不修改全局`TEMP/TMP`。需要临时目录时，仅在本次工具调用中显式指定E盘专用目录。
+- 分析器与绘图器只改输入/输出路径，不改字段解析、比较算法、物理门或归一化口径。新版本和路径差异留哈希。
+
+**E盘目录名中有`open`，并不能证明它是私有目录。**创建前确认它是用户允许使用、当前账户可写的本地目标，不意外落在其他任务目录、网络共享或重解析到别处。没有适当访问条件时报告，不自行修改全盘权限或开放共享。
+
+## 二、空间门保持，不是把检查从脚本里删掉
+
+我复算了归档大小：
+
+\[
+A=13\,955\,112\,960\ {\rm bytes}
+=12.996711730957031\ {\rm GiB}.
+\]
+
+报告中的要求恰好满足：
+
+\[
+3A+20\ {\rm GiB}=58.990135192871094\ {\rm GiB}.
+\]
+
+这个算术关系与“分片、拼接归档、解包文件同时保留，再留20 GiB”的规划相容；**但仍需用实际文件清单确认执行程序的峰值占用，而不是假定没有其他大型副本。**
+
+启动前执行一次目标卷核对，记录卷身份、文件系统、健康状态、剩余空间和目标目录可写性。Windows的`Get-Volume`可按盘符或路径读取这些卷信息；查询应在**本地电脑**执行，不能误查服务器同名盘符。:chatgpt-content-reference{index="0"}
+
+本次要求：
+
+\[
+E_{\rm free}\ge
+\max\bigl(58.9901352\ {\rm GiB},\ 
+\text{实际预计新增峰值占用}+20\ {\rm GiB}\bigr).
+\]
+
+**不把C盘25.26 GiB继续作为大数据运输的阻塞条件，也不把大数据临时文件悄悄留在C盘。**C盘只需满足小型账本和报告写入所需空间。
+
+若验证或分析会把NPZ展开成额外磁盘数组，应计入E盘空间计划，或者沿用既有流式处理，不能遗漏。传输、拼接、解包前分别检查剩余空间；资源不足时保留已完成文件，不通过删旧数据硬凑空间。
+
+## 三、恢复同一运输身份，不删除reservation再“重新开始”
+
+你报告的状态是：原运输已预留，但没有片文件、验证预留或验证结果。这个状态允许**继续同一个逻辑任务**。
+
+在C盘追加事件：
+
+```text
+TRANSPORT_STORAGE_GATE_DENIED_NO_PART_COPIED
+LOCAL_STORAGE_REBIND_APPROVED
+TRANSPORT_RESUMED_SAME_IDENTITY_ON_E
+```
+
+保留原reservation内容及时间，**不把它删掉，也不因为reservation存在就永远拒绝接续**。
+
+允许创建一个版本化的本地恢复入口，例如：
+
+```text
+resume_R1_transport_storage01.ps1
+```
+
+它必须确认原状态确为预复制失败、无并行复制/验证进程，并读取新存储绑定后继续。不要无修改地重复调用原来硬编码C盘的启动器，也不要制造第二套逻辑运输reservation来绕过once-only门。
+
+提交前的小型路径测试只需验证三点：所有大文件路径解析至批准的E盘目录；目标目录或绑定错误时拒绝；既有原reservation可被明确的恢复状态接续而不能重复派发。**不重复已经完成的原生预检、七份闭合证据运输或提取器测试。**
+
+这一次恢复记入普通本地运输事件，**不计入`new_ODB_extraction.technical_recovery`，也不计入`prelaunch.technical_recovery`**。后两者的现有0/1用量保持不变，本条也没有释放它们用于其他操作。
+
+## 四、运输与验证的身份链不变
+
+继续使用原104片及服务器冻结运输清单，不重新打包、不重新压缩、不搬运源ODB本体。
+
+核心身份固定如下：
+
+| 对象 | 冻结值 |
+|---|---|
+| 归档字节数 | `13955112960` |
+| 归档SHA256 | `684dcc36ccf2a13fa8beaccb534e2d0fd4c5eff4cb5ae471ec580a54f4402787` |
+| 原块清单SHA256 | `d4dfbf087def5b6d45f1bcf0028fe91bdcf11b9f3dc97246e5ad0bd7501f38d0` |
+| 原运输清单SHA256 | `43ea284ffeb2f81ab873d4df749ba80010ac923426e08908c70a84c899c312bd` |
+| 已完成提取所关联源ODB SHA256 | `7328373d2866693c0ab9cf4ef595c188f6028f034044356596e8e0236b762e50` |
+
+执行顺序：
+
+**104片按原序列复制并核对各自大小/哈希 → 流式拼接归档并核对总大小/哈希 → 安全解包 → 首次完整本地验证。**
+
+不要把整个约13 GiB归档装进一个PowerShell变量或通过WinRM序列化为大数组；沿用现有分片文件传输方式。
+
+解包路径也必须服从E盘绑定。归档成员出现绝对路径、`..`越界、链接指向目标外或意外同名覆盖时拒绝；只处理本导出预期的普通文件和目录。Python官方明确提示tar成员可能写到目标目录之外，不能仅指定`path`就忽略成员检查。:chatgpt-content-reference{index="1"} 本次不要求为此升级Python或安装依赖，使用已有经过验证的安全检查实现即可。
+
+### 完整验证仍只启动一次
+
+实际传输完成后，才登记并启动尚未执行的完整验证：
+
+- 对照**原manifest**逐项核验文件身份、字节数和SHA256；
+- 核验NPZ成员/CRC、数组与索引一致性；
+- 覆盖4001帧及原清单中的全部网格/history项，不抽样代替；
+- 保留真实时间、字段精度和删除状态，使用既定时间表示规则；
+- 完成后发布运输及完整验证回执，记录实际E盘路径和绑定文件哈希。
+
+分片校验、归档校验与块级完整验证是不同层级，不是重复执行整个验证器。**目录名叫`verified`或存在解包文件，都不等于已经通过。**
+
+如果某片哈希不符、归档损坏或完整验证失败，保留现场并报告具体项；不改预期哈希，不取旧数据拼补，不调用提取恢复重读ODB。
+
+## 五、通过后直接分析和出图，不再停在存储恢复确认
+
+运输及完整验证通过后，立即按原R1合同进行：
+
+> **R1全路径审核 → 与FL1同实际应变比较 → 同父单元尺度空间比较 → 生成末帧图和结果报告。**
+
+原E\*/ALLAE/ALLDC/ALLVD/动能/边界功/几何门保持不变，旧FL1、FL2的FAIL不变。R1原生完成和提取完成，**都不预先等于PDMS细化改善了科学结果**。
+
+C盘新增小型完成回执，指向E盘数据、派生结果和相应哈希；原报告及失败状态不覆盖。给本对话的下一条结果应内联实际验证覆盖和科学审计结论，实际图片未交付时继续明确说明，不能只给E盘路径就声称Pro已看图。
+
+**当前恢复权限已经完整给出：确认本地E盘及空间 → 保存统一路径绑定 → 接续原104片运输 → 首次完整验证 → 直接分析和出图。无需再次申请同义批准；不清理旧文件、不重新提取、不新增原生预算。**

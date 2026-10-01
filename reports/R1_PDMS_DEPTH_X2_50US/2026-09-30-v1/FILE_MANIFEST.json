@@ -1,0 +1,449 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 632,
+    "sha256": "7772aee9b5ba0df10cfdfa6e268b1206c8656ac83129c129bdde99bd19c4a4c1"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/approvals/PRO_PDMS_DEPTH_REFINEMENT_DIRECTIVE.txt",
+    "bytes": 18538,
+    "sha256": "b03118e602a616206d3d042e62b9b9be585afa0feb1d0223a73c62927ebdf2eb",
+    "source_name": "PRO_PDMS_DEPTH_REFINEMENT_DIRECTIVE.txt",
+    "role": "Original project approval; historical scope only",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/approvals/PRO_R1_CRITICAL_MEMORY_HOLD_DIRECTIVE.txt",
+    "bytes": 10807,
+    "sha256": "b9fcb4eb8f2f8807f83b98d7861a926d000dc7c6863569d40f85c6dd033c530d",
+    "source_name": "PRO_R1_CRITICAL_MEMORY_HOLD_DIRECTIVE.txt",
+    "role": "Original project approval; historical scope only",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/approvals/PRO_R1_E_DRIVE_TRANSPORT_RESUME_DIRECTIVE.txt",
+    "bytes": 11379,
+    "sha256": "35cabc61e0e87352c0a635b33da104fed4f62c9d7773ae548833bb7fe33023d8",
+    "source_name": "PRO_R1_E_DRIVE_TRANSPORT_RESUME_DIRECTIVE.txt",
+    "role": "Original project approval; historical scope only",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/approvals/PRO_R1_MONITOR_CONNECTION_DIRECTIVE.txt",
+    "bytes": 8132,
+    "sha256": "8ada80b66fb01c00540b1c27cd82e4ba276dcd364454e74f89cc15313d9d1eb6",
+    "source_name": "PRO_R1_MONITOR_CONNECTION_DIRECTIVE.txt",
+    "role": "Original project approval; historical scope only",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/CHUNK_INDEX.json",
+    "bytes": 14117,
+    "sha256": "c6fe79fb7c4e2691ac6b3bebea1f5882ec406e719b30386cdf1a79a81721fdf6"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_000001_001578.csv",
+    "bytes": 598363,
+    "sha256": "13bb872c33cfdddc1022d9894987c5479ec76538a248e893b6ffede3f39ffba7"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_001579_003156.csv",
+    "bytes": 598634,
+    "sha256": "2ea33f37af04d7719f1f973689e19fd79ee4c97d3a7f76fb348923dcb7be250c"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_003157_004739.csv",
+    "bytes": 598480,
+    "sha256": "ee28023f35c8984bfd35f2c80d684b568bc5ff660494b15ca52261af33255f30"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_004740_006334.csv",
+    "bytes": 598263,
+    "sha256": "c150b4f34eb015d386dde122fa921d2bf7c33b6c4313622274837ea85d517e75"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_006335_007929.csv",
+    "bytes": 598337,
+    "sha256": "2ad3f5384edcd183ffe32f1a9670ab27d9332ae7702d975868892f8e7656956a"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_007930_009527.csv",
+    "bytes": 598270,
+    "sha256": "47e5b611df3d4ebfd6e7b46e2e1cec8b0baf2d333a4ef8ecdf9dbb59f9cfcde2"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_009528_011117.csv",
+    "bytes": 598396,
+    "sha256": "a779860c39b8f8ce5f5d1b47206e3e7bb9ef185a8800381d9b92cb9714f29061"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_011118_012701.csv",
+    "bytes": 598429,
+    "sha256": "29fb038ab420e2f41c6154a4ef2bccf58e0e401a81f23dbfae0168a8736ce144"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_012702_014278.csv",
+    "bytes": 598642,
+    "sha256": "961a0b780882ae76692dfb3da4dd06862af6449a4194c72d1ed30c2ee1b363c9"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_014279_015845.csv",
+    "bytes": 598538,
+    "sha256": "8abe05099ebb3b0894906c397043855578f8b3a77d0223968f8cb52c544a0db0"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_015846_017413.csv",
+    "bytes": 598464,
+    "sha256": "0b91856fd74dc590e922a3bf3aa4756b3fbc4cbd5d9b14c52e2389a63bdf1ab5"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_017414_018986.csv",
+    "bytes": 598622,
+    "sha256": "775fdb7cb7812e0657a2fb15ef33073eb43f22e029992e65a530fb0177fa6045"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_018987_020559.csv",
+    "bytes": 598349,
+    "sha256": "9d42006b8620058940b11cf6ed01a3b26e5c2471d2e85253811700d03255870d"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_020560_022132.csv",
+    "bytes": 598302,
+    "sha256": "ae2d40651a671bbf2ec535d488f00d7a393c10a830fbbc1c001e095eacc60370"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_022133_023704.csv",
+    "bytes": 598403,
+    "sha256": "b9f312007478ae02c8a98728e1eb7f5651a9ca9069a1236b141328f7fedeea35"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_023705_025275.csv",
+    "bytes": 598329,
+    "sha256": "79eda86c27b4ead955a99ad54c31fd997683f8e23503b703ae0b36f0143c9252"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_025276_026845.csv",
+    "bytes": 598391,
+    "sha256": "6df6746fd76e538765f44dd1d7b6f3175bc3260dd1e6965191777042657b57d5"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON/rows_026846_028057.csv",
+    "bytes": 462579,
+    "sha256": "cd446360a59d9ef8f735fc76ea44ce2f9524c4611d090374897347fdd78ac054"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_000001_001169.csv",
+    "bytes": 599087,
+    "sha256": "ec089b84bba933ecb7f13f0198fac5fda1fb7e9231e91c11ae378e90ffcc70dc"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_001170_002341.csv",
+    "bytes": 599081,
+    "sha256": "6c7887199af8c2c570097a18910d4d6a501f44df9fa2a6286cd893e0ce5f6f6f"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_002342_003513.csv",
+    "bytes": 598972,
+    "sha256": "9bc4a634a502fe2813771027111a7ccffc21e173ab55bf0103a71b69036456b3"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_003514_004680.csv",
+    "bytes": 598674,
+    "sha256": "5b08193ccbbeb98f2f86f436836c7726a1e186ec7da0648e671ba4e7564f697a"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_004681_005822.csv",
+    "bytes": 598942,
+    "sha256": "4f6aedc8809ad13a0383f5940f688a26ebbb4de50c44aa7d9088f58437d32ab8"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_005823_006925.csv",
+    "bytes": 598819,
+    "sha256": "8e11f4d3f16777a91deb623e0a66181b861c16350a16ee630f0792b3e456277e"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_006926_008030.csv",
+    "bytes": 599024,
+    "sha256": "c1a321ad27a0e7e7a61e0425c2de56a318da8d3764e501d1e4c3b40c990ae885"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_008031_009133.csv",
+    "bytes": 598726,
+    "sha256": "f4e97ef847e1ca5715f32c125c3f0d184fce3ae064e5401fdf2bce1074c8fbc1"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_009134_010232.csv",
+    "bytes": 599110,
+    "sha256": "026bc030344d5fc8475596d5b375770547957b057fb42705c524902f25bd88ab"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_010233_011327.csv",
+    "bytes": 598860,
+    "sha256": "72a2bef2e355844bec5024bf1aeaa3c231158cb142207b9c37c52802fb3e530b"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_011328_012424.csv",
+    "bytes": 598888,
+    "sha256": "5f6e2c843c656d82f8553f81303226093fe097f84ff9cf16cc9fbbb739444d14"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_012425_013520.csv",
+    "bytes": 598628,
+    "sha256": "ac8897efd891d65aa4763c9873becf3307719ade0395e0a2d06f0baf0c1215be"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_013521_014615.csv",
+    "bytes": 599157,
+    "sha256": "402281e5b0b5712fc70bac0a53efdd275dc35ffdda21b12a6afddbdcc771469c"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_014616_015710.csv",
+    "bytes": 599109,
+    "sha256": "08233eab77922b9c5317a9efda37e45784239849a4f19a25b3c3ce5b80dbe81a"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_015711_016805.csv",
+    "bytes": 598888,
+    "sha256": "4d1233a61a8ad539514e165f2aae1c5c2d8532d348630413842f44402a00d5bd"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_016806_017900.csv",
+    "bytes": 599128,
+    "sha256": "6da49a0ad1ffad4526d487d774a40b0f52ebe5554e6a52e3d7e7cb70b6616e90"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_017901_018993.csv",
+    "bytes": 598640,
+    "sha256": "69d2294bf0f2b6d8766d1bcd523376a916f0343082ad15a299ad88340d1f90c5"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/chunks/R1_HISTORY_CURVES/rows_018994_020001.csv",
+    "bytes": 553177,
+    "sha256": "9067b351064e818ddd6d245bf5148688fdb08d7466c3b313d18a40b4a5520cbf"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/original/R1_CHILD_OWN_SCALE_AND_GEOMETRY_SELECTED.csv",
+    "bytes": 25937,
+    "sha256": "375cca83b5129c794204c5e095b8bed2d167d1e524f85cb5b5bcb10f19bf24c0",
+    "source_name": "R1_CHILD_OWN_SCALE_AND_GEOMETRY_SELECTED.csv",
+    "role": "Complete original derived CSV",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/original/R1_FL1_NATIVE_ENERGY_PEAKS_AND_CROSSINGS.csv",
+    "bytes": 2236,
+    "sha256": "dc1e36551132ac93d22952a71079d083da4d235113056ebba1dfe77ec56a8db6",
+    "source_name": "R1_FL1_NATIVE_ENERGY_PEAKS_AND_CROSSINGS.csv",
+    "role": "Complete original derived CSV",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/original/R1_FL1_ORIGINAL_PARENT_SCALE_SELECTED.csv",
+    "bytes": 56815,
+    "sha256": "a19ba37ff527e721f0abeb604e4bd35481413470981fec79e85b1a2d3a8a8808",
+    "source_name": "R1_FL1_ORIGINAL_PARENT_SCALE_SELECTED.csv",
+    "role": "Complete original derived CSV",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/original/R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON.csv",
+    "bytes": 10659837,
+    "sha256": "8a057f36e6fcd1ead1c219967844b218272f129740b2a52531518041d97fca48",
+    "source_name": "R1_FL1_SAME_STRAIN_AND_PARENT_SCALE_COMPARISON.csv",
+    "role": "Complete original derived CSV",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/original/R1_FL1_SAME_STRAIN_METRICS.csv",
+    "bytes": 4452,
+    "sha256": "bd7c70dfc5affde76f9bd4d270ead5590396c2e79e79709fbb17159ad33b8b34",
+    "source_name": "R1_FL1_SAME_STRAIN_METRICS.csv",
+    "role": "Complete original derived CSV",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/original/R1_HISTORY_CURVES.csv",
+    "bytes": 10750543,
+    "sha256": "6f321607799e9ec2f36b6f96143c83f2ec8d5352a74f51c2839864438c55bd84",
+    "source_name": "R1_HISTORY_CURVES.csv",
+    "role": "Complete original derived CSV",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/original/R1_SELECTED_NATIVE_NODES.csv",
+    "bytes": 14232,
+    "sha256": "2f1538473297cb829b4025e3f5ac67991ad6327c63976156e59ac5235aa7d898",
+    "source_name": "R1_SELECTED_NATIVE_NODES.csv",
+    "role": "Complete original derived CSV",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/data/original/R1_SPATIAL_PATH.csv",
+    "bytes": 854887,
+    "sha256": "cfd420b93246d44270d06bdf718191aa50858193bf5807e3234b5ca2390cb76e",
+    "source_name": "R1_SPATIAL_PATH.csv",
+    "role": "Complete original derived CSV",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/evidence/events/event_first_deletion.json",
+    "bytes": 3133,
+    "sha256": "2500bcbe96a0ecc6ff6cd4cc1a830211e0b552c10dc41bebfb8d7808efb20566"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/evidence/events/event_first_through_deletion_band.json",
+    "bytes": 398,
+    "sha256": "ce7324f101277d32471500fb31d3e666c4e32acdccddf577f3db12dc649a7983"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/evidence/events/event_gauge_first_crack.json",
+    "bytes": 967159,
+    "sha256": "27f663aa9320435d6b890307cce5c0b25a708ec5c3883cd8e1924b3a3dafe6d6"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/evidence/events/event_global_first_crack.json",
+    "bytes": 1607347,
+    "sha256": "39f3f9ffaa94ca3e8db09dd7a407a837e1343e8c78ac2b9e42506a543733eafd"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/evidence/PRO_R1_FINAL_SCIENTIFIC_CLOSEOUT_RECEIPT.json",
+    "bytes": 987,
+    "sha256": "79f4db9de7a1d1ff2785a08f08ca458f1e952ad712e8812bc6b37e91a71f8157",
+    "source_name": "PRO_R1_FINAL_SCIENTIFIC_CLOSEOUT_RECEIPT.json",
+    "role": "Original closed evidence, hashes and delivery provenance",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/evidence/R1_ANALYSIS_AUDIT.json",
+    "bytes": 1508,
+    "sha256": "20ff074f0228dbf005943d4190582c77e6e324ec2ff66491af4000b6beadf0ba",
+    "source_name": "R1_ANALYSIS_AUDIT.json",
+    "role": "Original closed evidence, hashes and delivery provenance",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/evidence/R1_DATACHECK_AUDIT.json",
+    "bytes": 2775,
+    "sha256": "062dc1d15df67b9d8f14ac457899bb7923ebb76476b443b1590cb79d7a20019d",
+    "source_name": "R1_DATACHECK_AUDIT.json",
+    "role": "Original closed evidence, hashes and delivery provenance",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/evidence/R1_EVIDENCE_GATE.json",
+    "bytes": 792,
+    "sha256": "20c2a5346fac9d6443054b597f78a9cd5b3a5a31b8697d55ddf620ca92f67d7e",
+    "source_name": "R1_EVIDENCE_GATE.json",
+    "role": "Original closed evidence, hashes and delivery provenance",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/evidence/R1_EXTRACTION_TRANSFER_AUDIT.json",
+    "bytes": 2687,
+    "sha256": "12970188083d02580ceaee57c45bc490a8e99909ed9c7dcd26b24f8e2779ae4f",
+    "source_name": "R1_EXTRACTION_TRANSFER_AUDIT.json",
+    "role": "Original closed evidence, hashes and delivery provenance",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/evidence/R1_FINAL_CLOSEOUT_RECEIPT.json",
+    "bytes": 1098,
+    "sha256": "e82ad3446d5c9f750983936db011ba50a95a74ddbe9092cc681d0a31336a409b",
+    "source_name": "R1_FINAL_CLOSEOUT_RECEIPT.json",
+    "role": "Original closed evidence, hashes and delivery provenance",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/evidence/R1_FL1_COMPARISON_AUDIT.json",
+    "bytes": 26513,
+    "sha256": "9d57427502330b3caae449d902c00ed107af4beb1d451b43640db2c80c1a222e",
+    "source_name": "R1_FL1_COMPARISON_AUDIT.json",
+    "role": "Original closed evidence, hashes and delivery provenance",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/evidence/R1_NATIVE_AND_PATH_AUDIT.json",
+    "bytes": 2898944,
+    "sha256": "0dacc01916a282a7a6212df978d74961bb71b00ab1a8452c985a72f2871422c5",
+    "source_name": "R1_NATIVE_AND_PATH_AUDIT.json",
+    "role": "Original closed evidence, hashes and delivery provenance",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/evidence/R1_REAL_IMAGE_REVIEW_RECEIPT.json",
+    "bytes": 1229,
+    "sha256": "4a5d71f45673e1b3d99156c5cb04bf8f030296e8687fa5258fc538035d76ee00",
+    "source_name": "R1_REAL_IMAGE_REVIEW_RECEIPT.json",
+    "role": "Original closed evidence, hashes and delivery provenance",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/evidence/R1_REPORT_INLINE_DELIVERY_RECEIPT.json",
+    "bytes": 8197,
+    "sha256": "e8a38f1386c5fc8a0e15b0dc95179edd0146f326fd3ed759cbfbb71da384633c",
+    "source_name": "R1_REPORT_INLINE_DELIVERY_RECEIPT.json",
+    "role": "Original closed evidence, hashes and delivery provenance",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/figures/R1_FINAL_MAX_CHILD_SHAPE.png",
+    "bytes": 683526,
+    "sha256": "3564504be545398da3709d3749be4cbe32ba2c239ef47c19b4fd836bee21f615",
+    "source_name": "R1_FINAL_MAX_CHILD_SHAPE.png",
+    "role": "Actually generated and reviewed R1 result image; diagnostic only",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/figures/R1_FINAL_PARENT_AND_CHILD_NONAFFINE.png",
+    "bytes": 131226,
+    "sha256": "f03e20e0d7292dc33c96ac5b31717f11d81749aa79d9db14863db001bd77a8a6",
+    "source_name": "R1_FINAL_PARENT_AND_CHILD_NONAFFINE.png",
+    "role": "Actually generated and reviewed R1 result image; diagnostic only",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/figures/R1_FL1_ENERGY_AND_FORCE.png",
+    "bytes": 197925,
+    "sha256": "995da484643a7bbba49ff972cb35f2abebc22ac90f5b2226fc4cee001567d2d4",
+    "source_name": "R1_FL1_ENERGY_AND_FORCE.png",
+    "role": "Actually generated and reviewed R1 result image; diagnostic only",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/figures/R1_FL1_REGIONAL_KE.png",
+    "bytes": 106282,
+    "sha256": "846930a03fb8ee62fae14bba5241f0df99dd65e3de47997e541258d639dd52b5",
+    "source_name": "R1_FL1_REGIONAL_KE.png",
+    "role": "Actually generated and reviewed R1 result image; diagnostic only",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/README.md",
+    "bytes": 2598,
+    "sha256": "86ea2e657602591aa912eb76ba51ca08cb3a4e5af2008eba3994204d0cbd98b7"
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/report/full_report.md",
+    "bytes": 200174,
+    "sha256": "89943da677382d6edc698c9ec44e61b583c4ec82a4e9185eaa42eaf77544ea85",
+    "source_name": "PDMS_DEPTH_REFINEMENT_DIAGNOSTIC_REPORT.md",
+    "role": "Complete frozen report; previously delivered and closed",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/report/full_report.txt",
+    "bytes": 200174,
+    "sha256": "89943da677382d6edc698c9ec44e61b583c4ec82a4e9185eaa42eaf77544ea85",
+    "source_name": "PDMS_DEPTH_REFINEMENT_DIAGNOSTIC_REPORT.txt",
+    "role": "Complete frozen report; previously delivered and closed",
+    "original_bytes_preserved": true
+  },
+  {
+    "path": "reports/R1_PDMS_DEPTH_X2_50US/2026-09-30-v1/ruling/final_scientific_closeout.txt",
+    "bytes": 5637,
+    "sha256": "b90b39adfa0d10b60b695dfc1ac5502ef8bc2bb2ec71c0f6d232d42bf971c22a",
+    "source_name": "PRO_R1_FINAL_SCIENTIFIC_CLOSEOUT.txt",
+    "role": "Exact final paired ruling; no new authorization",
+    "original_bytes_preserved": true
+  }
+]
