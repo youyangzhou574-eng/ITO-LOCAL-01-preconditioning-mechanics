@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-01T21:32:33.6142819+00:00",
+  "controller_PID": 82060,
+  "entry": "C:\\Users\\yang\\Documents\\Codex\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\research_packages\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\compare_r2_r1_csv_only_recovery01.py",
+  "argument": "--run",
+  "entry_calls": 1,
+  "next_check_automation": "ito-r2-pro",
+  "next_check_minutes": 5,
+  "automatic_retry_allowed": false
+}

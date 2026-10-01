@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-01T21:32:33.5870186+00:00",
+  "stage": "ONE_AUTHORIZED_EXISTING_LOCAL_CSV_COMPARISON_RECOVERY",
+  "source_admission_sha256": "2d80b874e08d4cc5318be7ed3c77119dd12060d6fbc3e88b1436ae2ff0667924",
+  "source_sha256": "5f7f5edd44128514e40977f6fb8eb84dee53549f1be29e14f8646e377ac9596a",
+  "controller_sha256": "863c7a88f2335411286feda7ea8566e43be862599beabad50bb7a1ec7325e928",
+  "free_E_bytes": 1192587784192,
+  "available_memory_bytes": 61662810112,
+  "entry_calls_max": 1,
+  "ODB_calls": 0,
+  "NPZ_reads": 0,
+  "science_reruns": 0,
+  "solver_calls": 0,
+  "extraction_calls": 0,
+  "transport_calls": 0,
+  "next_check_automation": "ito-r2-pro",
+  "next_check_minutes": 5,
+  "automatic_retry_allowed": false
+}

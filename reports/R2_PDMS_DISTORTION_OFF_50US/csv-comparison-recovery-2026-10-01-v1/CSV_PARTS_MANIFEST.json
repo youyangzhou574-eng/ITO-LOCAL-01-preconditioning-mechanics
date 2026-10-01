@@ -1,0 +1,428 @@
+{
+  "utc": "2026-10-01T21:52:51.715558+00:00",
+  "max_file_bytes": 1500000,
+  "csv_files": {
+    "R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.csv": {
+      "original_bytes": 55234359,
+      "original_sha256": "c9004fb30bbcfa403ef115a259fc12f9ad7c5f21cdd5d38e0b468790e83a233b",
+      "original_data_rows": 33965,
+      "parts": [
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0000.csv",
+          "bytes": 1499567,
+          "sha256": "f144ff20d335b862bceabf019c19e6827bc327b75d68b28c4c483f3783074caa",
+          "first_data_row_zero_based": 0,
+          "last_data_row_zero_based": 960,
+          "data_rows": 961,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0001.csv",
+          "bytes": 1498849,
+          "sha256": "87abc453c7fa6161656830cc9de067e3d9c948237e3c8a6a22e273944637c0f8",
+          "first_data_row_zero_based": 961,
+          "last_data_row_zero_based": 1918,
+          "data_rows": 958,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0002.csv",
+          "bytes": 1498649,
+          "sha256": "af361b5ba9c8fa09d25aeb06205481aa6b406979a233b411225249a768c3238f",
+          "first_data_row_zero_based": 1919,
+          "last_data_row_zero_based": 2878,
+          "data_rows": 960,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0003.csv",
+          "bytes": 1499709,
+          "sha256": "c5854c481e89034a43e69afffd389b838e7561701b5fc09fe8e175acc1048812",
+          "first_data_row_zero_based": 2879,
+          "last_data_row_zero_based": 3834,
+          "data_rows": 956,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0004.csv",
+          "bytes": 1499862,
+          "sha256": "21959c5027e5de726399403d8b797ac42ebf77d6524b44d24263633f11a10877",
+          "first_data_row_zero_based": 3835,
+          "last_data_row_zero_based": 4796,
+          "data_rows": 962,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0005.csv",
+          "bytes": 1499455,
+          "sha256": "ec52c9eec3ec2d691507ad50a24cd2b1e57a768a6837b454ba656ef433fd339c",
+          "first_data_row_zero_based": 4797,
+          "last_data_row_zero_based": 5753,
+          "data_rows": 957,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0006.csv",
+          "bytes": 1499744,
+          "sha256": "88df7bc3ba48abdba486cb8ae8c5864350467220a4814d6550fa01052c82906a",
+          "first_data_row_zero_based": 5754,
+          "last_data_row_zero_based": 6717,
+          "data_rows": 964,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0007.csv",
+          "bytes": 1499734,
+          "sha256": "c2a68f543e360be204624599e72a75dd483b6b290343e84d0db4f96e668e7590",
+          "first_data_row_zero_based": 6718,
+          "last_data_row_zero_based": 7677,
+          "data_rows": 960,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0008.csv",
+          "bytes": 1498780,
+          "sha256": "5361b5e298fe981924ec04e8c2f923bb562df7a0352a4a3719d6d62e56bc6682",
+          "first_data_row_zero_based": 7678,
+          "last_data_row_zero_based": 8632,
+          "data_rows": 955,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0009.csv",
+          "bytes": 1499311,
+          "sha256": "4940df1c28ed52a1d5c956ed816db32e7692def8ce27abc65e0792d5712883b1",
+          "first_data_row_zero_based": 8633,
+          "last_data_row_zero_based": 9594,
+          "data_rows": 962,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0010.csv",
+          "bytes": 1499451,
+          "sha256": "501e2c92724c7deb65a0c441a1fab553e9dde128d4504e4af33e1fa2744413e7",
+          "first_data_row_zero_based": 9595,
+          "last_data_row_zero_based": 10549,
+          "data_rows": 955,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0011.csv",
+          "bytes": 1499528,
+          "sha256": "76f67fc50160f35aef2d682097b46a097c21710af98a0e906b7847c036a9d484",
+          "first_data_row_zero_based": 10550,
+          "last_data_row_zero_based": 11453,
+          "data_rows": 904,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0012.csv",
+          "bytes": 1499462,
+          "sha256": "321d2bc3e7809889ac59f8188efe95b8a8ba457d3a511d1f6f94cffa248811b3",
+          "first_data_row_zero_based": 11454,
+          "last_data_row_zero_based": 12360,
+          "data_rows": 907,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0013.csv",
+          "bytes": 1499368,
+          "sha256": "4c1d0e27b47184ae2822b936484b520541d3e40ff04dfd658e4092c68e828147",
+          "first_data_row_zero_based": 12361,
+          "last_data_row_zero_based": 13268,
+          "data_rows": 908,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0014.csv",
+          "bytes": 1499309,
+          "sha256": "715dddc90ab8f8fc56d289ebeeb39ecf331f549ed3029f952027a6f93a7154b3",
+          "first_data_row_zero_based": 13269,
+          "last_data_row_zero_based": 14177,
+          "data_rows": 909,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0015.csv",
+          "bytes": 1498679,
+          "sha256": "f49d1575775fd24fcd922dba18c3ba80eda8942068c09e2fb840d3fb1b21c19b",
+          "first_data_row_zero_based": 14178,
+          "last_data_row_zero_based": 15086,
+          "data_rows": 909,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0016.csv",
+          "bytes": 1499430,
+          "sha256": "1febc842bb39ea9d50423fae0084ade2e4a47c3c773bf1b8f68f12e7774cbd2c",
+          "first_data_row_zero_based": 15087,
+          "last_data_row_zero_based": 15995,
+          "data_rows": 909,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0017.csv",
+          "bytes": 1499111,
+          "sha256": "528a4309e3c5cf98e3630a23a448bacb0646e4d90e11ea7e968b185522b5a321",
+          "first_data_row_zero_based": 15996,
+          "last_data_row_zero_based": 16904,
+          "data_rows": 909,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0018.csv",
+          "bytes": 1499104,
+          "sha256": "b929001810dfbd4c18f5f325ace3dd880d2d3794a2ddf3e26639c3c449861742",
+          "first_data_row_zero_based": 16905,
+          "last_data_row_zero_based": 17812,
+          "data_rows": 908,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0019.csv",
+          "bytes": 1499790,
+          "sha256": "05b2e4d8a9dfd251779fa73f6afdb07c4d220ed2cf97eec48637a40512008ac4",
+          "first_data_row_zero_based": 17813,
+          "last_data_row_zero_based": 18719,
+          "data_rows": 907,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0020.csv",
+          "bytes": 1499051,
+          "sha256": "2d4fbdd13abe1257047678e0e07dd6172502eda6c485eb5329f15bb634eaa47c",
+          "first_data_row_zero_based": 18720,
+          "last_data_row_zero_based": 19623,
+          "data_rows": 904,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0021.csv",
+          "bytes": 1499401,
+          "sha256": "b02dacc713a576fbf6e2bc04e78a82d0916aa43c475691c62e5096681fb02a38",
+          "first_data_row_zero_based": 19624,
+          "last_data_row_zero_based": 20525,
+          "data_rows": 902,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0022.csv",
+          "bytes": 1498439,
+          "sha256": "543a7155f4216cff21c472d27df8d131a40ed7024a3291b0be1a37c563c91bef",
+          "first_data_row_zero_based": 20526,
+          "last_data_row_zero_based": 21427,
+          "data_rows": 902,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0023.csv",
+          "bytes": 1499124,
+          "sha256": "39df7878f98fbfe362716b9aaf5892dc8a7f5146e4ed00430c681a08e79ffcfa",
+          "first_data_row_zero_based": 21428,
+          "last_data_row_zero_based": 22330,
+          "data_rows": 903,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0024.csv",
+          "bytes": 1499429,
+          "sha256": "81e10977038ab30f87c2312cb35ba586642a77492d509bae3902fd0d5b361b2c",
+          "first_data_row_zero_based": 22331,
+          "last_data_row_zero_based": 23233,
+          "data_rows": 903,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0025.csv",
+          "bytes": 1499847,
+          "sha256": "155d520638ae57ad300f7942ab9ac1c3de27b87a8e87eaf3e147d8cfabbb7fb4",
+          "first_data_row_zero_based": 23234,
+          "last_data_row_zero_based": 24137,
+          "data_rows": 904,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0026.csv",
+          "bytes": 1499435,
+          "sha256": "65d585faf4ecb8b34b585d0e34a9ea83956408ac09a968a9976f0dcf5653ec8f",
+          "first_data_row_zero_based": 24138,
+          "last_data_row_zero_based": 25040,
+          "data_rows": 903,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0027.csv",
+          "bytes": 1498493,
+          "sha256": "b76aae772ae1bd8fd4f5eaec5e5e15346c64ea70be3675ed13253d4874de60b2",
+          "first_data_row_zero_based": 25041,
+          "last_data_row_zero_based": 25942,
+          "data_rows": 902,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0028.csv",
+          "bytes": 1499906,
+          "sha256": "8ee57e84163f716a4dd3a219430a29adcc11618304eead9cc1e09ddf06ec0efa",
+          "first_data_row_zero_based": 25943,
+          "last_data_row_zero_based": 26845,
+          "data_rows": 903,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0029.csv",
+          "bytes": 1498892,
+          "sha256": "7847be19a511165a981807c1fa40b3fb97969db2498a2796ea633647e4558645",
+          "first_data_row_zero_based": 26846,
+          "last_data_row_zero_based": 27748,
+          "data_rows": 903,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0030.csv",
+          "bytes": 1498418,
+          "sha256": "14fef68aaee1db246370b807e3d298acc7c768b3e41ca81b78b38de3812b0e2c",
+          "first_data_row_zero_based": 27749,
+          "last_data_row_zero_based": 28650,
+          "data_rows": 902,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0031.csv",
+          "bytes": 1498387,
+          "sha256": "cd2095b31a0a8a1eae588ffc283d5e92978806a600473dc11c8bbc3739a40feb",
+          "first_data_row_zero_based": 28651,
+          "last_data_row_zero_based": 29552,
+          "data_rows": 902,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0032.csv",
+          "bytes": 1499957,
+          "sha256": "5fe6b0622895d6d9e212179342efe60c86fde3b18096405a0e7de3bad95c6809",
+          "first_data_row_zero_based": 29553,
+          "last_data_row_zero_based": 30456,
+          "data_rows": 904,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0033.csv",
+          "bytes": 1498473,
+          "sha256": "400fc0e88cd16626f3e0da24aa1cef65b0fc74a684a3cd3199c544fd272ca616",
+          "first_data_row_zero_based": 30457,
+          "last_data_row_zero_based": 31360,
+          "data_rows": 904,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0034.csv",
+          "bytes": 1499673,
+          "sha256": "c1379ab4173127fc2fc901306e9f8f415bf357bf140e71ab7923192878ba85ca",
+          "first_data_row_zero_based": 31361,
+          "last_data_row_zero_based": 32266,
+          "data_rows": 906,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0035.csv",
+          "bytes": 1499742,
+          "sha256": "853ebbb2acce3b8ae90152305fd2a7d77b5220e8456dc4149f6a293c26e7c4e8",
+          "first_data_row_zero_based": 32267,
+          "last_data_row_zero_based": 33173,
+          "data_rows": 907,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        },
+        {
+          "path": "csv_parts/R2_R1_HISTORY_CURVES_SAME_ACTUAL_STRAIN.part_0036.csv",
+          "bytes": 1307816,
+          "sha256": "5462ef4474b6b2cc4dbc28a0a7f690c3323ce71a88606efb33f78daac5e04a3d",
+          "first_data_row_zero_based": 33174,
+          "last_data_row_zero_based": 33964,
+          "data_rows": 791,
+          "header_bytes": 1306,
+          "header_sha256": "dcf2ed177542098a1f9aa228ccb827ad890bf0227d16a9e8036b70695b171061"
+        }
+      ],
+      "exact_reconstruction": "First part including header, then subsequent parts without repeated headers; original byte SHA verified",
+      "scientific_rows_changed": false
+    },
+    "R2_R1_SPATIAL_PATH_SAME_ACTUAL_STRAIN.csv": {
+      "original_bytes": 4487434,
+      "original_sha256": "60530674f5b6ff5cc877f2644fd1b2a1e1854f5d2bbbc45e99db8181a6b88e4a",
+      "original_data_rows": 8000,
+      "parts": [
+        {
+          "path": "csv_parts/R2_R1_SPATIAL_PATH_SAME_ACTUAL_STRAIN.part_0000.csv",
+          "bytes": 1499778,
+          "sha256": "7b5bc055b7f899ef264191f1b501c54a5f11d2aded39fbf2d1a5b3b1a16f7ab8",
+          "first_data_row_zero_based": 0,
+          "last_data_row_zero_based": 3146,
+          "data_rows": 3147,
+          "header_bytes": 1078,
+          "header_sha256": "cab28fec3be644ee053e8f3eade8a0e93bae384e994c82df6fd1a89859268a1e"
+        },
+        {
+          "path": "csv_parts/R2_R1_SPATIAL_PATH_SAME_ACTUAL_STRAIN.part_0001.csv",
+          "bytes": 1499988,
+          "sha256": "7c1b72deabcff908812ace4e2efa7de24b6852d0d5582b051ae91183ed54d22e",
+          "first_data_row_zero_based": 3147,
+          "last_data_row_zero_based": 5579,
+          "data_rows": 2433,
+          "header_bytes": 1078,
+          "header_sha256": "cab28fec3be644ee053e8f3eade8a0e93bae384e994c82df6fd1a89859268a1e"
+        },
+        {
+          "path": "csv_parts/R2_R1_SPATIAL_PATH_SAME_ACTUAL_STRAIN.part_0002.csv",
+          "bytes": 1489824,
+          "sha256": "00fc742cd430e7b23205fb5ecf27668d2b7415611a6b2eca5d90424fffbf79b7",
+          "first_data_row_zero_based": 5580,
+          "last_data_row_zero_based": 7999,
+          "data_rows": 2420,
+          "header_bytes": 1078,
+          "header_sha256": "cab28fec3be644ee053e8f3eade8a0e93bae384e994c82df6fd1a89859268a1e"
+        }
+      ],
+      "exact_reconstruction": "First part including header, then subsequent parts without repeated headers; original byte SHA verified",
+      "scientific_rows_changed": false
+    }
+  },
+  "no_rows_omitted": true,
+  "no_row_values_changed": true,
+  "no_event_shift": true,
+  "no_comparison_recomputed": true
+}

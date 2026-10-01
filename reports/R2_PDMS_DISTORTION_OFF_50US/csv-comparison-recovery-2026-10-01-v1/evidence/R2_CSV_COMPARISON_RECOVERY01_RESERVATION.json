@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-01T21:32:33.813086+00:00",
+  "source_hashes": {
+    "R2_HISTORY_CURVES.csv": "0c7ea4506d0d7fb13f5c81f008d00ac023c79d0be9a57d131f59e92ed30ed03e",
+    "R2_SPATIAL_PATH.csv": "e3310025d5d178b14fec2d3a8b20d7a23fd4c32863a5a0b68822fef8cbe570f2",
+    "R2_NATIVE_AND_PATH_AUDIT.json": "575c2d95e3d16967eea2d15f70914a5ed19531983f7f488e52dea6f6ad39b774",
+    "R1_HISTORY_CURVES.csv": "6f321607799e9ec2f36b6f96143c83f2ec8d5352a74f51c2839864438c55bd84",
+    "R1_SPATIAL_PATH.csv": "cfd420b93246d44270d06bdf718191aa50858193bf5807e3234b5ca2390cb76e",
+    "R1_NATIVE_AND_PATH_AUDIT.json": "0dacc01916a282a7a6212df978d74961bb71b00ab1a8452c985a72f2871422c5",
+    "authority": "b325fe40a2e4b8dce92df0607d9dea9a1f44aa648e5e65324d6564b9a6cbe915",
+    "rules": "97cf28c3e200b5401111abf4d64bbf16fcaf2d93c0900c2c0987deef8c2c5e59",
+    "source": "5f7f5edd44128514e40977f6fb8eb84dee53549f1be29e14f8646e377ac9596a"
+  },
+  "free_bytes": 1192587784192,
+  "required_free_bytes": 23622320128,
+  "next_check_automation": "ito-r2-pro",
+  "next_check_minutes": 5,
+  "automatic_retry_allowed": false,
+  "ODB_calls": 0,
+  "NPZ_reads": 0,
+  "science_audit_reruns": 0
+}

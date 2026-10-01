@@ -1,0 +1,360 @@
+{
+  "R2": {
+    "case": "R2",
+    "status": "PATH_EVIDENCE_REQUIRES_REVIEW",
+    "R2_scientific_gate": false,
+    "observed_mode": "CRACKING_AND_DELETION_OBSERVED_SPATIAL_DISTRIBUTION_REPORTED",
+    "geometry_and_core_field_checks": {
+      "native_mesh_identity": true,
+      "core_fields_available_all_active": true,
+      "initial_intact_zero_cracks": true,
+      "field_BC_residual": true,
+      "positive_active_Jacobians": true,
+      "no_nonlocal_overlap": true,
+      "deletion_monotonic": true,
+      "initial_zero_U_S_LE": true,
+      "actual_native_field_frame_sequence": true,
+      "no_unexplained_overstress_without_native_cracking": true
+    },
+    "valid_prefix_audit": {
+      "first_invalid_frame": null,
+      "last_valid_prefix_frame": 4000
+    },
+    "frame_count": 4001,
+    "scientific_limits": [
+      "No real deposited ITO calibration",
+      "Native crack direction indices recorded, not inferred macroscopic crack faces",
+      "Deletion is mesh load-path loss, not measured crack width or electrical failure",
+      "Cumulative cracked fraction includes deleted reference cells; native_crack_observed fraction separately records direct CKSTAT evidence",
+      "No device mesh convergence or universal rate independence"
+    ],
+    "energy_retained": {
+      "Estar_N_mm": 1.5602124396878935e-06,
+      "ratios_dimensionless": {
+        "boundary_work_vs_ALLWK": 0.00014100369933414382,
+        "ETOTAL_drift": 0.06315204935913903,
+        "ALLAE": 0.002952560013857898,
+        "ALLDC": null,
+        "ALLVD": 0.06008966282073852
+      },
+      "checks": {
+        "two_end_history_BC_residual_le_1e_minus_6": true,
+        "boundary_work_le_1pct": true,
+        "ETOTAL_drift_le_1pct": false,
+        "precrack_engaged_KE_le_5pct": true,
+        "ALLAE_le_5pct": true,
+        "ALLDC_le_5pct": false,
+        "ALLVD_le_5pct": false
+      },
+      "missing_auxiliary_histories": [
+        "global:ALLDC",
+        "ITO:ALLDC",
+        "PDMS:ALLDC"
+      ],
+      "precrack_engaged_KE_ratio_max": 1.0474017469201575e-05,
+      "full_path_KE_ratio_max": 0.14779401925722377,
+      "two_end_BC_normalized_residual": 9.34735985445509e-08,
+      "region_energy_native": {
+        "ITO": {
+          "ALLIE": {
+            "max_abs": 9.565318350723828e-07,
+            "end": 7.805292625562288e-07
+          },
+          "ALLSE": {
+            "max_abs": 9.472472584093339e-07,
+            "end": 1.001629224006706e-09
+          },
+          "ALLKE": {
+            "max_abs": 1.0368133018801018e-07,
+            "end": 4.089131699913651e-09
+          },
+          "ALLAE": {
+            "max_abs": 1.336194488388287e-09,
+            "end": 1.336194488388287e-09
+          },
+          "ALLVD": {
+            "max_abs": 4.5006760984733774e-08,
+            "end": 4.5006760984733774e-08
+          },
+          "ALLDMD": {
+            "max_abs": 7.784397553223243e-07,
+            "end": 7.781914632687403e-07
+          },
+          "KE_IE_ratio_max": {
+            "full_path": 0.12695336729468829,
+            "precrack_engaged": 2.3536428242084134e-06
+          }
+        },
+        "PDMS": {
+          "ALLIE": {
+            "max_abs": 1.5258157759490132e-07,
+            "end": 1.2514909997207724e-07
+          },
+          "ALLSE": {
+            "max_abs": 1.5015579890587105e-07,
+            "end": 1.2467796750570415e-07
+          },
+          "ALLKE": {
+            "max_abs": 1.1902146468401043e-07,
+            "end": 4.340078163522776e-08
+          },
+          "ALLAE": {
+            "max_abs": 3.646432267245814e-09,
+            "end": 4.711285250813546e-10
+          },
+          "ALLVD": {
+            "max_abs": 4.87458748921199e-08,
+            "end": 4.87458748921199e-08
+          },
+          "ALLDMD": {
+            "max_abs": 0.0,
+            "end": 0.0
+          },
+          "KE_IE_ratio_max": {
+            "full_path": 3.4100460151502796,
+            "precrack_engaged": 0.0005821910517335901
+          }
+        }
+      }
+    },
+    "events_retained": {
+      "global_first_crack": {
+        "time_bracket_s": [
+          1.321250238106586e-05,
+          1.322500338574173e-05
+        ],
+        "macro_strain_bracket": [
+          0.0023822431224938987,
+          0.0023879170613075843
+        ],
+        "last_frame": 1057,
+        "observed_frame": 1058
+      },
+      "gauge_first_crack": {
+        "time_bracket_s": [
+          1.321250238106586e-05,
+          1.322500338574173e-05
+        ],
+        "macro_strain_bracket": [
+          0.0023822431224938987,
+          0.0023879170613075843
+        ],
+        "last_frame": 1057,
+        "observed_frame": 1058
+      },
+      "first_deletion": {
+        "time_bracket_s": [
+          1.3250003576104064e-05,
+          1.3262502761790529e-05
+        ],
+        "macro_strain_bracket": [
+          0.002399284741002748,
+          0.002404978343470241
+        ],
+        "last_frame": 1060,
+        "observed_frame": 1061
+      },
+      "first_through_deletion_band": {
+        "time_bracket_s": [
+          1.3250003576104064e-05,
+          1.3262502761790529e-05
+        ],
+        "macro_strain_bracket": [
+          0.002399284741002748,
+          0.002404978343470241
+        ],
+        "observed_frame": 1061,
+        "bands": [
+          {
+            "reference_x_range_mm": [
+              0.00794921875,
+              0.00794921875
+            ],
+            "element_count": 4,
+            "location": "GAUGE_OR_SPANNING"
+          }
+        ]
+      }
+    }
+  },
+  "R1": {
+    "case": "R1",
+    "status": "PATH_EVIDENCE_REQUIRES_REVIEW",
+    "R1_scientific_gate": false,
+    "observed_mode": "CRACKING_AND_DELETION_OBSERVED_SPATIAL_DISTRIBUTION_REPORTED",
+    "geometry_and_core_field_checks": {
+      "native_mesh_identity": true,
+      "core_fields_available_all_active": true,
+      "initial_intact_zero_cracks": true,
+      "field_BC_residual": true,
+      "positive_active_Jacobians": true,
+      "no_nonlocal_overlap": true,
+      "deletion_monotonic": true,
+      "initial_zero_U_S_LE": true,
+      "complete_native_field_frame_sequence": true,
+      "no_unexplained_overstress_without_native_cracking": true
+    },
+    "valid_prefix_audit": {
+      "first_invalid_frame": null,
+      "last_valid_prefix_frame": 4000
+    },
+    "frame_count": 4001,
+    "scientific_limits": [
+      "No real deposited ITO calibration",
+      "Native crack direction indices recorded, not inferred macroscopic crack faces",
+      "Deletion is mesh load-path loss, not measured crack width or electrical failure",
+      "Cumulative cracked fraction includes deleted reference cells; native_crack_observed fraction separately records direct CKSTAT evidence",
+      "No device mesh convergence or universal rate independence"
+    ],
+    "energy_retained": {
+      "Estar_N_mm": 1.3448725912222132e-06,
+      "ratios_dimensionless": {
+        "boundary_work_vs_ALLWK": 0.00010450493570342287,
+        "ETOTAL_drift": 0.011029400383375947,
+        "ALLAE": 0.10325393327019002,
+        "ALLDC": 0.0,
+        "ALLVD": 0.031479478398734995
+      },
+      "checks": {
+        "two_end_history_BC_residual_le_1e_minus_6": true,
+        "boundary_work_le_1pct": true,
+        "ETOTAL_drift_le_1pct": false,
+        "precrack_engaged_KE_le_5pct": true,
+        "ALLAE_le_5pct": false,
+        "ALLDC_le_5pct": true,
+        "ALLVD_le_5pct": true
+      },
+      "missing_auxiliary_histories": [
+        "ITO:ALLDC"
+      ],
+      "precrack_engaged_KE_ratio_max": 1.0473869595587351e-05,
+      "full_path_KE_ratio_max": 0.13715091485456488,
+      "two_end_BC_normalized_residual": 9.204697564596e-08,
+      "region_energy_native": {
+        "ITO": {
+          "ALLIE": {
+            "max_abs": 9.557440989738097e-07,
+            "end": 7.78635524056881e-07
+          },
+          "ALLSE": {
+            "max_abs": 9.472472584093339e-07,
+            "end": 7.310465011123313e-10
+          },
+          "ALLKE": {
+            "max_abs": 9.109811571761384e-08,
+            "end": 1.8155758146898293e-11
+          },
+          "ALLAE": {
+            "max_abs": 2.441005453324152e-10,
+            "end": 2.441005453324152e-10
+          },
+          "ALLVD": {
+            "max_abs": 3.230921663543995e-08,
+            "end": 3.230921663543995e-08
+          },
+          "ALLDMD": {
+            "max_abs": 7.778649546708039e-07,
+            "end": 7.776603752063238e-07
+          },
+          "KE_IE_ratio_max": {
+            "full_path": 0.11231054605498708,
+            "precrack_engaged": 2.353592770934312e-06
+          }
+        },
+        "PDMS": {
+          "ALLIE": {
+            "max_abs": 3.067785598886985e-07,
+            "end": 3.0530125627592497e-07
+          },
+          "ALLSE": {
+            "max_abs": 1.6844414574279654e-07,
+            "end": 1.6670506397531426e-07
+          },
+          "ALLKE": {
+            "max_abs": 1.1205835193095481e-07,
+            "end": 3.417002680805581e-09
+          },
+          "ALLAE": {
+            "max_abs": 1.3861931336123234e-07,
+            "end": 1.385961923006107e-07
+          },
+          "ALLVD": {
+            "max_abs": 1.0026671048990465e-08,
+            "end": 1.0026671048990465e-08
+          },
+          "ALLDMD": {
+            "max_abs": 0.0,
+            "end": 0.0
+          },
+          "ALLDC": {
+            "max_abs": 0.0,
+            "end": 0.0
+          },
+          "KE_IE_ratio_max": {
+            "full_path": 2.621424731745799,
+            "precrack_engaged": 0.000582216313644209
+          }
+        }
+      }
+    },
+    "events_retained": {
+      "global_first_crack": {
+        "time_bracket_s": [
+          1.3212501471571159e-05,
+          1.3225006114225835e-05
+        ],
+        "macro_strain_bracket": [
+          0.0023822427619997906,
+          0.0023879182714846886
+        ],
+        "last_frame": 1057,
+        "observed_frame": 1058
+      },
+      "gauge_first_crack": {
+        "time_bracket_s": [
+          1.3212501471571159e-05,
+          1.3225006114225835e-05
+        ],
+        "macro_strain_bracket": [
+          0.0023822427619997906,
+          0.0023879182714846886
+        ],
+        "last_frame": 1057,
+        "observed_frame": 1058
+      },
+      "first_deletion": {
+        "time_bracket_s": [
+          1.3250003576104064e-05,
+          1.3262505490274634e-05
+        ],
+        "macro_strain_bracket": [
+          0.0023992847122015536,
+          0.0024049796788102166
+        ],
+        "last_frame": 1060,
+        "observed_frame": 1061
+      },
+      "first_through_deletion_band": {
+        "time_bracket_s": [
+          1.3250003576104064e-05,
+          1.3262505490274634e-05
+        ],
+        "macro_strain_bracket": [
+          0.0023992847122015536,
+          0.0024049796788102166
+        ],
+        "observed_frame": 1061,
+        "bands": [
+          {
+            "reference_x_range_mm": [
+              0.01181640625,
+              0.01181640625
+            ],
+            "element_count": 4,
+            "location": "GAUGE_OR_SPANNING"
+          }
+        ]
+      }
+    }
+  }
+}

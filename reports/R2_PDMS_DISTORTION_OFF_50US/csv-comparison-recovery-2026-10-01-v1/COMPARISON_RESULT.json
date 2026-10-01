@@ -1,0 +1,480 @@
+{
+  "status": "CSV_COMPARISON_COMPLETED_SCIENTIFIC_FAILURE_RETAINED",
+  "utc": "2026-10-01T21:32:35.694135+00:00",
+  "scope": "EXISTING_LOCAL_CSV_ONLY",
+  "common_grids": {
+    "HISTORY_CURVES": {
+      "available": true,
+      "common_range": [
+        0.0,
+        0.019999999494757503
+      ],
+      "finite_strain_interval": true,
+      "exact_duplicates": "LAST",
+      "extrapolation": false,
+      "smoothing": false,
+      "event_shift": false,
+      "unavailable_reason": null,
+      "rows": 33965
+    },
+    "SPATIAL_PATH": {
+      "available": true,
+      "common_range": [
+        0.0,
+        0.019999999997538178
+      ],
+      "finite_strain_interval": true,
+      "exact_duplicates": "LAST",
+      "extrapolation": false,
+      "smoothing": false,
+      "event_shift": false,
+      "unavailable_reason": null,
+      "rows": 8000
+    }
+  },
+  "metrics": [
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "ALLAE",
+      "common_rows": 33965,
+      "max_abs_difference": 1.375866138797477e-07,
+      "rms_difference": 9.194264819675332e-08,
+      "actual_strain_at_max": 0.01999999803956598,
+      "R2_signed_at_max": 1.239339519898408e-09,
+      "R1_signed_at_max": 1.388259533996461e-07,
+      "R2_minus_R1_signed_at_max": -1.375866138797477e-07,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "ALLDMD",
+      "common_rows": 33965,
+      "max_abs_difference": 2.047541898735478e-07,
+      "rms_difference": 2.2528923245527864e-09,
+      "actual_strain_at_max": 0.00239814671658678,
+      "R2_signed_at_max": 3.2711585618017125e-07,
+      "R1_signed_at_max": 5.318700460537191e-07,
+      "R2_minus_R1_signed_at_max": -2.047541898735478e-07,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "ALLIE",
+      "common_rows": 33965,
+      "max_abs_difference": 1.8660409750737017e-07,
+      "rms_difference": 8.938204607519761e-08,
+      "actual_strain_at_max": 0.01999999803956598,
+      "R2_signed_at_max": 8.977114021035959e-07,
+      "R1_signed_at_max": 1.084315499610966e-06,
+      "R2_minus_R1_signed_at_max": -1.8660409750737017e-07,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "ALLKE",
+      "common_rows": 33965,
+      "max_abs_difference": 8.497814008023852e-08,
+      "rms_difference": 3.744024264432024e-08,
+      "actual_strain_at_max": 0.002522631075407844,
+      "R2_signed_at_max": 1.2001210336620716e-07,
+      "R1_signed_at_max": 3.503396328596864e-08,
+      "R2_minus_R1_signed_at_max": 8.497814008023852e-08,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "ALLSE",
+      "common_rows": 33965,
+      "max_abs_difference": 2.7623314480251793e-07,
+      "rms_difference": 2.1983394871687875e-08,
+      "actual_strain_at_max": 0.002399284676357638,
+      "R2_signed_at_max": 3.5638001349980186e-07,
+      "R1_signed_at_max": 8.014686869728394e-08,
+      "R2_minus_R1_signed_at_max": 2.7623314480251793e-07,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "ALLVD",
+      "common_rows": 33965,
+      "max_abs_difference": 5.1416751745136935e-08,
+      "rms_difference": 2.356978420386203e-08,
+      "actual_strain_at_max": 0.019999999494757503,
+      "R2_signed_at_max": 9.375263942956735e-08,
+      "R1_signed_at_max": 4.233588768443042e-08,
+      "R2_minus_R1_signed_at_max": 5.1416751745136935e-08,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "ALLWK",
+      "common_rows": 33965,
+      "max_abs_difference": 1.1121987872341886e-09,
+      "rms_difference": 6.945032214777184e-10,
+      "actual_strain_at_max": 0.0024015598683035932,
+      "R2_signed_at_max": 9.60374450641177e-07,
+      "R1_signed_at_max": 9.592622518539429e-07,
+      "R2_minus_R1_signed_at_max": 1.1121987872341886e-09,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "ETOTAL",
+      "common_rows": 33965,
+      "max_abs_difference": 8.369747472869449e-08,
+      "rms_difference": 3.2826164641623935e-08,
+      "actual_strain_at_max": 0.019999999494757503,
+      "R2_signed_at_max": -9.853061300191257e-08,
+      "R1_signed_at_max": -1.4833138273218083e-08,
+      "R2_minus_R1_signed_at_max": -8.369747472869449e-08,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "ITO:ALLAE",
+      "common_rows": 33965,
+      "max_abs_difference": 1.0920939430558718e-09,
+      "rms_difference": 5.236597531602442e-10,
+      "actual_strain_at_max": 0.019999999494757503,
+      "R2_signed_at_max": 1.336194488388287e-09,
+      "R1_signed_at_max": 2.441005453324152e-10,
+      "R2_minus_R1_signed_at_max": 1.0920939430558718e-09,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "ITO:ALLDMD",
+      "common_rows": 33965,
+      "max_abs_difference": 2.047541898735478e-07,
+      "rms_difference": 2.2528923253553576e-09,
+      "actual_strain_at_max": 0.00239814671658678,
+      "R2_signed_at_max": 3.2711585618017125e-07,
+      "R1_signed_at_max": 5.318700460537191e-07,
+      "R2_minus_R1_signed_at_max": -2.047541898735478e-07,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "ITO:ALLIE",
+      "common_rows": 33965,
+      "max_abs_difference": 8.058066214289283e-08,
+      "rms_difference": 5.8129705636629055e-09,
+      "actual_strain_at_max": 0.002399284676357638,
+      "R2_signed_at_max": 9.245479191122286e-07,
+      "R1_signed_at_max": 8.439672569693357e-07,
+      "R2_minus_R1_signed_at_max": 8.058066214289283e-08,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "ITO:ALLKE",
+      "common_rows": 33965,
+      "max_abs_difference": 7.235004380002584e-08,
+      "rms_difference": 5.2532509585192304e-09,
+      "actual_strain_at_max": 0.002403838334430475,
+      "R2_signed_at_max": 1.016256803154647e-07,
+      "R1_signed_at_max": 2.927563651543886e-08,
+      "R2_minus_R1_signed_at_max": 7.235004380002584e-08,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "ITO:ALLSE",
+      "common_rows": 33965,
+      "max_abs_difference": 2.7907407229577075e-07,
+      "rms_difference": 5.920943905229558e-09,
+      "actual_strain_at_max": 0.002399284676357638,
+      "R2_signed_at_max": 3.545607398791617e-07,
+      "R1_signed_at_max": 7.548666758339095e-08,
+      "R2_minus_R1_signed_at_max": 2.7907407229577075e-07,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "ITO:ALLVD",
+      "common_rows": 33965,
+      "max_abs_difference": 1.2877674038236364e-08,
+      "rms_difference": 6.007397340286356e-09,
+      "actual_strain_at_max": 0.002399284676357638,
+      "R2_signed_at_max": 7.1031003301413875e-09,
+      "R1_signed_at_max": 1.9980774368377752e-08,
+      "R2_minus_R1_signed_at_max": -1.2877674038236364e-08,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "KE_IE_ratio",
+      "common_rows": 33965,
+      "max_abs_difference": 0.10825257315885754,
+      "rms_difference": 0.043503707894420804,
+      "actual_strain_at_max": 0.002522631075407844,
+      "R2_signed_at_max": 0.14720942723126731,
+      "R1_signed_at_max": 0.03895685407240977,
+      "R2_minus_R1_signed_at_max": 0.10825257315885754,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "PDMS:ALLAE",
+      "common_rows": 33965,
+      "max_abs_difference": 1.386767670696898e-07,
+      "rms_difference": 9.243523229303354e-08,
+      "actual_strain_at_max": 0.01999999803956598,
+      "R2_signed_at_max": -9.464351524712811e-11,
+      "R1_signed_at_max": 1.3858212355444266e-07,
+      "R2_minus_R1_signed_at_max": -1.386767670696898e-07,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "PDMS:ALLDMD",
+      "common_rows": 33965,
+      "max_abs_difference": 0.0,
+      "rms_difference": 0.0,
+      "actual_strain_at_max": 0.0,
+      "R2_signed_at_max": 0.0,
+      "R1_signed_at_max": 0.0,
+      "R2_minus_R1_signed_at_max": 0.0,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "PDMS:ALLIE",
+      "common_rows": 33965,
+      "max_abs_difference": 1.933812043830585e-07,
+      "rms_difference": 9.236395796094625e-08,
+      "actual_strain_at_max": 0.01999999803956598,
+      "R2_signed_at_max": 1.128156199570185e-07,
+      "R1_signed_at_max": 3.06196824340077e-07,
+      "R2_minus_R1_signed_at_max": -1.933812043830585e-07,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "PDMS:ALLKE",
+      "common_rows": 33965,
+      "max_abs_difference": 8.581639932003782e-08,
+      "rms_difference": 3.494596593742224e-08,
+      "actual_strain_at_max": 0.002522631075407844,
+      "R2_signed_at_max": 1.1847774317175208e-07,
+      "R1_signed_at_max": 3.2661343851714264e-08,
+      "R2_minus_R1_signed_at_max": 8.581639932003782e-08,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "PDMS:ALLSE",
+      "common_rows": 33965,
+      "max_abs_difference": 7.99263339956724e-08,
+      "rms_difference": 2.056187066465841e-08,
+      "actual_strain_at_max": 0.002522631075407844,
+      "R2_signed_at_max": 3.5576345425170075e-08,
+      "R1_signed_at_max": 1.1550267942084247e-07,
+      "R2_minus_R1_signed_at_max": -7.99263339956724e-08,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "PDMS:ALLVD",
+      "common_rows": 33965,
+      "max_abs_difference": 3.8719203843129435e-08,
+      "rms_difference": 1.756383570402141e-08,
+      "actual_strain_at_max": 0.019999999494757503,
+      "R2_signed_at_max": 4.87458748921199e-08,
+      "R1_signed_at_max": 1.0026671048990465e-08,
+      "R2_minus_R1_signed_at_max": 3.8719203843129435e-08,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "W_path_N_mm",
+      "common_rows": 33965,
+      "max_abs_difference": 1.054596148131579e-09,
+      "rms_difference": 6.391150114962823e-10,
+      "actual_strain_at_max": 0.0024015598683035932,
+      "R2_signed_at_max": 9.603314617320976e-07,
+      "R1_signed_at_max": 9.59276865583966e-07,
+      "R2_minus_R1_signed_at_max": 1.054596148131579e-09,
+      "physical_validation": false
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "force_N_per_1mm_b",
+      "common_rows": 33965,
+      "max_abs_difference": 0.02531107441088786,
+      "rms_difference": 0.00272421366896126,
+      "actual_strain_at_max": 0.0024004215447348543,
+      "R2_signed_at_max": 0.010564705571828911,
+      "R1_signed_at_max": -0.01474636883905895,
+      "R2_minus_R1_signed_at_max": 0.02531107441088786,
+      "physical_validation": false
+    },
+    {
+      "inventory": "SPATIAL_PATH",
+      "variable": "cumulative_cracked_reference_fraction",
+      "common_rows": 8000,
+      "max_abs_difference": 0.00021322792386846423,
+      "rms_difference": 2.4874841420293393e-06,
+      "actual_strain_at_max": 0.0023879170613075843,
+      "R2_signed_at_max": 0.9999999999999998,
+      "R1_signed_at_max": 0.9997867720761313,
+      "R2_minus_R1_signed_at_max": 0.00021322792386846423,
+      "physical_validation": false
+    },
+    {
+      "inventory": "SPATIAL_PATH",
+      "variable": "native_crack_observed_reference_fraction",
+      "common_rows": 8000,
+      "max_abs_difference": 0.00021322792386846423,
+      "rms_difference": 2.4874841420293393e-06,
+      "actual_strain_at_max": 0.0023879170613075843,
+      "R2_signed_at_max": 0.9999999999999998,
+      "R1_signed_at_max": 0.9997867720761313,
+      "R2_minus_R1_signed_at_max": 0.00021322792386846423,
+      "physical_validation": false
+    },
+    {
+      "inventory": "SPATIAL_PATH",
+      "variable": "deleted_reference_fraction",
+      "common_rows": 8000,
+      "max_abs_difference": 4.5796333303675316e-07,
+      "rms_difference": 5.121376529486521e-09,
+      "actual_strain_at_max": 0.002404978343470241,
+      "R2_signed_at_max": 0.0019531249999999581,
+      "R1_signed_at_max": 0.0019526670366669214,
+      "R2_minus_R1_signed_at_max": 4.5796333303675316e-07,
+      "physical_validation": false
+    },
+    {
+      "inventory": "SPATIAL_PATH",
+      "variable": "active_cracked_reference_fraction",
+      "common_rows": 8000,
+      "max_abs_difference": 0.00021322792386846423,
+      "rms_difference": 2.48748941411717e-06,
+      "actual_strain_at_max": 0.0023879170613075843,
+      "R2_signed_at_max": 0.9999999999999998,
+      "R1_signed_at_max": 0.9997867720761313,
+      "R2_minus_R1_signed_at_max": 0.00021322792386846423,
+      "physical_validation": false
+    },
+    {
+      "inventory": "SPATIAL_PATH",
+      "variable": "min_active_Jacobian_mm2",
+      "common_rows": 8000,
+      "max_abs_difference": 2.514740958063127e-11,
+      "rms_difference": 1.700688764364289e-12,
+      "actual_strain_at_max": 0.0023992847122015536,
+      "R2_signed_at_max": 1.4809664968415683e-10,
+      "R1_signed_at_max": 1.2294924010352556e-10,
+      "R2_minus_R1_signed_at_max": 2.514740958063127e-11,
+      "physical_validation": false
+    },
+    {
+      "inventory": "SPATIAL_PATH",
+      "variable": "overlap_area_mm2",
+      "common_rows": 8000,
+      "max_abs_difference": 9.317362419797304e-21,
+      "rms_difference": 1.7126676633383635e-21,
+      "actual_strain_at_max": 6.243088764791551e-06,
+      "R2_signed_at_max": 9.317362419797304e-21,
+      "R1_signed_at_max": 0.0,
+      "R2_minus_R1_signed_at_max": 9.317362419797304e-21,
+      "physical_validation": false
+    },
+    {
+      "inventory": "SPATIAL_PATH",
+      "variable": "ITO_active_max_principal_MPa",
+      "common_rows": 8000,
+      "max_abs_difference": 99.81305753807074,
+      "rms_difference": 19.724389799019317,
+      "actual_strain_at_max": 0.002416387657647621,
+      "R2_signed_at_max": 109.36700247632277,
+      "R1_signed_at_max": 9.553944938252036,
+      "R2_minus_R1_signed_at_max": 99.81305753807074,
+      "physical_validation": false
+    },
+    {
+      "inventory": "SPATIAL_PATH",
+      "variable": "ITO_active_CKLE_max_abs",
+      "common_rows": 8000,
+      "max_abs_difference": 0.24663593305093034,
+      "rms_difference": 0.0039043067098815313,
+      "actual_strain_at_max": 0.0023992847122015536,
+      "R2_signed_at_max": 0.3923415349628331,
+      "R1_signed_at_max": 0.6389774680137634,
+      "R2_minus_R1_signed_at_max": -0.24663593305093034,
+      "physical_validation": false
+    }
+  ],
+  "unavailable": [
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "ALLDC",
+      "absent_cases": [
+        "R2"
+      ],
+      "availability": "UNAVAILABLE_NOT_ZERO"
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "BC_normalized_residual",
+      "absent_cases": [
+        "R1"
+      ],
+      "availability": "UNAVAILABLE_NOT_ZERO"
+    },
+    {
+      "inventory": "HISTORY_CURVES",
+      "variable": "PDMS:ALLDC",
+      "absent_cases": [
+        "R2"
+      ],
+      "availability": "UNAVAILABLE_NOT_ZERO"
+    }
+  ],
+  "missing_native_ALLDC": {
+    "R2": [
+      "global:ALLDC",
+      "ITO:ALLDC",
+      "PDMS:ALLDC"
+    ],
+    "R1": [
+      "ITO:ALLDC"
+    ]
+  },
+  "science_gate": {
+    "R2": false,
+    "R1": false
+  },
+  "physical_path_qualified": false,
+  "geometry_prefix_is_not_energy_or_physics_qualification": true,
+  "spatial_field_maps": "NOT_GENERATED_CSV_ONLY_SCOPE",
+  "ODB_calls": 0,
+  "NPZ_reads": 0,
+  "solver_calls": 0,
+  "extraction_calls": 0,
+  "transport_calls": 0,
+  "science_audit_reruns": 0,
+  "source_hashes_before": {
+    "R2_HISTORY_CURVES.csv": "0c7ea4506d0d7fb13f5c81f008d00ac023c79d0be9a57d131f59e92ed30ed03e",
+    "R2_SPATIAL_PATH.csv": "e3310025d5d178b14fec2d3a8b20d7a23fd4c32863a5a0b68822fef8cbe570f2",
+    "R2_NATIVE_AND_PATH_AUDIT.json": "575c2d95e3d16967eea2d15f70914a5ed19531983f7f488e52dea6f6ad39b774",
+    "R1_HISTORY_CURVES.csv": "6f321607799e9ec2f36b6f96143c83f2ec8d5352a74f51c2839864438c55bd84",
+    "R1_SPATIAL_PATH.csv": "cfd420b93246d44270d06bdf718191aa50858193bf5807e3234b5ca2390cb76e",
+    "R1_NATIVE_AND_PATH_AUDIT.json": "0dacc01916a282a7a6212df978d74961bb71b00ab1a8452c985a72f2871422c5",
+    "authority": "b325fe40a2e4b8dce92df0607d9dea9a1f44aa648e5e65324d6564b9a6cbe915",
+    "rules": "97cf28c3e200b5401111abf4d64bbf16fcaf2d93c0900c2c0987deef8c2c5e59",
+    "source": "5f7f5edd44128514e40977f6fb8eb84dee53549f1be29e14f8646e377ac9596a"
+  },
+  "source_hashes_after": {
+    "R2_HISTORY_CURVES.csv": "0c7ea4506d0d7fb13f5c81f008d00ac023c79d0be9a57d131f59e92ed30ed03e",
+    "R2_SPATIAL_PATH.csv": "e3310025d5d178b14fec2d3a8b20d7a23fd4c32863a5a0b68822fef8cbe570f2",
+    "R2_NATIVE_AND_PATH_AUDIT.json": "575c2d95e3d16967eea2d15f70914a5ed19531983f7f488e52dea6f6ad39b774",
+    "R1_HISTORY_CURVES.csv": "6f321607799e9ec2f36b6f96143c83f2ec8d5352a74f51c2839864438c55bd84",
+    "R1_SPATIAL_PATH.csv": "cfd420b93246d44270d06bdf718191aa50858193bf5807e3234b5ca2390cb76e",
+    "R1_NATIVE_AND_PATH_AUDIT.json": "0dacc01916a282a7a6212df978d74961bb71b00ab1a8452c985a72f2871422c5",
+    "authority": "b325fe40a2e4b8dce92df0607d9dea9a1f44aa648e5e65324d6564b9a6cbe915",
+    "rules": "97cf28c3e200b5401111abf4d64bbf16fcaf2d93c0900c2c0987deef8c2c5e59",
+    "source": "5f7f5edd44128514e40977f6fb8eb84dee53549f1be29e14f8646e377ac9596a"
+  }
+}

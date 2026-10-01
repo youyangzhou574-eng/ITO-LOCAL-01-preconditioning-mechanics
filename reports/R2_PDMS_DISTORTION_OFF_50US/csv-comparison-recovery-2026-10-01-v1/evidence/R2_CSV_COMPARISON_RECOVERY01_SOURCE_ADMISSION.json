@@ -1,0 +1,39 @@
+{
+  "status": "CSV_ONLY_RECOVERY01_SOURCE_ADMISSION_PASS",
+  "utc": "2026-10-01T21:31:41.929456+00:00",
+  "source_hashes": {
+    "R2_HISTORY_CURVES.csv": "0c7ea4506d0d7fb13f5c81f008d00ac023c79d0be9a57d131f59e92ed30ed03e",
+    "R2_SPATIAL_PATH.csv": "e3310025d5d178b14fec2d3a8b20d7a23fd4c32863a5a0b68822fef8cbe570f2",
+    "R2_NATIVE_AND_PATH_AUDIT.json": "575c2d95e3d16967eea2d15f70914a5ed19531983f7f488e52dea6f6ad39b774",
+    "R1_HISTORY_CURVES.csv": "6f321607799e9ec2f36b6f96143c83f2ec8d5352a74f51c2839864438c55bd84",
+    "R1_SPATIAL_PATH.csv": "cfd420b93246d44270d06bdf718191aa50858193bf5807e3234b5ca2390cb76e",
+    "R1_NATIVE_AND_PATH_AUDIT.json": "0dacc01916a282a7a6212df978d74961bb71b00ab1a8452c985a72f2871422c5",
+    "authority": "b325fe40a2e4b8dce92df0607d9dea9a1f44aa648e5e65324d6564b9a6cbe915",
+    "rules": "97cf28c3e200b5401111abf4d64bbf16fcaf2d93c0900c2c0987deef8c2c5e59",
+    "source": "5f7f5edd44128514e40977f6fb8eb84dee53549f1be29e14f8646e377ac9596a"
+  },
+  "input_paths": {
+    "R2_HISTORY_CURVES.csv": "E:\\open\\ITO-LOCAL-01\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\cases\\R2\\extract_attempt01\\derived\\R2_HISTORY_CURVES.csv",
+    "R2_SPATIAL_PATH.csv": "E:\\open\\ITO-LOCAL-01\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\cases\\R2\\extract_attempt01\\derived\\R2_SPATIAL_PATH.csv",
+    "R2_NATIVE_AND_PATH_AUDIT.json": "C:\\Users\\yang\\Documents\\Codex\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\research_packages\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\R2_NATIVE_AND_PATH_AUDIT.json",
+    "R1_HISTORY_CURVES.csv": "E:\\open\\ITO-LOCAL-01\\ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1\\cases\\R1\\extract_attempt01\\derived\\R1_HISTORY_CURVES.csv",
+    "R1_SPATIAL_PATH.csv": "E:\\open\\ITO-LOCAL-01\\ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1\\cases\\R1\\extract_attempt01\\derived\\R1_SPATIAL_PATH.csv",
+    "R1_NATIVE_AND_PATH_AUDIT.json": "C:\\Users\\yang\\Documents\\Codex\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\research_packages\\ITO_FLAT_BILAYER_PDMS_DEPTH_REFINEMENT_V1\\R1_NATIVE_AND_PATH_AUDIT.json",
+    "authority": "C:\\Users\\yang\\Documents\\Codex\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\research_packages\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\USER_R2_LOCAL_CSV_COMPARISON_RECOVERY01_AUTHORIZATION.txt",
+    "rules": "C:\\Users\\yang\\Documents\\Codex\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\research_packages\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\r2_comparison_rules.py",
+    "source": "C:\\Users\\yang\\Documents\\Codex\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\research_packages\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\compare_r2_r1_csv_only_recovery01.py"
+  },
+  "output": "E:\\open\\ITO-LOCAL-01\\ITO_PDMS_DISTORTION_CONTROL_DIAGNOSTIC_V1\\cases\\R2\\extract_attempt01\\derived\\csv_comparison_recovery01",
+  "targeted_fixture": {
+    "status": "PASS",
+    "original_rule_signed_scalar_equivalence": true,
+    "duplicate_LAST": true,
+    "no_extrapolation": true,
+    "text_column_preserved": true,
+    "missing_numeric_rejected": true
+  },
+  "native_calls": 0,
+  "ODB_calls": 0,
+  "NPZ_reads": 0,
+  "science_audit_reruns": 0
+}

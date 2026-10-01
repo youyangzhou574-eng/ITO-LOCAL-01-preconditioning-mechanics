@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-01T21:32:36.8076022+00:00",
+  "exit_code": 0,
+  "entry_exit": 0,
+  "stdout_sha256": "a9bf2a3d534837cba230cb6559ded16249457646211f36b5a4cbd2e2b977843b",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ODB_calls": 0,
+  "NPZ_reads": 0,
+  "science_reruns": 0,
+  "actual_entry_calls": 1,
+  "automatic_retry_allowed": false
+}

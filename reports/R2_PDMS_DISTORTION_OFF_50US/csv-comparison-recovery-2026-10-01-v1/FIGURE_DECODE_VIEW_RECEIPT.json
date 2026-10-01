@@ -1,0 +1,38 @@
+{
+  "status": "CSV_FIGURES_DECODED_AND_ACTUALLY_VIEWED",
+  "utc": "2026-10-01T21:34:55.061221+00:00",
+  "figures": [
+    {
+      "file": "FORCE_ENERGY_CSV.png",
+      "bytes": 201393,
+      "sha256": "0c0d7208ad03b715aa8771cf30545ad1fc924e7a2a4d3095067558a458af0326",
+      "dimensions": [
+        1980,
+        1260
+      ],
+      "mode": "RGBA",
+      "actual_view_tool": "view_image",
+      "actual_view_completed": true,
+      "labels_and_title_visible": true
+    },
+    {
+      "file": "ITO_DAMAGE_CSV_LAYOUT01.png",
+      "bytes": 203428,
+      "sha256": "567b3cef54af735379717b0f9aa8c21732404b91beabd67e71e5b0712375ae31",
+      "dimensions": [
+        2160,
+        1440
+      ],
+      "mode": "RGBA",
+      "actual_view_tool": "view_image",
+      "actual_view_completed": true,
+      "labels_and_title_visible": true
+    }
+  ],
+  "original_clipped_figure_retained": "ITO_DAMAGE_CSV.png",
+  "corrected_layout_source_sha256": "3bba8b419ed48cf4af9d966a8d1c863bcbdbe247992ed1c61668875b097f6340",
+  "comparison_entry_repeated": false,
+  "science_reruns": 0,
+  "ODB_calls": 0,
+  "NPZ_reads": 0
+}
