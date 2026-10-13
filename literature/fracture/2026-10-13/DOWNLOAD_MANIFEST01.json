@@ -1,0 +1,112 @@
+{
+  "created_utc": "2026-10-13T14:34:12.737745+00:00",
+  "purpose": "Requested literature download only; no solver or model changes",
+  "required_01_to_04_plus_02_SI_complete": true,
+  "downloaded_pdf_count": 7,
+  "total_pdf_bytes": 19344160,
+  "files": [
+    {
+      "filename": "01_Chen_2002_ITO_Fracture.pdf",
+      "doi": "10.1016/S0013-7944(01)00104-7",
+      "version": "author manuscript",
+      "source_url": "https://dr.ntu.edu.sg/server/api/core/bitstreams/7b04cfb0-619e-4811-89df-aa7aae8978d7/content",
+      "bytes": 257478,
+      "pages": 17,
+      "sha256": "572ce3d963dc37cfa33b05b68477a16052660df960021fd9d580391bf2741a16",
+      "pdf_header_valid": true,
+      "all_pages_text_extraction_completed": true,
+      "title_authors_checked": true,
+      "article_first_page_rendered_and_visually_inspected": true
+    },
+    {
+      "filename": "02_Zhang_2017_Main.pdf",
+      "doi": "10.1021/acsami.7b15693",
+      "version": "published article via NSF public repository",
+      "source_url": "https://par.nsf.gov/servlets/purl/10066605",
+      "bytes": 739311,
+      "pages": 10,
+      "sha256": "1ac31bd2b341abcd1c6cd7c7f7ecbc83f447f10870f9b3eab00f01530ebd46fa",
+      "pdf_header_valid": true,
+      "all_pages_text_extraction_completed": true,
+      "title_authors_checked": true,
+      "article_first_page_rendered_and_visually_inspected": true
+    },
+    {
+      "filename": "02_Zhang_2017_SI.pdf",
+      "doi": "10.1021/acsami.7b15693.s001",
+      "version": "publisher supporting information",
+      "source_url": "https://ndownloader.figshare.com/files/9989902",
+      "bytes": 5969864,
+      "pages": 9,
+      "sha256": "936b6f5a00b0be4455cb783e8268321b8eb1c381ec85d003392c257b265c4158",
+      "pdf_header_valid": true,
+      "all_pages_text_extraction_completed": true,
+      "title_authors_checked": true,
+      "article_first_page_rendered_and_visually_inspected": true,
+      "publisher_md5_match": true
+    },
+    {
+      "filename": "03_Guillen_Hernandez_2019_Phase_Field.pdf",
+      "doi": "10.1016/j.ijpvp.2019.05.008",
+      "version": "author postprint with repository cover",
+      "source_url": "https://iris.imtlucca.it/retrieve/dd396638-3781-561a-e053-d805fe0a1ba5/GEF2018SIV2RevisedFinal.pdf",
+      "bytes": 2453337,
+      "pages": 17,
+      "sha256": "64b758da0a7c82598d144885604a9fd1b9d3a946a6bc543b104ea76935b169d8",
+      "pdf_header_valid": true,
+      "all_pages_text_extraction_completed": true,
+      "title_authors_checked": true,
+      "article_first_page_rendered_and_visually_inspected": true
+    },
+    {
+      "filename": "04_Reinoso_2017_Large_Deformation_Shell.pdf",
+      "doi": "10.1007/s00466-017-1386-3",
+      "version": "author postprint with repository cover",
+      "source_url": "https://iris.imtlucca.it/retrieve/d11ad2b5-3959-41a8-b902-f6316e2ab4a7/Article.pdf",
+      "bytes": 2616395,
+      "pages": 28,
+      "sha256": "f4b05b1614739ba592a4bc3b82c59fb4bc23ef7d98f236d9a76746e8904b4b3d",
+      "pdf_header_valid": true,
+      "all_pages_text_extraction_completed": true,
+      "title_authors_checked": true,
+      "article_first_page_rendered_and_visually_inspected": true
+    },
+    {
+      "filename": "05_Kiendl_2016_Plates_Shells.pdf",
+      "doi": "10.1016/j.cma.2016.09.011",
+      "version": "author preprint, dated 2016-08-03",
+      "source_url": "https://engineering.purdue.edu/gomez/assets/pdf/art45.pdf",
+      "bytes": 5171017,
+      "pages": 34,
+      "sha256": "980fc7fa0f39ae6559904ca062daba54bcf99e261fee8d84a86e8914dc7f0625",
+      "pdf_header_valid": true,
+      "all_pages_text_extraction_completed": true,
+      "title_authors_checked": true,
+      "article_first_page_rendered_and_visually_inspected": true
+    },
+    {
+      "filename": "07_Navidtehrani_2021_Abaqus_UMAT.pdf",
+      "doi": "10.3390/ma14081913",
+      "version": "published open access article, v2",
+      "source_url": "https://res.mdpi.com/d_attachment/materials/materials-14-01913/article_deploy/materials-14-01913-v2.pdf",
+      "bytes": 2136758,
+      "pages": 19,
+      "sha256": "7932b8ab8dfbbbd189beadd9bfc2b84be3af94c32dfbf05bde47bf2edfd9f8db",
+      "pdf_header_valid": true,
+      "all_pages_text_extraction_completed": true,
+      "title_authors_checked": true,
+      "article_first_page_rendered_and_visually_inspected": true
+    }
+  ],
+  "pending": [
+    {
+      "number": "06",
+      "doi": "10.1023/A:1007628800620",
+      "status": "AWAITING_USER_INSTITUTION_LOGIN",
+      "publisher_url": "https://link.springer.com/article/10.1023/A:1007628800620",
+      "reason": "Subscription preview. Browser rejected scheme-relative institutional login navigation as invalid URL. User will sign in manually."
+    }
+  ],
+  "visual_qa_scope": "Article first pages only; all pages parsed. Original PDFs preserved without editing.",
+  "additional_note": "UMAT article included; code was not downloaded or executed."
+}
