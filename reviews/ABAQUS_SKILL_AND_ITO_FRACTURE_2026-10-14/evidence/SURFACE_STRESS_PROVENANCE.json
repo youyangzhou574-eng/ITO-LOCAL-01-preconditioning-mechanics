@@ -1,0 +1,36 @@
+{
+  "original_delivery_utc": "2026-10-13T16:49:09.003921+00:00",
+  "original_report_sha256": "a4c6e0f35554ebe0c202b58c4f786cd1d7afcee5f199a5d06fbb39f61f3f07b9",
+  "original_result_sha256": "cb3591c5e30d1d1f1e685905a1013a5a4e8e6a6cb7fa10f0839225fcf00f3651",
+  "original_source_manifest_sha256": "afa9b8e4cdc7eac9bf023755b8288b1e94e6729c07e8d63e1d166a27a4a785c8",
+  "original_completion_sha256": "2db47eaa2dabb3f993a2fd243e4b1bda9e894ec7a8a3032fa2280559fb5c6aab",
+  "original_visual_QA_sha256": "f48a9cf04b4ebf31aa30945748067d85ce9f086c9bcf831492e169e0485bff5a",
+  "selected_files": {
+    "01_NATIVE_SURFACE_MAPS19.png": {
+      "bytes": 169502,
+      "sha256": "05f9722e427c5389ee8af2f0dd9d3d4d91918e3291ef9da7f945610b1021bfc6"
+    },
+    "02_ALL_SAVED_SURFACE_EVOLUTION19.png": {
+      "bytes": 252818,
+      "sha256": "8c94c9981dc74bba9ef437026375ddfe9eefb747424fe90db68f04835a61c2a6"
+    },
+    "01_NATIVE_SURFACE_MAPS19.svg": {
+      "bytes": 61935,
+      "sha256": "aa4b255ca94f49156add1e84cd29537d867421f2dce71a4d0fdebfcba06f3f0c"
+    },
+    "02_ALL_SAVED_SURFACE_EVOLUTION19.svg": {
+      "bytes": 54140,
+      "sha256": "495975d5b756c955e85d1bc662a83da0c2cd7544e1e6b60e851a96609d1129ed"
+    },
+    "ALL_SAVED_SURFACE_STRESS19.csv": {
+      "bytes": 58762,
+      "sha256": "2a5e0e51bb12a8c1878c2e7e536fbd0af5adb779c73f4f679cbb987713efa600"
+    }
+  },
+  "actual_frames_per_case": 85,
+  "original_native_S_groups_verified": 170,
+  "scientific_pass": false,
+  "science_state": "UNRESOLVED",
+  "validprefix": null,
+  "scope": "New review upload of matched local closed delivery bytes. No rerun, no ODB access, no repeated native data qualification."
+}

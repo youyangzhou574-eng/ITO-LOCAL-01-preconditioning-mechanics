@@ -1,0 +1,541 @@
+{
+  "utc": "2026-10-14T07:47:28.674905+00:00",
+  "all_checks_pass": true,
+  "checks": [
+    {
+      "name": "official_quick_validate",
+      "passed": true,
+      "detail": "Skill is valid!\n"
+    },
+    {
+      "name": "utf8:openai.yaml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_template_placeholder:openai.yaml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "utf8:ito-pdms.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_template_placeholder:ito-pdms.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "utf8:conflicts.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:../profiles/ito-pdms.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_template_placeholder:conflicts.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "utf8:environment-units.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:source-provenance.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:conflicts.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_template_placeholder:environment-units.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "utf8:evidence-postprocessing.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:source-provenance.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_template_placeholder:evidence-postprocessing.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "utf8:execution-recovery.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:source-provenance.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:../profiles/ito-pdms.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_template_placeholder:execution-recovery.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "utf8:fracture-selection.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:user-subroutines.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:phase-field-solid-shell.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:source-provenance.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_template_placeholder:fracture-selection.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "utf8:modeling-analysis.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:source-provenance.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_template_placeholder:modeling-analysis.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "utf8:phase-field-solid-shell.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:source-provenance.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_template_placeholder:phase-field-solid-shell.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "utf8:scripting-input-audit.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:source-provenance.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:user-subroutines.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_template_placeholder:scripting-input-audit.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "utf8:source-provenance.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_template_placeholder:source-provenance.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "utf8:user-subroutines.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:conflicts.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:source-provenance.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_template_placeholder:user-subroutines.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "utf8:verification-cost.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:source-provenance.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_template_placeholder:verification-cost.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "utf8:SKILL.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:references/environment-units.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:references/scripting-input-audit.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:references/modeling-analysis.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:references/fracture-selection.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:references/phase-field-solid-shell.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:references/user-subroutines.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:references/execution-recovery.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:references/evidence-postprocessing.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:references/verification-cost.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:references/conflicts.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:references/source-provenance.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "internal_link:profiles/ito-pdms.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_template_placeholder:SKILL.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ui_short_description_length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ui_prompt_names_skill",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "implicit_invocation_enabled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entry_concise",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_upstream_runtime_bundled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_132_source_skills_accounted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_unique_bytes_count",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "internal_links": [
+    {
+      "from": "references/conflicts.md",
+      "target": "../profiles/ito-pdms.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "references/environment-units.md",
+      "target": "source-provenance.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "references/environment-units.md",
+      "target": "conflicts.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "references/evidence-postprocessing.md",
+      "target": "source-provenance.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "references/execution-recovery.md",
+      "target": "source-provenance.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "references/execution-recovery.md",
+      "target": "../profiles/ito-pdms.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "references/fracture-selection.md",
+      "target": "user-subroutines.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "references/fracture-selection.md",
+      "target": "phase-field-solid-shell.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "references/fracture-selection.md",
+      "target": "source-provenance.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "references/modeling-analysis.md",
+      "target": "source-provenance.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "references/phase-field-solid-shell.md",
+      "target": "source-provenance.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "references/scripting-input-audit.md",
+      "target": "source-provenance.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "references/scripting-input-audit.md",
+      "target": "user-subroutines.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "references/user-subroutines.md",
+      "target": "conflicts.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "references/user-subroutines.md",
+      "target": "source-provenance.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "references/verification-cost.md",
+      "target": "source-provenance.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "SKILL.md",
+      "target": "references/environment-units.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "SKILL.md",
+      "target": "references/scripting-input-audit.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "SKILL.md",
+      "target": "references/modeling-analysis.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "SKILL.md",
+      "target": "references/fracture-selection.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "SKILL.md",
+      "target": "references/phase-field-solid-shell.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "SKILL.md",
+      "target": "references/user-subroutines.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "SKILL.md",
+      "target": "references/execution-recovery.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "SKILL.md",
+      "target": "references/evidence-postprocessing.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "SKILL.md",
+      "target": "references/verification-cost.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "SKILL.md",
+      "target": "references/conflicts.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "SKILL.md",
+      "target": "references/source-provenance.md",
+      "exists_in_package": true
+    },
+    {
+      "from": "SKILL.md",
+      "target": "profiles/ito-pdms.md",
+      "exists_in_package": true
+    }
+  ],
+  "package_files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 362,
+      "sha256": "a0843c696423e30a1542041e455097ba84f54934f146ab6c78c542b298fd52ec"
+    },
+    {
+      "path": "profiles/ito-pdms.md",
+      "bytes": 2675,
+      "sha256": "aa7b39d37a673959d68ee3ccaf5efe3d9d88040754e458a361099bf1a53cf89c"
+    },
+    {
+      "path": "references/conflicts.md",
+      "bytes": 3106,
+      "sha256": "49444f26cdfce68b2d4d25c7f4a5e78e6202e65fac5173231c09404537feff1b"
+    },
+    {
+      "path": "references/environment-units.md",
+      "bytes": 2179,
+      "sha256": "88ee55df7ec4db85dc6e037eee09da53c8b78baee3c46700f4a1efdc608c1e58"
+    },
+    {
+      "path": "references/evidence-postprocessing.md",
+      "bytes": 2742,
+      "sha256": "eb06725ff752470bd7bff6f7f01464e7dbe6781cb7b80b4b71388bda69b6038a"
+    },
+    {
+      "path": "references/execution-recovery.md",
+      "bytes": 2618,
+      "sha256": "830819732ffadd0c8fc947286510b643fe5ba8f424ec73af67738796c2594884"
+    },
+    {
+      "path": "references/fracture-selection.md",
+      "bytes": 3420,
+      "sha256": "a857d7179983649f00fd9494036349610a8e29e431d3248b2e7af5c93acf3a1d"
+    },
+    {
+      "path": "references/modeling-analysis.md",
+      "bytes": 3504,
+      "sha256": "dff52ccc7cab335a0bdf4104e76153f3a2bd0f2e2d23d47eb64d5d7ab7d9cf87"
+    },
+    {
+      "path": "references/phase-field-solid-shell.md",
+      "bytes": 3631,
+      "sha256": "fb028d966390517cce56de2aad710293bfdec0c59f05a5bd697f73ed5431f934"
+    },
+    {
+      "path": "references/scripting-input-audit.md",
+      "bytes": 2714,
+      "sha256": "fb97f2e9051f548cc5828644f9a4dde3fb51bc292d93ca882c4a1cfca3cbc177"
+    },
+    {
+      "path": "references/source-provenance.md",
+      "bytes": 7693,
+      "sha256": "651c62ba44de6ebb93dc897cb16e6fcb2d36af9084803f980fa032f868052a47"
+    },
+    {
+      "path": "references/user-subroutines.md",
+      "bytes": 2465,
+      "sha256": "05d3a9e8468f123d1b9da2044cbdbdf93b827a8f84add5a44f54e376b4646b9c"
+    },
+    {
+      "path": "references/verification-cost.md",
+      "bytes": 2460,
+      "sha256": "135344e9f741cb628c1e6183f0ef7e7b4c40a3f1f18e952a13b5761520806d14"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3569,
+      "sha256": "e96cf5751263d419b61050a10ce416faf2e75a1681a8f8354c00a0ef874d296d"
+    }
+  ],
+  "scope": "Structure, same-byte source inventory and packaging preparation only; no solver/compile/ODB execution."
+}

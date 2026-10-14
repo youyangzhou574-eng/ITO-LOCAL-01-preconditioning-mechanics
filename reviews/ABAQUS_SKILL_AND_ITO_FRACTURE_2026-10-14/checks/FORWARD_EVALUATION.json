@@ -1,0 +1,16 @@
+{
+  "agent": "/root/abaqus_skill_forward",
+  "context": "fresh; only task scenarios plus skill path; no parent history",
+  "scope": "Qualitative application of reference skill. Not numerical or scientific validation.",
+  "cases": [
+    {"id": 1, "topic": "Abaqus2021 vs external Python3", "observed": "Separated external orchestration from internal CAE/ODB Python2.7; rejected README version shortcut.", "pass": true},
+    {"id": 2, "topic": "3D finite-strain AT2 solid-shell reuse", "observed": "Rejected direct A/B/C merge. Ordered patch, rigid rotation, homogeneous strain, finite-difference tangent, bending, phase field, rollback/restart/parallel, birth and target-domain checks.", "pass": true},
+    {"id": 3, "topic": "Two grids, stress and 49h cost", "observed": "Reported 24.9MPa / 2.44 percent coarse-denominator observation only. Retained UNRESOLVED; selected existing-data audit before another full-size mesh; rejected retrospective GCI PASS.", "pass": true},
+    {"id": 4, "topic": "VUMAT error and exporter recovery", "observed": "Quarantined deviatoric-only/extra-Jaumann example; restored exporter rather than rerunning successful solver.", "pass": true},
+    {"id": 5, "topic": "Non-ITO static notched beam", "observed": "Did not require CONTINUATION.json, CPU4, AT2 or ITO protocol. A notch does not force a fracture-growth model.", "pass": true},
+    {"id": 6, "topic": "Skill authorization vs physical plan", "observed": "Kept V2 and Pro branch identities separate. Finished common skill scope while leaving D1 route and D2 acceptance unresolved for user.", "pass": true}
+  ],
+  "reported_defects": {"critical": 0, "important": 0, "minor": 0},
+  "source_change_during_evaluation": "A scripting/input-audit reference and calibration guidance were added; evaluation read them where applicable. Final structure and hashes verified separately.",
+  "limitations": "Six scenarios, one independent reader; no statistical generalization, solver execution, compilation or upstream algorithm certification."
+}

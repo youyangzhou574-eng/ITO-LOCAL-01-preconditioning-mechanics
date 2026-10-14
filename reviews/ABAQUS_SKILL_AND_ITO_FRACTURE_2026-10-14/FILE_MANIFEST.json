@@ -1,0 +1,205 @@
+{
+  "utc": "2026-10-14T07:57:20.251002+00:00",
+  "scope": "Review package; manifest excludes itself",
+  "files": [
+    {
+      "path": "checks/BASELINE_EVALUATION.json",
+      "bytes": 1308,
+      "sha256": "ff7f2247571a693ac2f10092b88c47b930d1cd847f206d2de00c066c94fe0b33",
+      "git_blob_sha1": "01152993046671edc3b9657728f724e0d2e6776f",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "checks/EVALUATION_SCOPE_CLARIFICATION.json",
+      "bytes": 780,
+      "sha256": "870a1f61b592e5e68868d13e6ec7dbc9aff0404a42cb56ee35c205b591339363",
+      "git_blob_sha1": "9e4c3ddc5a2e25a7c19e73cc77e4c2f764490e3c",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "checks/FORWARD_EVALUATION.json",
+      "bytes": 2020,
+      "sha256": "1a44af2fb76145e113dffef70c0567d5a73646473ca344ca08a80732030ee36e",
+      "git_blob_sha1": "a64785b837cf7c8b229ef76dcc024757332ac8a2",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "checks/SOURCE_COVERAGE.json",
+      "bytes": 49723,
+      "sha256": "51b559e9edeefc81da75b4d2df208a26aea8ccb39430c8c90a1a12ec8717e239",
+      "git_blob_sha1": "2a767ecb76756fa6f2f95b17acc08aa0894f2947",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "checks/STRUCTURAL_VALIDATION.json",
+      "bytes": 13645,
+      "sha256": "f4a3adf186a5d1dc16fbd1319937eacec5ada4dad622d6cb5e42cf0d2789a4ac",
+      "git_blob_sha1": "8b2393a45ed37c4c4323489090679872d79a2558",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "evidence/01_NATIVE_SURFACE_MAPS19.png",
+      "bytes": 169502,
+      "sha256": "05f9722e427c5389ee8af2f0dd9d3d4d91918e3291ef9da7f945610b1021bfc6",
+      "git_blob_sha1": "540462bf0610c596781dc54f5bee2c39cef74874",
+      "encoding": "base64"
+    },
+    {
+      "path": "evidence/01_NATIVE_SURFACE_MAPS19.svg",
+      "bytes": 61935,
+      "sha256": "aa4b255ca94f49156add1e84cd29537d867421f2dce71a4d0fdebfcba06f3f0c",
+      "git_blob_sha1": "e4d688f559ba88f57f13ad731be906aa349ae358",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "evidence/02_ALL_SAVED_SURFACE_EVOLUTION19.png",
+      "bytes": 252818,
+      "sha256": "8c94c9981dc74bba9ef437026375ddfe9eefb747424fe90db68f04835a61c2a6",
+      "git_blob_sha1": "807086edf4a8cb5de02a8291e45ca891325ec307",
+      "encoding": "base64"
+    },
+    {
+      "path": "evidence/02_ALL_SAVED_SURFACE_EVOLUTION19.svg",
+      "bytes": 54140,
+      "sha256": "495975d5b756c955e85d1bc662a83da0c2cd7544e1e6b60e851a96609d1129ed",
+      "git_blob_sha1": "2980f654764a2f3320f30ed599ca87bb147e95cb",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "evidence/ALL_SAVED_SURFACE_STRESS19.csv",
+      "bytes": 58762,
+      "sha256": "2a5e0e51bb12a8c1878c2e7e536fbd0af5adb779c73f4f679cbb987713efa600",
+      "git_blob_sha1": "aef8200b0734a9c9e023d9c9f6372504fa0def1b",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "evidence/SURFACE_STRESS_PROVENANCE.json",
+      "bytes": 1688,
+      "sha256": "653c79b5d395d68a66a399511c18824cada00aa78867896e182915aa1d4ac039",
+      "git_blob_sha1": "26cdcddfaae290691de2d793ec78cc180094f3aa",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "evidence/SURFACE_STRESS_REVIEW.md",
+      "bytes": 2490,
+      "sha256": "89f41ed5cca6e1d6beae9c8bb44c40dd8bf50d644ede9484a1186637d490c97a",
+      "git_blob_sha1": "024452980c9bb572d0067cce7d59b48f2ad3abc0",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3459,
+      "sha256": "709537cbaa37cc388d6b41c43e852d3946dbd6d1237b93909321c93a8c4c60ca",
+      "git_blob_sha1": "ef33cb01bce3dcb1a29207ed84515c77ddf1eb1f",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "REVIEW_DECISIONS.md",
+      "bytes": 4981,
+      "sha256": "d7b04c9fa4582b7961543b296d5c8b7795b2c28616a5711136378e3eb394c3c0",
+      "git_blob_sha1": "79256858fe3ea7b2cb6705c755607d965eaa2656",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "skill/abaqus-modeling-fracture/agents/openai.yaml",
+      "bytes": 362,
+      "sha256": "a0843c696423e30a1542041e455097ba84f54934f146ab6c78c542b298fd52ec",
+      "git_blob_sha1": "8b4aa5df7d6eae044090fc248dda31d25baf9606",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "skill/abaqus-modeling-fracture/profiles/ito-pdms.md",
+      "bytes": 2675,
+      "sha256": "aa7b39d37a673959d68ee3ccaf5efe3d9d88040754e458a361099bf1a53cf89c",
+      "git_blob_sha1": "23b35a31ebebce30b19cc5791c7572800786db31",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "skill/abaqus-modeling-fracture/references/conflicts.md",
+      "bytes": 3106,
+      "sha256": "49444f26cdfce68b2d4d25c7f4a5e78e6202e65fac5173231c09404537feff1b",
+      "git_blob_sha1": "69a881658d4bfa48a1af5569f09af2c853aa23fa",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "skill/abaqus-modeling-fracture/references/environment-units.md",
+      "bytes": 2179,
+      "sha256": "88ee55df7ec4db85dc6e037eee09da53c8b78baee3c46700f4a1efdc608c1e58",
+      "git_blob_sha1": "d9e5f48d8f531897b5f3ed744d30b65a19791cfc",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "skill/abaqus-modeling-fracture/references/evidence-postprocessing.md",
+      "bytes": 2742,
+      "sha256": "eb06725ff752470bd7bff6f7f01464e7dbe6781cb7b80b4b71388bda69b6038a",
+      "git_blob_sha1": "bfc8d735b58aba775cc78d59051a184f0ecf9f3a",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "skill/abaqus-modeling-fracture/references/execution-recovery.md",
+      "bytes": 2618,
+      "sha256": "830819732ffadd0c8fc947286510b643fe5ba8f424ec73af67738796c2594884",
+      "git_blob_sha1": "af5df7afed06133d37b76e04da08bac5f5dcc256",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "skill/abaqus-modeling-fracture/references/fracture-selection.md",
+      "bytes": 3420,
+      "sha256": "a857d7179983649f00fd9494036349610a8e29e431d3248b2e7af5c93acf3a1d",
+      "git_blob_sha1": "31d1701d225b2f8d947af1d9a3d7117b3a08f085",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "skill/abaqus-modeling-fracture/references/modeling-analysis.md",
+      "bytes": 3504,
+      "sha256": "dff52ccc7cab335a0bdf4104e76153f3a2bd0f2e2d23d47eb64d5d7ab7d9cf87",
+      "git_blob_sha1": "bd665c2061b5e727d9f8c042ab6d450ce01d4236",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "skill/abaqus-modeling-fracture/references/phase-field-solid-shell.md",
+      "bytes": 3631,
+      "sha256": "fb028d966390517cce56de2aad710293bfdec0c59f05a5bd697f73ed5431f934",
+      "git_blob_sha1": "a8420813df232a6701cd3988de7fa76dc989a4b6",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "skill/abaqus-modeling-fracture/references/scripting-input-audit.md",
+      "bytes": 2714,
+      "sha256": "fb97f2e9051f548cc5828644f9a4dde3fb51bc292d93ca882c4a1cfca3cbc177",
+      "git_blob_sha1": "1aa25802009b1c7c4148c9d45c450bd1ce0ca00a",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "skill/abaqus-modeling-fracture/references/source-provenance.md",
+      "bytes": 7693,
+      "sha256": "651c62ba44de6ebb93dc897cb16e6fcb2d36af9084803f980fa032f868052a47",
+      "git_blob_sha1": "e2ca647a96b9579d2300664a3d7b2045b0ca14a1",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "skill/abaqus-modeling-fracture/references/user-subroutines.md",
+      "bytes": 2465,
+      "sha256": "05d3a9e8468f123d1b9da2044cbdbdf93b827a8f84add5a44f54e376b4646b9c",
+      "git_blob_sha1": "b4cc52e4f94ebb7d2dc340dd59c3fa16f156280c",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "skill/abaqus-modeling-fracture/references/verification-cost.md",
+      "bytes": 2460,
+      "sha256": "135344e9f741cb628c1e6183f0ef7e7b4c40a3f1f18e952a13b5761520806d14",
+      "git_blob_sha1": "8068572d20664f97cc0c8ae726c2d9977819e9c0",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "skill/abaqus-modeling-fracture/SKILL.md",
+      "bytes": 3569,
+      "sha256": "e96cf5751263d419b61050a10ce416faf2e75a1681a8f8354c00a0ef874d296d",
+      "git_blob_sha1": "b3f065a619b1f29abab06c93ea6819940ef6b7dc",
+      "encoding": "utf-8"
+    }
+  ],
+  "source_pro_plan_commit": "3a906ee46ddd731b8e3c59073341862de1838615",
+  "existing_V2_scientific_state": "UNRESOLVED",
+  "new_model_started": false
+}

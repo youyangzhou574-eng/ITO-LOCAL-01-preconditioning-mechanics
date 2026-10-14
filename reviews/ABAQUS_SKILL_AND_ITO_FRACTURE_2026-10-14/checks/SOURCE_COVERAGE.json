@@ -1,0 +1,1068 @@
+{
+  "utc": "2026-10-14T07:47:28.671408+00:00",
+  "scope": "Topic-level synthesis coverage; not an audit of every upstream executable or factual claim. Conflicts have separate targeted review.",
+  "classification_counts": {
+    "ABAQUS_TOPIC_ROUTED": 83,
+    "CONTEXT_SPECIFIC_REFERENCE_NOT_DEFAULT": 4,
+    "ARCHIVED_OUTSIDE_ABAQUS_SCOPE": 18,
+    "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API": 27
+  },
+  "skills": [
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-bc\\SKILL.md",
+      "name": "abaqus-bc",
+      "sha256": "2efbd4fe0301ce78a4d899b426b551d7d3bdba6f1e0ad29bf80fc23d5e14596e",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-dependency-preflight-validator\\SKILL.md",
+      "name": "abaqus-dependency-preflight-validator",
+      "sha256": "dd281b17572dce8403ea38287691e1afcaa5dabcaec64ecd8f3908c9bed3e08f",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-docs\\SKILL.md",
+      "name": "abaqus-docs",
+      "sha256": "23e04a2a2954db41b5f9bcbb5a88576b5c1b70cf0c932a74e3f7ed0bec23d771",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-export\\SKILL.md",
+      "name": "abaqus-export",
+      "sha256": "8f326d9305e7ba366979133ed74c407a2822949fd719b472974b4657852c2cd1",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-field\\SKILL.md",
+      "name": "abaqus-field",
+      "sha256": "ad262987df10a74fad094ef6ffe8ddb8930f086486f25075e99c63b113b16583",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-geometry\\SKILL.md",
+      "name": "abaqus-geometry",
+      "sha256": "073840f669281560401b216d26ea329ff484fdf63eec51b3c7b5802396d66c26",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-interaction\\SKILL.md",
+      "name": "abaqus-interaction",
+      "sha256": "07b13fe2530afe845a7e096e0d37d9b05e8c074f36ae70321b8410a67f5d39cd",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-load\\SKILL.md",
+      "name": "abaqus-load",
+      "sha256": "f804824ff6368418484580e8cbabe631597d677e0d60c06f10d5d92266350362",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-mapped-load-provenance-auditor\\SKILL.md",
+      "name": "abaqus-mapped-load-provenance-auditor",
+      "sha256": "184ce4f0025cd5489ccd7bb2702de5b793b5e9b457f19628cfaedf43595b75c1",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-material\\SKILL.md",
+      "name": "abaqus-material",
+      "sha256": "d6e6b830e25e22ca1f6e5771b8c66b7a0941441498ea43e1e09683eecec334d4",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-mesh\\SKILL.md",
+      "name": "abaqus-mesh",
+      "sha256": "e0b96e6cab18049cf6a0e254d65094dfd7f423a681de83fa27003b6a5b9e328b",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-odb\\SKILL.md",
+      "name": "abaqus-odb",
+      "sha256": "fe77ec751d18b9e8bc35612304421b47c59c5990f7f8ad24af5bba239e67da35",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-output\\SKILL.md",
+      "name": "abaqus-output",
+      "sha256": "ee9d7448fa6d27067c73581f9ce0a4d84af522b0bf283c6f9dbf37ded2d67684",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-parametric-project-starter\\SKILL.md",
+      "name": "abaqus-parametric-project-starter",
+      "sha256": "0259b7b696e16f92f4cc7f37b1519084ef70b23fa4a4e625466971334b021421",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-script-debugging-checklist\\SKILL.md",
+      "name": "abaqus-script-debugging-checklist",
+      "sha256": "088b4936e480aa1918dd38a94b58a32209c98a90cd399a9740f96bffb2c40885",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-shared-naming-manifest-builder\\SKILL.md",
+      "name": "abaqus-shared-naming-manifest-builder",
+      "sha256": "11d685875f8b56aa308efef27994ed239e994004b706579746ff6902c4d0b602",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-staged-construction-auditor\\SKILL.md",
+      "name": "abaqus-staged-construction-auditor",
+      "sha256": "10cd0a5d1b132eff88e460a1d6282a06029ecae513b90eefa4821bc2144817ee",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-step\\SKILL.md",
+      "name": "abaqus-step",
+      "sha256": "415eaa99ed619d457cb726153ef29b47b4379a3a5f3d354410807f7c902e07aa",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\1348109517__abaqus-agent-skills\\skills\\abaqus-tunnel-local-mesh-rebuilder\\SKILL.md",
+      "name": "abaqus-tunnel-local-mesh-rebuilder",
+      "sha256": "cf42e6a208f18364ccc5df4d1549abe7ee6e258f85f986b74e181b1cbb798da4",
+      "classification": "CONTEXT_SPECIFIC_REFERENCE_NOT_DEFAULT",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\computational-materials\\SKILL.md",
+      "name": "computational-materials",
+      "sha256": "5183a8e72c12d8e42631dcfd105dc1c5465297a7dfda63fa54b46613a0e9670d",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\diffraction\\SKILL.md",
+      "name": "diffraction",
+      "sha256": "1fe0d70aca58b8f824fee1c8cab3b53830420bf5d2346ad0d5d6e0c6b1c92e19",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\electrochemistry\\SKILL.md",
+      "name": "electrochemistry",
+      "sha256": "eeb046174c21909d324527dbf3b040882a8cd564684985978d3cd3a22ecaf0bc",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\finite-element-modeling\\SKILL.md",
+      "name": "finite-element-modeling",
+      "sha256": "04954d2d627f03dfbaea30e61965d1542640c63f7c585df587bb269f0d2ec219",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\high-throughput-autonomous-labs\\SKILL.md",
+      "name": "high-throughput-autonomous-labs",
+      "sha256": "e30fa44f41239bbdc9cd6a20c05378d45e24eb55c74dc1934e87dabd41c3fe78",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\materials-data-standards\\SKILL.md",
+      "name": "materials-data-standards",
+      "sha256": "4bf707db516232c3c86b36f11e8b60bfd0a149fb1103cafa30fd13d44e0e5ba1",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\materials-databases\\SKILL.md",
+      "name": "materials-databases",
+      "sha256": "da95f059e61fdb5e9482c3a57d9523bb7778594579cf3db39fc3dba3b3d72a9c",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\materials-figures\\SKILL.md",
+      "name": "materials-figures",
+      "sha256": "c4d0371110203565fa5448253ce999e64b5200aa172e37732ea0c271e9740e02",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\materials-informatics-ml\\SKILL.md",
+      "name": "materials-informatics-ml",
+      "sha256": "5106e2b7a07636cec0b0020723a70e1749e638be8598816d875b5d761023f07c",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\materials-lit-search\\SKILL.md",
+      "name": "materials-lit-search",
+      "sha256": "e2f82c00a341458fb62bf97ceda8c8b6a48cf251810e49ecf9cd46dc04bf0157",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\materials-stats\\SKILL.md",
+      "name": "materials-stats",
+      "sha256": "283ee060f720df297a11181bb5044e7b4562778fde22b228be8d4b6dfb512767",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\materials-structure-analysis\\SKILL.md",
+      "name": "materials-structure-analysis",
+      "sha256": "2c277903c7aa58795b160086367d7c7bbe06a3328df7a79cb0eff86cc256eaa0",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\mechanical-testing\\SKILL.md",
+      "name": "mechanical-testing",
+      "sha256": "12cb1f2f4050d1792e340777ef5a72eb5ee186a63b727fd425adbb5c77515328",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\microscopy\\SKILL.md",
+      "name": "microscopy",
+      "sha256": "4bfbcdac9a224c04e85c521b488069e4742034c81bceb7dce94e7c4a19b11903",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\phase-field-calphad\\SKILL.md",
+      "name": "phase-field-calphad",
+      "sha256": "1fb13f9232f0b31b854ce7ebd5e98caab08260d9c201d979275ce6c18312d57d",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\polymer-characterization\\SKILL.md",
+      "name": "polymer-characterization",
+      "sha256": "0d483d9784e486737b91b48346485bd71d7b2a268609713cdb0e0e6ac9dc7858",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\semiconductor-characterization\\SKILL.md",
+      "name": "semiconductor-characterization",
+      "sha256": "2d2f3bde660a32c77afc6d11d144fe03b4ea09f7fa2faf9ceece78ee6333d2d4",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\spectroscopy\\SKILL.md",
+      "name": "spectroscopy",
+      "sha256": "ef14af9017e58a4359115d01a86dd18fab21ce455c2ba63e409f2d3d04420f9e",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\synthesis-processing\\SKILL.md",
+      "name": "synthesis-processing",
+      "sha256": "a7f10a496177abc76fc98d9bcdb0e54899bde25e2aaffa728ec6d7289fcee944",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\axscience__matsci-skills\\thermal-analysis\\SKILL.md",
+      "name": "thermal-analysis",
+      "sha256": "759a6e45907d44d14fd6e4d5f519bc4d440cf9f62a746a43ed11c17d163bdab2",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\analysis\\abaqus-contact-analysis\\SKILL.md",
+      "name": "abaqus-contact-analysis",
+      "sha256": "99f91dd10c8d5e36040e5a3ff6ca4a4209c550334419378deaae4278cd639b67",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\analysis\\abaqus-coupled-analysis\\SKILL.md",
+      "name": "abaqus-coupled-analysis",
+      "sha256": "caede42c10da7664f092b78e3cd88dc3a3ba801259ab64bfc66e8903499cdae8",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\analysis\\abaqus-dynamic-analysis\\SKILL.md",
+      "name": "abaqus-dynamic-analysis",
+      "sha256": "c3e4d5124b8851bcc6d96e92b042f6cd52feeb282286401ed9d2e6c0040cd0f2",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\analysis\\abaqus-fatigue-analysis\\SKILL.md",
+      "name": "abaqus-fatigue-analysis",
+      "sha256": "9a02717f23822cd4e5e86d3658d41e28c0cb253f4b2cac79461b3883deb513b7",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\analysis\\abaqus-modal-analysis\\SKILL.md",
+      "name": "abaqus-modal-analysis",
+      "sha256": "3def5b4aa59f796bd2941477bbdb9d9149a14ad402e0bb840857dc9860ba6607",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\analysis\\abaqus-static-analysis\\SKILL.md",
+      "name": "abaqus-static-analysis",
+      "sha256": "b42b3e092f8d0231f152d75a71330b138b9e5fe3fbd7bc20155689d80f7c9f10",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\analysis\\abaqus-thermal-analysis\\SKILL.md",
+      "name": "abaqus-thermal-analysis",
+      "sha256": "e094afa6b1dc824e72b2237cca9755c3127cd3593163fb55dff8773a10807a80",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\analysis\\curing-steps\\SKILL.md",
+      "name": "curing-steps",
+      "sha256": "bf2adea1b5df56e32b506439e4bdd6c2fbca5b27c3154b5e6fe8a7fbae498bfb",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\analysis\\springback-analysis\\SKILL.md",
+      "name": "springback-analysis",
+      "sha256": "0bd0295436f319fe955e48a5d50319c185889f0896eac469bf6042c9780f2a5e",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\core\\composite-curing\\SKILL.md",
+      "name": "composite-curing",
+      "sha256": "5bb7e9ac932d42b2ac67c89340b69de4a9ff132a04886d8140e436beffbcbeee",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\execution\\curing-job\\SKILL.md",
+      "name": "curing-job",
+      "sha256": "d5e2493d64831d258bcf279d8a7941a1660bd6d8b574747d1e10bb6ebae0441f",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\execution\\socket-bridge\\SKILL.md",
+      "name": "socket-bridge",
+      "sha256": "7a3520aac724f44e57f737d2c75732e55800b64bea688285b6478b1aa0e6c010",
+      "classification": "CONTEXT_SPECIFIC_REFERENCE_NOT_DEFAULT",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\modeling\\composite-layup\\SKILL.md",
+      "name": "composite-layup",
+      "sha256": "0e2f6a4c6d580a42b79bcbf9b4597b09ff7604ec62bbb98c29b94e7d2a9600cd",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\modeling\\composite-mesh\\SKILL.md",
+      "name": "composite-mesh",
+      "sha256": "95601513aca97c3047a082a62c13184df2f3f90f48b65fc59a4cbdf1a2a71c4f",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\modeling\\mold-geometry\\SKILL.md",
+      "name": "mold-geometry",
+      "sha256": "829052715d945177f335db3534a6ed800fc96cba0c6a8ac5f138ba6a13f453dc",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\postprocessing\\csv-export\\SKILL.md",
+      "name": "csv-export",
+      "sha256": "4e437d63a307f24101c47c231df035da8192548af3ea138957dc2db90549b931",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\postprocessing\\odb-extraction\\SKILL.md",
+      "name": "odb-extraction",
+      "sha256": "2caf7ffd2089c91ab25bba809fb6b8bce247d63a8a1ca0ad9e3510983185909f",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\reference\\curing-parameters\\SKILL.md",
+      "name": "curing-parameters",
+      "sha256": "a4af80202b57e83ffa3213bd8462eca8295aae40daa22434cde7f8cdda9bd32d",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\setup\\curing-bc\\SKILL.md",
+      "name": "curing-bc",
+      "sha256": "aa967583dde92b9fc3d96161cd922497f373e37b6c62c1390c432a61cdbdc013",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\setup\\curing-contact\\SKILL.md",
+      "name": "curing-contact",
+      "sha256": "bf83c5a1b605a22c6fb1494b99505a0feeb6684beb79e997969803a72e8d5818",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\setup\\curing-load\\SKILL.md",
+      "name": "curing-load",
+      "sha256": "af52807b7664aa866995a1a33ce0a58171cce5123adf1d5baf0182e177cc92c4",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\setup\\curing-material\\SKILL.md",
+      "name": "curing-material",
+      "sha256": "45d66e6a5198b40966c6b99ec42b25eaca91ab54556aa806d9dbd26ea97d18f1",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\setup\\curing-temperature\\SKILL.md",
+      "name": "curing-temperature",
+      "sha256": "9f0fef33c3640a594f97588fcc2e959f7a7fa9344e0c5654a021d84f034309e8",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\composite-curing-simulation\\SKILL.md",
+      "name": "composite-curing-simulation",
+      "sha256": "1e85d85a0e144662c68dd79b5fd0cf64d711822f906c2112daccd9cc376c6e1a",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\core\\abaqus\\SKILL.md",
+      "name": "abaqus",
+      "sha256": "fabd301a1785d7f020d517d01e11daeb756119a2d91fc9ed13d38b13f739498b",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\execution\\abaqus-export\\SKILL.md",
+      "name": "abaqus-export",
+      "sha256": "2800605475e72f4f9e218ea80111b77034ae33dbdeeafde668ca7fc1310ae6d0",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\execution\\abaqus-job\\SKILL.md",
+      "name": "abaqus-job",
+      "sha256": "2f48e5b4989a35b519b6581c3a5feb79bc05fe09840434f559bf8dd6839ac753",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\modeling\\abaqus-geometry\\SKILL.md",
+      "name": "abaqus-geometry",
+      "sha256": "529887f62619256069f3ebdf95af1144935e1ff55e8eca321a19f48846d29270",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\modeling\\abaqus-interaction\\SKILL.md",
+      "name": "abaqus-interaction",
+      "sha256": "59ff759142b1182579c28ddfdcf990849c912dd8ca45a20694b97f654d53488d",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\modeling\\abaqus-material\\SKILL.md",
+      "name": "abaqus-material",
+      "sha256": "376ab5bef051c6b1de47826f8469de3ab24bbc2c8bf4fd4c37826e289312f568",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\modeling\\abaqus-mesh\\SKILL.md",
+      "name": "abaqus-mesh",
+      "sha256": "c8f48a851d46a668ae979e5705293b91f8d0686fd8d6fe294a317a63d737aacd",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\optimization\\abaqus-optimization\\SKILL.md",
+      "name": "abaqus-optimization",
+      "sha256": "03a0f6fcbf5c10d8fdbed51c1366c89ebc86eea3d1cd1407a0d65050bbac9789",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\optimization\\abaqus-shape-optimization\\SKILL.md",
+      "name": "abaqus-shape-optimization",
+      "sha256": "ca6aceb3120aae1d44cef9084689683a0f8eb9f14f5e8a83e6afa918300f5a37",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\optimization\\abaqus-topology-optimization\\SKILL.md",
+      "name": "abaqus-topology-optimization",
+      "sha256": "546a92ee4809798b5961c30f88fd0ae55add6eadabd7e84ff18b25726a9cc8bb",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\postprocessing\\abaqus-odb\\SKILL.md",
+      "name": "abaqus-odb",
+      "sha256": "411cdc06c341d61df4127fe844f83e23c06b3f7f4d2140f5d9c51a3512aaef66",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\reference\\fea-structural\\SKILL.md",
+      "name": "fea-structural",
+      "sha256": "76a06680d3c342eecf47e8b0f4bb7e022b7bb82a8bb18ba9a707a8326128b3b4",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\reference\\fenics-fem\\SKILL.md",
+      "name": "fenics-fem",
+      "sha256": "7583f67a2515fc7b69a8b34bbcc597a485a6f92fbb586975bbf8ac59e69231f2",
+      "classification": "CONTEXT_SPECIFIC_REFERENCE_NOT_DEFAULT",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\setup\\abaqus-amplitude\\SKILL.md",
+      "name": "abaqus-amplitude",
+      "sha256": "a84ee809ffefded98bc658f550051c559fd1eb6b1e73712f16887a5f4569b2e8",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\setup\\abaqus-bc\\SKILL.md",
+      "name": "abaqus-bc",
+      "sha256": "22885c377a861881d38a5f13121773ed5e93ab9d1a80f8b012cdefb9b48e79a8",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\setup\\abaqus-docs\\SKILL.md",
+      "name": "abaqus-docs",
+      "sha256": "74b5b9f29a0051db6666122644d50d7b02c20b951f87392f4010e73158f73e8d",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\setup\\abaqus-field\\SKILL.md",
+      "name": "abaqus-field",
+      "sha256": "47b5304cb2772292d1459100f6619ba10e3afb79f9086f816e6875828ae760e4",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\setup\\abaqus-load\\SKILL.md",
+      "name": "abaqus-load",
+      "sha256": "05d64d69b3c52dc057379c6487e943517c97ad73cecc8d2dd4c3f74368f84b4a",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\setup\\abaqus-output\\SKILL.md",
+      "name": "abaqus-output",
+      "sha256": "8271701c48009cd08fc9d1583c171b9c30a02d983ee0fbbd8c21005ca714186c",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\setup\\abaqus-step\\SKILL.md",
+      "name": "abaqus-step",
+      "sha256": "d87dfad962c6e011a923b9108e4581d88835adf559ffbf710ab339609e561737",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\core-numerical\\convergence-study\\SKILL.md",
+      "name": "convergence-study",
+      "sha256": "f08864b3423692113668287f3902b7cb4c01312d11c28e7ff4a6e9329763b566",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\core-numerical\\differentiation-schemes\\SKILL.md",
+      "name": "differentiation-schemes",
+      "sha256": "1a0c442c91ee24f9141cf87105bcf1af74e786555f70606ecccb9cda746dcb0a",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\core-numerical\\linear-solvers\\SKILL.md",
+      "name": "linear-solvers",
+      "sha256": "32a2ed1027a85e5a2794e0d7a8263128c5d8ef1465cd37e07bdd2e7486e1f1a9",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\core-numerical\\mesh-generation\\SKILL.md",
+      "name": "mesh-generation",
+      "sha256": "8dabf7170b9786d8d94da77f786b83cec6710719b7579f5152456dd98bd873a0",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\core-numerical\\nonlinear-solvers\\SKILL.md",
+      "name": "nonlinear-solvers",
+      "sha256": "1da26bfcf978e3c159a41a46358e1d732a1f477ade08c664d5f0ff05b4569d51",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\core-numerical\\numerical-integration\\SKILL.md",
+      "name": "numerical-integration",
+      "sha256": "09d21f695bc9e9d5db1f120e60de3e632bb24f596d501de43a82d83f2cfcff1e",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\core-numerical\\numerical-stability\\SKILL.md",
+      "name": "numerical-stability",
+      "sha256": "a5f9ed325f16580331542238913e5d6e312f5c8178006de62d8cdd143254cc5f",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\core-numerical\\time-stepping\\SKILL.md",
+      "name": "time-stepping",
+      "sha256": "ab3d98b5f40285e917ab0b2d2f5bf66f31dfa6e06e600efe95020d6080b4d8a3",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\data-management\\fair-simulation-packager\\SKILL.md",
+      "name": "fair-simulation-packager",
+      "sha256": "4abc6b0c6d2758f8f66a02285e328a3ab751f43b6f4f04408f5df2d3a2667bdd",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\hpc-deployment\\hpc-runtime-doctor\\SKILL.md",
+      "name": "hpc-runtime-doctor",
+      "sha256": "4855ebeb61ff2d8c5c25ca0e9d04bc95420b81e77241363d3fe34f94611bba45",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\hpc-deployment\\slurm-job-script-generator\\SKILL.md",
+      "name": "slurm-job-script-generator",
+      "sha256": "0f7d21f3e5ca9c035789adf9b996a45761c29db629e6901b34731b899841df7d",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\meta\\skill-evaluator\\SKILL.md",
+      "name": "skill-evaluator",
+      "sha256": "3464a5c93a0e4fdc817b6e7a212e9a0e165f02986b18f2eb3aadea113abc385b",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\ontology\\ontology-explorer\\SKILL.md",
+      "name": "ontology-explorer",
+      "sha256": "54bbe5029e445ab9eab174eb671ca053f77c2f29d9391e44f56e00e7f465cc4b",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\ontology\\ontology-mapper\\SKILL.md",
+      "name": "ontology-mapper",
+      "sha256": "445f9beb7db64a20eb2cd1ddb28cfc0b9e47a7309551b5d5d8c03908639c15ec",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\ontology\\ontology-validator\\SKILL.md",
+      "name": "ontology-validator",
+      "sha256": "2c117c9cf15cbdb40085c58d1a90d07731737a7a924afc786332eca75ae69130",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\robustness\\simulation-failure-triage\\SKILL.md",
+      "name": "simulation-failure-triage",
+      "sha256": "33940779e74c03d2c7ce8543b087c9a172d2198aa5b38bc88e69e8641775ff03",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\simulation-workflow\\md-analysis-planner\\SKILL.md",
+      "name": "md-analysis-planner",
+      "sha256": "987728e61d7663bc2e114b12203b438e949665a50041fd9a10aca68902711c52",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\simulation-workflow\\parameter-optimization\\SKILL.md",
+      "name": "parameter-optimization",
+      "sha256": "c3441ef9657c9909c92900c7819a22681bed12b2e3c59ddad1965acf35ea85ff",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\simulation-workflow\\performance-profiling\\SKILL.md",
+      "name": "performance-profiling",
+      "sha256": "9d7e4a35d3e24ec129173dd0d9184d2bfb52145c4c0505942fcdd4efc8d61617",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\simulation-workflow\\post-processing\\SKILL.md",
+      "name": "post-processing",
+      "sha256": "2281a65aa468c75086143c48ba03741e336fc696ea41e8705689f5c84497edc1",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\simulation-workflow\\simulation-orchestrator\\SKILL.md",
+      "name": "simulation-orchestrator",
+      "sha256": "7a39500b28eb8014cbea4a41ed120381aab9a31f642b9417244d3d78f09b152c",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\simulation-workflow\\simulation-validator\\SKILL.md",
+      "name": "simulation-validator",
+      "sha256": "f866886694daa34ae92b1d6d1338fb934a66be4efdd4c300ce9aaae44e0c36e3",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\simulation-workflow\\workflow-engine-mapper\\SKILL.md",
+      "name": "workflow-engine-mapper",
+      "sha256": "bbed5bf05c7cf4b1431feef65472c6e4c7c8b8587caf55b1cc0d6eb15166afb6",
+      "classification": "ARCHIVED_OUTSIDE_ABAQUS_SCOPE",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\HeshamFS__materials-simulation-skills\\skills\\verification-validation\\benchmark-and-mms-planner\\SKILL.md",
+      "name": "benchmark-and-mms-planner",
+      "sha256": "8f02052b69a37d145e8bc752aa0bc5c65c4883b67eeabdc06bc8cb7ce2cb1bc2",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jaimecernuda__abaqus-scripting\\.claude\\skills\\abaqus\\SKILL.md",
+      "name": "abaqus",
+      "sha256": "eebe74b599cdd959c9d45480c6a777fef06c307f00997de4ffa187c85df7e520",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jaimecernuda__abaqus-scripting\\.claude\\skills\\abaqus-bc\\SKILL.md",
+      "name": "abaqus-bc",
+      "sha256": "22885c377a861881d38a5f13121773ed5e93ab9d1a80f8b012cdefb9b48e79a8",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\setup\\abaqus-bc\\SKILL.md",
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jaimecernuda__abaqus-scripting\\.claude\\skills\\abaqus-export\\SKILL.md",
+      "name": "abaqus-export",
+      "sha256": "2800605475e72f4f9e218ea80111b77034ae33dbdeeafde668ca7fc1310ae6d0",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\execution\\abaqus-export\\SKILL.md",
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jaimecernuda__abaqus-scripting\\.claude\\skills\\abaqus-geometry\\SKILL.md",
+      "name": "abaqus-geometry",
+      "sha256": "529887f62619256069f3ebdf95af1144935e1ff55e8eca321a19f48846d29270",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\modeling\\abaqus-geometry\\SKILL.md",
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jaimecernuda__abaqus-scripting\\.claude\\skills\\abaqus-job\\SKILL.md",
+      "name": "abaqus-job",
+      "sha256": "2f48e5b4989a35b519b6581c3a5feb79bc05fe09840434f559bf8dd6839ac753",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\execution\\abaqus-job\\SKILL.md",
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jaimecernuda__abaqus-scripting\\.claude\\skills\\abaqus-load\\SKILL.md",
+      "name": "abaqus-load",
+      "sha256": "05d64d69b3c52dc057379c6487e943517c97ad73cecc8d2dd4c3f74368f84b4a",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\setup\\abaqus-load\\SKILL.md",
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jaimecernuda__abaqus-scripting\\.claude\\skills\\abaqus-material\\SKILL.md",
+      "name": "abaqus-material",
+      "sha256": "376ab5bef051c6b1de47826f8469de3ab24bbc2c8bf4fd4c37826e289312f568",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\modeling\\abaqus-material\\SKILL.md",
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jaimecernuda__abaqus-scripting\\.claude\\skills\\abaqus-mesh\\SKILL.md",
+      "name": "abaqus-mesh",
+      "sha256": "c8f48a851d46a668ae979e5705293b91f8d0686fd8d6fe294a317a63d737aacd",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\modeling\\abaqus-mesh\\SKILL.md",
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jaimecernuda__abaqus-scripting\\.claude\\skills\\abaqus-odb\\SKILL.md",
+      "name": "abaqus-odb",
+      "sha256": "411cdc06c341d61df4127fe844f83e23c06b3f7f4d2140f5d9c51a3512aaef66",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\postprocessing\\abaqus-odb\\SKILL.md",
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jaimecernuda__abaqus-scripting\\.claude\\skills\\abaqus-optimization\\SKILL.md",
+      "name": "abaqus-optimization",
+      "sha256": "4a2919a7e513207d4f5a6a6e23f4b2cfd3ef8afa4ea854078112371304137e3c",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jaimecernuda__abaqus-scripting\\.claude\\skills\\abaqus-output\\SKILL.md",
+      "name": "abaqus-output",
+      "sha256": "8271701c48009cd08fc9d1583c171b9c30a02d983ee0fbbd8c21005ca714186c",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\setup\\abaqus-output\\SKILL.md",
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jaimecernuda__abaqus-scripting\\.claude\\skills\\abaqus-static-analysis\\SKILL.md",
+      "name": "abaqus-static-analysis",
+      "sha256": "b42b3e092f8d0231f152d75a71330b138b9e5fe3fbd7bc20155689d80f7c9f10",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\analysis\\abaqus-static-analysis\\SKILL.md",
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jaimecernuda__abaqus-scripting\\.claude\\skills\\abaqus-step\\SKILL.md",
+      "name": "abaqus-step",
+      "sha256": "d87dfad962c6e011a923b9108e4581d88835adf559ffbf710ab339609e561737",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": "unpacked\\Cai-aa__CAE-Agent-Hub\\Skill\\abaqus\\setup\\abaqus-step\\SKILL.md",
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jaimecernuda__abaqus-scripting\\.claude\\skills\\abaqus-topology-optimization\\SKILL.md",
+      "name": "abaqus-topology-optimization",
+      "sha256": "ef58460134b9260d9309c376d34b0df050d35ba7b7bc809dec1097640d14d97d",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jaimecernuda__abaqus-scripting\\.claude\\skills\\tosca\\SKILL.md",
+      "name": "tosca",
+      "sha256": "7c9bff83c60164aa10ecbc757cb500ba138af1dd049da9262b423f5760d9d848",
+      "classification": "CONTEXT_SPECIFIC_REFERENCE_NOT_DEFAULT",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jasonanewcoder__abaqus_skills\\abaqus_scriptcontrol_skills\\composite\\SKILL.md",
+      "name": "abaqus-script-control-composite",
+      "sha256": "48c6d6e64c0eaf7c0eff1d2973a16a753ae6454acde0ae9dff1c3abaeb04cce1",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jasonanewcoder__abaqus_skills\\abaqus_scriptcontrol_skills\\fatigue\\SKILL.md",
+      "name": "abaqus-script-control-fatigue",
+      "sha256": "da3eaf7053ac62e984bb8a800d15d35d3c1817c5b427c13e2e8159227c4bc587",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jasonanewcoder__abaqus_skills\\abaqus_scriptcontrol_skills\\general\\SKILL.md",
+      "name": "abaqus-script-control-general",
+      "sha256": "410eeaca9de650d78c78d2f06c9ac1232117f346a435f8943a69419ce104fee4",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jasonanewcoder__abaqus_skills\\abaqus_scriptcontrol_skills\\static\\SKILL.md",
+      "name": "abaqus-script-control-static",
+      "sha256": "8694ac707f0d86025d57f347a85409eeed78a642efdf8809c70b4415c2f27950",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jasonanewcoder__abaqus_skills\\abaqus_scriptcontrol_skills\\thermal\\SKILL.md",
+      "name": "abaqus-script-control-thermal",
+      "sha256": "1f856fa14f1b269437db702c89d1709387705a4a2d3aaf666e6f6061d0e799b6",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jasonanewcoder__abaqus_skills\\abaqus_scriptcontrol_skills\\xfem\\SKILL.md",
+      "name": "abaqus-script-control-xfem",
+      "sha256": "06023da566a3bbb95130a259e054dd5984ab06de84bb9aa31d4c437b89ae18e7",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\jasonanewcoder__abaqus_skills\\abaqus_subroutine_skills\\SKILL.md",
+      "name": "abaqus-subroutine-development",
+      "sha256": "4cbf6d2508ad00f261b8765cd700325211c03ea2320464adb31d4f3fd107508e",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\shaokun-chen__Agent4Abaqus\\skills\\SKILL.md",
+      "name": "NO_FRONTMATTER",
+      "sha256": "187f48881624b6c83fcdc3557efdff06240d4e84c576962e3cf44448b66733c7",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\svd-ai-lab__sim-plugin-abaqus\\src\\sim_plugin_abaqus\\_skills\\abaqus\\SKILL.md",
+      "name": "abaqus-sim",
+      "sha256": "fdb59d961edbb580069abde11787306a3ac0be705fc1186fc0b2d70d4b25e67d",
+      "classification": "ABAQUS_TOPIC_ROUTED",
+      "identical_to": null,
+      "implementation_certified": false
+    },
+    {
+      "path": "unpacked\\test1card__femis-skill\\SKILL.md",
+      "name": "femis",
+      "sha256": "9708dee562a4511e0412e9b3916a23061ca966a3a5940798ad02c5d13bcffe02",
+      "classification": "GENERAL_METHOD_REFERENCE_NOT_ABAQUS_API",
+      "identical_to": null,
+      "implementation_certified": false
+    }
+  ]
+}

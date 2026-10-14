@@ -1,0 +1,6 @@
+interface:
+  display_name: "Abaqus 建模与断裂"
+  short_description: "覆盖通用建模、相场与其他断裂方法、子程序、结果验证及执行恢复"
+  default_prompt: "使用 $abaqus-modeling-fracture，依据实际 Abaqus 版本检查模型与断裂方法，给出可核查的实施和验证步骤。"
+policy:
+  allow_implicit_invocation: true
