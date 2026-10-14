@@ -1,0 +1,244 @@
+{
+  "status": "PASS",
+  "scope": "ORDINARY_PYTHON_AND_STATIC_COVERAGE_NOT_NATIVE_OR_AGENT_BEHAVIOR",
+  "python": "3.13.5",
+  "platform": "Linux",
+  "tests_run": 54,
+  "failures": 0,
+  "errors": 0,
+  "native_jobs": 0,
+  "ODB_API_calls": 0,
+  "Fortran_compiles": 0,
+  "independent_agent_pressure_tests": "NOT_RUN",
+  "baseline": {
+    "new_helpers_and_structure_tests_before_implementation": {
+      "tests": 45,
+      "failures": 45,
+      "exit_code": 1
+    },
+    "new_validator_tests_before_implementation": {
+      "tests": 9,
+      "failures": 9,
+      "exit_code": 1
+    },
+    "interpretation": "Missing new implementations/contracts, not a behavioral evaluation of the original skill."
+  },
+  "results": [
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_at2_bad_inputs.test_at2_bad_inputs",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_at2_ell_is_model_parameter.test_at2_ell_is_model_parameter",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_at2_no_nonzero_initial_threshold.test_at2_no_nonzero_initial_threshold",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_at2_stationary_equation.test_at2_stationary_equation",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_at2_undeformed.test_at2_undeformed",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_component_nonfinite.test_component_nonfinite",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_component_shape_mismatch.test_component_shape_mismatch",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_conflicting_sta_rows_unresolved.test_conflicting_sta_rows_unresolved",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_decreasing_branch_supported.test_decreasing_branch_supported",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_duplicate_component_is_ambiguous.test_duplicate_component_is_ambiguous",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_float32_printed_time_match.test_float32_printed_time_match",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_fortran_decimal_token.test_fortran_decimal_token",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_geometric_misfit_is_not_imposed_film_strain.test_geometric_misfit_is_not_imposed_film_strain",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_hex_inversion_not_absolute_value.test_hex_inversion_not_absolute_value",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_hex_mapping_unit_cube.test_hex_mapping_unit_cube",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_hex_nonfinite_rejected.test_hex_nonfinite_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_hex_rigid_rotation_translation.test_hex_rigid_rotation_translation",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_hex_volume_units_scale_cubically.test_hex_volume_units_scale_cubically",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_initial_frame_needs_separate_evidence.test_initial_frame_needs_separate_evidence",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_integer_flags_not_booleans.test_integer_flags_not_booleans",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_interpolation_has_source_bracket.test_interpolation_has_source_bracket",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_label_selection_keeps_shear.test_label_selection_keeps_shear",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_last_duplicate_within_branch.test_last_duplicate_within_branch",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_missing_branch_rejected.test_missing_branch_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_missing_component_is_not_zero.test_missing_component_is_not_zero",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_missing_native_increment_unresolved.test_missing_native_increment_unresolved",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_nan_frame_rejected.test_nan_frame_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_near_duplicate_not_coalesced.test_near_duplicate_not_coalesced",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_no_extrapolation_even_tiny.test_no_extrapolation_even_tiny",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_prefix_no_recovery_after_false.test_prefix_no_recovery_after_false",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_prefix_not_started.test_prefix_not_started",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_prefix_unknown_is_not_true.test_prefix_unknown_is_not_true",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_reloading_not_merged_with_release.test_reloading_not_merged_with_release",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_reversal_not_silently_sorted.test_reversal_not_silently_sorted",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_same_increment_wrong_time_rejected.test_same_increment_wrong_time_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_total_time_not_step_time.test_total_time_not_step_time",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_unaccepted_attempt_does_not_count.test_unaccepted_attempt_does_not_count",
+      "status": "PASS"
+    },
+    {
+      "test": "test_audit_helpers.AuditHelpers.test_wrong_job_not_matched.test_wrong_job_not_matched",
+      "status": "PASS"
+    },
+    {
+      "test": "test_package.PackageCoverage.test_ito_design_not_reopened.test_ito_design_not_reopened",
+      "status": "PASS"
+    },
+    {
+      "test": "test_package.PackageCoverage.test_metadata_and_router.test_metadata_and_router",
+      "status": "PASS"
+    },
+    {
+      "test": "test_package.PackageCoverage.test_no_native_authorization_in_example.test_no_native_authorization_in_example",
+      "status": "PASS"
+    },
+    {
+      "test": "test_package.PackageCoverage.test_observation_not_fracture_width.test_observation_not_fracture_width",
+      "status": "PASS"
+    },
+    {
+      "test": "test_package.PackageCoverage.test_relative_markdown_links_resolve.test_relative_markdown_links_resolve",
+      "status": "PASS"
+    },
+    {
+      "test": "test_package.PackageCoverage.test_test_limits_disclosed.test_test_limits_disclosed",
+      "status": "PASS"
+    },
+    {
+      "test": "test_package.PackageCoverage.test_uel_phase_residual_and_energy_slot_limits.test_uel_phase_residual_and_energy_slot_limits",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validator.ValidatorTests.test_broken_link_detected.test_broken_link_detected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validator.ValidatorTests.test_changed_file_detected.test_changed_file_detected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validator.ValidatorTests.test_extra_file_detected.test_extra_file_detected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validator.ValidatorTests.test_invalid_frontmatter.test_invalid_frontmatter",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validator.ValidatorTests.test_missing_manifest_fails.test_missing_manifest_fails",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validator.ValidatorTests.test_native_import_detected.test_native_import_detected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validator.ValidatorTests.test_nonfinite_json_rejected.test_nonfinite_json_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validator.ValidatorTests.test_path_escape_detected.test_path_escape_detected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validator.ValidatorTests.test_valid_manifest.test_valid_manifest",
+      "status": "PASS"
+    }
+  ]
+}

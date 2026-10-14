@@ -1,0 +1,6 @@
+interface:
+  display_name: "Abaqus 建模与断裂 · ITO 相场增强"
+  short_description: "预拉伸沉积释放、有限变形相场UEL、状态回滚和原生证据验证"
+  default_prompt: "使用 $abaqus-modeling-fracture，先读当前项目计划和相关模块，按实际授权推进；本次安装不启动求解。"
+policy:
+  allow_implicit_invocation: true

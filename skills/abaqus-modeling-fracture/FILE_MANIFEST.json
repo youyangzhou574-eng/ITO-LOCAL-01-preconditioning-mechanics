@@ -1,0 +1,125 @@
+{
+  "skill": "abaqus-modeling-fracture",
+  "version": "1.1.0",
+  "encoding": "UTF-8; raw bytes; no newline normalization",
+  "source_skill_commit": "ab3625b4a4fad3db242e1f2e8c63a27e2f998133",
+  "plan_commit": "3a906ee46ddd731b8e3c59073341862de1838615",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 3655,
+      "sha256": "e82ecac206dc8ca0a32887f8c682c53adadd3988c7a7e40020c89c23c0e5be5a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4585,
+      "sha256": "b710c5a3400e16f1f1d70f93659a924dd920b58f3ad958c970f4fc710975ef11"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3910,
+      "sha256": "558ff7a2513ebc89cb806f9e700274f9741a31277ce80e33c0f0f33f9449ebc9"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 371,
+      "sha256": "05118ca9cc35da7b9a8061b468a7dcf1f9decac8b7d97459dcafbcd38ca03580"
+    },
+    {
+      "path": "assets/case-contract.example.json",
+      "bytes": 1881,
+      "sha256": "c547439069841bfef412326a2a1dfd365da53ccaa475ba9f5548339b05d07116"
+    },
+    {
+      "path": "assets/handoff-template.md",
+      "bytes": 1969,
+      "sha256": "52f63777d1d29fee251b3589d1bf50370abd63bfbadfd3b81214231e8673205f"
+    },
+    {
+      "path": "checks/TEST_RESULTS.json",
+      "bytes": 8725,
+      "sha256": "a1b0bb6184e3b8aa97f4a8045668976185a0c98733ee49599547140a6cc4a6e7"
+    },
+    {
+      "path": "checks/VALIDATION_REPORT.md",
+      "bytes": 2586,
+      "sha256": "2228ba817d0d5261059b16198b4644f9043f5bb9948090f422fd2306747648ed"
+    },
+    {
+      "path": "profiles/ito-pdms.md",
+      "bytes": 4622,
+      "sha256": "0da632e8f458e4e2e49ea2212e7f361d6c3be46953835fc725ae7a6d5345f32e"
+    },
+    {
+      "path": "references/deposition-and-release.md",
+      "bytes": 3666,
+      "sha256": "492f2efdaa2ad98ca0dfee4c32786563a53ea9d47cccb2363c33a566b71dfc8a"
+    },
+    {
+      "path": "references/execution-and-recovery.md",
+      "bytes": 3834,
+      "sha256": "08803a4370971f2da75e4252a4ec59b885435ed0e85bda1994844a725dfa213f"
+    },
+    {
+      "path": "references/fracture-and-literature.md",
+      "bytes": 7296,
+      "sha256": "bf3bcea94e3be72b140e6ebb1e795f655b35c7406feef12160501ce40bfa00b7"
+    },
+    {
+      "path": "references/modeling-and-units.md",
+      "bytes": 3872,
+      "sha256": "243a7aaf51aac9f45c4cddac8505e4c3424ea3e06801cdc0b9e9cc1e4e79bfae"
+    },
+    {
+      "path": "references/odb-and-evidence.md",
+      "bytes": 6155,
+      "sha256": "1bef5f7c5778522d0b33df9f73e3efc9af9c55511858fb7266643d24097cbe71"
+    },
+    {
+      "path": "references/uel-implementation.md",
+      "bytes": 5303,
+      "sha256": "b5a9015091bcf0b14834ff438bf31c183d70b72680260e9b3b1683ec2cec3cd5"
+    },
+    {
+      "path": "references/validation-matrix.md",
+      "bytes": 4214,
+      "sha256": "9439752bafe884f2d9969b7e2aeadfe7229839f039ef64be9a3ac524a3ac0c07"
+    },
+    {
+      "path": "scripts/audit_helpers.py",
+      "bytes": 10429,
+      "sha256": "e3335755f3becd089570ac63444854c4eb46d7f00d0390f392c7847baa8c13b0"
+    },
+    {
+      "path": "scripts/validate_skill.py",
+      "bytes": 5710,
+      "sha256": "91e11045739cdab0a72eb051145c05f49c9f7fc37183fc5b49a84f70daf71842"
+    },
+    {
+      "path": "tests/pressure_scenarios.md",
+      "bytes": 2669,
+      "sha256": "4e3de20b26bb31e7bc58ddde27ac2b3d39c4fdfc578457c9a8f65811ffb863c4"
+    },
+    {
+      "path": "tests/test_audit_helpers.py",
+      "bytes": 7927,
+      "sha256": "daac4fd6f3430ee303681087ffbf04be083f0740f230da11d7a317ca443a5ce3"
+    },
+    {
+      "path": "tests/test_package.py",
+      "bytes": 2438,
+      "sha256": "c770ab5e9c90ff850c3e4565f29132ceced1c986da4a8d05143b0909d498afd5"
+    },
+    {
+      "path": "tests/test_validator.py",
+      "bytes": 2971,
+      "sha256": "3e3aec147c91f593e1373f3d4a234e83f5dac97df1d33dfd0bd84b974a4811f5"
+    }
+  ]
+}

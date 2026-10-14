@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "purpose": "EXAMPLE_ONLY_NOT_EXECUTION_AUTHORIZATION",
+  "project_id": "ITO_PRECONDITIONING_LOCAL_MECHANICS",
+  "package_id": "ITO_RELEASE_FRACTURE_PHASEFIELD_V1",
+  "design": {
+    "state": "DESIGN_SELECTED_IMPLEMENTATION_PENDING",
+    "plan_commit": "3a906ee46ddd731b8e3c59073341862de1838615",
+    "plan_path": "plans/ITO_RELEASE_FRACTURE_PHASEFIELD_V1/EXECUTION_PLAN.md",
+    "method": "FINITE_STRAIN_SOLID_SHELL_AT2_UEL",
+    "interface": "PERFECT_BOND_DISPLACEMENT_ONLY",
+    "release_mode": "DISPLACEMENT_CONTROLLED_RETURN_NOT_FREE_RECOIL",
+    "initial_film": "FLAT_INTACT_ASSUMED_STRESS_FREE",
+    "candidate_materials_only": true,
+    "references_to_read": ["EXECUTION_PLAN.md", "IMPLEMENTATION_GATES.md", "SOURCE_MAP.md"]
+  },
+  "authorization": {
+    "source": null,
+    "native_execution": false,
+    "approved_stages": [],
+    "budget_record": null,
+    "old_budget_transfer": false,
+    "resume_old_monitors": false
+  },
+  "runtime": {
+    "state": "NOT_STARTED",
+    "case_id": null,
+    "source_commit": null,
+    "input_hash": null,
+    "scheduler_job_id": null,
+    "attempt_id": null,
+    "last_observed_utc": null,
+    "next_action": "READ_CURRENT_PLAN_AND_VALIDATE_IMPLEMENTATION_SCOPE"
+  },
+  "required_evidence_definitions": {
+    "units": null,
+    "dof_layout": null,
+    "residual_scales_u_and_d": null,
+    "reference_configuration": null,
+    "stress_measure_and_component_labels": null,
+    "accepted_state_output_schema": null,
+    "energy_partition_and_reference": null,
+    "geometry_probe_and_native_IP_sets": null,
+    "branch_identity_and_interpolation_policy": null,
+    "author_code_license_and_read_scope": null
+  },
+  "results": {
+    "technical": "NOT_RUN",
+    "geometry": "NOT_EVALUATED",
+    "energy": "REFERENCE_UNRESOLVED",
+    "damage_pattern": "NOT_EVALUABLE",
+    "calibration": "CANDIDATE_ONLY"
+  }
+}
