@@ -1,0 +1,165 @@
+{
+  "entry": "B01_M02_maximum_star36",
+  "selected_frame": {
+    "step": "BEND",
+    "step_index": 0,
+    "frame_index": 1,
+    "increment": 10,
+    "step_time": 0.03412500023841858,
+    "accepted_attempt": 1,
+    "time_compatibility": {
+      "raw_time": 0.03412500023841858,
+      "printed_token": "0.0341",
+      "print_interval_contains": true,
+      "exact_binary32_widening": true,
+      "compatible": true,
+      "basis": "PRINT_INTERVAL",
+      "native_time_precision_qualified": false
+    }
+  },
+  "native_final_iteration": 46,
+  "target_node": 5904,
+  "all_incident_elements": [
+    5813,
+    5814,
+    5818,
+    5820
+  ],
+  "element_count": 4,
+  "stress_rows_used": 16,
+  "decoded_stress_rows": 23280,
+  "fixed_global_IP_order": [
+    1,
+    2,
+    4,
+    3
+  ],
+  "rule": "bbar_gauss_average",
+  "node_rows": [
+    {
+      "node": 5904,
+      "DOF": 1,
+      "comparison_status": "COMPLETE_STAR",
+      "all_incident_elements": [
+        5813,
+        5814,
+        5818,
+        5820
+      ],
+      "missing_elements": [],
+      "local_force_N": 4.9988863153049845e-09,
+      "local_low_N": -1.503706194982864e-09,
+      "local_high_N": 1.150147881853847e-08,
+      "RF_N": 0.0,
+      "RF_low_N": -7.006492321624085e-46,
+      "RF_high_N": 7.006492321624085e-46,
+      "difference_N": 4.9988863153049845e-09,
+      "storage_intervals_separated": false
+    },
+    {
+      "node": 5904,
+      "DOF": 2,
+      "comparison_status": "COMPLETE_STAR",
+      "all_incident_elements": [
+        5813,
+        5814,
+        5818,
+        5820
+      ],
+      "missing_elements": [],
+      "local_force_N": -3.521977704756818e-06,
+      "local_low_N": -3.532199440764102e-06,
+      "local_high_N": -3.5117559687649435e-06,
+      "RF_N": 0.0,
+      "RF_low_N": -7.006492321624085e-46,
+      "RF_high_N": 7.006492321624085e-46,
+      "difference_N": -3.521977704756818e-06,
+      "storage_intervals_separated": true
+    }
+  ],
+  "native_comparison": {
+    "status": "CONDITIONAL_MAGNITUDE_COMPARISON",
+    "native": {
+      "token": "3.524E-06",
+      "node": 5904,
+      "dof": 2,
+      "line": 10637,
+      "raw": " LARGEST RESIDUAL FORCE             3.524E-06   AT NODE       5904   DOF  2",
+      "print_low": "7047/2000000000",
+      "print_high": "7049/2000000000"
+    },
+    "independent_fint_minus_RF_N": -3.521977704756818e-06,
+    "raw_magnitude_in_print_interval": false,
+    "propagated_magnitude_intersects_print": true,
+    "propagated_difference_low": "-22704102645096663557163898722620466157694508685898809345/6427752177035961102167848369364650410088811975131171341205504",
+    "propagated_difference_high": "-22572697073447893624789722943518898104649197587703791615/6427752177035961102167848369364650410088811975131171341205504",
+    "sign_relation": "OPPOSITE_SIGNS_CONVENTION_UNQUALIFIED",
+    "native_residual_sign_convention_qualified": false,
+    "native_error_proven": false
+  },
+  "input_domain": {
+    "thickness_mm": 1.0,
+    "nlgeom": false,
+    "steady_state": true,
+    "explicit_mechanical_loads": false,
+    "constrained_dofs": [
+      [
+        273,
+        1
+      ],
+      [
+        273,
+        2
+      ],
+      [
+        3438,
+        2
+      ],
+      [
+        5903,
+        2
+      ]
+    ],
+    "reaction_sign": "f_int=RF when explicit external mechanical loads are absent",
+    "keyword_names": [
+      "HEADING",
+      "NODE",
+      "ELEMENT",
+      "NSET",
+      "NSET",
+      "NSET",
+      "SOLID SECTION",
+      "MATERIAL",
+      "CONDUCTIVITY",
+      "DEPVAR",
+      "USER MATERIAL",
+      "INITIAL CONDITIONS",
+      "BOUNDARY",
+      "STEP",
+      "COUPLED TEMPERATURE-DISPLACEMENT",
+      "SOLUTION TECHNIQUE",
+      "CONTROLS",
+      "CONTROLS",
+      "BOUNDARY",
+      "RESTART",
+      "OUTPUT",
+      "NODE OUTPUT",
+      "ELEMENT OUTPUT",
+      "OUTPUT",
+      "NODE OUTPUT",
+      "NODE OUTPUT",
+      "NODE OUTPUT",
+      "END STEP"
+    ]
+  },
+  "scientific_pass": false,
+  "valid_prefix": null,
+  "P2_admission": false,
+  "P3_admission": false,
+  "native_repair_qualified": false,
+  "native_assembled_matrix_qualified": false,
+  "native_IP_spatial_mapping_qualified": false,
+  "physical_energy": "UNRESOLVED",
+  "interval_limit": "Stored float32 S/RF plus fixed binary64 coefficients only; native rounding, operator construction and saved-iteration timing not qualified.",
+  "source_closure_sha256": "9e5821dd26ea4e317b18a257e1596ac2607d3deef52ae54f315a2b67c5b325fe"
+}

@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-16T14:39:57.902601+00:00",
+  "state": "ACTUALLY_VIEWED_DELIVERY_CLOSED",
+  "tool": "view_image",
+  "viewed": [
+    {
+      "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_audit30\\force_deflection30.png",
+      "bytes": 114152,
+      "sha256": "9b2468f128bcdd70e71e11d5e588bc232d49c910cdcaff9afd035091f7b8e215"
+    },
+    {
+      "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_audit30\\force_deflection30_svg_render.png",
+      "bytes": 44299,
+      "sha256": "806049e75ef0457c8c7ce2eb99e651320bc69650b0e3815ae3f6dba8759e9973"
+    },
+    {
+      "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_audit30\\nodal_phase30.png",
+      "bytes": 713678,
+      "sha256": "9a80a65264ee57a9396525b1dfdb368bd8dc26fa423a99915752d9eb6ca13dee"
+    },
+    {
+      "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_audit30\\nodal_phase30_svg_render.png",
+      "bytes": 212979,
+      "sha256": "010ed9debe826dbd08df7d390148b703e67bd1dce92c9cd8456f7362bac15f60"
+    }
+  ],
+  "SVG_sources": [
+    {
+      "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_audit30\\force_deflection30.svg",
+      "bytes": 12982,
+      "sha256": "f18be614980b150efe95e80a472da6da629b17e1f3a8582e091d9b7581cb55f0"
+    },
+    {
+      "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_audit30\\nodal_phase30.svg",
+      "bytes": 17884635,
+      "sha256": "80b625bd4762ea23771a61db2560b35c4b6bff40f8833bf27d9c86f95f149ba4"
+    }
+  ],
+  "observations": [
+    "Force plot PNG/SVG render show distinctly smaller native peak and early softening; readable axes, units and legend.",
+    "Nodal scatter and input edges at saved increments10/204 shown on reference XY and current XY scale1; common0..1 color scale; final high d isolated near loaded node.",
+    "Dense central nodes limit visibility of tiny phase values; numerical bounds and geometric failures come from tables, not visual colors.",
+    "These are two-dimensional program-verification figures, not ITO/PDMS production results."
+  ],
+  "scientific_pass": false,
+  "closed_original_figure_decode_metadata_unchanged": true
+}

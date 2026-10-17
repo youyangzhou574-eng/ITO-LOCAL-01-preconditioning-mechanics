@@ -1,0 +1,75 @@
+{
+  "utc": "2026-10-16T18:03:59.241982+00:00",
+  "pass": true,
+  "scope": "OFFLINE_ONLY",
+  "source_files": {
+    "core": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\src\\python\\b01_m02_probe39.py",
+      "bytes": 6649,
+      "sha256": "3333340b1a20b52421e0126ff558b5d479d27bc9a5cff80133723ea37d890efb"
+    },
+    "builder": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\src\\python\\run_b01_m02_probe39.py",
+      "bytes": 8080,
+      "sha256": "54de0a7fc43409fd91bb63e7533256eef84fa9d2d139f1b9f2d1c5ba3f305682"
+    },
+    "fortran": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\src\\fortran\\b01_interface_probe39.for",
+      "bytes": 2504,
+      "sha256": "c6de88ec755aff601ecbbc8f5911a74061b1b56631609bbda412b8c25aaf3f9a"
+    },
+    "test_core": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\tests\\test_b01_m02_probe39.py",
+      "bytes": 6776,
+      "sha256": "433b119e807eb4f58f0db8eb30d1c5e1791cfda25ef99437650a09bd91402a92"
+    },
+    "test_builder": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\tests\\test_run_b01_m02_probe39.py",
+      "bytes": 8250,
+      "sha256": "29019918297d1ad3864ece5aefae825fe66a63dec847b8e009472d75a138501b"
+    }
+  },
+  "geometry": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_probe39\\GEOMETRY_SELECTION39.json",
+    "bytes": 1088,
+    "sha256": "9c6baf20033eb38d8c44590c8b88600b3d753a7cc52446e35fa90279c9d323c5"
+  },
+  "raw_review": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_probe39\\REVIEW_RAW39.md",
+    "bytes": 5852,
+    "sha256": "e018576b3d748605b23703064ee738d6e988c8d73bfe012e18a60e34cdfda42d"
+  },
+  "independent_synthetic": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_probe39\\REVIEW_SYNTHETIC39.json",
+    "bytes": 3220,
+    "sha256": "a79f5324e19d08f97e91a8b8754344a0c86946f23a9a60ce3ad3fefcedd19207"
+  },
+  "review_count": 1,
+  "original_findings": {
+    "critical": 0,
+    "important": 1,
+    "minor": 0
+  },
+  "resolution": {
+    "R39-I1": "Both final evidence objects must match full geometry metadata. Exact rehashed replacement and missing/wrong metadata rejected before output creation."
+  },
+  "targeted_red": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_probe39\\REVIEW_GEOMETRY_RED39.log",
+    "bytes": 5006,
+    "sha256": "ed97d971294a2024d630894da93ee2ec74587e7f21acc84a9c34dda9e1e8bb52"
+  },
+  "targeted_red_results": "3 methods, 5 assertion failures on actual unfixed implementation",
+  "final_green": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_probe39\\FINAL_GREEN29_39.log",
+    "bytes": 4342,
+    "sha256": "c944d4f2db6247daf3633f9e6fb1bc89b7e35fec2d6146fd9a9dfab12c8bbf02"
+  },
+  "second_review_performed": false,
+  "resolved_by": "primary with retained RED-GREEN; not an independent second review",
+  "pre_review_source": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_probe39\\REVIEW_PENDING39.json",
+    "bytes": 2045,
+    "sha256": "3b32f0e501d8ba14c1f6052a54593694345c21d97f8c15ccbf80a1739c2648e5"
+  },
+  "native_admitted": false
+}

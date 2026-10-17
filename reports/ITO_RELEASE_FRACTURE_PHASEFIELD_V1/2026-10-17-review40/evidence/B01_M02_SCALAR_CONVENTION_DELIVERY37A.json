@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-16T17:24:45.414473+00:00",
+  "state": "CLOSED_DELIVERED_ONCE",
+  "completion": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_scalar_convention37\\COMPLETION37A.json",
+    "bytes": 2884,
+    "sha256": "cf6cbc0d222aed31a2fb45648907f59152c0ffb5f5db973e717f3a910bdb825f"
+  },
+  "result": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_scalar_convention37\\RESULT37A.json",
+    "bytes": 11818,
+    "sha256": "de4db81ec93d9c5a4c8ac795e0c0ca1497342503f49c127447d09dee8716ad3e"
+  },
+  "report": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\reports\\B01_M02_SCALAR_CONVENTION_REPORT37A.md",
+    "bytes": 6171,
+    "sha256": "e2b2da544e66dec2b08a08af7511e09786f669b81d379895995f9f8866be8313"
+  },
+  "source_table": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_scalar_convention37\\SOURCE_ASSESSMENT37A.csv",
+    "bytes": 3395,
+    "sha256": "7b98d87ce9e8710b8b4c66e6d2df386b4946faa37290150be6dfcc6264b15e1d"
+  },
+  "original_failed_entry": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_scalar_convention37\\FAILED_CLOSED37.json",
+    "bytes": 214,
+    "sha256": "21db04252a24005cb05cf772b530c28079edebd73bfac28cefff2fa7adacd11e"
+  },
+  "calls": {
+    "numerical_algorithms": 0,
+    "old_entries": 0,
+    "old_tests": 0,
+    "old_reviews": 0,
+    "NPZ": 0,
+    "ODB": 0,
+    "network": 0,
+    "remote": 0,
+    "native": 0
+  },
+  "scientific_pass": false,
+  "valid_prefix": null,
+  "P2_admission": false,
+  "P3_admission": false,
+  "native_repair_admitted": false,
+  "budget_unchanged": true,
+  "last_P1_analysis_unreserved": true
+}

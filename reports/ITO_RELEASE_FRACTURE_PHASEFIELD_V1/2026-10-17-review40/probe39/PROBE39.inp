@@ -1,0 +1,268 @@
+*Heading
+PROBE39 manufactured CPE4T interface observation; NOT a PF-CZM repair
+** OFFLINE ONLY: diagnostic purpose and budget not authorized
+*Node
+1, 0, 0
+2, 1, 0
+3, 1, 1
+4, 0, 1
+11, 5.0197828100008426, 3
+12, 5, 3
+13, 4.9995790891489182, 2.9823232323232327
+14, 5.0159946123411059, 2.9844276094276094
+*Element, type=CPE4T, elset=EALL
+101, 1, 2, 3, 4
+202, 11, 12, 13, 14
+*Nset, nset=NALL
+1, 2, 3, 4, 11, 12, 13, 14
+*Solid Section, elset=EALL, material=PROBE39
+1.
+*Material, name=PROBE39
+*Conductivity
+1.
+*Depvar
+16
+*User Material, constants=2
+100., 0.
+*Initial Conditions, type=TEMPERATURE
+NALL, 1.
+*Step, name=S1, nlgeom=NO, extrapolation=NO, inc=20, unsymm=NO
+*Coupled Temperature-displacement, creep=NONE, steady state
+1., 1., 1.e-6, 1.
+*Solution Technique, type=SEPARATED
+*Boundary, op=NEW
+1, 1, 2, 0.
+2, 1, 2, 0.
+3, 2, 2, 0.
+4, 1, 2, 0.
+1, 11, 11, 1.0
+2, 11, 11, 1.0
+3, 11, 11, 1.0
+4, 11, 11, 1.0
+11, 1, 2, 0.
+12, 1, 2, 0.
+13, 2, 2, 0.
+14, 1, 2, 0.
+11, 11, 11, 1.0
+12, 11, 11, 1.0
+13, 11, 11, 1.0
+14, 11, 11, 1.0
+*Node Print, nset=NALL, frequency=1, summary=NO, totals=NO, global=YES
+NT, RFL
+*El Print, elset=EALL, position=INTEGRATION POINTS, frequency=1, summary=NO
+SDV1, SDV2, SDV3, SDV4, SDV5, SDV6, SDV7, SDV8
+SDV1, SDV9, SDV10, SDV11, SDV12, SDV13, SDV14, SDV15, SDV16
+*Output, field, frequency=0
+*Output, history, frequency=0
+*Restart, write, frequency=0
+*End Step
+*Step, name=S2, nlgeom=NO, extrapolation=NO, inc=20, unsymm=NO
+*Coupled Temperature-displacement, creep=NONE, steady state
+1., 1., 1.e-6, 1.
+*Solution Technique, type=SEPARATED
+*Boundary, op=NEW
+1, 1, 2, 0.
+2, 1, 2, 0.
+3, 2, 2, 0.
+4, 1, 2, 0.
+1, 11, 11, 1.0
+2, 11, 11, 1.0
+3, 11, 11, 1.0
+4, 11, 11, 1.0
+11, 1, 2, 0.
+12, 1, 2, 0.
+13, 2, 2, 0.
+14, 1, 2, 0.
+11, 11, 11, 1.0
+12, 11, 11, 1.0
+13, 11, 11, 1.0
+14, 11, 11, 1.0
+*Node Print, nset=NALL, frequency=1, summary=NO, totals=NO, global=YES
+NT, RFL
+*El Print, elset=EALL, position=INTEGRATION POINTS, frequency=1, summary=NO
+SDV1, SDV2, SDV3, SDV4, SDV5, SDV6, SDV7, SDV8
+SDV1, SDV9, SDV10, SDV11, SDV12, SDV13, SDV14, SDV15, SDV16
+*Output, field, frequency=0
+*Output, history, frequency=0
+*Restart, write, frequency=0
+*End Step
+*Step, name=S3, nlgeom=NO, extrapolation=NO, inc=20, unsymm=NO
+*Coupled Temperature-displacement, creep=NONE, steady state
+1., 1., 1.e-6, 1.
+*Solution Technique, type=SEPARATED
+*Boundary, op=NEW
+1, 1, 2, 0.
+2, 1, 2, 0.
+3, 2, 2, 0.
+4, 1, 2, 0.
+1, 11, 11, 1.0
+2, 11, 11, 1.0
+3, 11, 11, 1.0
+4, 11, 11, 1.0
+11, 1, 2, 0.
+12, 1, 2, 0.
+13, 2, 2, 0.
+14, 1, 2, 0.
+11, 11, 11, 1.0
+12, 11, 11, 1.0
+13, 11, 11, 1.0
+14, 11, 11, 1.0
+*Node Print, nset=NALL, frequency=1, summary=NO, totals=NO, global=YES
+NT, RFL
+*El Print, elset=EALL, position=INTEGRATION POINTS, frequency=1, summary=NO
+SDV1, SDV2, SDV3, SDV4, SDV5, SDV6, SDV7, SDV8
+SDV1, SDV9, SDV10, SDV11, SDV12, SDV13, SDV14, SDV15, SDV16
+*Output, field, frequency=0
+*Output, history, frequency=0
+*Restart, write, frequency=0
+*End Step
+*Step, name=S4, nlgeom=NO, extrapolation=NO, inc=20, unsymm=NO
+*Coupled Temperature-displacement, creep=NONE, steady state
+1., 1., 1.e-6, 1.
+*Solution Technique, type=SEPARATED
+*Boundary, op=NEW
+1, 1, 2, 0.
+2, 1, 2, 0.
+3, 2, 2, 0.
+4, 1, 2, 0.
+1, 11, 11, 1.0
+2, 11, 11, 1.0
+3, 11, 11, 1.0
+4, 11, 11, 1.0
+11, 1, 2, 0.
+12, 1, 2, 0.
+13, 2, 2, 0.
+14, 1, 2, 0.
+11, 11, 11, 1.0
+12, 11, 11, 1.0
+13, 11, 11, 1.0
+14, 11, 11, 1.0
+*Node Print, nset=NALL, frequency=1, summary=NO, totals=NO, global=YES
+NT, RFL
+*El Print, elset=EALL, position=INTEGRATION POINTS, frequency=1, summary=NO
+SDV1, SDV2, SDV3, SDV4, SDV5, SDV6, SDV7, SDV8
+SDV1, SDV9, SDV10, SDV11, SDV12, SDV13, SDV14, SDV15, SDV16
+*Output, field, frequency=0
+*Output, history, frequency=0
+*Restart, write, frequency=0
+*End Step
+*Step, name=T1, nlgeom=NO, extrapolation=NO, inc=20, unsymm=NO
+*Coupled Temperature-displacement, creep=NONE, steady state
+1., 1., 1.e-6, 1.
+*Solution Technique, type=SEPARATED
+*Boundary, op=NEW
+1, 1, 2, 0.
+2, 1, 2, 0.
+3, 2, 2, 0.
+4, 1, 2, 0.
+1, 11, 11, 2.0
+2, 11, 11, 1.0
+3, 11, 11, 1.0
+4, 11, 11, 1.0
+11, 1, 2, 0.
+12, 1, 2, 0.
+13, 2, 2, 0.
+14, 1, 2, 0.
+11, 11, 11, 2.0
+12, 11, 11, 1.0
+13, 11, 11, 1.0
+14, 11, 11, 1.0
+*Node Print, nset=NALL, frequency=1, summary=NO, totals=NO, global=YES
+NT, RFL
+*El Print, elset=EALL, position=INTEGRATION POINTS, frequency=1, summary=NO
+SDV1, SDV2, SDV3, SDV4, SDV5, SDV6, SDV7, SDV8
+SDV1, SDV9, SDV10, SDV11, SDV12, SDV13, SDV14, SDV15, SDV16
+*Output, field, frequency=0
+*Output, history, frequency=0
+*Restart, write, frequency=0
+*End Step
+*Step, name=T2, nlgeom=NO, extrapolation=NO, inc=20, unsymm=NO
+*Coupled Temperature-displacement, creep=NONE, steady state
+1., 1., 1.e-6, 1.
+*Solution Technique, type=SEPARATED
+*Boundary, op=NEW
+1, 1, 2, 0.
+2, 1, 2, 0.
+3, 2, 2, 0.
+4, 1, 2, 0.
+1, 11, 11, 1.0
+2, 11, 11, 2.0
+3, 11, 11, 1.0
+4, 11, 11, 1.0
+11, 1, 2, 0.
+12, 1, 2, 0.
+13, 2, 2, 0.
+14, 1, 2, 0.
+11, 11, 11, 1.0
+12, 11, 11, 2.0
+13, 11, 11, 1.0
+14, 11, 11, 1.0
+*Node Print, nset=NALL, frequency=1, summary=NO, totals=NO, global=YES
+NT, RFL
+*El Print, elset=EALL, position=INTEGRATION POINTS, frequency=1, summary=NO
+SDV1, SDV2, SDV3, SDV4, SDV5, SDV6, SDV7, SDV8
+SDV1, SDV9, SDV10, SDV11, SDV12, SDV13, SDV14, SDV15, SDV16
+*Output, field, frequency=0
+*Output, history, frequency=0
+*Restart, write, frequency=0
+*End Step
+*Step, name=T3, nlgeom=NO, extrapolation=NO, inc=20, unsymm=NO
+*Coupled Temperature-displacement, creep=NONE, steady state
+1., 1., 1.e-6, 1.
+*Solution Technique, type=SEPARATED
+*Boundary, op=NEW
+1, 1, 2, 0.
+2, 1, 2, 0.
+3, 2, 2, 0.
+4, 1, 2, 0.
+1, 11, 11, 1.0
+2, 11, 11, 1.0
+3, 11, 11, 2.0
+4, 11, 11, 1.0
+11, 1, 2, 0.
+12, 1, 2, 0.
+13, 2, 2, 0.
+14, 1, 2, 0.
+11, 11, 11, 1.0
+12, 11, 11, 1.0
+13, 11, 11, 2.0
+14, 11, 11, 1.0
+*Node Print, nset=NALL, frequency=1, summary=NO, totals=NO, global=YES
+NT, RFL
+*El Print, elset=EALL, position=INTEGRATION POINTS, frequency=1, summary=NO
+SDV1, SDV2, SDV3, SDV4, SDV5, SDV6, SDV7, SDV8
+SDV1, SDV9, SDV10, SDV11, SDV12, SDV13, SDV14, SDV15, SDV16
+*Output, field, frequency=0
+*Output, history, frequency=0
+*Restart, write, frequency=0
+*End Step
+*Step, name=T4, nlgeom=NO, extrapolation=NO, inc=20, unsymm=NO
+*Coupled Temperature-displacement, creep=NONE, steady state
+1., 1., 1.e-6, 1.
+*Solution Technique, type=SEPARATED
+*Boundary, op=NEW
+1, 1, 2, 0.
+2, 1, 2, 0.
+3, 2, 2, 0.
+4, 1, 2, 0.
+1, 11, 11, 1.0
+2, 11, 11, 1.0
+3, 11, 11, 1.0
+4, 11, 11, 2.0
+11, 1, 2, 0.
+12, 1, 2, 0.
+13, 2, 2, 0.
+14, 1, 2, 0.
+11, 11, 11, 1.0
+12, 11, 11, 1.0
+13, 11, 11, 1.0
+14, 11, 11, 2.0
+*Node Print, nset=NALL, frequency=1, summary=NO, totals=NO, global=YES
+NT, RFL
+*El Print, elset=EALL, position=INTEGRATION POINTS, frequency=1, summary=NO
+SDV1, SDV2, SDV3, SDV4, SDV5, SDV6, SDV7, SDV8
+SDV1, SDV9, SDV10, SDV11, SDV12, SDV13, SDV14, SDV15, SDV16
+*Output, field, frequency=0
+*Output, history, frequency=0
+*Restart, write, frequency=0
+*End Step

@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-16T18:03:59.241982+00:00",
+  "offline_build_pass": true,
+  "native_pass": false,
+  "closure_sha256": "20134175074e9111a518cf3cf6e96afee5ff1c35c78a0c3090368a33cdb82bfd",
+  "review": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_PROBE_SOURCE_REVIEW39.json",
+    "bytes": 3932,
+    "sha256": "e566b2631f9a0efc486048f84f1e20c188099b69b290adc59375e963cd65ad54"
+  },
+  "final_tests": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_PROBE_FINAL_TEST_BINDING39.json",
+    "bytes": 2417,
+    "sha256": "c87f4d3a65c17da871a050f36e266487920a49d613fbfda45b53dd0f530b1e0e"
+  },
+  "purpose": "offline package build only; no reservation/compile/datacheck/SSH/scheduler/native",
+  "P1_scientific_pass": false,
+  "valid_prefix": null
+}

@@ -1,0 +1,164 @@
+{
+  "utc": "2026-10-16T16:01:16.009837+00:00",
+  "state": "CLOSED_DELIVERED_ONCE",
+  "entry": "B01_M02_mean_dilatation33",
+  "completion": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_mean_dilatation33\\COMPLETION33.json",
+    "bytes": 10177,
+    "sha256": "7bce8261ba1d0585dde8c3f3eb08dd9ca7f173101cdf7be60f0a5306f219fc0d"
+  },
+  "local_exit": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_mean_dilatation33\\LOCAL_EXIT33.json",
+    "bytes": 384,
+    "sha256": "e92c7eb497eeb395cdbd79aea1a6e784633bba4d4ef01e560a074507990eb526"
+  },
+  "source_closure": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_MEAN_DILATATION_SOURCE_CLOSURE33.json",
+    "bytes": 3394,
+    "sha256": "7a09656cf35383eca319e230fb9595261877977982fe4820bbeae371d91b6b0f"
+  },
+  "review": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_MEAN_DILATATION_SOURCE_REVIEW33.json",
+    "bytes": 2609,
+    "sha256": "5c40c5fd68e470d02796518a34b7ca8a57e59fb08c780754573277a8851897e0"
+  },
+  "tests": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_MEAN_DILATATION_FINAL_TEST_BINDING33.json",
+    "bytes": 4979,
+    "sha256": "42bd4db38e49d96fd4fdca62e7f89c2fa64815bcdd63000ff760f7754f023bb7"
+  },
+  "report": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\reports\\B01_M02_MEAN_DILATATION_DELIVERY_REPORT33.md",
+    "bytes": 3287,
+    "sha256": "58809b1b2e0dc9c91a72974006910ebab66712c60b015ca74512d7b1c2d18d8e"
+  },
+  "result": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_mean_dilatation33\\RESULT33.json",
+    "bytes": 3491,
+    "sha256": "6ed483406ae23ff29c557e67606b246d14d036eeba6d065f4afa2e92b9748218"
+  },
+  "package": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_mean_dilatation33\\PACKAGE33.zip",
+    "bytes": 763010,
+    "sha256": "b122cd2449c374da3c1b2ba1d06cc0171feeabf30d590abc1ab298db41f324c3"
+  },
+  "file_count": 33,
+  "zip_verification": "Already once by actual runner, not repeated by delivery",
+  "summary": {
+    "kinematic_candidate_count": 72,
+    "mean_gradient_methods": 2,
+    "kinematic_best_by_rule": [
+      {
+        "candidate_id": 1,
+        "rule": "standard_gauss",
+        "IP_labels_in_point_order": [
+          1,
+          2,
+          4,
+          3
+        ],
+        "component_samples": 96,
+        "nontrivial_component_samples": 72,
+        "raw_max_abs": 0.2310056612023776,
+        "raw_l2": 0.6906062230877268,
+        "normalization_denominator": 4.488246306124539,
+        "normalized": 0.15386994741027119,
+        "separated_all": 48,
+        "separated_normal": 48,
+        "separated_shear": 0,
+        "separated_nontrivial": 48,
+        "status": "CONDITIONAL_STORAGE_COMPARISON_FIXED_BINARY64_B",
+        "native_mapping_qualified": false
+      },
+      {
+        "candidate_id": 25,
+        "rule": "bbar_gauss_average",
+        "IP_labels_in_point_order": [
+          1,
+          2,
+          4,
+          3
+        ],
+        "component_samples": 96,
+        "nontrivial_component_samples": 72,
+        "raw_max_abs": 1.024198685861677e-07,
+        "raw_l2": 3.7289251130476013e-07,
+        "normalization_denominator": 4.400751899210334,
+        "normalized": 8.47338181849496e-08,
+        "separated_all": 0,
+        "separated_normal": 0,
+        "separated_shear": 0,
+        "separated_nontrivial": 0,
+        "status": "CONDITIONAL_STORAGE_COMPARISON_FIXED_BINARY64_B",
+        "native_mapping_qualified": false
+      },
+      {
+        "candidate_id": 49,
+        "rule": "bbar_boundary_average",
+        "IP_labels_in_point_order": [
+          1,
+          2,
+          4,
+          3
+        ],
+        "component_samples": 96,
+        "nontrivial_component_samples": 72,
+        "raw_max_abs": 1.024198685861677e-07,
+        "raw_l2": 3.72892509912929e-07,
+        "normalization_denominator": 4.400751899210331,
+        "normalized": 8.473381786867846e-08,
+        "separated_all": 0,
+        "separated_normal": 0,
+        "separated_shear": 0,
+        "separated_nontrivial": 0,
+        "status": "CONDITIONAL_STORAGE_COMPARISON_FIXED_BINARY64_B",
+        "native_mapping_qualified": false
+      }
+    ],
+    "mean_gradient_max_difference": 9.485745522397337e-13,
+    "interval_scope": "Exact Fraction propagation for fixed binary64 B coefficients and float32 storage bins. B construction rounding/native arithmetic/author coordinate precision unqualified; no new physical tolerance.",
+    "derivation": "Reference-configuration small-strain in-plane mean dilatation, factor1/2, E33=0; documentation2025 does not qualify Abaqus2021 native implementation.",
+    "native_IP_spatial_mapping_qualified": false,
+    "native_assembled_matrix_qualified": false,
+    "native_repair_qualified": false,
+    "scientific_pass": false,
+    "valid_prefix": null,
+    "P2_admission": false,
+    "P3_admission": false,
+    "entry": "B01_M02_mean_dilatation33",
+    "source_closure_sha256": "7a09656cf35383eca319e230fb9595261877977982fe4820bbeae371d91b6b0f",
+    "selected_frame": {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 1,
+      "increment": 10,
+      "step_time": 0.03412500023841858,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.03412500023841858,
+        "printed_token": "0.0341",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      }
+    },
+    "elements": [
+      5811,
+      5812,
+      5816,
+      5817,
+      5818,
+      5820
+    ],
+    "parent_completion_sha256": "6ca53a3994b9f4819d8bddd76fa27da0a3a7e5b33740b66a87da13897f8b3ab0",
+    "CSV_file_count": 4
+  },
+  "scientific_pass": false,
+  "valid_prefix": null,
+  "P2_admission": false,
+  "P3_admission": false,
+  "new_native_repair_qualified": false,
+  "P1_analysis_remaining_unreserved": 1
+}

@@ -1,0 +1,34 @@
+test_bad_snapshot_does_not_become_accepted_evidence (test_b01_m02_probe39.Probe39Tests.test_bad_snapshot_does_not_become_accepted_evidence) ... ok
+test_coarsely_printed_snapshot_identity_is_ambiguous (test_b01_m02_probe39.Probe39Tests.test_coarsely_printed_snapshot_identity_is_ambiguous) ... ok
+test_complete_rows_and_real_labels_build_raw_columns (test_b01_m02_probe39.Probe39Tests.test_complete_rows_and_real_labels_build_raw_columns) ... ok
+test_constant_field_nullspace_and_affine_energy (test_b01_m02_probe39.Probe39Tests.test_constant_field_nullspace_and_affine_energy) ... ok
+test_decimal_intervals_preserve_sign_and_d_exponent (test_b01_m02_probe39.Probe39Tests.test_decimal_intervals_preserve_sign_and_d_exponent) ... ok
+test_fortran_leading_decimal_prints (test_b01_m02_probe39.Probe39Tests.test_fortran_leading_decimal_prints) ... ok
+test_invalid_geometry_is_not_repaired (test_b01_m02_probe39.Probe39Tests.test_invalid_geometry_is_not_repaired) ... ok
+test_missing_duplicate_nonfinite_and_rejected_rows_rejected (test_b01_m02_probe39.Probe39Tests.test_missing_duplicate_nonfinite_and_rejected_rows_rejected) ... ok
+test_node_reordering_preserves_geometry_and_conduction (test_b01_m02_probe39.Probe39Tests.test_node_reordering_preserves_geometry_and_conduction) ... ok
+test_nonzero_baseline_not_inferred_for_missing_data (test_b01_m02_probe39.Probe39Tests.test_nonzero_baseline_not_inferred_for_missing_data) ... ok
+test_one_free_mechanical_dof_has_positive_stiffness (test_b01_m02_probe39.Probe39Tests.test_one_free_mechanical_dof_has_positive_stiffness) ... ok
+test_snapshot_matches_identity_and_stateless_source (test_b01_m02_probe39.Probe39Tests.test_snapshot_matches_identity_and_stateless_source) ... ok
+test_snapshot_scientific_integer_prints (test_b01_m02_probe39.Probe39Tests.test_snapshot_scientific_integer_prints) ... ok
+test_source_columns_distinguish_gauss_from_nodal (test_b01_m02_probe39.Probe39Tests.test_source_columns_distinguish_gauss_from_nodal) ... ok
+test_square_conduction_matches_analytic_matrix (test_b01_m02_probe39.Probe39Tests.test_square_conduction_matches_analytic_matrix) ... ok
+test_step_domain_and_ip_basis (test_b01_m02_probe39.Probe39Tests.test_step_domain_and_ip_basis) ... ok
+test_temperature_baseline_has_no_conductive_effect (test_b01_m02_probe39.Probe39Tests.test_temperature_baseline_has_no_conductive_effect) ... ok
+test_actual_geometry_provenance_mismatch_rejected (test_run_b01_m02_probe39.Builder39Tests.test_actual_geometry_provenance_mismatch_rejected) ... ok
+test_build_once_creates_local_reviewable_package_only (test_run_b01_m02_probe39.Builder39Tests.test_build_once_creates_local_reviewable_package_only) ... ok
+test_changed_source_rejected_before_output (test_run_b01_m02_probe39.Builder39Tests.test_changed_source_rejected_before_output) ... ok
+test_cli_cannot_submit_or_connect (test_run_b01_m02_probe39.Builder39Tests.test_cli_cannot_submit_or_connect) ... ok
+test_each_final_binding_requires_exact_geometry (test_run_b01_m02_probe39.Builder39Tests.test_each_final_binding_requires_exact_geometry) ... ok
+test_generated_8_steps_reset_all_boundaries_and_keep_rows_visible (test_run_b01_m02_probe39.Builder39Tests.test_generated_8_steps_reset_all_boundaries_and_keep_rows_visible) ... ok
+test_orphan_partial_and_failure_directories_are_not_reentered (test_run_b01_m02_probe39.Builder39Tests.test_orphan_partial_and_failure_directories_are_not_reentered) ... ok
+test_path_scope_escape_rejected_before_write (test_run_b01_m02_probe39.Builder39Tests.test_path_scope_escape_rejected_before_write) ... ok
+test_post_intent_write_failure_is_closed_without_retry (test_run_b01_m02_probe39.Builder39Tests.test_post_intent_write_failure_is_closed_without_retry) ... ok
+test_rehashed_changed_geometry_rejects_stale_review_and_tests (test_run_b01_m02_probe39.Builder39Tests.test_rehashed_changed_geometry_rejects_stale_review_and_tests) ... ok
+test_rehashed_review_with_wrong_source_binding_rejected (test_run_b01_m02_probe39.Builder39Tests.test_rehashed_review_with_wrong_source_binding_rejected) ... ok
+test_review_source_or_admission_mismatch_rejected (test_run_b01_m02_probe39.Builder39Tests.test_review_source_or_admission_mismatch_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.542s
+
+OK

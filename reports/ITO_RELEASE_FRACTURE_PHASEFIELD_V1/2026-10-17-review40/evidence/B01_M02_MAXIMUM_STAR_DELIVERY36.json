@@ -1,0 +1,104 @@
+{
+  "utc": "2026-10-16T17:10:21.027725+00:00",
+  "state": "CLOSED_DELIVERED_ONCE",
+  "entry": "B01_M02_maximum_star36",
+  "completion": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_maximum_star36\\COMPLETION36.json",
+    "bytes": 9737,
+    "sha256": "7220a2331328a8e9e5cb9ab4a459fafdda510ee4f3b212651ede3254a5bf38e0"
+  },
+  "result": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_maximum_star36\\RESULT36.json",
+    "bytes": 4422,
+    "sha256": "78b36c33f8f8c18f1ecb4da43d959845d83a9801150dfb890a8f570b64c2cae4"
+  },
+  "report": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\reports\\B01_M02_MAXIMUM_STAR_DELIVERY_REPORT36.md",
+    "bytes": 3978,
+    "sha256": "ca34e5571101e02bc27505686c1ef407b0be1b6806d93b036652e0c94f6d1025"
+  },
+  "archive": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_maximum_star36\\PACKAGE36.zip",
+    "bytes": 513708,
+    "sha256": "5c774b12daafaa0706fcd7d465c7ab5c7861352d8fe15bb65ae112f9ece6206f"
+  },
+  "implementation": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_MAXIMUM_STAR_IMPLEMENTATION_COMPLETION36.json",
+    "bytes": 3978,
+    "sha256": "b1b79d154fbaebea43512d45bf2d7fbcc55a99e6d42dc9fd0fce9cfcbc2a1b8c"
+  },
+  "source_closure": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_MAXIMUM_STAR_SOURCE_CLOSURE36.json",
+    "bytes": 4050,
+    "sha256": "9e5821dd26ea4e317b18a257e1596ac2607d3deef52ae54f315a2b67c5b325fe"
+  },
+  "source_admission": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_MAXIMUM_STAR_SOURCE_ADMISSION36.json",
+    "bytes": 841,
+    "sha256": "9c19f866fc40a238a8adb0e95cddab62db05b5777c7834751def0b281eec59f8"
+  },
+  "final_test_binding": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_MAXIMUM_STAR_FINAL_TEST_BINDING36.json",
+    "bytes": 5308,
+    "sha256": "e1da8e12c95bb9ebbcf43bf9ca27d0a7298ebae168bd926b7758ec688922505f"
+  },
+  "review": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_MAXIMUM_STAR_SOURCE_REVIEW36.json",
+    "bytes": 3458,
+    "sha256": "8f4fa9c6df7fd8d869c39d9cdbdd0005421866f17f39f785b08896b4de20bcf0"
+  },
+  "launch_exit": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_maximum_star36\\LOCAL_EXIT36.json",
+    "bytes": 82,
+    "sha256": "83c787847c2fdc8bf6343faa040973269c9c7a5150fb7603cd611b4a46447c1c"
+  },
+  "actual_pid": 27352,
+  "actual_exit": 0,
+  "file_count": 32,
+  "scientific_derived_files": 4,
+  "NPZ_files": 1,
+  "NPZ_bytes": 290712,
+  "decoded_stress_rows": 23280,
+  "used_stress_rows": 16,
+  "all_incident_elements": [
+    5813,
+    5814,
+    5818,
+    5820
+  ],
+  "native_comparison": {
+    "status": "CONDITIONAL_MAGNITUDE_COMPARISON",
+    "native": {
+      "token": "3.524E-06",
+      "node": 5904,
+      "dof": 2,
+      "line": 10637,
+      "raw": " LARGEST RESIDUAL FORCE             3.524E-06   AT NODE       5904   DOF  2",
+      "print_low": "7047/2000000000",
+      "print_high": "7049/2000000000"
+    },
+    "independent_fint_minus_RF_N": -3.521977704756818e-06,
+    "raw_magnitude_in_print_interval": false,
+    "propagated_magnitude_intersects_print": true,
+    "propagated_difference_low": "-22704102645096663557163898722620466157694508685898809345/6427752177035961102167848369364650410088811975131171341205504",
+    "propagated_difference_high": "-22572697073447893624789722943518898104649197587703791615/6427752177035961102167848369364650410088811975131171341205504",
+    "sign_relation": "OPPOSITE_SIGNS_CONVENTION_UNQUALIFIED",
+    "native_residual_sign_convention_qualified": false,
+    "native_error_proven": false
+  },
+  "zip_crc_each_sha_once": true,
+  "zip_reverification": false,
+  "images_created": 0,
+  "visual_status": "NOT_APPLICABLE_NO_NEW_IMAGES",
+  "native_calls": 0,
+  "ODB_calls": 0,
+  "remote_calls": 0,
+  "old_entries": 0,
+  "scientific_pass": false,
+  "valid_prefix": null,
+  "P2_admission": false,
+  "P3_admission": false,
+  "native_repair_qualified": false,
+  "physical_energy": "UNRESOLVED",
+  "last_P1_analysis_reserved": false
+}

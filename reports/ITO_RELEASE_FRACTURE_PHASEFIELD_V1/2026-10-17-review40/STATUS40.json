@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-17T04:53:19.081827+00:00",
+  "project_id": "ITO_PRECONDITIONING_LOCAL_MECHANICS",
+  "client_id": "ITO-LOCAL-01",
+  "client_thread_id": "01a0d157-8547-7552-bb05-9a1c1c92698d",
+  "package_id": "ITO_RELEASE_FRACTURE_PHASEFIELD_V1",
+  "fixed_plan_commit": "3a906ee46ddd731b8e3c59073341862de1838615",
+  "scientific_pass": false,
+  "valid_prefix": null,
+  "production_UEL": "NOT_IMPLEMENTED_XIT_SKELETON_ONLY",
+  "P1_peak_gate": "FAIL",
+  "geometry_gate": "FAIL",
+  "phase_gate": "FAIL",
+  "physical_energy": "UNRESOLVED",
+  "P2_admission": false,
+  "P3_admission": false,
+  "active_native_job": null,
+  "probe39": "OFFLINE_ONLY_NO_COMPILE_NO_NATIVE",
+  "fixed_run_count_limits": null,
+  "limits_enforced": false,
+  "actual_usage": {
+    "analysis": 7,
+    "P1_analysis": 7,
+    "datacheck": 8,
+    "readonly_extraction": 8
+  },
+  "human_policy": "No fixed quotas; complete the fixed work package while maintaining scientific direction; upload current results and request Pro technical ruling.",
+  "historic_documents_policy": "All original reports, source closures and their old quota text are archival evidence; AUTHORIZATION40 supersedes quota/purpose restrictions only."
+}

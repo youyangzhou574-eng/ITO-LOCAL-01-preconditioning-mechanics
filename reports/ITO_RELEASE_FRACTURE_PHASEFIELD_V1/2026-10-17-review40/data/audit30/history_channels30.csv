@@ -1,0 +1,9 @@
+channel,region,component,node_label,selected,samples,identity_qualified
+0,Node PART-1-1.273,RF1,273,True,205,True
+1,Node PART-1-1.273,RF2,273,True,205,True
+2,Node PART-1-1.273,U1,273,True,205,True
+3,Node PART-1-1.273,U2,273,True,205,True
+4,Node PART-1-1.3438,RF2,3438,True,205,True
+5,Node PART-1-1.3438,U2,3438,True,205,True
+6,Node PART-1-1.5903,RF2,5903,True,205,True
+7,Node PART-1-1.5903,U2,5903,True,205,True

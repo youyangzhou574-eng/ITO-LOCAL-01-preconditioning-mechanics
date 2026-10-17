@@ -1,0 +1,175 @@
+{
+  "utc": "2026-10-16T16:27:53.750802+00:00",
+  "state": "CLOSED_DELIVERED_ONCE",
+  "entry": "B01_M02_coupled_force34",
+  "completion": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_coupled_force34\\COMPLETION34.json",
+    "bytes": 9798,
+    "sha256": "c4d8496d14d72876d8f7f29ad1bc8df107bf5d09b2ed203934b87bd72043b555"
+  },
+  "result": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_coupled_force34\\RESULT34.json",
+    "bytes": 4092,
+    "sha256": "4238d85f49c423864377360198391d918ea4f9f5bf32760bf523d360420e0c9d"
+  },
+  "tables": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_coupled_force34\\TABLES34.json",
+    "bytes": 1075807,
+    "sha256": "94281f0098cef3fff0b883c56ea810a403c21f5927b558e6080bc588c9b9ab7a"
+  },
+  "package": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_coupled_force34\\PACKAGE34.zip",
+    "bytes": 456403,
+    "sha256": "30a45e4e0274dbbde65d6a357ac5fe6dae8e83231b587d725689499f0e4a24a4"
+  },
+  "report": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\reports\\B01_M02_COUPLED_FORCE_DELIVERY_REPORT34.md",
+    "bytes": 3882,
+    "sha256": "ca33218f297ee15917575283b007a3397ef158b504ea0d27c279feeca74f3c3f"
+  },
+  "source_closure": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_COUPLED_FORCE_SOURCE_CLOSURE34.json",
+    "bytes": 3554,
+    "sha256": "5969a06ac013cc9d6a40b53dc3f04c8bacf0e950afacd50b78a00069a11013de"
+  },
+  "source_admission": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_COUPLED_FORCE_SOURCE_ADMISSION34.json",
+    "bytes": 849,
+    "sha256": "b07a32bd988fbb1c5d1484e263703a375821716d418d9a44815e09a325873438"
+  },
+  "implementation": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_COUPLED_FORCE_IMPLEMENTATION_COMPLETION34.json",
+    "bytes": 1736,
+    "sha256": "b6be7a95bda11e620fd850821088dc75ae087897b70ad4934bf44bc4f2aaa4f9"
+  },
+  "exit": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_coupled_force34\\LOCAL_EXIT34.json",
+    "bytes": 120,
+    "sha256": "366f69e7c923da73c8a2df79bd7afae512be6f35306128e44240e121cd9c9e73"
+  },
+  "scientific_pass": false,
+  "valid_prefix": null,
+  "P2_admission": false,
+  "P3_admission": false,
+  "energy_status": "UNRESOLVED",
+  "complete_nodes": [
+    5898,
+    5901,
+    5902,
+    5903,
+    5907,
+    5908
+  ],
+  "incomplete_nodes": [
+    5899,
+    5900,
+    5904,
+    5905,
+    5906
+  ],
+  "best_by_rule": [
+    {
+      "candidate_id": 1,
+      "rule": "standard_gauss",
+      "IP_labels_in_point_order": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "complete_nodes": [
+        5898,
+        5901,
+        5902,
+        5903,
+        5907,
+        5908
+      ],
+      "compared_dofs": 12,
+      "raw_l2": 0.02950897596031016,
+      "raw_max_abs": 0.02080010295688165,
+      "normalization_denominator": 0.3924717876222369,
+      "normalized": 0.07518750873556605,
+      "normalization_status": "DESCRIPTIVE_ONLY",
+      "separated_components": 12,
+      "selected_element_force_sum_N": [
+        -3.469446951953614e-18,
+        2.0816681711721685e-17
+      ],
+      "selected_element_moment_Nmm": 2.7755575615628914e-16,
+      "status": "CONDITIONAL_FORCE_RF_COMPARISON_NOT_NATIVE_ERROR_TEST"
+    },
+    {
+      "candidate_id": 25,
+      "rule": "bbar_gauss_average",
+      "IP_labels_in_point_order": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "complete_nodes": [
+        5898,
+        5901,
+        5902,
+        5903,
+        5907,
+        5908
+      ],
+      "compared_dofs": 12,
+      "raw_l2": 3.02038621138191e-06,
+      "raw_max_abs": 2.4020323172516123e-06,
+      "normalization_denominator": 0.3972962545927675,
+      "normalized": 7.602352593225011e-06,
+      "normalization_status": "DESCRIPTIVE_ONLY",
+      "separated_components": 11,
+      "selected_element_force_sum_N": [
+        6.938893903907228e-18,
+        4.85722573273506e-17
+      ],
+      "selected_element_moment_Nmm": 2.7755575615628914e-16,
+      "status": "CONDITIONAL_FORCE_RF_COMPARISON_NOT_NATIVE_ERROR_TEST"
+    }
+  ],
+  "load_row": {
+    "candidate_id": 25,
+    "node": 5903,
+    "DOF": 2,
+    "comparison_status": "COMPLETE_STAR",
+    "missing_elements": [],
+    "constrained": true,
+    "local_force_N": -0.1986481296365627,
+    "local_low_N": -0.19864813864422465,
+    "local_high_N": -0.19864812062890078,
+    "RF_N": -0.1986481249332428,
+    "RF_low_N": -0.1986481323838234,
+    "RF_high_N": -0.1986481174826622,
+    "difference_N": -4.703319900212222e-09,
+    "storage_intervals_separated": false
+  },
+  "largest_Bbar_difference": {
+    "candidate_id": 25,
+    "node": 5902,
+    "DOF": 2,
+    "comparison_status": "COMPLETE_STAR",
+    "missing_elements": [],
+    "constrained": false,
+    "local_force_N": -2.4020323172516123e-06,
+    "local_low_N": -2.41256220838893e-06,
+    "local_high_N": -2.3915024261269135e-06,
+    "RF_N": 0.0,
+    "RF_low_N": -7.006492321624085e-46,
+    "RF_high_N": 7.006492321624085e-46,
+    "difference_N": -2.4020323172516123e-06,
+    "storage_intervals_separated": true
+  },
+  "actual_entries": 1,
+  "NPZ_reads": 0,
+  "ODB_calls": 0,
+  "native_calls": 0,
+  "scheduler_calls": 0,
+  "new_images": 0,
+  "visual_status": "NOT_APPLICABLE",
+  "zip_crc_each_sha_already_performed_by_runner": true,
+  "no_repeat_fullverify": true
+}

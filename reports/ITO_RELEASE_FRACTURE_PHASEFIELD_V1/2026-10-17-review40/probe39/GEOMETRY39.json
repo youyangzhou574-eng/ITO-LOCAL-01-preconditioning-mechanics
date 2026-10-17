@@ -1,0 +1,68 @@
+{
+  "utc": "2026-10-16T17:44:39.687283+00:00",
+  "source": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_scalar_convention37\\author_input.inp",
+    "bytes": 424140,
+    "sha256": "91b5fd771d9c9b7ea53147154a9d9c3161df647404933f3726da614a287d190e"
+  },
+  "same_buffer_SHA_before_decode": true,
+  "original_element": 5817,
+  "original_node_labels": [
+    5907,
+    5903,
+    5902,
+    5908
+  ],
+  "coordinates_mm": [
+    [
+      5.019782810000843,
+      3.0
+    ],
+    [
+      5.0,
+      3.0
+    ],
+    [
+      4.999579089148918,
+      2.9823232323232327
+    ],
+    [
+      5.015994612341106,
+      2.9844276094276094
+    ]
+  ],
+  "probe_element": 202,
+  "probe_node_labels": [
+    11,
+    12,
+    13,
+    14
+  ],
+  "square_element": 101,
+  "square_node_labels": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "square_coordinates_mm": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "reference_only": true,
+  "no_native": true
+}

@@ -1,0 +1,214 @@
+# B01_M02 native convergence match35
+
+{
+  "entry": "B01_M02_convergence35",
+  "selected_frame": {
+    "step": "BEND",
+    "step_index": 0,
+    "frame_index": 1,
+    "increment": 10,
+    "step_time": 0.03412500023841858,
+    "accepted_attempt": 1,
+    "time_compatibility": {
+      "raw_time": 0.03412500023841858,
+      "printed_token": "0.0341",
+      "print_interval_contains": true,
+      "exact_binary32_widening": true,
+      "compatible": true,
+      "basis": "PRINT_INTERVAL",
+      "native_time_precision_qualified": false
+    }
+  },
+  "accepted_final_iteration": 46,
+  "native_fields": {
+    "force": {
+      "token": "3.524E-06",
+      "node": 5904,
+      "dof": 2,
+      "line": 10637,
+      "raw": " LARGEST RESIDUAL FORCE             3.524E-06   AT NODE       5904   DOF  2",
+      "print_low": "7047/2000000000",
+      "print_high": "7049/2000000000"
+    },
+    "scaled_force": null,
+    "heat": {
+      "token": "6.708E-06",
+      "node": 5903,
+      "dof": 11,
+      "line": 10643,
+      "raw": " LARGEST RESIDUAL HEAT FLUX         6.708E-06   AT NODE       5903   DOF 11",
+      "print_low": "2683/400000000",
+      "print_high": "13417/2000000000"
+    },
+    "temperature_increment": {
+      "token": "3.351E-02",
+      "node": 5903,
+      "dof": 11,
+      "line": 10644,
+      "raw": " LARGEST INCREMENT OF TEMP.         3.351E-02   AT NODE       5903   DOF 11",
+      "print_low": "6701/200000",
+      "print_high": "6703/200000"
+    },
+    "temperature_correction": {
+      "token": "5.308E-06",
+      "node": 5903,
+      "dof": 11,
+      "line": 10645,
+      "raw": " LARGEST CORRECTION TO TEMP.        5.308E-06   AT NODE       5903   DOF 11",
+      "print_low": "2123/400000000",
+      "print_high": "10617/2000000000"
+    }
+  },
+  "mechanical_match": {
+    "status": "NOT_EVALUABLE",
+    "reason": "NATIVE_MAX_NODE_DOF_OUTSIDE_COMPLETE_ROWS",
+    "native": {
+      "token": "3.524E-06",
+      "node": 5904,
+      "dof": 2,
+      "line": 10637,
+      "raw": " LARGEST RESIDUAL FORCE             3.524E-06   AT NODE       5904   DOF  2",
+      "print_low": "7047/2000000000",
+      "print_high": "7049/2000000000"
+    },
+    "native_error_proven": false
+  },
+  "load_row34": {
+    "candidate_id": "25",
+    "node": 5903,
+    "DOF": 2,
+    "comparison_status": "COMPLETE_STAR",
+    "missing_elements": "[]",
+    "constrained": "True",
+    "local_force_N": -0.1986481296365627,
+    "local_low_N": -0.19864813864422465,
+    "local_high_N": -0.19864812062890078,
+    "RF_N": -0.1986481249332428,
+    "RF_low_N": -0.1986481323838234,
+    "RF_high_N": -0.1986481174826622,
+    "difference_N": -4.703319900212222e-09,
+    "storage_intervals_separated": "False"
+  },
+  "scalar_comparison": [
+    {
+      "candidate_id": 1,
+      "native": {
+        "token": "6.708E-06",
+        "node": 5903,
+        "dof": 11,
+        "line": 10643,
+        "raw": " LARGEST RESIDUAL HEAT FLUX         6.708E-06   AT NODE       5903   DOF 11",
+        "print_low": "2683/400000000",
+        "print_high": "13417/2000000000"
+      },
+      "physical_comparison_pass": null,
+      "native_scalar_convention_qualified": false,
+      "independent_unit": "mm_PSEUDO_SCALAR_NOT_FORCE_OR_PHYSICAL_HEAT",
+      "status": "QUANTITY_CONVENTION_UNQUALIFIED",
+      "candidate_residual_raw": -0.002602138437481097,
+      "diffusion_raw": 0.05781045820434387,
+      "reaction_raw": -0.06041259664182497,
+      "component_absolute_sum": 0.11822305484616884,
+      "descriptive_normalized": 0.022010414473445847,
+      "normalization_status": "DESCRIPTIVE_ONLY",
+      "native_heat_token": "6.708E-06",
+      "comparison_with_native_physical_units": null,
+      "conduction_rule": "gauss",
+      "reaction_rule": "gauss",
+      "fixed_global_IP_order": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "whole_mesh_candidate_maximum": 0.0244107884887226,
+      "whole_mesh_candidate_maximum_node": 3237,
+      "whole_mesh_candidate_l2": 0.05163091191237481,
+      "whole_mesh_candidate_normalized": 0.24874022322199515
+    },
+    {
+      "candidate_id": 25,
+      "native": {
+        "token": "6.708E-06",
+        "node": 5903,
+        "dof": 11,
+        "line": 10643,
+        "raw": " LARGEST RESIDUAL HEAT FLUX         6.708E-06   AT NODE       5903   DOF 11",
+        "print_low": "2683/400000000",
+        "print_high": "13417/2000000000"
+      },
+      "physical_comparison_pass": null,
+      "native_scalar_convention_qualified": false,
+      "independent_unit": "mm_PSEUDO_SCALAR_NOT_FORCE_OR_PHYSICAL_HEAT",
+      "status": "QUANTITY_CONVENTION_UNQUALIFIED",
+      "candidate_residual_raw": -0.003887568256950233,
+      "diffusion_raw": 0.05781045820434387,
+      "reaction_raw": -0.0616980264612941,
+      "component_absolute_sum": 0.11950848466563797,
+      "descriptive_normalized": 0.03252964229131438,
+      "normalization_status": "DESCRIPTIVE_ONLY",
+      "native_heat_token": "6.708E-06",
+      "comparison_with_native_physical_units": null,
+      "conduction_rule": "gauss",
+      "reaction_rule": "corner",
+      "fixed_global_IP_order": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "whole_mesh_candidate_maximum": 0.007666624744307885,
+      "whole_mesh_candidate_maximum_node": 5905,
+      "whole_mesh_candidate_l2": 0.016181968004471498,
+      "whole_mesh_candidate_normalized": 0.09368552342620416
+    },
+    {
+      "candidate_id": 49,
+      "native": {
+        "token": "6.708E-06",
+        "node": 5903,
+        "dof": 11,
+        "line": 10643,
+        "raw": " LARGEST RESIDUAL HEAT FLUX         6.708E-06   AT NODE       5903   DOF 11",
+        "print_low": "2683/400000000",
+        "print_high": "13417/2000000000"
+      },
+      "physical_comparison_pass": null,
+      "native_scalar_convention_qualified": false,
+      "independent_unit": "mm_PSEUDO_SCALAR_NOT_FORCE_OR_PHYSICAL_HEAT",
+      "status": "QUANTITY_CONVENTION_UNQUALIFIED",
+      "candidate_residual_raw": 0.013106014902283636,
+      "diffusion_raw": 0.07480404136357774,
+      "reaction_raw": -0.0616980264612941,
+      "component_absolute_sum": 0.13650206782487184,
+      "descriptive_normalized": 0.09601330669289398,
+      "normalization_status": "DESCRIPTIVE_ONLY",
+      "native_heat_token": "6.708E-06",
+      "comparison_with_native_physical_units": null,
+      "conduction_rule": "corner",
+      "reaction_rule": "corner",
+      "fixed_global_IP_order": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "whole_mesh_candidate_maximum": 0.019925917339445674,
+      "whole_mesh_candidate_maximum_node": 5904,
+      "whole_mesh_candidate_l2": 0.043829119255246365,
+      "whole_mesh_candidate_normalized": 0.22328833053435201
+    }
+  ],
+  "scope": "Accepted step1 increment10 attempt1 final iteration only. Scalar31 is whole5820-element assembly, not truncated6elements.",
+  "scientific_pass": false,
+  "valid_prefix": null,
+  "P2_admission": false,
+  "P3_admission": false,
+  "native_repair_qualified": false,
+  "native_assembled_matrix_qualified": false,
+  "native_IP_spatial_mapping_qualified": false,
+  "energy_status": "UNRESOLVED",
+  "source_closure_sha256": "be519dbee4850ebbe9b563097d05198a51e463936c14e65ef1c920936a494b84"
+}
+
+Magnitude/printed representation comparisons are conditional. Native sign and scalar quantity conventions remain unqualified; no solver error or new gate inferred. Original P1 FAIL retained.

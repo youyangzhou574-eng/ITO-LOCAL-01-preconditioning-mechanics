@@ -1,0 +1,57 @@
+test_actual_geometry_provenance_mismatch_rejected (test_run_b01_m02_probe39.Builder39Tests.test_actual_geometry_provenance_mismatch_rejected) ... ok
+test_each_final_binding_requires_exact_geometry (test_run_b01_m02_probe39.Builder39Tests.test_each_final_binding_requires_exact_geometry) ... 
+  test_each_final_binding_requires_exact_geometry (test_run_b01_m02_probe39.Builder39Tests.test_each_final_binding_requires_exact_geometry) (kind='review', change='missing') ... FAIL
+  test_each_final_binding_requires_exact_geometry (test_run_b01_m02_probe39.Builder39Tests.test_each_final_binding_requires_exact_geometry) (kind='review', change='wrong') ... FAIL
+  test_each_final_binding_requires_exact_geometry (test_run_b01_m02_probe39.Builder39Tests.test_each_final_binding_requires_exact_geometry) (kind='final_tests', change='missing') ... FAIL
+  test_each_final_binding_requires_exact_geometry (test_run_b01_m02_probe39.Builder39Tests.test_each_final_binding_requires_exact_geometry) (kind='final_tests', change='wrong') ... FAIL
+test_rehashed_changed_geometry_rejects_stale_review_and_tests (test_run_b01_m02_probe39.Builder39Tests.test_rehashed_changed_geometry_rejects_stale_review_and_tests) ... FAIL
+
+======================================================================
+FAIL: test_each_final_binding_requires_exact_geometry (test_run_b01_m02_probe39.Builder39Tests.test_each_final_binding_requires_exact_geometry) (kind='review', change='missing')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\ITO-LOCAL-01\ito_preconditioning_local_mechanics\work_packages\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\tests\test_run_b01_m02_probe39.py", line 123, in test_each_final_binding_requires_exact_geometry
+    with self.assertRaises(ValueError):runner.build_package(self.root,out,c,a)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_final_binding_requires_exact_geometry (test_run_b01_m02_probe39.Builder39Tests.test_each_final_binding_requires_exact_geometry) (kind='review', change='wrong')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\ITO-LOCAL-01\ito_preconditioning_local_mechanics\work_packages\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\tests\test_run_b01_m02_probe39.py", line 123, in test_each_final_binding_requires_exact_geometry
+    with self.assertRaises(ValueError):runner.build_package(self.root,out,c,a)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_final_binding_requires_exact_geometry (test_run_b01_m02_probe39.Builder39Tests.test_each_final_binding_requires_exact_geometry) (kind='final_tests', change='missing')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\ITO-LOCAL-01\ito_preconditioning_local_mechanics\work_packages\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\tests\test_run_b01_m02_probe39.py", line 123, in test_each_final_binding_requires_exact_geometry
+    with self.assertRaises(ValueError):runner.build_package(self.root,out,c,a)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_each_final_binding_requires_exact_geometry (test_run_b01_m02_probe39.Builder39Tests.test_each_final_binding_requires_exact_geometry) (kind='final_tests', change='wrong')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\ITO-LOCAL-01\ito_preconditioning_local_mechanics\work_packages\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\tests\test_run_b01_m02_probe39.py", line 123, in test_each_final_binding_requires_exact_geometry
+    with self.assertRaises(ValueError):runner.build_package(self.root,out,c,a)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rehashed_changed_geometry_rejects_stale_review_and_tests (test_run_b01_m02_probe39.Builder39Tests.test_rehashed_changed_geometry_rejects_stale_review_and_tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\ITO-LOCAL-01\ito_preconditioning_local_mechanics\work_packages\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\tests\test_run_b01_m02_probe39.py", line 111, in test_rehashed_changed_geometry_rejects_stale_review_and_tests
+    with self.assertRaises(ValueError):runner.build_package(self.root,out,c,a)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.266s
+
+FAILED (failures=5)

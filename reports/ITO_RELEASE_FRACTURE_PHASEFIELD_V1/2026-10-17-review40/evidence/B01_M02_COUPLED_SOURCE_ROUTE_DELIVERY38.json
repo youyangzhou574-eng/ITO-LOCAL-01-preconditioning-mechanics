@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-16T17:39:14.986554+00:00",
+  "state": "CLOSED_DELIVERED_ONCE",
+  "completion": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_coupled_source_route38\\COMPLETION38.json",
+    "bytes": 3043,
+    "sha256": "85a4b83ac9ab15dacce075f6c08f906094ead28261d56a9522e8f897fe2b7109"
+  },
+  "result": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_coupled_source_route38\\RESULT38.json",
+    "bytes": 4752,
+    "sha256": "a2b494e352cb56bdcbb678214c6f18533b49122e23765c29d166cff89be14c0d"
+  },
+  "report": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\reports\\B01_M02_COUPLED_SOURCE_ROUTE_REPORT38.md",
+    "bytes": 3147,
+    "sha256": "8632aa03b1c6c15d1d07feebb1a1e6f723cef4db62c0ce35eb61f5f2769e261c"
+  },
+  "scientific_pass": false,
+  "valid_prefix": null,
+  "budget": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\BUDGET_LEDGER.json",
+    "bytes": 923,
+    "sha256": "640d00d0c3a018af07a3813e4e731a125cd5e966f26536e7759e928c461df4ca"
+  },
+  "native_admitted": false,
+  "root_cause_source_route_closed": true
+}

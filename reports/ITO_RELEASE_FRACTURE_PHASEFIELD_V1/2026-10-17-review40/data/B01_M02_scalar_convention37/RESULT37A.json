@@ -1,0 +1,225 @@
+{
+  "utc": "2026-10-16T17:24:45.414473+00:00",
+  "entry": "B01_M02_scalar_convention37A",
+  "kind": "BOUNDED_LOCAL_TEXT_AND_ALGEBRA_ASSESSMENT",
+  "state": "ASSESSMENT_COMPLETE",
+  "original_entry_state": "FAILED_CLOSED37_PRESERVED",
+  "recovery_kind": "ASCII_SAFE_PRESENTATION_AND_ASSESSMENT_OF_HASH_BOUND_COPIES",
+  "source_file_count": 9,
+  "formula_identity": "q(phi,H)=-RPL(phi,H); q_phi=-DRPLDT for actual kflagC=3",
+  "formula_identity_scope": "same phi and H, conductivity1, thickness1, no numerical fitting",
+  "author_kflagS": 0,
+  "abaqus_solution_technique": "SEPARATED",
+  "same_runtime_phi_H_qualified": false,
+  "native_RPL_quadrature_qualified": false,
+  "native_log_scalar_convention_qualified": false,
+  "new_operator_admitted": false,
+  "native_fault_identified": false,
+  "native_repair_admitted": false,
+  "scale_fit_performed": false,
+  "native_IP_spatial_mapping_qualified": false,
+  "native_assembled_matrix_qualified": false,
+  "science_state": "P1_UNRESOLVED",
+  "scientific_pass": false,
+  "valid_prefix": null,
+  "P2_admission": false,
+  "P3_admission": false,
+  "peak_gate": "FAIL",
+  "geometry_gate": "FAIL",
+  "phase_gate": "FAIL",
+  "physical_energy": "UNRESOLVED",
+  "calls": {
+    "numerical_algorithms": 0,
+    "old_entries": 0,
+    "old_tests": 0,
+    "old_reviews": 0,
+    "NPZ": 0,
+    "ODB": 0,
+    "network": 0,
+    "remote": 0,
+    "native": 0
+  },
+  "original_source_reads": 9,
+  "presentation_recovery_original_source_reads": 0,
+  "sources": [
+    {
+      "role": "author_input",
+      "source": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_interface31\\source_input.inp",
+        "bytes": 424140,
+        "sha256": "91b5fd771d9c9b7ea53147154a9d9c3161df647404933f3726da614a287d190e"
+      },
+      "copy": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_scalar_convention37\\author_input.inp",
+        "bytes": 424140,
+        "sha256": "91b5fd771d9c9b7ea53147154a9d9c3161df647404933f3726da614a287d190e"
+      },
+      "same_buffer_SHA_before_decode": true
+    },
+    {
+      "role": "author_umat",
+      "source": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_interface31\\source_umat.f",
+        "bytes": 9565,
+        "sha256": "b6b52a87d0e817ab7b9b655bac4720174d5029c4a91e4cfad211434aca6d5125"
+      },
+      "copy": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_scalar_convention37\\author_umat.f",
+        "bytes": 9565,
+        "sha256": "b6b52a87d0e817ab7b9b655bac4720174d5029c4a91e4cfad211434aca6d5125"
+      },
+      "same_buffer_SHA_before_decode": true
+    },
+    {
+      "role": "independent_scalar_core",
+      "source": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_interface31\\b01_m02_interface31.py",
+        "bytes": 4587,
+        "sha256": "78b494cba6396c0d2a88d62123395c92c52c423df56539b4c3ae7ced5deec63a"
+      },
+      "copy": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_scalar_convention37\\independent_scalar_core.py",
+        "bytes": 4587,
+        "sha256": "78b494cba6396c0d2a88d62123395c92c52c423df56539b4c3ae7ced5deec63a"
+      },
+      "same_buffer_SHA_before_decode": true
+    },
+    {
+      "role": "independent_scalar_runner",
+      "source": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_interface31\\run_b01_m02_interface31.py",
+        "bytes": 25331,
+        "sha256": "629ad8cb82e9670f33653ccda8ec0ff422a82bd6a4fcf47d0454fc933911479a"
+      },
+      "copy": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_scalar_convention37\\independent_scalar_runner.py",
+        "bytes": 25331,
+        "sha256": "629ad8cb82e9670f33653ccda8ec0ff422a82bd6a4fcf47d0454fc933911479a"
+      },
+      "same_buffer_SHA_before_decode": true
+    },
+    {
+      "role": "result35",
+      "source": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_convergence35\\RESULT35.json",
+        "bytes": 7118,
+        "sha256": "cdcf68ffa6282fd4a8a52d4b8181b51279c12729aaa1953a61600cd8d0d450f4"
+      },
+      "copy": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_scalar_convention37\\result35.json",
+        "bytes": 7118,
+        "sha256": "cdcf68ffa6282fd4a8a52d4b8181b51279c12729aaa1953a61600cd8d0d450f4"
+      },
+      "same_buffer_SHA_before_decode": true
+    },
+    {
+      "role": "result36",
+      "source": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_maximum_star36\\RESULT36.json",
+        "bytes": 4422,
+        "sha256": "78b36c33f8f8c18f1ecb4da43d959845d83a9801150dfb890a8f570b64c2cae4"
+      },
+      "copy": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_scalar_convention37\\result36.json",
+        "bytes": 4422,
+        "sha256": "78b36c33f8f8c18f1ecb4da43d959845d83a9801150dfb890a8f570b64c2cae4"
+      },
+      "same_buffer_SHA_before_decode": true
+    },
+    {
+      "role": "umat_document",
+      "source": {
+        "url": "https://docs.software.vt.edu/abaqusv2025/English/SIMACAESUBRefMap/simasub-c-umat.htm",
+        "resolved_url": "https://docs.software.vt.edu/abaqusv2025/English/SIMACAESUBRefMap/simasub-c-umat.htm",
+        "http_status": 200,
+        "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_mean_dilatation_source33\\umat_2025.html",
+        "bytes": 135004,
+        "sha256": "6ab403bb668c92f7e4d3771e7b3fba032b5ec32c2c4c98bb2dc9a3f22ff6c210"
+      },
+      "copy": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_scalar_convention37\\umat_document.html",
+        "bytes": 135004,
+        "sha256": "6ab403bb668c92f7e4d3771e7b3fba032b5ec32c2c4c98bb2dc9a3f22ff6c210"
+      },
+      "same_buffer_SHA_before_decode": true
+    },
+    {
+      "role": "element_document",
+      "source": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_coupled_source34\\two_dimensional_elements_2025.html",
+        "bytes": 182665,
+        "sha256": "7fcdba5c7290696b4fd05d3a4f60160a45d0d7149c03858a4472c7252542ea76",
+        "url": "https://docs.software.vt.edu/abaqusv2025/English/SIMACAEELMRefMap/simaelm-r-2delem.htm",
+        "http_status": 200
+      },
+      "copy": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_scalar_convention37\\element_document.html",
+        "bytes": 182665,
+        "sha256": "7fcdba5c7290696b4fd05d3a4f60160a45d0d7149c03858a4472c7252542ea76"
+      },
+      "same_buffer_SHA_before_decode": true
+    },
+    {
+      "role": "interpolation_document",
+      "source": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_coupled_source34\\element_analysis_type_2025.html",
+        "bytes": 85862,
+        "sha256": "01c925536667dd86f3bf0f32e52ced27c6d565ea50bcc16ec834b039f4a25fab",
+        "url": "https://docs.software.vt.edu/abaqusv2025/English/SIMACAEELMRefMap/simaelm-c-analysistype.htm",
+        "http_status": 200
+      },
+      "copy": {
+        "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_scalar_convention37\\interpolation_document.html",
+        "bytes": 85862,
+        "sha256": "01c925536667dd86f3bf0f32e52ced27c6d565ea50bcc16ec834b039f4a25fab"
+      },
+      "same_buffer_SHA_before_decode": true
+    }
+  ],
+  "parents": {
+    "completion31": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_interface31\\COMPLETION31.json",
+      "bytes": 11338,
+      "sha256": "6ca53a3994b9f4819d8bddd76fa27da0a3a7e5b33740b66a87da13897f8b3ab0"
+    },
+    "delivery31": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_INTERFACE_DELIVERY31.json",
+      "bytes": 8812,
+      "sha256": "8a340b556f6b21fe8794c7ed6cb6059f53fe0c21eb1ce32db2725d9a3476223c"
+    },
+    "completion35": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_convergence35\\COMPLETION35.json",
+      "bytes": 9753,
+      "sha256": "de9dc01d7a734c516905f733320005fff8b25b7c83e27b82b397e5f43fb7f71b"
+    },
+    "delivery35": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_NATIVE_CONVERGENCE_DELIVERY35.json",
+      "bytes": 4177,
+      "sha256": "f6daadaa1dbe31cfb0e5fc745fc4363c4875d0420f97fbd03b48a886941503bf"
+    },
+    "completion36": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_maximum_star36\\COMPLETION36.json",
+      "bytes": 9737,
+      "sha256": "7220a2331328a8e9e5cb9ab4a459fafdda510ee4f3b212651ede3254a5bf38e0"
+    },
+    "delivery36": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_MAXIMUM_STAR_DELIVERY36.json",
+      "bytes": 4819,
+      "sha256": "d1ced122ceabe918b849d0b2c3019e23e30ec51df2062c61f9d81fccd0cf2f69"
+    },
+    "source33": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_mean_dilatation_source33\\COMPLETION33.json",
+      "bytes": 1563,
+      "sha256": "fcd37fa304be61f391a31abd7e83f9e7845793591c79acec52724fb01e2429eb"
+    },
+    "source34": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_coupled_source34\\COMPLETION34.json",
+      "bytes": 1629,
+      "sha256": "02d7daa1a017ec9b2016d248ca8a06a7e6f380eec9505a1ddcdf8abd6993b9b5"
+    }
+  },
+  "budget_sha256": "640d00d0c3a018af07a3813e4e731a125cd5e966f26536e7759e928c461df4ca",
+  "missing_observation": "Actual2021 CPE4T callback phi/H/RPL -> final accepted nodal scalar balance mapping, including integration/source assignment and residual convention",
+  "next_alternative": "One bounded primary-source route following existing coupled-analysis and user-material links, including2021 version identification; no repeat old source33/34 pages or source06 uncoupled heattransfer route",
+  "diagnostic_native_authorization_type_if_needed": "A diagnostic-only observational analysis would require an explicit change to the current last1P1analysis repair-only admission purpose; it must count as analysis, not datacheck/readonly. It is not admitted by this report."
+}

@@ -1,0 +1,96 @@
+{
+  "utc": "2026-10-16T17:39:14.986554+00:00",
+  "state": "CLOSED_BOUNDED_SOURCE_ROUTE",
+  "new_HTML_pages": 3,
+  "new_HTML_bytes": 117173,
+  "search_queries": 2,
+  "new_version2021_primary_pages": 0,
+  "prior_page_reopen_or_redownload": 0,
+  "skipped_prior_coupled_page": "B02_INTERFACE_REFERENCE_SCREEN01 and B02_M05_NONUNIFORM_REFERENCE_LOOKUP05 already covered the2025coupled page; used their existing scope summaries only",
+  "sources": [
+    {
+      "utc": "2026-10-16T17:32:29.043506+00:00",
+      "state": "FETCHED_ONCE",
+      "url": "https://docs.software.vt.edu/abaqusv2025/English/SIMACAEMATRefMap/simamat-c-usermat.htm",
+      "returned_url": "https://docs.software.vt.edu/abaqusv2025/English/SIMACAEMATRefMap/simamat-c-usermat.htm",
+      "http_status": 200,
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_coupled_source_route38\\user_material_2025.html",
+      "bytes": 62946,
+      "sha256": "19f2a9f7d80135118c125d7d216797254d8792bdfe376e80a703fd4197d67e67",
+      "same_buffer_SHA_before_decode": true,
+      "version": 2025,
+      "qualification2021": false
+    },
+    {
+      "utc": "2026-10-16T17:35:38.637465+00:00",
+      "state": "FETCHED_ONCE",
+      "url": "https://docs.software.vt.edu/abaqusv2025/English/SIMACAEMATRefMap/simamat-c-thusermat.htm",
+      "returned_url": "https://docs.software.vt.edu/abaqusv2025/English/SIMACAEMATRefMap/simamat-c-thusermat.htm",
+      "http_status": 200,
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_coupled_source_route38\\thermal_material_2025.html",
+      "bytes": 24100,
+      "sha256": "365d99cd9dc6891274eedb4c43769c6264eb5c6330c43dbe5b8089acf97a829a",
+      "same_buffer_SHA_before_decode": true,
+      "version": 2025,
+      "qualification2021": false,
+      "total_new_HTML_bytes": 87046
+    },
+    {
+      "utc": "2026-10-16T17:35:42.073518+00:00",
+      "state": "FETCHED_ONCE",
+      "url": "https://docs.software.vt.edu/abaqusv2025/English/SIMACAEOUTRefMap/simaout-c-stdoutputvar.htm",
+      "returned_url": "https://docs.software.vt.edu/abaqusv2025/English/SIMACAEOUTRefMap/simaout-c-stdoutputvar.htm",
+      "http_status": 200,
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_coupled_source_route38\\standard_output_2025.html",
+      "bytes": 30127,
+      "sha256": "4d9a0cbc3262cc2d77ab36c1e42034584dead3844f49f0af54a06824973c1d79",
+      "same_buffer_SHA_before_decode": true,
+      "version": 2025,
+      "qualification2021": false,
+      "total_new_HTML_bytes": 117173
+    }
+  ],
+  "findings": [
+    {
+      "source": "user_material_2025.html",
+      "lines": "272-278,463-473",
+      "finding": "2025 UMAT gets increment-start state plus increments; temperature is interpolated at integration points, distinct from built-in first-order thermal expansion constant temperature",
+      "limit": "Does not identify actual2021 CPE4T RPL quadrature or mapping; not nativefault proof"
+    },
+    {
+      "source": "thermal_material_2025.html",
+      "lines": "150-152",
+      "finding": "HETVAL may be combined with UMATHT",
+      "limit": "That optional route is not the present UMAT+conductivity material; does not qualify RPL assembly"
+    },
+    {
+      "source": "standard_output_2025.html",
+      "lines": "234-251",
+      "finding": "NT is nodal, TEMP is element integration-point temperature; extrapolated element temperature is not nodalNT",
+      "limit": "No original M02 TEMP observation created; cannot infer its values from NT or storageIP labels"
+    }
+  ],
+  "search_result_scope": "Two domain-limited2021queries returned2025primary pages; bounded search did not obtain2021primary implementation detail. Not a claim no such source exists anywhere.",
+  "new_operator_supported": false,
+  "native_fault_identified": false,
+  "native_repair_admitted": false,
+  "source_expansion_closed": true,
+  "next": "Prepare one concrete paired interface observation experiment offline; no further root-cause source/candidate expansion without new evidence",
+  "scientific_pass": false,
+  "valid_prefix": null,
+  "P2_admission": false,
+  "P3_admission": false,
+  "physical_energy": "UNRESOLVED",
+  "budget_changed": false,
+  "calls": {
+    "NPZ": 0,
+    "ODB": 0,
+    "remote": 0,
+    "scheduler": 0,
+    "native": 0,
+    "old_entry": 0,
+    "old_tests": 0,
+    "old_reviews": 0
+  },
+  "persistence_incident": "First attempt to save large search result via shell argument failed CreateProcess os206 beforeprocess/write; exact result saved via apply_patch, no repeated web query"
+}

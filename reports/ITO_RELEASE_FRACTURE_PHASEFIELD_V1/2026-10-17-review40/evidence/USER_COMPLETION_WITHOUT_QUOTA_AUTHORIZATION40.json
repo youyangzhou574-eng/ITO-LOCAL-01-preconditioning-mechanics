@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-17T04:50:39.629581+00:00",
+  "project_id": "ITO_PRECONDITIONING_LOCAL_MECHANICS",
+  "client_id": "ITO-LOCAL-01",
+  "client_thread_id": "01a0d157-8547-7552-bb05-9a1c1c92698d",
+  "package_id": "ITO_RELEASE_FRACTURE_PHASEFIELD_V1",
+  "human_exact_text": "我说过了不用设置额度 你把这话也转给pro以完成为目标 只要方向不偏就不要额度 你把现在的结果上传到github然后申请pro裁定",
+  "authorization_source": "DIRECT_HUMAN_MESSAGE_CURRENT_TURN",
+  "objective": "Complete the existing fixed scientific work package without fixed run-count quotas while preserving direction and scientific acceptance gates.",
+  "fixed_run_count_limits_removed": true,
+  "keep_actual_usage_accounting": true,
+  "github_upload_authorized": true,
+  "send_to_verified_Pro_authorized": true,
+  "request_Pro_technical_ruling": true,
+  "scientific_physics_or_acceptance_relaxation_authorized": false,
+  "supersedes_pending_A_B_question39": true,
+  "scope_plan_commit": "3a906ee46ddd731b8e3c59073341862de1838615"
+}

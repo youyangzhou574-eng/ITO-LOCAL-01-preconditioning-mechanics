@@ -1,0 +1,208 @@
+{
+  "utc": "2026-10-16T15:43:03.816645+00:00",
+  "state": "CLOSED_DELIVERED_ONCE",
+  "entry": "B01_M02_kinematic32",
+  "completion": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_kinematic32\\COMPLETION32.json",
+    "bytes": 8196,
+    "sha256": "d4375c44648e4da0cf49f7925cca9d00433f57928b1cbf6bfeb9528dc19edfcc"
+  },
+  "local_exit": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_kinematic32\\LOCAL_EXIT32.json",
+    "bytes": 378,
+    "sha256": "3879c8daa9304bda69ba6f3b6d235e5ea30464a3afcf91a911281212e228f42e"
+  },
+  "source_closure": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_KINEMATIC_SOURCE_CLOSURE32.json",
+    "bytes": 3172,
+    "sha256": "8d42c39e11ca6c924d79e9a5998a1b11a6b4bbf88cac556d19532017201bea29"
+  },
+  "review": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_KINEMATIC_SOURCE_REVIEW32.json",
+    "bytes": 2400,
+    "sha256": "e6d079a4509337b3293fa912d3816cd790529cad461e48c36f03e9405c048a32"
+  },
+  "final_tests": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_KINEMATIC_FINAL_TEST_BINDING32.json",
+    "bytes": 4728,
+    "sha256": "ae71dd4294990b240703232a1b807285aa9ec8a802c75d2efe1349cb9028934b"
+  },
+  "report": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\reports\\B01_M02_KINEMATIC_INTERFACE_DELIVERY_REPORT32.md",
+    "bytes": 3165,
+    "sha256": "99ce6227dc81b11faa9a6a12cfcc3e0bd2b2adca732c03611d387a034ef24e4d"
+  },
+  "result": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_kinematic32\\RESULT32.json",
+    "bytes": 4071,
+    "sha256": "8899704e03bbc3cb168211c4bddd1c0cf278d2c77ce71009f0495659d7a2d6d2"
+  },
+  "component_pattern": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_KINEMATIC_COMPONENT_PATTERN32.json",
+    "bytes": 2861,
+    "sha256": "91292ec18de3fafa5f8f129e3ff27214ae4632819b392b89f10ceaf81e4076af"
+  },
+  "package": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_kinematic32\\PACKAGE32.zip",
+    "bytes": 737089,
+    "sha256": "8d6ffeaba948bdb31c37b64e8b0a3952ecd2a8ef877c633c370b258283df6832"
+  },
+  "file_count": 27,
+  "zip_verification": "Already performed once by actual32 runner; not repeated by delivery",
+  "data_scope": {
+    "derived_files": 7,
+    "CSV": 4,
+    "nodes": 22,
+    "elements": 6,
+    "IP_rows": 24,
+    "NPZ_reads": 0,
+    "ODB_calls": 0,
+    "native_calls": 0
+  },
+  "summary": {
+    "kinematic_candidate_count": 72,
+    "phase_degradation_candidate_count": 48,
+    "kinematic_best_by_rule": [
+      {
+        "candidate_id": 1,
+        "rule": "gauss",
+        "IP_labels_in_point_order": [
+          1,
+          2,
+          4,
+          3
+        ],
+        "component_samples": 96,
+        "nontrivial_component_samples": 72,
+        "raw_max_abs": 0.2310056612023776,
+        "raw_l2": 0.6906062230877268,
+        "normalization_denominator": 4.488246306124539,
+        "normalized": 0.15386994741027119,
+        "separated_all": 48,
+        "separated_nontrivial": 48,
+        "status": "CONDITIONAL_STORAGE_COMPARISON_FIXED_BINARY64_B",
+        "native_mapping_qualified": false
+      },
+      {
+        "candidate_id": 25,
+        "rule": "corner",
+        "IP_labels_in_point_order": [
+          1,
+          2,
+          4,
+          3
+        ],
+        "component_samples": 96,
+        "nontrivial_component_samples": 72,
+        "raw_max_abs": 0.5661716495077016,
+        "raw_l2": 1.5211986315861454,
+        "normalization_denominator": 5.11401587560336,
+        "normalized": 0.2974567675558246,
+        "separated_all": 72,
+        "separated_nontrivial": 72,
+        "status": "CONDITIONAL_STORAGE_COMPARISON_FIXED_BINARY64_B",
+        "native_mapping_qualified": false
+      },
+      {
+        "candidate_id": 49,
+        "rule": "extrapolated_gauss",
+        "IP_labels_in_point_order": [
+          1,
+          2,
+          4,
+          3
+        ],
+        "component_samples": 96,
+        "nontrivial_component_samples": 72,
+        "raw_max_abs": 0.5229690246926526,
+        "raw_l2": 1.458102089608758,
+        "normalization_denominator": 5.148927173042785,
+        "normalized": 0.28318561141098547,
+        "separated_all": 72,
+        "separated_nontrivial": 72,
+        "status": "CONDITIONAL_STORAGE_COMPARISON_FIXED_BINARY64_B",
+        "native_mapping_qualified": false
+      }
+    ],
+    "degradation_best_by_rule": [
+      {
+        "candidate_id": 1,
+        "phase_rule": "gauss",
+        "IP_labels_in_point_order": [
+          1,
+          2,
+          4,
+          3
+        ],
+        "evaluated_samples": 24,
+        "not_evaluable_samples": 0,
+        "raw_g_difference_max_abs": 0.30564303922356606,
+        "raw_g_difference_l2": 0.4976122402538735,
+        "status": "RAW_DESCRIPTIVE_NO_COMPATIBILITY_THRESHOLD",
+        "phi_is_native_qualified": false
+      },
+      {
+        "candidate_id": 25,
+        "phase_rule": "corner",
+        "IP_labels_in_point_order": [
+          1,
+          2,
+          4,
+          3
+        ],
+        "evaluated_samples": 24,
+        "not_evaluable_samples": 0,
+        "raw_g_difference_max_abs": 2.6923446916349292e-08,
+        "raw_g_difference_l2": 4.964098412090131e-08,
+        "status": "RAW_DESCRIPTIVE_NO_COMPATIBILITY_THRESHOLD",
+        "phi_is_native_qualified": false
+      }
+    ],
+    "fixed_scalar_material_max_residual_l2": 1.7014919884249555e-07,
+    "material_ratio_interval_empty_count": 0,
+    "H_separated_below_current_count": 0,
+    "interval_scope": "Exact Fraction propagation for fixed binary64 B coefficients and float32 storage bins. B construction rounding/native arithmetic/author coordinate precision unqualified; no new physical tolerance.",
+    "native_IP_spatial_mapping_qualified": false,
+    "native_assembled_matrix_qualified": false,
+    "scientific_pass": false,
+    "valid_prefix": null,
+    "P2_admission": false,
+    "P3_admission": false,
+    "entry": "B01_M02_kinematic32",
+    "source_closure_sha256": "8d42c39e11ca6c924d79e9a5998a1b11a6b4bbf88cac556d19532017201bea29",
+    "selected_frame": {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 1,
+      "increment": 10,
+      "step_time": 0.03412500023841858,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.03412500023841858,
+        "printed_token": "0.0341",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      }
+    },
+    "elements": [
+      5811,
+      5812,
+      5816,
+      5817,
+      5818,
+      5820
+    ],
+    "parent_completion_sha256": "6ca53a3994b9f4819d8bddd76fa27da0a3a7e5b33740b66a87da13897f8b3ab0",
+    "CSV_file_count": 4
+  },
+  "scientific_pass": false,
+  "valid_prefix": null,
+  "P2_admission": false,
+  "P3_admission": false,
+  "physical_energy": "UNRESOLVED",
+  "new_native_repair_qualified": false,
+  "P1_analysis_remaining_unreserved": 1
+}

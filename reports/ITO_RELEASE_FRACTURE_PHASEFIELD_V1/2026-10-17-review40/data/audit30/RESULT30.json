@@ -1,0 +1,3216 @@
+{
+  "qualification": {
+    "native_job_id": "15905136",
+    "node_count": 5908,
+    "element_count": 5820,
+    "accepted_increments": 204,
+    "saved_frames": 22,
+    "saved_increments": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140,
+      150,
+      160,
+      170,
+      180,
+      190,
+      200,
+      204
+    ],
+    "saved_final_increment_present": true,
+    "history_channels": 8,
+    "history_samples": 1640,
+    "selected_history_complete": true,
+    "force_peak": {
+      "sample_index": 9,
+      "force_N": 0.20462124049663544,
+      "deflection_mm": 0.043687500059604645,
+      "reference_peak_N": 0.97812691074729,
+      "relative_peak_error": 0.7908029742885772,
+      "within_frozen_5percent_target": false,
+      "qualification_scope": "PEAK_FORCE_ONLY_NOT_P1_PASS",
+      "P1_qualified": false
+    },
+    "coordinate_binding": {
+      "basis": "FLOAT32_ROUNDING_EQUIVALENCE",
+      "maximum_difference_mm": 4.684476504479562e-07,
+      "export_source_precision": "NOT_EXPORTED_UNKNOWN",
+      "rounding_equivalence_is_precision_proof": false
+    },
+    "reference_J_min_mm2": 3.1797895104546114e-05,
+    "geometry_probe_count_per_element": 9,
+    "native_IP_spatial_mapping_qualified": false,
+    "phase_all_increments": "NOT_OBSERVED",
+    "rejected_trial_rollback": "NOT_ESTABLISHED_BY_SAVED_FIELDS",
+    "physical_energy": "UNRESOLVED_AUTHOR_SSE_NOT_INITIALIZED",
+    "morphology": "ACTUAL_VISUAL_REVIEW_PENDING",
+    "scientific_pass": false,
+    "valid_prefix": null,
+    "P2_admission": false,
+    "P3_admission": false,
+    "reference_gauss_min_mm2": 4.194270260436549e-05,
+    "reference_gauss_nonpositive": 0,
+    "reference_all_probe_nonpositive": 0,
+    "phase_saved_coverage_complete": true,
+    "phase_raw_bounds_samples": 47913,
+    "phase_separated_bounds_samples": 47913,
+    "phase_raw_decrease_samples": 60864,
+    "phase_separated_decrease_samples": 60864,
+    "H_saved_coverage_complete": true,
+    "H_raw_bounds_samples": 0,
+    "H_separated_bounds_samples": 0,
+    "H_raw_decrease_samples": 0,
+    "H_separated_decrease_samples": 0,
+    "current_geometry_complete": true,
+    "current_geometry_min_J_mm2": -0.030674670177060045,
+    "current_geometry_nonpositive_samples": 409,
+    "first_nonpositive_saved_increment": 10,
+    "first_nonpositive_after_peak": true,
+    "field_history_unknown_samples": 0,
+    "field_history_interval_mismatch_samples": 0,
+    "P1_peak_gate": "FAIL",
+    "history_conditional_time_samples": 8,
+    "frame_conditional_time_samples": 0,
+    "native_time_precision_qualified": false,
+    "time_compatibility_is_precision_proof": false,
+    "source_closure_sha256": "779a864d2c78cf14c270b141283a1c53aa0aa09fde8db7d080464c12e20fdc2b",
+    "payload_count": 164,
+    "payload_bytes": 16610102,
+    "readonly_job_id": "15905188",
+    "warning_state": "UNRESOLVED_SIX_NODE177_DOF11_WARNINGS_AND_DISTORTED3179"
+  },
+  "frames": [
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 0,
+      "increment": 0,
+      "step_time": 0.0,
+      "accepted_attempt": null,
+      "time_compatibility": {
+        "raw_time": 0.0,
+        "printed_token": "0",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": null,
+        "separated_decrease": null,
+        "minimum_delta": null
+      },
+      "H": {
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": null,
+        "separated_decrease": null,
+        "minimum_delta": null
+      },
+      "current_gauss_min_mm2": 4.194270260436549e-05,
+      "current_all_probe_min_mm2": 3.1797895104546114e-05,
+      "current_gauss_nonpositive": 0,
+      "current_all_probe_nonpositive": 0,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 1,
+      "max_phase_reference_xy_mm": [
+        4.978533744812012,
+        0.021043771877884865
+      ],
+      "minimum_J_element": 3352,
+      "descriptive_window_phase_max": {
+        "left_support": 0.0,
+        "right_support": 0.0,
+        "bottom_center": 0.0,
+        "top_load": 0.0
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 1,
+      "increment": 10,
+      "step_time": 0.03412500023841858,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.03412500023841858,
+        "printed_token": "0.0341",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.4162458086516672e-18,
+        "maximum": 0.07807373255491257,
+        "raw_bounds": 5500,
+        "separated_bounds": 5500,
+        "raw_decrease": 5500,
+        "separated_decrease": 5500,
+        "minimum_delta": -1.4162458086516672e-18
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 2.699460983276367,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.004999999888241291
+      },
+      "current_gauss_min_mm2": 1.6107743065747825e-05,
+      "current_all_probe_min_mm2": -1.006145604887966e-06,
+      "current_gauss_nonpositive": 0,
+      "current_all_probe_nonpositive": 1,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": -1.2935880553022774e-18,
+        "right_support": -7.891998909446194e-19,
+        "bottom_center": -1.3797231996680368e-18,
+        "top_load": 0.07807373255491257
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 2,
+      "increment": 20,
+      "step_time": 0.08412499725818634,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.08412499725818634,
+        "printed_token": "0.0841",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.3087364206551142e-18,
+        "maximum": 0.28991734981536865,
+        "raw_bounds": 254,
+        "separated_bounds": 254,
+        "raw_decrease": 127,
+        "separated_decrease": 127,
+        "minimum_delta": -1.8712921531621695e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 94.3234634399414,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.0002243178502348195,
+      "current_all_probe_min_mm2": -0.0004028311095417656,
+      "current_gauss_nonpositive": 4,
+      "current_all_probe_nonpositive": 10,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": 2.1786554392060137e-19,
+        "right_support": 5.76949068076269e-19,
+        "bottom_center": 3.301687279102347e-19,
+        "top_load": 0.28991734981536865
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 3,
+      "increment": 30,
+      "step_time": 0.1341249942779541,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.1341249942779541,
+        "printed_token": "0.134",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.3241943583521989e-18,
+        "maximum": 0.4248325526714325,
+        "raw_bounds": 436,
+        "separated_bounds": 436,
+        "raw_decrease": 4598,
+        "separated_decrease": 4598,
+        "minimum_delta": -4.329128524749616e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 324.5806579589844,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.0005138925665003027,
+      "current_all_probe_min_mm2": -0.0009909292828675083,
+      "current_gauss_nonpositive": 6,
+      "current_all_probe_nonpositive": 16,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": 3.34567907052339e-19,
+        "right_support": -1.527494175801582e-20,
+        "bottom_center": 1.5480241846820373e-19,
+        "top_load": 0.4248325526714325
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 4,
+      "increment": 40,
+      "step_time": 0.18412500619888306,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.18412500619888306,
+        "printed_token": "0.184",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.8459538325613533e-18,
+        "maximum": 0.5237392783164978,
+        "raw_bounds": 4994,
+        "separated_bounds": 4994,
+        "raw_decrease": 5338,
+        "separated_decrease": 5338,
+        "minimum_delta": -3.912544982708518e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 700.456787109375,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.0008658839745376124,
+      "current_all_probe_min_mm2": -0.0017591991562191434,
+      "current_gauss_nonpositive": 10,
+      "current_all_probe_nonpositive": 20,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": -2.659146562462168e-20,
+        "right_support": -6.018419829364984e-19,
+        "bottom_center": -2.468351150322218e-19,
+        "top_load": 0.5237392783164978
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 5,
+      "increment": 50,
+      "step_time": 0.23412500321865082,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.23412500321865082,
+        "printed_token": "0.234",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.3398693275625022e-18,
+        "maximum": 0.5995741486549377,
+        "raw_bounds": 3262,
+        "separated_bounds": 3262,
+        "raw_decrease": 567,
+        "separated_decrease": 567,
+        "minimum_delta": -2.3198200559518126e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 1226.6175537109375,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.0012914270056136952,
+      "current_all_probe_min_mm2": -0.0027054564611842945,
+      "current_gauss_nonpositive": 10,
+      "current_all_probe_nonpositive": 24,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": 3.6021822208563433e-20,
+        "right_support": -2.5778538367998705e-19,
+        "bottom_center": -1.2967967543296496e-21,
+        "top_load": 0.5995741486549377
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 6,
+      "increment": 60,
+      "step_time": 0.2841250002384186,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.2841250002384186,
+        "printed_token": "0.284",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.1034232649818226e-18,
+        "maximum": 0.6590843200683594,
+        "raw_bounds": 1825,
+        "separated_bounds": 1825,
+        "raw_decrease": 979,
+        "separated_decrease": 979,
+        "minimum_delta": -9.160456287160922e-18
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 1908.8636474609375,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.0017945590749251232,
+      "current_all_probe_min_mm2": -0.003819659627543175,
+      "current_gauss_nonpositive": 10,
+      "current_all_probe_nonpositive": 24,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": 1.1956076845647588e-18,
+        "right_support": -2.4683558032131635e-19,
+        "bottom_center": 2.640420227369733e-19,
+        "top_load": 0.6590843200683594
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 7,
+      "increment": 70,
+      "step_time": 0.33412501215934753,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.33412501215934753,
+        "printed_token": "0.334",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.3885025844969449e-18,
+        "maximum": 0.7064874768257141,
+        "raw_bounds": 1863,
+        "separated_bounds": 1863,
+        "raw_decrease": 3666,
+        "separated_decrease": 3666,
+        "minimum_delta": -7.321515829500191e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 2749.13330078125,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.0023740337901614,
+      "current_all_probe_min_mm2": -0.005088867130352782,
+      "current_gauss_nonpositive": 10,
+      "current_all_probe_nonpositive": 24,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": -2.720095814934489e-19,
+        "right_support": 1.8788438261861688e-19,
+        "bottom_center": 9.286403246667946e-20,
+        "top_load": 0.7064874768257141
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 8,
+      "increment": 80,
+      "step_time": 0.3841249942779541,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.3841249942779541,
+        "printed_token": "0.384",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.3269118534595887e-18,
+        "maximum": 0.7447608113288879,
+        "raw_bounds": 783,
+        "separated_bounds": 783,
+        "raw_decrease": 1001,
+        "separated_decrease": 1001,
+        "minimum_delta": -1.7235854269902346e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 3747.449951171875,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.003026032354841239,
+      "current_all_probe_min_mm2": -0.006499873588451813,
+      "current_gauss_nonpositive": 10,
+      "current_all_probe_nonpositive": 24,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": 4.75340734870881e-19,
+        "right_support": -4.219516030045647e-19,
+        "bottom_center": 2.2090248584080153e-19,
+        "top_load": 0.7447608113288879
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 9,
+      "increment": 90,
+      "step_time": 0.43412500619888306,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.43412500619888306,
+        "printed_token": "0.434",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.3124177879712814e-18,
+        "maximum": 0.7760512828826904,
+        "raw_bounds": 91,
+        "separated_bounds": 91,
+        "raw_decrease": 143,
+        "separated_decrease": 143,
+        "minimum_delta": -3.651656767002662e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 4903.52490234375,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.003745960059744591,
+      "current_all_probe_min_mm2": -0.008039022192020169,
+      "current_gauss_nonpositive": 10,
+      "current_all_probe_nonpositive": 23,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": 1.9113044096754927e-18,
+        "right_support": 2.571228895575145e-18,
+        "bottom_center": 1.920036955402215e-18,
+        "top_load": 0.7760512828826904
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 10,
+      "increment": 100,
+      "step_time": 0.4841249883174896,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.4841249883174896,
+        "printed_token": "0.484",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.3900849810087588e-18,
+        "maximum": 0.801927387714386,
+        "raw_bounds": 442,
+        "separated_bounds": 442,
+        "raw_decrease": 5433,
+        "separated_decrease": 5433,
+        "minimum_delta": -3.1605473123388023e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 6216.53125,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.0045280349584635934,
+      "current_all_probe_min_mm2": -0.009692924735650959,
+      "current_gauss_nonpositive": 11,
+      "current_all_probe_nonpositive": 21,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": 1.3370328993926637e-19,
+        "right_support": -7.610892047274675e-21,
+        "bottom_center": 9.399593866207878e-20,
+        "top_load": 0.801927387714386
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 11,
+      "increment": 110,
+      "step_time": 0.5341249704360962,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.5341249704360962,
+        "printed_token": "0.534",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.3855644389611565e-18,
+        "maximum": 0.8235510587692261,
+        "raw_bounds": 3732,
+        "separated_bounds": 3732,
+        "raw_decrease": 4785,
+        "separated_decrease": 4785,
+        "minimum_delta": -4.054787374433443e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 7685.8876953125,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.0053665642554987705,
+      "current_all_probe_min_mm2": -0.011448494247227235,
+      "current_gauss_nonpositive": 12,
+      "current_all_probe_nonpositive": 22,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": -4.1314238797481637e-19,
+        "right_support": -3.0479146648961285e-20,
+        "bottom_center": -2.0911755318087904e-19,
+        "top_load": 0.8235510587692261
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 12,
+      "increment": 120,
+      "step_time": 0.5841249823570251,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.5841249823570251,
+        "printed_token": "0.584",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.2286463122058924e-18,
+        "maximum": 0.8417942523956299,
+        "raw_bounds": 4038,
+        "separated_bounds": 4038,
+        "raw_decrease": 4300,
+        "separated_decrease": 4300,
+        "minimum_delta": -2.4999276948716334e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 9311.1259765625,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.006255868450783299,
+      "current_all_probe_min_mm2": -0.01329302986874807,
+      "current_gauss_nonpositive": 12,
+      "current_all_probe_nonpositive": 22,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": -4.2062364207929324e-19,
+        "right_support": 1.12518406045262e-19,
+        "bottom_center": -3.5247990868110954e-19,
+        "top_load": 0.8417942523956299
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 13,
+      "increment": 130,
+      "step_time": 0.6341249942779541,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.6341249942779541,
+        "printed_token": "0.634",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.6388634793419915e-18,
+        "maximum": 0.857319712638855,
+        "raw_bounds": 313,
+        "separated_bounds": 313,
+        "raw_decrease": 384,
+        "separated_decrease": 384,
+        "minimum_delta": -6.0797347577066e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 11091.8896484375,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.007190482729259809,
+      "current_all_probe_min_mm2": -0.01521445899809,
+      "current_gauss_nonpositive": 12,
+      "current_all_probe_nonpositive": 22,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": 6.827804038779845e-21,
+        "right_support": 6.708878860396419e-19,
+        "bottom_center": 4.425637030984673e-19,
+        "top_load": 0.857319712638855
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 14,
+      "increment": 140,
+      "step_time": 0.6841250061988831,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.6841250061988831,
+        "printed_token": "0.684",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.5598610100007004e-18,
+        "maximum": 0.8706374168395996,
+        "raw_bounds": 242,
+        "separated_bounds": 242,
+        "raw_decrease": 4502,
+        "separated_decrease": 4502,
+        "minimum_delta": -3.0891944025072485e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 13028.00390625,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.008165199042151378,
+      "current_all_probe_min_mm2": -0.017201352374223336,
+      "current_gauss_nonpositive": 12,
+      "current_all_probe_nonpositive": 22,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": 1.8838988044576628e-19,
+        "right_support": 6.404877577573993e-20,
+        "bottom_center": 1.9446179973221178e-19,
+        "top_load": 0.8706374168395996
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 15,
+      "increment": 150,
+      "step_time": 0.734125018119812,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.734125018119812,
+        "printed_token": "0.734",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.3884768385003792e-18,
+        "maximum": 0.8821470737457275,
+        "raw_bounds": 4312,
+        "separated_bounds": 4312,
+        "raw_decrease": 5510,
+        "separated_decrease": 5510,
+        "minimum_delta": -3.437954759147164e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 15119.3232421875,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.009175294756070512,
+      "current_all_probe_min_mm2": -0.01924339162436488,
+      "current_gauss_nonpositive": 10,
+      "current_all_probe_nonpositive": 20,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": -7.425283057575433e-20,
+        "right_support": -7.036239723717342e-19,
+        "bottom_center": -5.612381035846226e-20,
+        "top_load": 0.8821470737457275
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 16,
+      "increment": 160,
+      "step_time": 0.7841249704360962,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.7841249704360962,
+        "printed_token": "0.784",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.3582923975628598e-18,
+        "maximum": 0.8921550512313843,
+        "raw_bounds": 4391,
+        "separated_bounds": 4391,
+        "raw_decrease": 2256,
+        "separated_decrease": 2256,
+        "minimum_delta": -8.552370300351294e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 17365.953125,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.010216232413461193,
+      "current_all_probe_min_mm2": -0.02133056077715269,
+      "current_gauss_nonpositive": 10,
+      "current_all_probe_nonpositive": 20,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": 6.803826787008318e-20,
+        "right_support": -8.045693720149492e-20,
+        "bottom_center": -1.2453242896077045e-19,
+        "top_load": 0.8921550512313843
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 17,
+      "increment": 170,
+      "step_time": 0.8341249823570251,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.8341249823570251,
+        "printed_token": "0.834",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.7885228894269497e-18,
+        "maximum": 0.900913655757904,
+        "raw_bounds": 4738,
+        "separated_bounds": 4738,
+        "raw_decrease": 4063,
+        "separated_decrease": 4063,
+        "minimum_delta": -5.720659934457e-18
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 19767.900390625,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.011284150793496126,
+      "current_all_probe_min_mm2": -0.023454524880384946,
+      "current_gauss_nonpositive": 10,
+      "current_all_probe_nonpositive": 20,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": 4.517097211936054e-21,
+        "right_support": -1.1623589530480367e-18,
+        "bottom_center": -2.1664381108055762e-19,
+        "top_load": 0.900913655757904
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 18,
+      "increment": 180,
+      "step_time": 0.8841249942779541,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.8841249942779541,
+        "printed_token": "0.884",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.671772549819684e-18,
+        "maximum": 0.9086225628852844,
+        "raw_bounds": 5301,
+        "separated_bounds": 5301,
+        "raw_decrease": 4277,
+        "separated_decrease": 4277,
+        "minimum_delta": -4.1466831493416285e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 22325.220703125,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.01237564804803467,
+      "current_all_probe_min_mm2": -0.025607973097763803,
+      "current_gauss_nonpositive": 10,
+      "current_all_probe_nonpositive": 20,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": -6.668502623734057e-19,
+        "right_support": 8.90971295052954e-20,
+        "bottom_center": -8.331555966114396e-19,
+        "top_load": 0.9086225628852844
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 19,
+      "increment": 190,
+      "step_time": 0.9341250061988831,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.9341250061988831,
+        "printed_token": "0.934",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.7485506270962435e-18,
+        "maximum": 0.9154433608055115,
+        "raw_bounds": 834,
+        "separated_bounds": 834,
+        "raw_decrease": 120,
+        "separated_decrease": 120,
+        "minimum_delta": -5.886662675687205e-18
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 25037.95703125,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.013487839020783748,
+      "current_all_probe_min_mm2": -0.02778479368267325,
+      "current_gauss_nonpositive": 8,
+      "current_all_probe_nonpositive": 18,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": -5.576588026012261e-20,
+        "right_support": 2.1123454101294952e-19,
+        "bottom_center": 1.0479765084170835e-19,
+        "top_load": 0.9154433608055115
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 20,
+      "increment": 200,
+      "step_time": 0.984125018119812,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 0.984125018119812,
+        "printed_token": "0.984",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.4125595816494012e-18,
+        "maximum": 0.9215078353881836,
+        "raw_bounds": 103,
+        "separated_bounds": 103,
+        "raw_decrease": 183,
+        "separated_decrease": 183,
+        "minimum_delta": -2.948115817715034e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 27906.12890625,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.014618348319419598,
+      "current_all_probe_min_mm2": -0.02998006371262021,
+      "current_gauss_nonpositive": 8,
+      "current_all_probe_nonpositive": 18,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": 6.539343023974847e-19,
+        "right_support": 1.2600186879006145e-18,
+        "bottom_center": 8.469009602478098e-19,
+        "top_load": 0.9215078353881836
+      }
+    },
+    {
+      "step": "BEND",
+      "step_index": 0,
+      "frame_index": 21,
+      "increment": 204,
+      "step_time": 1.0,
+      "accepted_attempt": 1,
+      "time_compatibility": {
+        "raw_time": 1.0,
+        "printed_token": "1.00",
+        "print_interval_contains": true,
+        "exact_binary32_widening": true,
+        "compatible": true,
+        "basis": "PRINT_INTERVAL",
+        "native_time_precision_qualified": false
+      },
+      "phase_status": "AVAILABLE",
+      "H_status": "AVAILABLE",
+      "geometry_status": "AVAILABLE",
+      "phase": {
+        "minimum": -1.3618136020329215e-18,
+        "maximum": 0.9232951998710632,
+        "raw_bounds": 459,
+        "separated_bounds": 459,
+        "raw_decrease": 3132,
+        "separated_decrease": 3132,
+        "minimum_delta": -5.782294348385518e-17
+      },
+      "H": {
+        "minimum": 0.004999999888241291,
+        "maximum": 28850.486328125,
+        "raw_bounds": 0,
+        "separated_bounds": 0,
+        "raw_decrease": 0,
+        "separated_decrease": 0,
+        "minimum_delta": 0.0
+      },
+      "current_gauss_min_mm2": -0.01497871400783681,
+      "current_all_probe_min_mm2": -0.030674670177060045,
+      "current_gauss_nonpositive": 8,
+      "current_all_probe_nonpositive": 18,
+      "native_IP_spatial_mapping_qualified": false,
+      "max_phase_node": 5903,
+      "max_phase_reference_xy_mm": [
+        5.0,
+        3.0
+      ],
+      "minimum_J_element": 5817,
+      "descriptive_window_phase_max": {
+        "left_support": 2.8409222421064748e-18,
+        "right_support": 3.096110537156987e-20,
+        "bottom_center": 1.0031771431489446e-18,
+        "top_load": 0.9232951998710632
+      }
+    }
+  ],
+  "curve": [
+    {
+      "increment": 0,
+      "time": 0.0,
+      "deflection_mm": -0.0,
+      "force_N": 0.0,
+      "balance_y_N": -0.0,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.0
+    },
+    {
+      "increment": 1,
+      "time": 0.0010000000474974513,
+      "deflection_mm": 0.001500000013038516,
+      "force_N": 0.008816981688141823,
+      "balance_y_N": 0.0,
+      "prescribed_u_error_mm": 5.820766091346741e-11,
+      "external_work_trapezoid_estimate_Nmm": 6.612736323586546e-06
+    },
+    {
+      "increment": 2,
+      "time": 0.0020000000949949026,
+      "deflection_mm": 0.003000000026077032,
+      "force_N": 0.017633963376283646,
+      "balance_y_N": 0.0,
+      "prescribed_u_error_mm": 1.1641532182693481e-10,
+      "external_work_trapezoid_estimate_Nmm": 2.6450945294346183e-05
+    },
+    {
+      "increment": 3,
+      "time": 0.0035000001080334187,
+      "deflection_mm": 0.005249999929219484,
+      "force_N": 0.030859436839818954,
+      "balance_y_N": 0.0,
+      "prescribed_u_error_mm": 2.3283064365386963e-10,
+      "external_work_trapezoid_estimate_Nmm": 8.10060181889857e-05
+    },
+    {
+      "increment": 4,
+      "time": 0.005750000011175871,
+      "deflection_mm": 0.008624999783933163,
+      "force_N": 0.05069764703512192,
+      "balance_y_N": 0.0,
+      "prescribed_u_error_mm": 2.3283064365386963e-10,
+      "external_work_trapezoid_estimate_Nmm": 0.00021863359130338406
+    },
+    {
+      "increment": 5,
+      "time": 0.00912499986588955,
+      "deflection_mm": 0.013687499798834324,
+      "force_N": 0.08045496046543121,
+      "balance_y_N": 0.0,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.0005506136300163222
+    },
+    {
+      "increment": 6,
+      "time": 0.01412499975413084,
+      "deflection_mm": 0.021187499165534973,
+      "force_N": 0.12432394176721573,
+      "balance_y_N": 0.0,
+      "prescribed_u_error_mm": 4.656612873077393e-10,
+      "external_work_trapezoid_estimate_Nmm": 0.0013185344485455754
+    },
+    {
+      "increment": 7,
+      "time": 0.01912499964237213,
+      "deflection_mm": 0.028687499463558197,
+      "force_N": 0.16514219343662262,
+      "balance_y_N": 1.4603137969970703e-06,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.0024040324986937846
+    },
+    {
+      "increment": 8,
+      "time": 0.024125000461935997,
+      "deflection_mm": 0.03618749976158142,
+      "force_N": 0.19996684789657593,
+      "balance_y_N": 8.285045623779297e-06,
+      "prescribed_u_error_mm": 9.313225746154785e-10,
+      "external_work_trapezoid_estimate_Nmm": 0.003773191458098766
+    },
+    {
+      "increment": 9,
+      "time": 0.029124999418854713,
+      "deflection_mm": 0.043687500059604645,
+      "force_N": 0.20462124049663544,
+      "balance_y_N": 1.354515552520752e-05,
+      "prescribed_u_error_mm": -9.313225746154785e-10,
+      "external_work_trapezoid_estimate_Nmm": 0.005290396849861632
+    },
+    {
+      "increment": 10,
+      "time": 0.03412500023841858,
+      "deflection_mm": 0.05118750035762787,
+      "force_N": 0.1986481249332428,
+      "balance_y_N": 1.583993434906006e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.006802657030315493
+    },
+    {
+      "increment": 11,
+      "time": 0.039124999195337296,
+      "deflection_mm": 0.05868750065565109,
+      "force_N": 0.19359859824180603,
+      "balance_y_N": 1.8775463104248047e-05,
+      "prescribed_u_error_mm": -1.862645149230957e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.008273582300671243
+    },
+    {
+      "increment": 12,
+      "time": 0.04412499815225601,
+      "deflection_mm": 0.06618750095367432,
+      "force_N": 0.18925562500953674,
+      "balance_y_N": 1.5929341316223145e-05,
+      "prescribed_u_error_mm": -3.725290298461914e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.009709285694913503
+    },
+    {
+      "increment": 13,
+      "time": 0.04912500083446503,
+      "deflection_mm": 0.07368750125169754,
+      "force_N": 0.1851060837507248,
+      "balance_y_N": 1.6510486602783203e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.011113142158548726
+    },
+    {
+      "increment": 14,
+      "time": 0.05412499979138374,
+      "deflection_mm": 0.08118750154972076,
+      "force_N": 0.1811649352312088,
+      "balance_y_N": 4.708766937255859e-06,
+      "prescribed_u_error_mm": -1.862645149230957e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.012486658534309612
+    },
+    {
+      "increment": 15,
+      "time": 0.05912499874830246,
+      "deflection_mm": 0.08868750184774399,
+      "force_N": 0.1774076372385025,
+      "balance_y_N": 4.366040229797363e-06,
+      "prescribed_u_error_mm": -3.725290298461914e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.013831305734502506
+    },
+    {
+      "increment": 16,
+      "time": 0.06412500143051147,
+      "deflection_mm": 0.09618750214576721,
+      "force_N": 0.17380407452583313,
+      "balance_y_N": 1.665949821472168e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.015148349705953388
+    },
+    {
+      "increment": 17,
+      "time": 0.06912499666213989,
+      "deflection_mm": 0.10368750244379044,
+      "force_N": 0.17035096883773804,
+      "balance_y_N": 2.588331699371338e-05,
+      "prescribed_u_error_mm": -7.450580596923828e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.016438931169849878
+    },
+    {
+      "increment": 18,
+      "time": 0.07412499934434891,
+      "deflection_mm": 0.11118750274181366,
+      "force_N": 0.16702328622341156,
+      "balance_y_N": 4.231929779052734e-06,
+      "prescribed_u_error_mm": -3.725290298461914e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.01770408467660187
+    },
+    {
+      "increment": 19,
+      "time": 0.07912500202655792,
+      "deflection_mm": 0.11868750303983688,
+      "force_N": 0.1637735366821289,
+      "balance_y_N": 3.0443072319030762e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.018944572811790215
+    },
+    {
+      "increment": 20,
+      "time": 0.08412499725818634,
+      "deflection_mm": 0.1261875033378601,
+      "force_N": 0.16063319146633148,
+      "balance_y_N": 1.9684433937072754e-05,
+      "prescribed_u_error_mm": -7.450580596923828e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.02016109809068731
+    },
+    {
+      "increment": 21,
+      "time": 0.08912499994039536,
+      "deflection_mm": 0.13368749618530273,
+      "force_N": 0.15755809843540192,
+      "balance_y_N": 5.321204662322998e-05,
+      "prescribed_u_error_mm": 3.725290298461914e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.021354314289878083
+    },
+    {
+      "increment": 22,
+      "time": 0.09412500262260437,
+      "deflection_mm": 0.14118750393390656,
+      "force_N": 0.15452249348163605,
+      "balance_y_N": 3.966689109802246e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.02252461771866141
+    },
+    {
+      "increment": 23,
+      "time": 0.09912499785423279,
+      "deflection_mm": 0.14868749678134918,
+      "force_N": 0.15154467523097992,
+      "balance_y_N": 3.0159950256347656e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.023672368506752226
+    },
+    {
+      "increment": 24,
+      "time": 0.1041250005364418,
+      "deflection_mm": 0.156187504529953,
+      "force_N": 0.14862613379955292,
+      "balance_y_N": 2.3126602172851562e-05,
+      "prescribed_u_error_mm": -3.725290298461914e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.024798010203569063
+    },
+    {
+      "increment": 25,
+      "time": 0.10912500321865082,
+      "deflection_mm": 0.16368749737739563,
+      "force_N": 0.1457664519548416,
+      "balance_y_N": 1.780688762664795e-05,
+      "prescribed_u_error_mm": 7.450580596923828e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.025901981347318113
+    },
+    {
+      "increment": 26,
+      "time": 0.11412499845027924,
+      "deflection_mm": 0.17118750512599945,
+      "force_N": 0.14296963810920715,
+      "balance_y_N": 1.3723969459533691e-05,
+      "prescribed_u_error_mm": -7.450580596923828e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.02698474280370908
+    },
+    {
+      "increment": 27,
+      "time": 0.11912500113248825,
+      "deflection_mm": 0.17868749797344208,
+      "force_N": 0.14024141430854797,
+      "balance_y_N": 2.041459083557129e-06,
+      "prescribed_u_error_mm": 3.725290298461914e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.028046783237434012
+    },
+    {
+      "increment": 28,
+      "time": 0.12412499636411667,
+      "deflection_mm": 0.1861875057220459,
+      "force_N": 0.13753856718540192,
+      "balance_y_N": 1.5050172805786133e-06,
+      "prescribed_u_error_mm": -1.1175870895385742e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.029088459244239837
+    },
+    {
+      "increment": 29,
+      "time": 0.12912499904632568,
+      "deflection_mm": 0.19368749856948853,
+      "force_N": 0.13488435745239258,
+      "balance_y_N": 1.1175870895385742e-06,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.030110044237371267
+    },
+    {
+      "increment": 30,
+      "time": 0.1341249942779541,
+      "deflection_mm": 0.20118750631809235,
+      "force_N": 0.1322992444038391,
+      "balance_y_N": 8.493661880493164e-07,
+      "prescribed_u_error_mm": -1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.031111983779482075
+    },
+    {
+      "increment": 31,
+      "time": 0.1391250044107437,
+      "deflection_mm": 0.20868749916553497,
+      "force_N": 0.12978611886501312,
+      "balance_y_N": 6.109476089477539e-07,
+      "prescribed_u_error_mm": 7.450580596923828e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.03209480295444997
+    },
+    {
+      "increment": 32,
+      "time": 0.14412499964237213,
+      "deflection_mm": 0.2161875069141388,
+      "force_N": 0.12734025716781616,
+      "balance_y_N": 2.0682811737060547e-05,
+      "prescribed_u_error_mm": -7.450580596923828e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.03305902786075829
+    },
+    {
+      "increment": 33,
+      "time": 0.14912499487400055,
+      "deflection_mm": 0.22368749976158142,
+      "force_N": 0.12496345490217209,
+      "balance_y_N": 1.598149538040161e-05,
+      "prescribed_u_error_mm": -7.450580596923828e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.03400516587871236
+    },
+    {
+      "increment": 34,
+      "time": 0.15412500500679016,
+      "deflection_mm": 0.23118749260902405,
+      "force_N": 0.12265118956565857,
+      "balance_y_N": 1.2479722499847412e-05,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.034933719909927746
+    },
+    {
+      "increment": 35,
+      "time": 0.15912500023841858,
+      "deflection_mm": 0.23868750035762787,
+      "force_N": 0.12040112912654877,
+      "balance_y_N": 9.618699550628662e-06,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.035845167046681586
+    },
+    {
+      "increment": 36,
+      "time": 0.164124995470047,
+      "deflection_mm": 0.2461874932050705,
+      "force_N": 0.11821122467517853,
+      "balance_y_N": 7.234513759613037e-06,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.03673996252009379
+    },
+    {
+      "increment": 37,
+      "time": 0.1691250056028366,
+      "deflection_mm": 0.2536875009536743,
+      "force_N": 0.11607953161001205,
+      "balance_y_N": 5.2675604820251465e-06,
+      "prescribed_u_error_mm": 7.450580596923828e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.03761855376387638
+    },
+    {
+      "increment": 38,
+      "time": 0.17412500083446503,
+      "deflection_mm": 0.26118749380111694,
+      "force_N": 0.11400427669286728,
+      "balance_y_N": 3.643333911895752e-06,
+      "prescribed_u_error_mm": 7.450580596923828e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.038481367222168356
+    },
+    {
+      "increment": 39,
+      "time": 0.17912499606609344,
+      "deflection_mm": 0.26868748664855957,
+      "force_N": 0.1119837760925293,
+      "balance_y_N": 2.2873282432556152e-06,
+      "prescribed_u_error_mm": 7.450580596923828e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.039328821611917336
+    },
+    {
+      "increment": 40,
+      "time": 0.18412500619888306,
+      "deflection_mm": 0.2761875092983246,
+      "force_N": 0.11001632362604141,
+      "balance_y_N": 1.1622905731201172e-06,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.04016132449998702
+    },
+    {
+      "increment": 41,
+      "time": 0.18912500143051147,
+      "deflection_mm": 0.2836875021457672,
+      "force_N": 0.10810068249702454,
+      "balance_y_N": 2.1606683731079102e-07,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.04097926249290132
+    },
+    {
+      "increment": 42,
+      "time": 0.1941249966621399,
+      "deflection_mm": 0.29118749499320984,
+      "force_N": 0.10623486340045929,
+      "balance_y_N": 5.662441253662109e-07,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.04178302002349324
+    },
+    {
+      "increment": 43,
+      "time": 0.1991250067949295,
+      "deflection_mm": 0.29868748784065247,
+      "force_N": 0.10441805422306061,
+      "balance_y_N": 3.725290298461914e-07,
+      "prescribed_u_error_mm": 2.2351741790771484e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.0425729677112279
+    },
+    {
+      "increment": 44,
+      "time": 0.20412500202655792,
+      "deflection_mm": 0.3061875104904175,
+      "force_N": 0.10264915972948074,
+      "balance_y_N": 3.0547380447387695e-07,
+      "prescribed_u_error_mm": -7.450580596923828e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.0433494721085618
+    },
+    {
+      "increment": 45,
+      "time": 0.20912499725818634,
+      "deflection_mm": 0.3136875033378601,
+      "force_N": 0.10092687606811523,
+      "balance_y_N": 2.4586915969848633e-07,
+      "prescribed_u_error_mm": -7.450580596923828e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.044112881514758145
+    },
+    {
+      "increment": 46,
+      "time": 0.21412500739097595,
+      "deflection_mm": 0.32118749618530273,
+      "force_N": 0.09924981743097305,
+      "balance_y_N": 1.9371509552001953e-07,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.044863543399492084
+    },
+    {
+      "increment": 47,
+      "time": 0.21912500262260437,
+      "deflection_mm": 0.32868748903274536,
+      "force_N": 0.0976167768239975,
+      "balance_y_N": 1.4156103134155273e-07,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.04560179242389842
+    },
+    {
+      "increment": 48,
+      "time": 0.2241249978542328,
+      "deflection_mm": 0.3361875116825104,
+      "force_N": 0.09602652490139008,
+      "balance_y_N": 1.043081283569336e-07,
+      "prescribed_u_error_mm": -1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.04632795699835626
+    },
+    {
+      "increment": 49,
+      "time": 0.2291249930858612,
+      "deflection_mm": 0.343687504529953,
+      "force_N": 0.09447779506444931,
+      "balance_y_N": 5.960464477539063e-08,
+      "prescribed_u_error_mm": -1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.04704234751693162
+    },
+    {
+      "increment": 50,
+      "time": 0.23412500321865082,
+      "deflection_mm": 0.35118749737739563,
+      "force_N": 0.09296943247318268,
+      "balance_y_N": 2.9802322387695312e-08,
+      "prescribed_u_error_mm": 7.450580596923828e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.047745273949834216
+    },
+    {
+      "increment": 51,
+      "time": 0.23912499845027924,
+      "deflection_mm": 0.35868749022483826,
+      "force_N": 0.09150023758411407,
+      "balance_y_N": 0.0,
+      "prescribed_u_error_mm": 7.450580596923828e-09,
+      "external_work_trapezoid_estimate_Nmm": 0.04843703455283413
+    },
+    {
+      "increment": 52,
+      "time": 0.24412499368190765,
+      "deflection_mm": 0.36618751287460327,
+      "force_N": 0.09006891399621964,
+      "balance_y_N": -2.9802322387695312e-08,
+      "prescribed_u_error_mm": -2.2351741790771484e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.04911792092750969
+    },
+    {
+      "increment": 53,
+      "time": 0.24912500381469727,
+      "deflection_mm": 0.3736875057220459,
+      "force_N": 0.08867441862821579,
+      "balance_y_N": -5.960464477539063e-08,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.04978820778561535
+    },
+    {
+      "increment": 54,
+      "time": 0.2541249990463257,
+      "deflection_mm": 0.3811874985694885,
+      "force_N": 0.08731561154127121,
+      "balance_y_N": -7.450580596923828e-08,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.050448169769361534
+    },
+    {
+      "increment": 55,
+      "time": 0.2591249942779541,
+      "deflection_mm": 0.38868749141693115,
+      "force_N": 0.08599141240119934,
+      "balance_y_N": -9.685754776000977e-08,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.05109807048935158
+    },
+    {
+      "increment": 56,
+      "time": 0.2641249895095825,
+      "deflection_mm": 0.39618751406669617,
+      "force_N": 0.08470074832439423,
+      "balance_y_N": -1.1175870895385742e-07,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.051738168025141223
+    },
+    {
+      "increment": 57,
+      "time": 0.2691250145435333,
+      "deflection_mm": 0.4036875069141388,
+      "force_N": 0.08344259858131409,
+      "balance_y_N": -1.2665987014770508e-07,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.05236870497471016
+    },
+    {
+      "increment": 58,
+      "time": 0.27412500977516174,
+      "deflection_mm": 0.4111874997615814,
+      "force_N": 0.08221596479415894,
+      "balance_y_N": -1.4156103134155273e-07,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.052989923994926996
+    },
+    {
+      "increment": 59,
+      "time": 0.27912500500679016,
+      "deflection_mm": 0.41868749260902405,
+      "force_N": 0.08101986348628998,
+      "balance_y_N": -1.564621925354004e-07,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.053602057767201866
+    },
+    {
+      "increment": 60,
+      "time": 0.2841250002384186,
+      "deflection_mm": 0.4261874854564667,
+      "force_N": 0.0798533484339714,
+      "balance_y_N": -1.6391277313232422e-07,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.05420533173657541
+    },
+    {
+      "increment": 61,
+      "time": 0.289124995470047,
+      "deflection_mm": 0.4336875081062317,
+      "force_N": 0.07871551811695099,
+      "balance_y_N": -1.7136335372924805e-07,
+      "prescribed_u_error_mm": -1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.05479996678191515
+    },
+    {
+      "increment": 62,
+      "time": 0.2941249907016754,
+      "deflection_mm": 0.4411875009536743,
+      "force_N": 0.0776054784655571,
+      "balance_y_N": -1.7881393432617188e-07,
+      "prescribed_u_error_mm": -1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.055386169960052106
+    },
+    {
+      "increment": 63,
+      "time": 0.29912498593330383,
+      "deflection_mm": 0.44868749380111694,
+      "force_N": 0.0765223577618599,
+      "balance_y_N": -1.7881393432617188e-07,
+      "prescribed_u_error_mm": -1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.055964148794700824
+    },
+    {
+      "increment": 64,
+      "time": 0.30412501096725464,
+      "deflection_mm": 0.45618748664855957,
+      "force_N": 0.07546534389257431,
+      "balance_y_N": -1.9371509552001953e-07,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.056534102132354574
+    },
+    {
+      "increment": 65,
+      "time": 0.30912500619888306,
+      "deflection_mm": 0.4636875092983246,
+      "force_N": 0.07443361729383469,
+      "balance_y_N": -1.9371509552001953e-07,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.05709622493439173
+    },
+    {
+      "increment": 66,
+      "time": 0.3141250014305115,
+      "deflection_mm": 0.4711875021457672,
+      "force_N": 0.07342639565467834,
+      "balance_y_N": -1.9371509552001953e-07,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.05765069945416004
+    },
+    {
+      "increment": 67,
+      "time": 0.3191249966621399,
+      "deflection_mm": 0.47868749499320984,
+      "force_N": 0.07244294136762619,
+      "balance_y_N": -2.0116567611694336e-07,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.058197708946324284
+    },
+    {
+      "increment": 68,
+      "time": 0.3241249918937683,
+      "deflection_mm": 0.48618748784065247,
+      "force_N": 0.07148250937461853,
+      "balance_y_N": -2.0116567611694336e-07,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.05873742887189018
+    },
+    {
+      "increment": 69,
+      "time": 0.32912498712539673,
+      "deflection_mm": 0.4936875104904175,
+      "force_N": 0.07054439932107925,
+      "balance_y_N": -2.0116567611694336e-07,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.0592700313879371
+    },
+    {
+      "increment": 70,
+      "time": 0.33412501215934753,
+      "deflection_mm": 0.5011875033378601,
+      "force_N": 0.06962792575359344,
+      "balance_y_N": -1.9371509552001953e-07,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.059795677105671824
+    },
+    {
+      "increment": 71,
+      "time": 0.33912500739097595,
+      "deflection_mm": 0.5086874961853027,
+      "force_N": 0.06873244047164917,
+      "balance_y_N": -1.9371509552001953e-07,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.060314527984201255
+    },
+    {
+      "increment": 72,
+      "time": 0.34412500262260437,
+      "deflection_mm": 0.5161874890327454,
+      "force_N": 0.0678572952747345,
+      "balance_y_N": -1.9371509552001953e-07,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.06082673900476723
+    },
+    {
+      "increment": 73,
+      "time": 0.3491249978542328,
+      "deflection_mm": 0.523687481880188,
+      "force_N": 0.06700188666582108,
+      "balance_y_N": -1.9371509552001953e-07,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.0613324604547503
+    },
+    {
+      "increment": 74,
+      "time": 0.3541249930858612,
+      "deflection_mm": 0.5311874747276306,
+      "force_N": 0.06616391986608505,
+      "balance_y_N": -1.6674399375915527e-05,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.06183183175300691
+    },
+    {
+      "increment": 75,
+      "time": 0.3591249883174896,
+      "deflection_mm": 0.538687527179718,
+      "force_N": 0.06534621864557266,
+      "balance_y_N": -1.6979873180389404e-05,
+      "prescribed_u_error_mm": -4.470348358154297e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.06232499822141627
+    },
+    {
+      "increment": 76,
+      "time": 0.36412501335144043,
+      "deflection_mm": 0.5461875200271606,
+      "force_N": 0.06454647332429886,
+      "balance_y_N": -1.6979873180389404e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.06281209535177082
+    },
+    {
+      "increment": 77,
+      "time": 0.36912500858306885,
+      "deflection_mm": 0.5536875128746033,
+      "force_N": 0.06376416981220245,
+      "balance_y_N": -1.6920268535614014e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.06329325980465808
+    },
+    {
+      "increment": 78,
+      "time": 0.37412500381469727,
+      "deflection_mm": 0.5611875057220459,
+      "force_N": 0.06299877166748047,
+      "balance_y_N": -1.6883015632629395e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.06376862038186729
+    },
+    {
+      "increment": 79,
+      "time": 0.3791249990463257,
+      "deflection_mm": 0.5686874985694885,
+      "force_N": 0.062249790877103806,
+      "balance_y_N": -1.6883015632629395e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.06423830204348571
+    },
+    {
+      "increment": 80,
+      "time": 0.3841249942779541,
+      "deflection_mm": 0.5761874914169312,
+      "force_N": 0.06151675060391426,
+      "balance_y_N": -1.6860663890838623e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.06470242613141589
+    },
+    {
+      "increment": 81,
+      "time": 0.3891249895095825,
+      "deflection_mm": 0.5836874842643738,
+      "force_N": 0.06079920008778572,
+      "balance_y_N": -1.6819685697555542e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.06516111050907383
+    },
+    {
+      "increment": 82,
+      "time": 0.3941250145435333,
+      "deflection_mm": 0.5911874771118164,
+      "force_N": 0.06009668856859207,
+      "balance_y_N": -1.6748905181884766e-05,
+      "prescribed_u_error_mm": 4.470348358154297e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.06561446965917786
+    },
+    {
+      "increment": 83,
+      "time": 0.39912500977516174,
+      "deflection_mm": 0.5986875295639038,
+      "force_N": 0.05940878763794899,
+      "balance_y_N": -1.665949821472168e-05,
+      "prescribed_u_error_mm": -1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.06606261832910823
+    },
+    {
+      "increment": 84,
+      "time": 0.40412500500679016,
+      "deflection_mm": 0.6061875224113464,
+      "force_N": 0.05873508006334305,
+      "balance_y_N": -1.6551464796066284e-05,
+      "prescribed_u_error_mm": -1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.06650565741047268
+    },
+    {
+      "increment": 85,
+      "time": 0.4091250002384186,
+      "deflection_mm": 0.6136875152587891,
+      "force_N": 0.05807516351342201,
+      "balance_y_N": -1.644343137741089e-05,
+      "prescribed_u_error_mm": -1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.06694369540613956
+    },
+    {
+      "increment": 86,
+      "time": 0.414124995470047,
+      "deflection_mm": 0.6211875081062317,
+      "force_N": 0.057428643107414246,
+      "balance_y_N": -1.6335397958755493e-05,
+      "prescribed_u_error_mm": -1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.0673768342678939
+    },
+    {
+      "increment": 87,
+      "time": 0.4191249907016754,
+      "deflection_mm": 0.6286875009536743,
+      "force_N": 0.0567951537668705,
+      "balance_y_N": -1.6219913959503174e-05,
+      "prescribed_u_error_mm": -1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.06780517309767634
+    },
+    {
+      "increment": 88,
+      "time": 0.42412498593330383,
+      "deflection_mm": 0.6361874938011169,
+      "force_N": 0.05617433413863182,
+      "balance_y_N": -1.6104429960250854e-05,
+      "prescribed_u_error_mm": -1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.0682288082733116
+    },
+    {
+      "increment": 89,
+      "time": 0.42912501096725464,
+      "deflection_mm": 0.6436874866485596,
+      "force_N": 0.055565834045410156,
+      "balance_y_N": -1.597777009010315e-05,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.06864783350438777
+    },
+    {
+      "increment": 90,
+      "time": 0.43412500619888306,
+      "deflection_mm": 0.6511874794960022,
+      "force_N": 0.054969314485788345,
+      "balance_y_N": -1.5836209058761597e-05,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.06906233991607527
+    },
+    {
+      "increment": 91,
+      "time": 0.4391250014305115,
+      "deflection_mm": 0.6586874723434448,
+      "force_N": 0.05438445508480072,
+      "balance_y_N": -1.5694648027420044e-05,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.06947241616088543
+    },
+    {
+      "increment": 92,
+      "time": 0.4441249966621399,
+      "deflection_mm": 0.6661875247955322,
+      "force_N": 0.05381093546748161,
+      "balance_y_N": -1.5541911125183105e-05,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.06987815171299352
+    },
+    {
+      "increment": 93,
+      "time": 0.4491249918937683,
+      "deflection_mm": 0.6736875176429749,
+      "force_N": 0.05324845016002655,
+      "balance_y_N": -1.537799835205078e-05,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07027962402622248
+    },
+    {
+      "increment": 94,
+      "time": 0.45412498712539673,
+      "deflection_mm": 0.6811875104904175,
+      "force_N": 0.05269670858979225,
+      "balance_y_N": -1.5210360288619995e-05,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07067691799264489
+    },
+    {
+      "increment": 95,
+      "time": 0.45912501215934753,
+      "deflection_mm": 0.6886875033378601,
+      "force_N": 0.052155423909425735,
+      "balance_y_N": -1.5038996934890747e-05,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07107011311453651
+    },
+    {
+      "increment": 96,
+      "time": 0.46412500739097595,
+      "deflection_mm": 0.6961874961853027,
+      "force_N": 0.05162431672215462,
+      "balance_y_N": -1.4860183000564575e-05,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07145928677075966
+    },
+    {
+      "increment": 97,
+      "time": 0.46912500262260437,
+      "deflection_mm": 0.7036874890327454,
+      "force_N": 0.051103126257658005,
+      "balance_y_N": -1.4677643775939941e-05,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.071844514314552
+    },
+    {
+      "increment": 98,
+      "time": 0.4741249978542328,
+      "deflection_mm": 0.711187481880188,
+      "force_N": 0.050591595470905304,
+      "balance_y_N": -1.4491379261016846e-05,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07222586915734544
+    },
+    {
+      "increment": 99,
+      "time": 0.4791249930858612,
+      "deflection_mm": 0.7186874747276306,
+      "force_N": 0.05008946359157562,
+      "balance_y_N": -1.4297664165496826e-05,
+      "prescribed_u_error_mm": 1.4901161193847656e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07260342276876622
+    },
+    {
+      "increment": 100,
+      "time": 0.4841249883174896,
+      "deflection_mm": 0.726187527179718,
+      "force_N": 0.04959649220108986,
+      "balance_y_N": -1.4092773199081421e-05,
+      "prescribed_u_error_mm": -4.470348358154297e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07297724771735695
+    },
+    {
+      "increment": 101,
+      "time": 0.48912501335144043,
+      "deflection_mm": 0.7336875200271606,
+      "force_N": 0.04911245033144951,
+      "balance_y_N": -1.3884156942367554e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.07334740589884328
+    },
+    {
+      "increment": 102,
+      "time": 0.49412500858306885,
+      "deflection_mm": 0.7411875128746033,
+      "force_N": 0.04863710328936577,
+      "balance_y_N": -1.3660639524459839e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.0737139663753417
+    },
+    {
+      "increment": 103,
+      "time": 0.49912500381469727,
+      "deflection_mm": 0.7486875057220459,
+      "force_N": 0.048170238733291626,
+      "balance_y_N": -1.3452023267745972e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.07407699356171663
+    },
+    {
+      "increment": 104,
+      "time": 0.5041249990463257,
+      "deflection_mm": 0.7561874985694885,
+      "force_N": 0.04771164059638977,
+      "balance_y_N": -1.3250857591629028e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.07443655026630261
+    },
+    {
+      "increment": 105,
+      "time": 0.5091249942779541,
+      "deflection_mm": 0.7636874914169312,
+      "force_N": 0.04726110398769379,
+      "balance_y_N": -1.3042241334915161e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.07479269771884392
+    },
+    {
+      "increment": 106,
+      "time": 0.5141249895095825,
+      "deflection_mm": 0.7711874842643738,
+      "force_N": 0.046818431466817856,
+      "balance_y_N": -1.2833625078201294e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.0751454956403437
+    },
+    {
+      "increment": 107,
+      "time": 0.5191249847412109,
+      "deflection_mm": 0.7786874771118164,
+      "force_N": 0.04638343304395676,
+      "balance_y_N": -1.2625008821487427e-05,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.07549500229894326
+    },
+    {
+      "increment": 108,
+      "time": 0.5241249799728394,
+      "deflection_mm": 0.7861875295639038,
+      "force_N": 0.045955922454595566,
+      "balance_y_N": -1.241639256477356e-05,
+      "prescribed_u_error_mm": -5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07584127730375881
+    },
+    {
+      "increment": 109,
+      "time": 0.5291249752044678,
+      "deflection_mm": 0.7936875224113464,
+      "force_N": 0.04553571715950966,
+      "balance_y_N": -1.2207776308059692e-05,
+      "prescribed_u_error_mm": -5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.0761843706251121
+    },
+    {
+      "increment": 110,
+      "time": 0.5341249704360962,
+      "deflection_mm": 0.8011875152587891,
+      "force_N": 0.04512264207005501,
+      "balance_y_N": -1.1995434761047363e-05,
+      "prescribed_u_error_mm": -5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07652433914800341
+    },
+    {
+      "increment": 111,
+      "time": 0.5391250252723694,
+      "deflection_mm": 0.8086875081062317,
+      "force_N": 0.04471651837229729,
+      "balance_y_N": -1.177564263343811e-05,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07686123567837236
+    },
+    {
+      "increment": 112,
+      "time": 0.5441250205039978,
+      "deflection_mm": 0.8161875009536743,
+      "force_N": 0.04431718960404396,
+      "balance_y_N": -1.1555850505828857e-05,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07719511176487429
+    },
+    {
+      "increment": 113,
+      "time": 0.5491250157356262,
+      "deflection_mm": 0.8236874938011169,
+      "force_N": 0.0439244881272316,
+      "balance_y_N": -1.1324882507324219e-05,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07752601774078974
+    },
+    {
+      "increment": 114,
+      "time": 0.5541250109672546,
+      "deflection_mm": 0.8311874866485596,
+      "force_N": 0.04353826120495796,
+      "balance_y_N": -1.1097639799118042e-05,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07785400273799428
+    },
+    {
+      "increment": 115,
+      "time": 0.5591250061988831,
+      "deflection_mm": 0.8386874794960022,
+      "force_N": 0.043158356100320816,
+      "balance_y_N": -1.0889023542404175e-05,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07817911474283781
+    },
+    {
+      "increment": 116,
+      "time": 0.5641250014305115,
+      "deflection_mm": 0.8461874723434448,
+      "force_N": 0.04278462752699852,
+      "balance_y_N": -1.068413257598877e-05,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.0785014006240842
+    },
+    {
+      "increment": 117,
+      "time": 0.5691249966621399,
+      "deflection_mm": 0.8536875247955322,
+      "force_N": 0.04241693392395973,
+      "balance_y_N": -1.0475516319274902e-05,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07882090871402517
+    },
+    {
+      "increment": 118,
+      "time": 0.5741249918937683,
+      "deflection_mm": 0.8611875176429749,
+      "force_N": 0.04205513745546341,
+      "balance_y_N": -1.0270625352859497e-05,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07913767867960234
+    },
+    {
+      "increment": 119,
+      "time": 0.5791249871253967,
+      "deflection_mm": 0.8686875104904175,
+      "force_N": 0.041699111461639404,
+      "balance_y_N": -1.0073184967041016e-05,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.07945175681351294
+    },
+    {
+      "increment": 120,
+      "time": 0.5841249823570251,
+      "deflection_mm": 0.8761875033378601,
+      "force_N": 0.041348718106746674,
+      "balance_y_N": -9.872019290924072e-06,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.0797631858773922
+    },
+    {
+      "increment": 121,
+      "time": 0.5891249775886536,
+      "deflection_mm": 0.8836874961853027,
+      "force_N": 0.04100383445620537,
+      "balance_y_N": -9.670853614807129e-06,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08007200765498759
+    },
+    {
+      "increment": 122,
+      "time": 0.594124972820282,
+      "deflection_mm": 0.8911874890327454,
+      "force_N": 0.04066433757543564,
+      "balance_y_N": -9.469687938690186e-06,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.0803782630080381
+    },
+    {
+      "increment": 123,
+      "time": 0.5991250276565552,
+      "deflection_mm": 0.898687481880188,
+      "force_N": 0.040330108255147934,
+      "balance_y_N": -9.272247552871704e-06,
+      "prescribed_u_error_mm": 5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08068199189024408
+    },
+    {
+      "increment": 124,
+      "time": 0.6041250228881836,
+      "deflection_mm": 0.9061874747276306,
+      "force_N": 0.040001031011343,
+      "balance_y_N": -9.07108187675476e-06,
+      "prescribed_u_error_mm": 5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08098323337520688
+    },
+    {
+      "increment": 125,
+      "time": 0.609125018119812,
+      "deflection_mm": 0.913687527179718,
+      "force_N": 0.03967699036002159,
+      "balance_y_N": -8.877366781234741e-06,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.08128202804498877
+    },
+    {
+      "increment": 126,
+      "time": 0.6141250133514404,
+      "deflection_mm": 0.9211875200271606,
+      "force_N": 0.03935787454247475,
+      "balance_y_N": -8.67992639541626e-06,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.08157840850572243
+    },
+    {
+      "increment": 127,
+      "time": 0.6191250085830688,
+      "deflection_mm": 0.9286875128746033,
+      "force_N": 0.03904357925057411,
+      "balance_y_N": -8.48621129989624e-06,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.08187241367706091
+    },
+    {
+      "increment": 128,
+      "time": 0.6241250038146973,
+      "deflection_mm": 0.9361875057220459,
+      "force_N": 0.03873400017619133,
+      "balance_y_N": -8.288770914077759e-06,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.08216407932175698
+    },
+    {
+      "increment": 129,
+      "time": 0.6291249990463257,
+      "deflection_mm": 0.9436874985694885,
+      "force_N": 0.03842903673648834,
+      "balance_y_N": -8.09505581855774e-06,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.08245344043422301
+    },
+    {
+      "increment": 130,
+      "time": 0.6341249942779541,
+      "deflection_mm": 0.9511874914169312,
+      "force_N": 0.03812859579920769,
+      "balance_y_N": -7.912516593933105e-06,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.08274053128244044
+    },
+    {
+      "increment": 131,
+      "time": 0.6391249895095825,
+      "deflection_mm": 0.9586874842643738,
+      "force_N": 0.03783256933093071,
+      "balance_y_N": -7.722526788711548e-06,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.08302538538002016
+    },
+    {
+      "increment": 132,
+      "time": 0.6441249847412109,
+      "deflection_mm": 0.9661874771118164,
+      "force_N": 0.03754086047410965,
+      "balance_y_N": -7.547438144683838e-06,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.08330803547223267
+    },
+    {
+      "increment": 133,
+      "time": 0.6491249799728394,
+      "deflection_mm": 0.9736875295639038,
+      "force_N": 0.03725339472293854,
+      "balance_y_N": -7.379800081253052e-06,
+      "prescribed_u_error_mm": -5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08358851589077901
+    },
+    {
+      "increment": 134,
+      "time": 0.6541249752044678,
+      "deflection_mm": 0.9811875224113464,
+      "force_N": 0.03697008267045021,
+      "balance_y_N": -7.208436727523804e-06,
+      "prescribed_u_error_mm": -5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08386685366556038
+    },
+    {
+      "increment": 135,
+      "time": 0.6591249704360962,
+      "deflection_mm": 0.9886875152587891,
+      "force_N": 0.0366908423602581,
+      "balance_y_N": -7.048249244689941e-06,
+      "prescribed_u_error_mm": -5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08414308187099354
+    },
+    {
+      "increment": 136,
+      "time": 0.6641250252723694,
+      "deflection_mm": 0.9961875081062317,
+      "force_N": 0.03641558438539505,
+      "balance_y_N": -6.880611181259155e-06,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08441723070984078
+    },
+    {
+      "increment": 137,
+      "time": 0.6691250205039978,
+      "deflection_mm": 1.0036875009536743,
+      "force_N": 0.036144230514764786,
+      "balance_y_N": -6.720423698425293e-06,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08468932975622226
+    },
+    {
+      "increment": 138,
+      "time": 0.6741250157356262,
+      "deflection_mm": 1.0111875534057617,
+      "force_N": 0.03587670251727104,
+      "balance_y_N": -6.563961505889893e-06,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08495941014391653
+    },
+    {
+      "increment": 139,
+      "time": 0.6791250109672546,
+      "deflection_mm": 1.0186874866485596,
+      "force_N": 0.03561289981007576,
+      "balance_y_N": -6.40377402305603e-06,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08522749376642116
+    },
+    {
+      "increment": 140,
+      "time": 0.6841250061988831,
+      "deflection_mm": 1.026187539100647,
+      "force_N": 0.03535276651382446,
+      "balance_y_N": -6.243586540222168e-06,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08549361687628446
+    },
+    {
+      "increment": 141,
+      "time": 0.6891250014305115,
+      "deflection_mm": 1.0336874723434448,
+      "force_N": 0.03509623929858208,
+      "balance_y_N": -6.0908496379852295e-06,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08575779829659172
+    },
+    {
+      "increment": 142,
+      "time": 0.6941249966621399,
+      "deflection_mm": 1.0411875247955322,
+      "force_N": 0.034843239933252335,
+      "balance_y_N": -5.941838026046753e-06,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08602007317794694
+    },
+    {
+      "increment": 143,
+      "time": 0.6991249918937683,
+      "deflection_mm": 1.04868745803833,
+      "force_N": 0.034593697637319565,
+      "balance_y_N": -5.7891011238098145e-06,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08628045937612874
+    },
+    {
+      "increment": 144,
+      "time": 0.7041249871253967,
+      "deflection_mm": 1.0561875104904175,
+      "force_N": 0.034341905266046524,
+      "balance_y_N": -1.8998980522155762e-07,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.0865389696949245
+    },
+    {
+      "increment": 145,
+      "time": 0.7091249823570251,
+      "deflection_mm": 1.0636874437332153,
+      "force_N": 0.03409919887781143,
+      "balance_y_N": -2.384185791015625e-07,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08679562155099566
+    },
+    {
+      "increment": 146,
+      "time": 0.7141249775886536,
+      "deflection_mm": 1.0711874961853027,
+      "force_N": 0.03385978937149048,
+      "balance_y_N": -2.384185791015625e-07,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08705046953922593
+    },
+    {
+      "increment": 147,
+      "time": 0.719124972820282,
+      "deflection_mm": 1.0786875486373901,
+      "force_N": 0.03362357243895531,
+      "balance_y_N": -2.3469328880310059e-07,
+      "prescribed_u_error_mm": -8.940696716308594e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.0873035339158367
+    },
+    {
+      "increment": 148,
+      "time": 0.7241250276565552,
+      "deflection_mm": 1.086187481880188,
+      "force_N": 0.033390484750270844,
+      "balance_y_N": -2.2351741790771484e-07,
+      "prescribed_u_error_mm": 5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08755483439346082
+    },
+    {
+      "increment": 149,
+      "time": 0.7291250228881836,
+      "deflection_mm": 1.0936875343322754,
+      "force_N": 0.03316047787666321,
+      "balance_y_N": -2.1979212760925293e-07,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.08780440224868027
+    },
+    {
+      "increment": 150,
+      "time": 0.734125018119812,
+      "deflection_mm": 1.1011874675750732,
+      "force_N": 0.03293348476290703,
+      "balance_y_N": -2.123415470123291e-07,
+      "prescribed_u_error_mm": 5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08805225240245465
+    },
+    {
+      "increment": 151,
+      "time": 0.7391250133514404,
+      "deflection_mm": 1.1086875200271606,
+      "force_N": 0.032709453254938126,
+      "balance_y_N": -2.0489096641540527e-07,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.08829841514157613
+    },
+    {
+      "increment": 152,
+      "time": 0.7441250085830688,
+      "deflection_mm": 1.1161874532699585,
+      "force_N": 0.03248832747340202,
+      "balance_y_N": -2.0116567611694336e-07,
+      "prescribed_u_error_mm": 5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08854290464309669
+    },
+    {
+      "increment": 153,
+      "time": 0.7491250038146973,
+      "deflection_mm": 1.123687505722046,
+      "force_N": 0.032270051538944244,
+      "balance_y_N": -1.9371509552001953e-07,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.08878575026274907
+    },
+    {
+      "increment": 154,
+      "time": 0.7541249990463257,
+      "deflection_mm": 1.1311875581741333,
+      "force_N": 0.03205457329750061,
+      "balance_y_N": -1.8998980522155762e-07,
+      "prescribed_u_error_mm": -5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08902696929286616
+    },
+    {
+      "increment": 155,
+      "time": 0.7591249942779541,
+      "deflection_mm": 1.1386874914169312,
+      "force_N": 0.03184184059500694,
+      "balance_y_N": -1.825392246246338e-07,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.08926657871219015
+    },
+    {
+      "increment": 156,
+      "time": 0.7641249895095825,
+      "deflection_mm": 1.1461875438690186,
+      "force_N": 0.03163180127739906,
+      "balance_y_N": -1.7508864402770996e-07,
+      "prescribed_u_error_mm": -5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08950460653387418
+    },
+    {
+      "increment": 157,
+      "time": 0.7691249847412109,
+      "deflection_mm": 1.1536874771118164,
+      "force_N": 0.03142441064119339,
+      "balance_y_N": -1.6763806343078613e-07,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.08974106522384076
+    },
+    {
+      "increment": 158,
+      "time": 0.7741249799728394,
+      "deflection_mm": 1.1611875295639038,
+      "force_N": 0.031219620257616043,
+      "balance_y_N": -1.6391277313232422e-07,
+      "prescribed_u_error_mm": -5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.08997598198261639
+    },
+    {
+      "increment": 159,
+      "time": 0.7791249752044678,
+      "deflection_mm": 1.1686874628067017,
+      "force_N": 0.031017381697893143,
+      "balance_y_N": -1.5832483768463135e-07,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.09020936866256549
+    },
+    {
+      "increment": 160,
+      "time": 0.7841249704360962,
+      "deflection_mm": 1.176187515258789,
+      "force_N": 0.03081764653325081,
+      "balance_y_N": -1.5087425708770752e-07,
+      "prescribed_u_error_mm": -5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09044125164012043
+    },
+    {
+      "increment": 161,
+      "time": 0.7891250252723694,
+      "deflection_mm": 1.183687448501587,
+      "force_N": 0.030620373785495758,
+      "balance_y_N": -1.4528632164001465e-07,
+      "prescribed_u_error_mm": 8.940696716308594e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09067164216560056
+    },
+    {
+      "increment": 162,
+      "time": 0.7941250205039978,
+      "deflection_mm": 1.1911875009536743,
+      "force_N": 0.03042551875114441,
+      "balance_y_N": -1.3969838619232178e-07,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.0909005658636052
+    },
+    {
+      "increment": 163,
+      "time": 0.7991250157356262,
+      "deflection_mm": 1.1986875534057617,
+      "force_N": 0.03023303486406803,
+      "balance_y_N": -1.3224780559539795e-07,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09112803703049613
+    },
+    {
+      "increment": 164,
+      "time": 0.8041250109672546,
+      "deflection_mm": 1.2061874866485596,
+      "force_N": 0.03004288487136364,
+      "balance_y_N": -1.2665987014770508e-07,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09135406971757812
+    },
+    {
+      "increment": 165,
+      "time": 0.8091250061988831,
+      "deflection_mm": 1.213687539100647,
+      "force_N": 0.02985502779483795,
+      "balance_y_N": -1.2293457984924316e-07,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09157868846096165
+    },
+    {
+      "increment": 166,
+      "time": 0.8141250014305115,
+      "deflection_mm": 1.2211874723434448,
+      "force_N": 0.029669420793652534,
+      "balance_y_N": -1.1734664440155029e-07,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09180190315632566
+    },
+    {
+      "increment": 167,
+      "time": 0.8191249966621399,
+      "deflection_mm": 1.2286875247955322,
+      "force_N": 0.029486026614904404,
+      "balance_y_N": -1.1175870895385742e-07,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.0920237376355211
+    },
+    {
+      "increment": 168,
+      "time": 0.8241249918937683,
+      "deflection_mm": 1.23618745803833,
+      "force_N": 0.029304806143045425,
+      "balance_y_N": -1.043081283569336e-07,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09224420129600766
+    },
+    {
+      "increment": 169,
+      "time": 0.8291249871253967,
+      "deflection_mm": 1.2436875104904175,
+      "force_N": 0.029125723987817764,
+      "balance_y_N": -9.872019290924072e-08,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09246331731640003
+    },
+    {
+      "increment": 170,
+      "time": 0.8341249823570251,
+      "deflection_mm": 1.2511874437332153,
+      "force_N": 0.028948742896318436,
+      "balance_y_N": -9.499490261077881e-08,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09268109462877108
+    },
+    {
+      "increment": 171,
+      "time": 0.8391249775886536,
+      "deflection_mm": 1.2586874961853027,
+      "force_N": 0.028773825615644455,
+      "balance_y_N": -8.754432201385498e-08,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09289755577452555
+    },
+    {
+      "increment": 172,
+      "time": 0.844124972820282,
+      "deflection_mm": 1.2661875486373901,
+      "force_N": 0.028600940480828285,
+      "balance_y_N": -8.381903171539307e-08,
+      "prescribed_u_error_mm": -8.940696716308594e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09311271265210044
+    },
+    {
+      "increment": 173,
+      "time": 0.8491250276565552,
+      "deflection_mm": 1.273687481880188,
+      "force_N": 0.028430050238966942,
+      "balance_y_N": -7.82310962677002e-08,
+      "prescribed_u_error_mm": 5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09332657696368499
+    },
+    {
+      "increment": 174,
+      "time": 0.8541250228881836,
+      "deflection_mm": 1.2811875343322754,
+      "force_N": 0.028261123225092888,
+      "balance_y_N": -7.264316082000732e-08,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.0935391703509604
+    },
+    {
+      "increment": 175,
+      "time": 0.859125018119812,
+      "deflection_mm": 1.2886874675750732,
+      "force_N": 0.028094125911593437,
+      "balance_y_N": -6.705522537231445e-08,
+      "prescribed_u_error_mm": 5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.0937505006541636
+    },
+    {
+      "increment": 176,
+      "time": 0.8641250133514404,
+      "deflection_mm": 1.2961875200271606,
+      "force_N": 0.027929028496146202,
+      "balance_y_N": -6.146728992462158e-08,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.09396058895245832
+    },
+    {
+      "increment": 177,
+      "time": 0.8691250085830688,
+      "deflection_mm": 1.3036874532699585,
+      "force_N": 0.027765797451138496,
+      "balance_y_N": -5.587935447692871e-08,
+      "prescribed_u_error_mm": 5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09416944269074526
+    },
+    {
+      "increment": 178,
+      "time": 0.8741250038146973,
+      "deflection_mm": 1.311187505722046,
+      "force_N": 0.027604402974247932,
+      "balance_y_N": -5.029141902923584e-08,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.09437708239448175
+    },
+    {
+      "increment": 179,
+      "time": 0.8791249990463257,
+      "deflection_mm": 1.3186875581741333,
+      "force_N": 0.027444815263152122,
+      "balance_y_N": -4.470348358154297e-08,
+      "prescribed_u_error_mm": -5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09458351840659521
+    },
+    {
+      "increment": 180,
+      "time": 0.8841249942779541,
+      "deflection_mm": 1.3261874914169312,
+      "force_N": 0.027287006378173828,
+      "balance_y_N": -4.0978193283081055e-08,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.09478876091087854
+    },
+    {
+      "increment": 181,
+      "time": 0.8891249895095825,
+      "deflection_mm": 1.3336875438690186,
+      "force_N": 0.027130944654345512,
+      "balance_y_N": -3.5390257835388184e-08,
+      "prescribed_u_error_mm": -5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09499282965441805
+    },
+    {
+      "increment": 182,
+      "time": 0.8941249847412109,
+      "deflection_mm": 1.3411874771118164,
+      "force_N": 0.026976605877280235,
+      "balance_y_N": -2.9802322387695312e-08,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.0951957311628773
+    },
+    {
+      "increment": 183,
+      "time": 0.8991249799728394,
+      "deflection_mm": 1.3486875295639038,
+      "force_N": 0.02682395838201046,
+      "balance_y_N": -2.421438694000244e-08,
+      "prescribed_u_error_mm": -5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09539748468982559
+    },
+    {
+      "increment": 184,
+      "time": 0.9041249752044678,
+      "deflection_mm": 1.3561874628067017,
+      "force_N": 0.026672979816794395,
+      "balance_y_N": -2.0489096641540527e-08,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.09559809642241815
+    },
+    {
+      "increment": 185,
+      "time": 0.9091249704360962,
+      "deflection_mm": 1.363687515258789,
+      "force_N": 0.026523640379309654,
+      "balance_y_N": -1.4901161193847656e-08,
+      "prescribed_u_error_mm": -5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09579758514329043
+    },
+    {
+      "increment": 186,
+      "time": 0.9141250252723694,
+      "deflection_mm": 1.371187448501587,
+      "force_N": 0.026375915855169296,
+      "balance_y_N": -1.1175870895385742e-08,
+      "prescribed_u_error_mm": 8.940696716308594e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09599595671345654
+    },
+    {
+      "increment": 187,
+      "time": 0.9191250205039978,
+      "deflection_mm": 1.3786875009536743,
+      "force_N": 0.026229780167341232,
+      "balance_y_N": -5.587935447692871e-09,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09619322945318023
+    },
+    {
+      "increment": 188,
+      "time": 0.9241250157356262,
+      "deflection_mm": 1.3861875534057617,
+      "force_N": 0.026085209101438522,
+      "balance_y_N": 0.0,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09638941203495335
+    },
+    {
+      "increment": 189,
+      "time": 0.9291250109672546,
+      "deflection_mm": 1.3936874866485596,
+      "force_N": 0.025942178443074226,
+      "balance_y_N": 5.587935447692871e-09,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09658451300164386
+    },
+    {
+      "increment": 190,
+      "time": 0.9341250061988831,
+      "deflection_mm": 1.401187539100647,
+      "force_N": 0.025800665840506554,
+      "balance_y_N": 9.313225746154785e-09,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09677855002471739
+    },
+    {
+      "increment": 191,
+      "time": 0.9391250014305115,
+      "deflection_mm": 1.4086874723434448,
+      "force_N": 0.025660645216703415,
+      "balance_y_N": 1.4901161193847656e-08,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09697152822347535
+    },
+    {
+      "increment": 192,
+      "time": 0.9441249966621399,
+      "deflection_mm": 1.4161875247955322,
+      "force_N": 0.02552209608256817,
+      "balance_y_N": 1.862645149230957e-08,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09716346484566843
+    },
+    {
+      "increment": 193,
+      "time": 0.9491249918937683,
+      "deflection_mm": 1.42368745803833,
+      "force_N": 0.025384996086359024,
+      "balance_y_N": 2.2351741790771484e-08,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09735436474209438
+    },
+    {
+      "increment": 194,
+      "time": 0.9541249871253967,
+      "deflection_mm": 1.4311875104904175,
+      "force_N": 0.02524932287633419,
+      "balance_y_N": 2.7939677238464355e-08,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09754424476614235
+    },
+    {
+      "increment": 195,
+      "time": 0.9591249823570251,
+      "deflection_mm": 1.4386874437332153,
+      "force_N": 0.025115054100751877,
+      "balance_y_N": 3.166496753692627e-08,
+      "prescribed_u_error_mm": 2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09773310949871397
+    },
+    {
+      "increment": 196,
+      "time": 0.9641249775886536,
+      "deflection_mm": 1.4461874961853027,
+      "force_N": 0.024982169270515442,
+      "balance_y_N": 3.725290298461914e-08,
+      "prescribed_u_error_mm": -2.9802322387695312e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.0979209754002082
+    },
+    {
+      "increment": 197,
+      "time": 0.969124972820282,
+      "deflection_mm": 1.4536875486373901,
+      "force_N": 0.024850647896528244,
+      "balance_y_N": 4.0978193283081055e-08,
+      "prescribed_u_error_mm": -8.940696716308594e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09810784977150225
+    },
+    {
+      "increment": 198,
+      "time": 0.9741250276565552,
+      "deflection_mm": 1.461187481880188,
+      "force_N": 0.02472047135233879,
+      "balance_y_N": 4.470348358154297e-08,
+      "prescribed_u_error_mm": 5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09829373981407089
+    },
+    {
+      "increment": 199,
+      "time": 0.9791250228881836,
+      "deflection_mm": 1.4686875343322754,
+      "force_N": 0.024591617286205292,
+      "balance_y_N": 5.029141902923584e-08,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.09847866143972642
+    },
+    {
+      "increment": 200,
+      "time": 0.984125018119812,
+      "deflection_mm": 1.4761874675750732,
+      "force_N": 0.024464067071676254,
+      "balance_y_N": 5.587935447692871e-08,
+      "prescribed_u_error_mm": 5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09866261861865835
+    },
+    {
+      "increment": 201,
+      "time": 0.9891250133514404,
+      "deflection_mm": 1.4836875200271606,
+      "force_N": 0.024337803944945335,
+      "balance_y_N": 5.960464477539063e-08,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.09884562691485069
+    },
+    {
+      "increment": 202,
+      "time": 0.9941250085830688,
+      "deflection_mm": 1.4911874532699585,
+      "force_N": 0.024212807416915894,
+      "balance_y_N": 6.332993507385254e-08,
+      "prescribed_u_error_mm": 5.960464477539063e-08,
+      "external_work_trapezoid_estimate_Nmm": 0.09902769008690618
+    },
+    {
+      "increment": 203,
+      "time": 0.9991250038146973,
+      "deflection_mm": 1.498687505722046,
+      "force_N": 0.024089056998491287,
+      "balance_y_N": 6.891787052154541e-08,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.09920882334523076
+    },
+    {
+      "increment": 204,
+      "time": 1.0,
+      "deflection_mm": 1.5,
+      "force_N": 0.024067239835858345,
+      "balance_y_N": 8.195638656616211e-08,
+      "prescribed_u_error_mm": 0.0,
+      "external_work_trapezoid_estimate_Nmm": 0.09924042577725203
+    }
+  ],
+  "figure_selection": {
+    "figures": [
+      {
+        "name": "force_deflection30.png",
+        "sha256": "9b2468f128bcdd70e71e11d5e588bc232d49c910cdcaff9afd035091f7b8e215",
+        "bytes": 114152,
+        "decoded": true,
+        "size_px": [
+          2125,
+          1240
+        ],
+        "actually_viewed": false
+      },
+      {
+        "name": "force_deflection30.svg",
+        "sha256": "f18be614980b150efe95e80a472da6da629b17e1f3a8582e091d9b7581cb55f0",
+        "bytes": 12982,
+        "decoded": true,
+        "render_file": "force_deflection30_svg_render.png",
+        "actually_viewed": false
+      },
+      {
+        "name": "nodal_phase30.png",
+        "sha256": "9a80a65264ee57a9396525b1dfdb368bd8dc26fa423a99915752d9eb6ca13dee",
+        "bytes": 713678,
+        "decoded": true,
+        "size_px": [
+          2244,
+          1830
+        ],
+        "actually_viewed": false
+      },
+      {
+        "name": "nodal_phase30.svg",
+        "sha256": "80b625bd4762ea23771a61db2560b35c4b6bff40f8833bf27d9c86f95f149ba4",
+        "bytes": 17884635,
+        "decoded": true,
+        "render_file": "nodal_phase30_svg_render.png",
+        "actually_viewed": false
+      }
+    ],
+    "visual_inspection": "PENDING",
+    "selected_saved_increments": [
+      10,
+      204
+    ],
+    "no_temporal_interpolation": true,
+    "font": "Arial",
+    "font_pt": 10.0,
+    "line_width_pt": 1.0,
+    "curve_canvas_mm": [
+      180,
+      105
+    ],
+    "phase_canvas_mm": [
+      190,
+      155
+    ]
+  },
+  "scientific_pass": false,
+  "valid_prefix": null,
+  "P2_admission": false,
+  "P3_admission": false
+}

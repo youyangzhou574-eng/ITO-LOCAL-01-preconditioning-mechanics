@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-16T18:03:59.241982+00:00",
+  "pass": true,
+  "source_files": {
+    "core": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\src\\python\\b01_m02_probe39.py",
+      "bytes": 6649,
+      "sha256": "3333340b1a20b52421e0126ff558b5d479d27bc9a5cff80133723ea37d890efb"
+    },
+    "builder": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\src\\python\\run_b01_m02_probe39.py",
+      "bytes": 8080,
+      "sha256": "54de0a7fc43409fd91bb63e7533256eef84fa9d2d139f1b9f2d1c5ba3f305682"
+    },
+    "fortran": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\src\\fortran\\b01_interface_probe39.for",
+      "bytes": 2504,
+      "sha256": "c6de88ec755aff601ecbbc8f5911a74061b1b56631609bbda412b8c25aaf3f9a"
+    },
+    "test_core": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\tests\\test_b01_m02_probe39.py",
+      "bytes": 6776,
+      "sha256": "433b119e807eb4f58f0db8eb30d1c5e1791cfda25ef99437650a09bd91402a92"
+    },
+    "test_builder": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\tests\\test_run_b01_m02_probe39.py",
+      "bytes": 8250,
+      "sha256": "29019918297d1ad3864ece5aefae825fe66a63dec847b8e009472d75a138501b"
+    }
+  },
+  "geometry": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_probe39\\GEOMETRY_SELECTION39.json",
+    "bytes": 1088,
+    "sha256": "9c6baf20033eb38d8c44590c8b88600b3d753a7cc52446e35fa90279c9d323c5"
+  },
+  "execution": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_probe39\\FINAL_GREEN29_39.log",
+    "bytes": 4342,
+    "sha256": "c944d4f2db6247daf3633f9e6fb1bc89b7e35fec2d6146fd9a9dfab12c8bbf02"
+  },
+  "count": 29,
+  "seconds": 0.542,
+  "fortran_compiled": false,
+  "real_native_run": false,
+  "geometry_binding_scope": "Bound selected geometry identity; suite math is synthetic and reviewer independently checked this geometry. Not actual native output validation."
+}

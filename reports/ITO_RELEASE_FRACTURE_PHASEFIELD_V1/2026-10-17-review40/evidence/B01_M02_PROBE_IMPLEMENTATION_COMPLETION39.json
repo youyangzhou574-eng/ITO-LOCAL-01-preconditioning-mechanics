@@ -1,0 +1,60 @@
+{
+  "utc": "2026-10-16T18:03:59.241982+00:00",
+  "state": "IMPLEMENTATION_CLOSED_ONCE_OFFLINE_BUILD_PENDING",
+  "source_closure": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_PROBE_SOURCE_CLOSURE39.json",
+    "bytes": 3779,
+    "sha256": "20134175074e9111a518cf3cf6e96afee5ff1c35c78a0c3090368a33cdb82bfd"
+  },
+  "source_admission": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_PROBE_SOURCE_ADMISSION39.json",
+    "bytes": 935,
+    "sha256": "9b41fb94532defc56c2ff8843b885fcd5a0560331a5c43aff4392ed0990f18d9"
+  },
+  "final_test_binding": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_PROBE_FINAL_TEST_BINDING39.json",
+    "bytes": 2417,
+    "sha256": "c87f4d3a65c17da871a050f36e266487920a49d613fbfda45b53dd0f530b1e0e"
+  },
+  "review": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_PROBE_SOURCE_REVIEW39.json",
+    "bytes": 3932,
+    "sha256": "e566b2631f9a0efc486048f84f1e20c188099b69b290adc59375e963cd65ad54"
+  },
+  "source_files": {
+    "core": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\src\\python\\b01_m02_probe39.py",
+      "bytes": 6649,
+      "sha256": "3333340b1a20b52421e0126ff558b5d479d27bc9a5cff80133723ea37d890efb"
+    },
+    "builder": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\src\\python\\run_b01_m02_probe39.py",
+      "bytes": 8080,
+      "sha256": "54de0a7fc43409fd91bb63e7533256eef84fa9d2d139f1b9f2d1c5ba3f305682"
+    },
+    "fortran": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\src\\fortran\\b01_interface_probe39.for",
+      "bytes": 2504,
+      "sha256": "c6de88ec755aff601ecbbc8f5911a74061b1b56631609bbda412b8c25aaf3f9a"
+    },
+    "test_core": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\tests\\test_b01_m02_probe39.py",
+      "bytes": 6776,
+      "sha256": "433b119e807eb4f58f0db8eb30d1c5e1791cfda25ef99437650a09bd91402a92"
+    },
+    "test_builder": {
+      "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\tests\\test_run_b01_m02_probe39.py",
+      "bytes": 8250,
+      "sha256": "29019918297d1ad3864ece5aefae825fe66a63dec847b8e009472d75a138501b"
+    }
+  },
+  "geometry": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_probe39\\GEOMETRY_SELECTION39.json",
+    "bytes": 1088,
+    "sha256": "9c6baf20033eb38d8c44590c8b88600b3d753a7cc52446e35fa90279c9d323c5"
+  },
+  "native_admitted": false,
+  "real_offline_package_builds": 0,
+  "original_failures_retained": true,
+  "old_tests_or_entries_reentered": false
+}

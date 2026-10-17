@@ -1,0 +1,247 @@
+{
+  "utc": "2026-10-16T15:16:08.268331+00:00",
+  "state": "CLOSED_DELIVERED_ONCE",
+  "entry": "B01_M02_interface31",
+  "local_exit": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_interface31\\LOCAL_EXIT31.json",
+    "bytes": 378,
+    "sha256": "eaef01fad9fa85e9893ba6fb022f3e5466853458f1d95eb1bac800c072aa2c00"
+  },
+  "completion": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_interface31\\COMPLETION31.json",
+    "bytes": 11338,
+    "sha256": "6ca53a3994b9f4819d8bddd76fa27da0a3a7e5b33740b66a87da13897f8b3ab0"
+  },
+  "source_closure": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_INTERFACE_SOURCE_CLOSURE31.json",
+    "bytes": 3172,
+    "sha256": "08587d2cafb82e3b380999de42f78062b062a5d92ebf4e3874a078872985eb15"
+  },
+  "source_admission": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_INTERFACE_SOURCE_ADMISSION31.json",
+    "bytes": 813,
+    "sha256": "5f9fe2bbc8e4fd8ff339b3832f8e99b407d79b3a24e9ae429aea8864130ec9b5"
+  },
+  "report": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\reports\\B01_M02_LOCAL_INTERFACE_DELIVERY_REPORT31.md",
+    "bytes": 3981,
+    "sha256": "f68e71b4d1781bcf0d5a071c8e9c8abf8761b2bf53a4d68df3c48c7875f6ad75"
+  },
+  "result": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_interface31\\RESULT31.json",
+    "bytes": 6361,
+    "sha256": "fca428c1c35eba3e4301e573fdbc03edad2bcba1d1423085ce88186bba41dcb2"
+  },
+  "package": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_interface31\\PACKAGE31.zip",
+    "bytes": 1106058,
+    "sha256": "e28324d51ad13d858a8cbbfa0b0f86a8db4e3099d297866c4283c0d5015a9fac"
+  },
+  "consumption": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_interface31\\CONSUMED_BYTES31.json",
+    "bytes": 4844,
+    "sha256": "a72b2a81914e235b33b4c84f8b5906527c91cc25dcc2a7580ffe56f698c1dab2"
+  },
+  "zip_validation_basis": "Runner once CRC and each SHA; not repeated at delivery",
+  "selected_payload_count": 8,
+  "selected_payload_bytes": 789343,
+  "files_in_completion": 38,
+  "candidates": [
+    {
+      "conduction": "gauss",
+      "reaction": "gauss",
+      "minimum": {
+        "status": "DESCRIPTIVE_ONLY",
+        "diffusion_l2": 0.08695796773655147,
+        "reaction_l2": 0.12061164542687873,
+        "absolute_l2": 0.05163091191237481,
+        "denominator": 0.2075696131634302,
+        "normalized": 0.24874022322199515,
+        "maximum_absolute": 0.0244107884887226,
+        "maximum_row": 3236,
+        "weak_residual_unit": "mm_PSEUDO_SCALAR_NOT_FORCE_OR_PHYSICAL_HEAT",
+        "native_assembled_matrix_qualified": false,
+        "conduction_rule": "gauss",
+        "reaction_rule": "gauss",
+        "H_IP_labels_in_candidate_point_order": [
+          1,
+          2,
+          4,
+          3
+        ],
+        "maximum_node": 3237,
+        "load_residual": -0.002602138437481097,
+        "warning177_residual": 1.8012771394012338e-08,
+        "candidate_id": 1
+      },
+      "maximum": {
+        "status": "DESCRIPTIVE_ONLY",
+        "diffusion_l2": 0.08695796773655147,
+        "reaction_l2": 0.24389138874266575,
+        "absolute_l2": 0.24105914359614958,
+        "denominator": 0.3308493564792172,
+        "normalized": 0.7286069592560688,
+        "maximum_absolute": 0.1404778728343978,
+        "maximum_row": 5905,
+        "weak_residual_unit": "mm_PSEUDO_SCALAR_NOT_FORCE_OR_PHYSICAL_HEAT",
+        "native_assembled_matrix_qualified": false,
+        "conduction_rule": "gauss",
+        "reaction_rule": "gauss",
+        "H_IP_labels_in_candidate_point_order": [
+          4,
+          3,
+          1,
+          2
+        ],
+        "maximum_node": 5906,
+        "load_residual": 0.05433861326359717,
+        "warning177_residual": 1.8012771394012338e-08,
+        "candidate_id": 22
+      }
+    },
+    {
+      "conduction": "gauss",
+      "reaction": "corner",
+      "minimum": {
+        "status": "DESCRIPTIVE_ONLY",
+        "diffusion_l2": 0.08695796773655147,
+        "reaction_l2": 0.0857684836155402,
+        "absolute_l2": 0.016181968004471498,
+        "denominator": 0.17272645135209166,
+        "normalized": 0.09368552342620416,
+        "maximum_absolute": 0.007666624744307885,
+        "maximum_row": 5904,
+        "weak_residual_unit": "mm_PSEUDO_SCALAR_NOT_FORCE_OR_PHYSICAL_HEAT",
+        "native_assembled_matrix_qualified": false,
+        "conduction_rule": "gauss",
+        "reaction_rule": "corner",
+        "H_IP_labels_in_candidate_point_order": [
+          1,
+          2,
+          4,
+          3
+        ],
+        "maximum_node": 5905,
+        "load_residual": -0.003887568256950233,
+        "warning177_residual": 1.7984559051008596e-08,
+        "candidate_id": 25
+      },
+      "maximum": {
+        "status": "DESCRIPTIVE_ONLY",
+        "diffusion_l2": 0.08695796773655147,
+        "reaction_l2": 0.7452866693202452,
+        "absolute_l2": 0.7668910193279611,
+        "denominator": 0.8322446370567967,
+        "normalized": 0.9214730683516852,
+        "maximum_absolute": 0.5621652357445616,
+        "maximum_row": 5905,
+        "weak_residual_unit": "mm_PSEUDO_SCALAR_NOT_FORCE_OR_PHYSICAL_HEAT",
+        "native_assembled_matrix_qualified": false,
+        "conduction_rule": "gauss",
+        "reaction_rule": "corner",
+        "H_IP_labels_in_candidate_point_order": [
+          4,
+          3,
+          1,
+          2
+        ],
+        "maximum_node": 5906,
+        "load_residual": 0.07395069660019443,
+        "warning177_residual": 1.7984559051008596e-08,
+        "candidate_id": 46
+      }
+    },
+    {
+      "conduction": "corner",
+      "reaction": "corner",
+      "minimum": {
+        "status": "DESCRIPTIVE_ONLY",
+        "diffusion_l2": 0.110520857391931,
+        "reaction_l2": 0.0857684836155402,
+        "absolute_l2": 0.043829119255246365,
+        "denominator": 0.1962893410074712,
+        "normalized": 0.22328833053435201,
+        "maximum_absolute": 0.019925917339445674,
+        "maximum_row": 5903,
+        "weak_residual_unit": "mm_PSEUDO_SCALAR_NOT_FORCE_OR_PHYSICAL_HEAT",
+        "native_assembled_matrix_qualified": false,
+        "conduction_rule": "corner",
+        "reaction_rule": "corner",
+        "H_IP_labels_in_candidate_point_order": [
+          1,
+          2,
+          4,
+          3
+        ],
+        "maximum_node": 5904,
+        "load_residual": 0.013106014902283636,
+        "warning177_residual": 1.7984559051008596e-08,
+        "candidate_id": 49
+      },
+      "maximum": {
+        "status": "DESCRIPTIVE_ONLY",
+        "diffusion_l2": 0.110520857391931,
+        "reaction_l2": 0.7450579721416035,
+        "absolute_l2": 0.7739104733146395,
+        "denominator": 0.8555788295335345,
+        "normalized": 0.9045460764107254,
+        "maximum_absolute": 0.5664382218139918,
+        "maximum_row": 5905,
+        "weak_residual_unit": "mm_PSEUDO_SCALAR_NOT_FORCE_OR_PHYSICAL_HEAT",
+        "native_assembled_matrix_qualified": false,
+        "conduction_rule": "corner",
+        "reaction_rule": "corner",
+        "H_IP_labels_in_candidate_point_order": [
+          2,
+          3,
+          1,
+          4
+        ],
+        "maximum_node": 5906,
+        "load_residual": 0.0909442797594283,
+        "warning177_residual": 1.7984559051008596e-08,
+        "candidate_id": 56
+      }
+    }
+  ],
+  "load": {
+    "node": "5903",
+    "x_mm": "5.0",
+    "y_mm": "3.0",
+    "U1_mm": "0.010345518589019775",
+    "U2_mm": "-0.05118750035762787",
+    "current_x_mm": "5.01034551858902",
+    "current_y_mm": "2.948812499642372",
+    "RF1_N": "0.0",
+    "RF2_N": "-0.1986481249332428",
+    "d": "0.07807373255491257",
+    "within_radius_0_1mm": "True",
+    "in_layer1": "True",
+    "in_layer2": "True"
+  },
+  "collapsed_edge": {
+    "element": "5817",
+    "node_a": "5903",
+    "node_b": "5902",
+    "reference_length_mm": "0.017681778231924617",
+    "current_length_mm": "0.000413754916496614",
+    "length_ratio": "0.02340007385397333"
+  },
+  "warning_increment_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "image_products": 0,
+  "old_entries": 0,
+  "native_calls": 0,
+  "remote_calls": 0,
+  "ODB_calls": 0,
+  "scientific_pass": false,
+  "valid_prefix": null,
+  "P2_admission": false,
+  "P3_admission": false
+}

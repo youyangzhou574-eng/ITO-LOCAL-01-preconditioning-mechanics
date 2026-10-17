@@ -1,0 +1,80 @@
+{
+  "utc": "2026-10-16T18:05:41.707018+00:00",
+  "state": "OFFLINE_DELIVERED_ONCE_NATIVE_NOT_ADMITTED",
+  "report": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\reports\\B01_M02_PROBE_OFFLINE_DELIVERY_REPORT39.md",
+    "bytes": 4179,
+    "sha256": "38488245606e9c4f3f24197363723ccf41bcedc5f5fc5fc59391320047cf148a"
+  },
+  "design": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\docs\\B01_M02_PROBE_IMPLEMENTED_DESIGN39.md",
+    "bytes": 5839,
+    "sha256": "1adf5651003f8d9de73c2b2b9dd53299b0a1efb7e90076fa933dbfffb66a720a"
+  },
+  "implementation": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_PROBE_IMPLEMENTATION_COMPLETION39.json",
+    "bytes": 3246,
+    "sha256": "33ae1ee4c13eee9412124890bf446e8716cc5f541032b6b92115fd32291d7003"
+  },
+  "completion": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\cases\\B01_interface_probe\\B01_P39\\COMPLETION39.json",
+    "bytes": 3918,
+    "sha256": "bfedaa1e254c227225670d87ac953cd3e7cd642056b8587c2db486bb3c7fb899"
+  },
+  "exit": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_probe39\\LOCAL_BUILD_EXIT39.json",
+    "bytes": 412,
+    "sha256": "8f6b8ab1cd2311c8c41f1461dd029c43250821c18159780d7405e1114f3f9f5b"
+  },
+  "input": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\cases\\B01_interface_probe\\B01_P39\\PROBE39.inp",
+    "bytes": 6821,
+    "sha256": "0c225a742eb6d40ac1550e15f3820c6baec25086625b43043fa5d33eff05f33f"
+  },
+  "umat": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\cases\\B01_interface_probe\\B01_P39\\PROBE39_umat.for",
+    "bytes": 2504,
+    "sha256": "c6de88ec755aff601ecbbc8f5911a74061b1b56631609bbda412b8c25aaf3f9a"
+  },
+  "expected": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\cases\\B01_interface_probe\\B01_P39\\EXPECTED39.json",
+    "bytes": 6427,
+    "sha256": "23dcdec7227cf7d6196b2a585b7e5bd63dd022836e413d6e64965bbf389becc9"
+  },
+  "source_closure": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_PROBE_SOURCE_CLOSURE39.json",
+    "bytes": 3779,
+    "sha256": "20134175074e9111a518cf3cf6e96afee5ff1c35c78a0c3090368a33cdb82bfd"
+  },
+  "source_admission": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_PROBE_SOURCE_ADMISSION39.json",
+    "bytes": 935,
+    "sha256": "9b41fb94532defc56c2ff8843b885fcd5a0560331a5c43aff4392ed0990f18d9"
+  },
+  "final_tests": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_PROBE_FINAL_TEST_BINDING39.json",
+    "bytes": 2417,
+    "sha256": "c87f4d3a65c17da871a050f36e266487920a49d613fbfda45b53dd0f530b1e0e"
+  },
+  "review": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_PROBE_SOURCE_REVIEW39.json",
+    "bytes": 3932,
+    "sha256": "e566b2631f9a0efc486048f84f1e20c188099b69b290adc59375e963cd65ad54"
+  },
+  "review_count": 1,
+  "tests": 29,
+  "native_admitted": false,
+  "native_count": 0,
+  "compile_count": 0,
+  "ODB_count": 0,
+  "new_images": 0,
+  "visual_status": "NOT_APPLICABLE_NO_IMAGES",
+  "P1_scientific_pass": false,
+  "valid_prefix": null,
+  "next": "Required human diagnostic-purpose/budget choice on concrete reviewed package; no reservations yet",
+  "budget": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\BUDGET_LEDGER.json",
+    "bytes": 923,
+    "sha256": "640d00d0c3a018af07a3813e4e731a125cd5e966f26536e7759e928c461df4ca"
+  }
+}

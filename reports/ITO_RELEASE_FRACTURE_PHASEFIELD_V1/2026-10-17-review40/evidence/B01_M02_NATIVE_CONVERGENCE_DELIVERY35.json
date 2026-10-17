@@ -1,0 +1,90 @@
+{
+  "utc": "2026-10-16T16:49:28.661303+00:00",
+  "state": "CLOSED_DELIVERED_ONCE",
+  "entry": "B01_M02_convergence35",
+  "completion": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_convergence35\\COMPLETION35.json",
+    "bytes": 9753,
+    "sha256": "de9dc01d7a734c516905f733320005fff8b25b7c83e27b82b397e5f43fb7f71b"
+  },
+  "result": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_convergence35\\RESULT35.json",
+    "bytes": 7118,
+    "sha256": "cdcf68ffa6282fd4a8a52d4b8181b51279c12729aaa1953a61600cd8d0d450f4"
+  },
+  "report": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\reports\\B01_M02_NATIVE_CONVERGENCE_DELIVERY_REPORT35.md",
+    "bytes": 4147,
+    "sha256": "18042e4b57b3b043215bebefe44f42b9218a493b83189c65a1c6410d1c3c6415"
+  },
+  "archive": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ITO_PRESTRAIN_DEPOSITION_WRINKLE_3D_V1\\baselines\\V2\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\B01_M02_convergence35\\PACKAGE35.zip",
+    "bytes": 247198,
+    "sha256": "fb50b60418d13a45bef23ed302641b83b305f99d8e48baba3cecd7716e0e81c2"
+  },
+  "source_closure": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_CONVERGENCE_SOURCE_CLOSURE35.json",
+    "bytes": 2699,
+    "sha256": "be519dbee4850ebbe9b563097d05198a51e463936c14e65ef1c920936a494b84"
+  },
+  "source_admission": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_CONVERGENCE_SOURCE_ADMISSION35.json",
+    "bytes": 839,
+    "sha256": "c0bf105205ea992a9144c8104dbaaa7f7d77617b9bac5614f758cf87397e0e89"
+  },
+  "implementation": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_CONVERGENCE_IMPLEMENTATION_COMPLETION35.json",
+    "bytes": 2360,
+    "sha256": "c44500999086d979c151e2b7b0c398722c3da02cc77ffa05c5c6ac918f097c58"
+  },
+  "final_test_binding": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_CONVERGENCE_FINAL_TEST_BINDING35.json",
+    "bytes": 4228,
+    "sha256": "e8b6784168b8320849c98f80b4ebc36628dcc8bc2bb605a4ef3b6ff45da450c4"
+  },
+  "review": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_CONVERGENCE_SOURCE_REVIEW35.json",
+    "bytes": 3840,
+    "sha256": "db05df9704e35d2845965223ce7ff3e2c1f90588fb4564f0f7bcfaac78f8da3b"
+  },
+  "launch_exit": {
+    "path": "E:\\open\\ITO-LOCAL-01\\ito_preconditioning_local_mechanics\\work_packages\\ITO_RELEASE_FRACTURE_PHASEFIELD_V1\\evidence\\B01_M02_convergence35\\LOCAL_EXIT35.json",
+    "bytes": 82,
+    "sha256": "b8ea5549c86416660c1646345085ec41b17f9b796c6a621f34d35426f39ca8e4"
+  },
+  "actual_pid": 10052,
+  "actual_exit": 0,
+  "file_count": 32,
+  "scientific_files": 8,
+  "actual_NPZ": 0,
+  "actual_ODB": 0,
+  "actual_native": 0,
+  "actual_remote": 0,
+  "zip_crc_each_sha_once": true,
+  "zip_reverification": false,
+  "images_created": 0,
+  "visual_status": "NOT_APPLICABLE_NO_NEW_IMAGES",
+  "accepted_final_iteration": 46,
+  "mechanical_match": {
+    "status": "NOT_EVALUABLE",
+    "reason": "NATIVE_MAX_NODE_DOF_OUTSIDE_COMPLETE_ROWS",
+    "native": {
+      "token": "3.524E-06",
+      "node": 5904,
+      "dof": 2,
+      "line": 10637,
+      "raw": " LARGEST RESIDUAL FORCE             3.524E-06   AT NODE       5904   DOF  2",
+      "print_low": "7047/2000000000",
+      "print_high": "7049/2000000000"
+    },
+    "native_error_proven": false
+  },
+  "scalar_status": "QUANTITY_CONVENTION_UNQUALIFIED",
+  "scientific_pass": false,
+  "valid_prefix": null,
+  "P2_admission": false,
+  "P3_admission": false,
+  "native_repair_qualified": false,
+  "physical_energy": "UNRESOLVED",
+  "last_P1_analysis_reserved": false
+}

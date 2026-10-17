@@ -1,0 +1,102 @@
+# B01_M02 新网格保存态科学核查30
+
+原native退出0不授予科学资格。此审计只消费新闭合LOCAL数据；全消费清单和实际分量/标签/帧身份见CSV。
+
+{
+  "native_job_id": "15905136",
+  "node_count": 5908,
+  "element_count": 5820,
+  "accepted_increments": 204,
+  "saved_frames": 22,
+  "saved_increments": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130,
+    140,
+    150,
+    160,
+    170,
+    180,
+    190,
+    200,
+    204
+  ],
+  "saved_final_increment_present": true,
+  "history_channels": 8,
+  "history_samples": 1640,
+  "selected_history_complete": true,
+  "force_peak": {
+    "sample_index": 9,
+    "force_N": 0.20462124049663544,
+    "deflection_mm": 0.043687500059604645,
+    "reference_peak_N": 0.97812691074729,
+    "relative_peak_error": 0.7908029742885772,
+    "within_frozen_5percent_target": false,
+    "qualification_scope": "PEAK_FORCE_ONLY_NOT_P1_PASS",
+    "P1_qualified": false
+  },
+  "coordinate_binding": {
+    "basis": "FLOAT32_ROUNDING_EQUIVALENCE",
+    "maximum_difference_mm": 4.684476504479562e-07,
+    "export_source_precision": "NOT_EXPORTED_UNKNOWN",
+    "rounding_equivalence_is_precision_proof": false
+  },
+  "reference_J_min_mm2": 3.1797895104546114e-05,
+  "geometry_probe_count_per_element": 9,
+  "native_IP_spatial_mapping_qualified": false,
+  "phase_all_increments": "NOT_OBSERVED",
+  "rejected_trial_rollback": "NOT_ESTABLISHED_BY_SAVED_FIELDS",
+  "physical_energy": "UNRESOLVED_AUTHOR_SSE_NOT_INITIALIZED",
+  "morphology": "ACTUAL_VISUAL_REVIEW_PENDING",
+  "scientific_pass": false,
+  "valid_prefix": null,
+  "P2_admission": false,
+  "P3_admission": false,
+  "reference_gauss_min_mm2": 4.194270260436549e-05,
+  "reference_gauss_nonpositive": 0,
+  "reference_all_probe_nonpositive": 0,
+  "phase_saved_coverage_complete": true,
+  "phase_raw_bounds_samples": 47913,
+  "phase_separated_bounds_samples": 47913,
+  "phase_raw_decrease_samples": 60864,
+  "phase_separated_decrease_samples": 60864,
+  "H_saved_coverage_complete": true,
+  "H_raw_bounds_samples": 0,
+  "H_separated_bounds_samples": 0,
+  "H_raw_decrease_samples": 0,
+  "H_separated_decrease_samples": 0,
+  "current_geometry_complete": true,
+  "current_geometry_min_J_mm2": -0.030674670177060045,
+  "current_geometry_nonpositive_samples": 409,
+  "first_nonpositive_saved_increment": 10,
+  "first_nonpositive_after_peak": true,
+  "field_history_unknown_samples": 0,
+  "field_history_interval_mismatch_samples": 0,
+  "P1_peak_gate": "FAIL",
+  "history_conditional_time_samples": 8,
+  "frame_conditional_time_samples": 0,
+  "native_time_precision_qualified": false,
+  "time_compatibility_is_precision_proof": false,
+  "source_closure_sha256": "779a864d2c78cf14c270b141283a1c53aa0aa09fde8db7d080464c12e20fdc2b",
+  "payload_count": 164,
+  "payload_bytes": 16610102,
+  "readonly_job_id": "15905188",
+  "warning_state": "UNRESOLVED_SIX_NODE177_DOF11_WARNINGS_AND_DISTORTED3179"
+}
+
+峰值5%仅单项门，原B01峰值误差75.0847%及既有FAIL保持。没有改变材料、厚度、点边界、初态或时间步。
+
+current detJ为独立Q4几何探针，不是native IP位置或detF。保存态d/H不能证明未保存增量或拒绝trial回滚。相场区间以实际dtype半相邻存储区间单独核对，原始越界/下降亦保留。
+
+RF/U外功只为梯形采样估计；SSE未初始化、ALLSE及原生物理能量仍未资格。形貌需实际查看PNG及SVG渲染图后另写独立交付回执。P1 UNRESOLVED/false/null，P2/P3 false。时间身份先核对；条件binary32存储区间相交不证明原生时间精度，原始时间与STA token逐项保留。原audit21的HISTORY_ACCEPTED_TIME失败保持。
